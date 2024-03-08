@@ -150,46 +150,46 @@ Comenzamos haciendo un nmap para descubrir los puertos que estan abiertos. Vemos
 
 ![](/Assets/walkthrough/2024-03-08_17-33.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-33_1.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-34.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-34_1.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-36.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-37.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-39.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-43.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-43_1.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-44.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-51.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-51_1.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-51_2.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-52.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-53.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-54.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-54_1.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_17-55.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_18-02.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_18-06.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_18-18.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_18-22.png)
 
-![](/Assets/walkthrough/)
+![](/Assets/walkthrough/2024-03-08_18-23_1.png)
