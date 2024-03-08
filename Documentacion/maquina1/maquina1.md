@@ -111,6 +111,7 @@ Por último le damos permisos de lectura a la llave privada, y lectura y ejecuci
 ## Walkthrough
 
 Comenzamos haciendo un nmap para descubrir los puertos que estan abiertos. Vemos que tiene 3 puertos, ftp, ssh, http.
+
 ![](/Assets/walkthrough/2024-03-07_18-19.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-21.png)
