@@ -40,11 +40,15 @@
 ## Dimarts 05-03-24-
 - Ajuda i soport a les tasques de els altres membres de l'equip
 
-## Dimecres 05-03-24-
+## Dimecres 06-03-24-
 - Ajuda i soport a les tasques de els altres membres de l'equip
 - Probes
 
-## Dijous 05-03-24-
+## Dijous 07-03-24-
 - Ajuda i soport a les tasques de els altres membres de l'equip
 - Probes de docker i resolucio
 
+## Dijous 08-03-24-
+- Ajuda i soport a les tasques de els altres membres de l'equip
+- Probes de docker i resolucio
+  
