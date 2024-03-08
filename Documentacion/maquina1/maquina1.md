@@ -114,7 +114,11 @@ Comenzamos haciendo un nmap para descubrir los puertos que estan abiertos. Vemos
 
 ![](/Assets/walkthrough/2024-03-07_18-19.png)
 
+Investigamos la pagina web i su inforamcion
+
 ![](/Assets/walkthrough/2024-03-07_18-21.png)
+
+Hacemos ffuf para ver todos los archivos accesibles de la web
 
 ![](/Assets/walkthrough/2024-03-07_18-26.png)
 
