@@ -276,6 +276,9 @@ El atacante hara un Hydra al usuario caroline con la lista de contraseñas extra
 Al encontrar la contraseña podemos entrar desde ssh con este usuario.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/ad01370f-5a11-4e81-a82e-ccd673c18917)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7462e9a1-3a21-459d-8ce3-0488dc6fadbb)
+
+
 
 Analista: Andrades González Paulino  
 Empresa cliente: The Originals  
