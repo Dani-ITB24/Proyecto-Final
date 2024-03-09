@@ -67,3 +67,6 @@
 - [X] Terminar documentacion pentest y desarrollo
 - [X] Actualizacion dockerfile y configuraciones para la primera snapshot
 - [X] Reparticion de tareas
+
+# Viernes 8 de marzo 2024
+- [X] Muerte subita de mi HDD de 1TB y descubrimiento de sectores defectuosos en mi SSD
