@@ -339,10 +339,10 @@ Seguimos mirando el fichero de **access.log**, encontramos las siguiente lineas,
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ea56c380-16cf-49dd-ac46-4d0ae03e5354)
 
 Vemos que unos de esos hay una carpeta que se llama **FTP**. Pensando en eso, creemos que el atacante pudo a ver accedido por el servicio FTP. Ahora vamos a ver los logs de el servico FTP que el fichero se llama **vsftpd.log**.  
-Como vemos el usuario accedio como el usuario anonymous y intento crear un directorio en directorio /test.  ç
+Como vemos el usuario accedio como el usuario anonymous y intento crear un directorio en directorio /test.  
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/dd89fa31-9796-4250-92cd-bccb58ddefc5)
 
-Una vez que el atacante vió que no puede hacer nada con el usuario, seguimos viendo los logs y encontramos como el atacante intento acceder con el usuario **elijah** mediante **fuerza bruta**.
+Una vez que el atacante vió que no puede hacer nada con el usuario, seguimos viendo los logs y encontramos como el atacante intento acceder con el usuario **elijah** mediante **fuerza bruta**.  
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/45b7e58b-0e20-41e8-9581-d990daf6a235)
 
 El atacante después de muchos intento, pudo acceder al usuario **elijah** porque ese usuario tenía una contraseña debil.
