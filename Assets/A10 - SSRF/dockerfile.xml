@@ -15,14 +15,10 @@ RUN apt-get update && \
     php \
     php-cli \
     php-fpm \
-    john-data \
     && rm -rf /var/lib/apt/lists/*
 
 # Configura el servidor SSH
 RUN mkdir /var/run/sshd
-
-# Descarga rockyou.txt
-RUN wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 # Establece la variable de entorno DISPLAY para que apunte al servidor X del sistema anfitrión
 ENV DISPLAY=:0.0
