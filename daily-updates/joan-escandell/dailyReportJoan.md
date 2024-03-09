@@ -65,3 +65,17 @@
 - [x] Configurar fichero de logs y ruta para SSH (de momento no conseguimos configurarlo).
 - [x] Configurar fichero de logs y ruta para MySQL.
 - [x] Prueba y error de todos los sistemas de logs.
+
+# 07/03/2024:
+ 
+- [x] Configuración de ficheros de logs de apache2.
+- [x] Configuración de ficheros de logs de MariaDB.
+- [x] Buscar soluciones para aplicar sistemas de logs para SSH en contenedor Docker.
+- [x] Intento de aplicar sistemas de logs para SSH. (Fallido)
+
+# 08/03/2024:
+
+- [x] Buscar soluciones para aplicar sistemas de logs para SSH en contenedor Docker.
+- [x] Intento de aplicar sistemas de logs para SSH. (Fallido)
+- [x] Practicar con Dockerfile y scripts para automatizar comando es el inicio de una imagen Docker.
+- [x] Practicar cómo subir imagenes de Docker a Mi repositorio GitHub. 
