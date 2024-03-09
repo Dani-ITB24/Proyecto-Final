@@ -326,21 +326,54 @@ La resolución de un posible equipo de uso ilegítimo por parte de un atacante, 
 
 2.1.2 Análisis de la evidencia  
 
+Lo primero que se analizó es el fichero de **access.log** para ver si encontramos algun acceso en la pagina web.
+
+Lo primero que encontramos en el fichero es como se intento hacer un escaneo de furza bruta de directorio a la pagina, nos damos puedan porque sale la herramienta **wfuzz** que sirve para esto, y también vemos muchas peticiones de diferentes direcotorio. Indentificamos que la IP que a hecho este escaneo es la **172.17.0.1**.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6fea04ba-189d-44b8-b401-7f2a0b303b28)
 
-access.log/apache  
+Seguimos mirando el fichero de **access.log**, encontramos las siguiente lineas, encontró unos directorios ocultos en el servicio de la maquina web.
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ea56c380-16cf-49dd-ac46-4d0ae03e5354)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/50f67178-b541-4825-995b-ca962811a802)
 
-error.log/apache  
+Vemos que unos de esos hay una carpeta que se llama **FTP**. Pensando en eso, creemos que el atacante pudo a ver accedido por el servicio FTP. Ahora vamos a ver los logs de el servico FTP que el fichero se llama **vsftpd.log**.  
+Como vemos el usuario accedio como el usuario anonymous y intento crear un directorio en directorio /test.  ç
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/dd89fa31-9796-4250-92cd-bccb58ddefc5)
+
+Una vez que el atacante vió que no puede hacer nada con el usuario, seguimos viendo los logs y encontramos como el atacante intento acceder con el usuario **elijah** mediante **fuerza bruta**.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/45b7e58b-0e20-41e8-9581-d990daf6a235)
+
+El atacante después de muchos intento, pudo acceder al usuario **elijah** porque ese usuario tenía una contraseña debil.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ad1006ac-7e83-4667-9c27-0e880fe3f09a)
+
+Una vez dentro del usuario **elijah** vemos que el atacante accede en una carpeta que se llama **elijah** y subi un fichero que se llama **cmd.php** a las **17:32:23**.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7462e9a1-3a21-459d-8ce3-0488dc6fadbb)
+
+Como vimos en el atacaque de fuerza fruta de directorio con la herramienta **wfuzz** el atacante encontro otro fichero oculto con el nombre **document**.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/743b56f5-c405-4c55-8634-6d71bcedf835)
+
+A raíz de eso pensamos que el atacante podría acceder a dicho directorio en la web. Y para eso nos dirigimos a los logs de apache que lo guarda los errores en el fichero **erros.log**.
+
+Como vemos en la imagen el atacante intento acceder a **document** y después a **document/elijah** pero le denego el acceso al directorio que se mencionarón anteriormente. Como vemos el usuario intento acceder **17:36:52** 1 minuto después de subir el fichero **cmd.php**.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/e0a0212f-3845-4609-a5ff-2b516acceb4d)
+
+Seguimos mirando los logs de error de apache, y vemos como el atacante intento acceder el fichero que subió con el nombre **cmd.php** a la hora **17:37:19**. Y lo intentó varias veces pero sin exito.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/90c57fe3-c55d-45c1-ac59-ab20b9b924f8)
 
-ftp.log  
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/dd89fa31-9796-4250-92cd-bccb58ddefc5)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/45b7e58b-0e20-41e8-9581-d990daf6a235)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ad1006ac-7e83-4667-9c27-0e880fe3f09a)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/f5a84b9c-d99f-4dbe-aac4-0e7fb1914c75)
+
+Después de eso el atacante intento si podía darle permiso adicionales al fichero **cmd.php** con el usuario **elijah** desde el servidor **FTP**. Como vemos en el fichero **vsftpd.log** hizo **chmod 777** al fichero **cmd.php** con exito a las **17:39:30**, 2 minutos despues de intentar acceder al fichero anteriormente sin exito.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7cdd9fc7-8c6a-4930-a803-71bcc241a59c)
+
+A raíz de eso, pensamos que el atacante intentaría acceder de nuevo al fichero **cmd.php**. Para ver si el atacante accedio al fichero correctamente después de darle los permisos nos dirigimos al log de Apache con el nombre **access.log**.
+
+Como vemos en la imagen del fichero **access.log** el atacante accedió correctamente al fichero **cmd.php** que subió. Y ejecuto **whoami** en ese mismo fichero a las **17:59:48**, 20 minutos después de hacer los cambios. Esto indica que el atacante subió una **Reverse Shell**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/884ad44b-ecca-4192-b80c-67f867821bcc)
+
+Seguimos mirando el fichero **access.log**, y ejecuta **curl** a las **18:00:04** casi un minutos despues de ejecutar el **whoami**, el curl apunta a la dirección del servidor y después añade una linea adicional con **bash**. Esto confirma que es una **Reverse Shell** para poder acceder al servidor via **terminal** para comprometer el servidor y acceder a datos confidenciales.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/abcee1f7-09a7-45a4-bdda-724ba9c2497c)
 
 2.2 Metodología NIST
 
