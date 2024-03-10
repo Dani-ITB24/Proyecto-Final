@@ -6,7 +6,8 @@
 <span style="color:black;">4. [ Desarrollo de Apache y configuraciones SSRF](#Apache)</span><br>
 <span style="color:black;">5. [ Configuración del servidor SSH](#confSSH)</span><br>
 <span style="color:black;">6. [ Desarrollo de las webs](#Desarrollo-webs)</span><br>
-<span style="color:black;">7. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
+<span style="color:black;">7. [ Escalado de privilegios](#Desarrollo-webs)</span><br>
+<span style="color:black;">8. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
 ---
 
 <br>
@@ -123,9 +124,17 @@ Si intentamos acceder a este puerto secundario web, nos saltará un mensaje dici
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/accesoprohibido.png)
 <br>
 
+<h1 name="Escalado de privilegios">7. Escalado de privilegios</h1>
+Para que el atacante tenga la posibilidad de escalar privilegios y conseguir una shell como root crearemos un programa basico en C que creara un directorio en /var/www/html con el nombre pedido al usuario y despues creara un archivo con el mismo nombre, por ultimo realizara un head del fichero creado. 
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/vim_backupdb.png) \
+Compilaremos el fichero backupdb.c utilizando la herramienta **gcc**.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/comp_backupdb.png) \
+Para que el atacante pueda acceder al programa compilado y escalar a root copiaremos el programa en /usr/bin y le aplicaremos los permisos para que contenga el bit SUID en el usuario root, el grupo dbadmin pueda leerlo y ejecutarlo y nada para el resto.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/cp_backupdb.png) \
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/permisosbackupdb.png) \
 
-<h1 name="Problemas">7. Problemas encontrados en el desarrollo</h1>
+<h1 name="Problemas">8. Problemas encontrados en el desarrollo</h1>
 
 Una vez accedíamos al contenedor se intenta ejecutar Wireshark de forma fallida, ya que no se puede conectar a ninguna GUI para solucionar este problema se específico la variable de entorno **DISPLAY** para que fuera la misma que la de la máquina local ademas se específico que las aplicaciones locales tuvieran acceso al servidor de ventanas X con el comando **xhost +local:**
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zome%C3%B1o)/Assets/Img/error-display.png) \
