@@ -1,6 +1,7 @@
 <span style="color:black;">[ Semana 1: Planificación](#Semana1)</span><br>
 <span style="color:black;">[ Semana 2: Preparación máquina](#Semana2)</span><br>
 <span style="color:black;">[ Semana 3: Preparación máquina](#Semana3)</span><br>
+<span style="color:black;">[ Semana 4: Preparación máquina 2](#Semana4)</span><br>
 ---
 
 <h1 name="Semana1">Semana 1: Planificación</h1>
@@ -71,3 +72,9 @@
 ## Viernes 8 de marzo 2024
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Arreglos en la documentación <br>
+
+<h1 name="Semana4">Semana 4: Preparación máquina 2</h1>
+<h2>Lunes 11 de marzo 2024</h2>
+✅ Organización y distribución de tareas diarias <br>
+:white_large_square: Preparación de la nueva máquina <br>
+:white_large_square: Problema con el ftp dentro del docker <br>
