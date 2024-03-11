@@ -92,11 +92,28 @@
 
 ![](/ReportesDiarios/Jordi/img/hexeditor.jpg)
 
-# Reporte 05 de marzo de 2024
+# Reporte 06 de marzo de 2024
 
 He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 ![](/ReportesDiarios/Jordi/img/movimiento.gif)
 
-- He avanzado muvho en el docker, completando el movimiento lateral
+- He avanzado mucho en el docker, completando el movimiento lateral
 - Hemos tenido un problema y es que no podiamos hacer la revrse shell via command inyection y lo que hemos hecho es buscar una alternativa, y lo que hacemos es subir una revrse shell en php.
+
+# Reporte 07 de marzo de 2024
+
+- Maquina 1 terminada y subida en docker hub.
+
+# Reporte 11 de marzo de 2024
+
+- Finalizacion de la docuentacion de la maquina 1.
+
+- Hemos encontrado un CVE para la maquina 2 y lo hemos probado. (CVE-2023-22809)
+
+![](/Assets/papercut.jpg)
+
+
+
+
+
