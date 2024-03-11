@@ -99,3 +99,10 @@
 
 - Continuación de la creación del walkthrough
     - Hoy he seguido haciendo el walkthrough haciendo capturas de los pasos a seguir y añadiéndolas a la documentación de la máquina uno.
+
+## Lunes 11/03/2024
+
+- Finalización de la documentación del walkthrough de la primera máquina.
+    - Hemos acabado el walkthrough de la primera máquina con todas las capturas comentadas
+- Creación CVE-2023-22809
+    - Hemos instalado el servidor PaperCut versión 18 para que sea vulnerable al CVE-2023-22809
