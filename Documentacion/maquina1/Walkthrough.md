@@ -151,18 +151,26 @@
 
 ![](/Assets/walkthrough/2024-03-11_16-38.png)
 
-``.``
+``Copiamos la llave en documento de texto.``
 
 ![](/Assets/walkthrough/2024-03-11_16-41.png)
 
 ![](/Assets/walkthrough/2024-03-11_16-42.png)
 
+``Usamos john para desencriptar la llave SSH.``
+
 ![](/Assets/walkthrough/2024-03-11_16-46.png)
 
+``Usando la contrasenya recientemente encontrada accedemos al ususraio maya por SSh.``
+
 ![](/Assets/walkthrough/2024-03-11_16-47.png)
+
+``Una vez en maya buscamos.``
 
 ![](/Assets/walkthrough/2024-03-11_17-09.png)
 
 ![](/Assets/walkthrough/2024-03-11_17-09_1.png)
+
+``Despues de buscar un poco encontramos la ultima flag.``
 
 ![](/Assets/walkthrough/2024-03-11_17-10.png)
