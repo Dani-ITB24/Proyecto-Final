@@ -329,21 +329,21 @@ Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la ve
 1.Atacante hace fuzzing y encuentra el panel de inicio de cerdos.
 
 <p align="center">
-<img  alt="drawing" width="350" height="200" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/gobuster.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/gobuster.png" />
 </p>
 
 2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
 <p align="center">
-<img  alt="drawing" width="550" height="300" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder1.png" />
+<img  alt="drawing"src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder1.png" />
 </p>
 <p align="center">
-<img  alt="drawing" width="550" height="300" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder2.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder2.png" />
 </p>
 
 3.Despues de saltar el login el atacante sube un archivo php en la pagina web.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/addPig1.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/addPig1.png" />
 </p>
 
 4.Luego el atacante tiene que ir updatefolder donde esta su archvio php y lo ejecuta para hacer una Reverse Shell.
@@ -355,31 +355,31 @@ Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la ve
 5.Nos ponemos con el netcat escuchando en el puerto 4444 para entrar al sistema.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/www-data.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/www-data.png" />
 </p>
 
 6.Hemos entrado al sistema con el usuario www-data miramos lo que hay con el comando ls , hacemos otro ls para ver lo que hay dentro de la carpeta compartidos por ultimo hacemos un cat para ver lo que hay en datos.txt .
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/way2.png" />
+<img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/way2.png" />
 </p>
 
 7.Vamos a la pagina banco de credenciales.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/bancoCredencialesPrivado.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/bancoCredencialesPrivado.png" />
 </p>
 
 8.Hacemos un ataque sql injection a la pagina banco de credenciales.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/loginBancoSQLi.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/loginBancoSQLi.png" />
 </p>
 
 9.Nos saldra los nombres de usuarios con sus contraseñas incriptadas en base64.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/finalCredentials.png" />
+<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/finalCredentials.png" />
 </p>
 
 10.Vamos a desencriptar las contraseñas encriptadas en base 64.
@@ -391,32 +391,32 @@ Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la ve
 11.Entramos en el usuario Pastorpaco , hacemos ls para ver lo que hay dentro del usuario dentro hay un zip incriptado y una flag. Abrimos la flag del usuario.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/flagUser.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/flagUser.png" />
 </p>
 
 12.Usamos jhon the ripper para romper la contraseña de credencialesseguras.zip
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/john.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/john.png" />
 </p>
 
 13.Cuando rompamos la contraseña abrimos el zip y vemos lo que hay dentro.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/granjero.txt.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/granjero.txt.png" />
 </p>
 
 
 14.Miramos que grupos esta el usuario granjero
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/groups.png" />
+<img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/groups.png" />
 
 
 15.Hacemos sudo su y entramos en el usuario root.
 </p>
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/getRoot.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/getRoot.png" />
 </p>
 
 16. Por ultimo buscamos la flag de root.
@@ -433,12 +433,12 @@ Tenemos los siguientes logs en nuestro docker:
 - Logs de inicio de sesion de la pagina farm.
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logs.png" />
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logs.png" />
 </p>
 
 - Logs de inicio de sesion de la pagina banco.
-  <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logsBanco.png" />
+<p align="center">
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logsBanco.png" />
 </p>
 
 - Logs de apache para ver los post y los get.
