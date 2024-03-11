@@ -109,8 +109,8 @@
 
 ## Lunes 11 de Marzo 2024:
 
-- [ ] 
-- [ ] 
+- [X] Desarrollo y gestiones de la máquina 2 (dockerfile, prueba de imágenes de Docker, test en contenedores) 
+- [X] Pruebas de vsftpd en un contenedor Docker 
 
 ## Martes 12 de Marzo 2024:
 
