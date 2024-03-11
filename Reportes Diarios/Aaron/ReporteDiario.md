@@ -89,3 +89,10 @@
 - Actualizacion del analisis fornese.
 - Busqueda de logs para ver cuando se ejecutan los diferentes scripts.
 - idea de la seguna maquina
+
+## Lunes 11/03/2024
+
+- Creación de la seguna maquina, con dockerfile diferente.
+- Configuración del ftp acabada, con el usuario anonymous que entre en su propia carpeta, y solo pueda visualizar una imagen puesta a proposito.
+- Instalación y configuración del apache, con cubecart.
+- Visualización de la web cubecart y investigación de que se puede hacer con ella.
