@@ -125,7 +125,7 @@ Si intentamos acceder a este puerto secundario web, nos saltará un mensaje dici
 <br>
 
 <h1 name="Escalado de privilegios">7. Escalado de privilegios</h1>
-Para que el atacante tenga la posibilidad de escalar privilegios y conseguir una shell como root crearemos un programa basico en C que creara un directorio en /var/www/html con el nombre pedido al usuario y despues creara un archivo con el mismo nombre, por ultimo realizara un head del fichero creado. 
+Para que el atacante tenga la posibilidad de escalar privilegios y conseguir una Shell como root crearemos un programa básico en C que creara un directorio en /var/www/html con el nombre pedido al usuario y después creara un archivo con el mismo nombre, por ultimo realizara un head del fichero creado. 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/vim_backupdb.png) \
 Compilaremos el fichero backupdb.c utilizando la herramienta **gcc**.
