@@ -66,7 +66,7 @@ Y después comentar la linea include del fichero /etc/ssh/sshd_config
     - [X] Nuevo error que no me deja iniar la maquina 
 
 ## 6/03/24 Reporte Diario
-- [] Problemas con el servicio rsyslog, una vez que lo descarga y intenta iniciar el servico no lo encuentra.
+- [ ] Problemas con el servicio rsyslog, una vez que lo descarga y intenta iniciar el servico no lo encuentra.
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
@@ -74,7 +74,7 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 
 ## 7/03/24 Reporte Diario
 
-- [] Documentación del analisis forense en la documentación final
+- [ ] Documentación del analisis forense en la documentación final
 
 ## 8/03/24 Reporte Diario
 
