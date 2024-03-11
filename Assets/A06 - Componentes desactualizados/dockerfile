@@ -23,7 +23,7 @@ EXPOSE 21
 EXPOSE 20
 
 # Estartear el servicio de apache y SSH
-CMD service ssh start && apache2ctl -D FOREGROUND
+CMD service ssh start && service vsftpd start && apache2ctl -D FOREGROUND
 
 # Establece la variable de entoro DISPLAY para que apunte al servidor X del sistema
 ENV DISPLAY=:0
