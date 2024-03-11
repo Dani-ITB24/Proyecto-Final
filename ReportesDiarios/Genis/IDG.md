@@ -48,7 +48,12 @@
 - Ajuda i soport a les tasques de els altres membres de l'equip
 - Probes de docker i resolucio
 
-## Dijous 08-03-24-
+## Divendres 08-03-24-
 - Ajuda i soport a les tasques de els altres membres de l'equip
 - Probes de docker i resolucio
+
+## Dijous 08-03-24-
+- Probes de docker i resolucio
+- Documentar
+  
   
