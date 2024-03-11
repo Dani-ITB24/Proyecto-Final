@@ -142,3 +142,21 @@
 ``Probamos la contaseña y accedemos como bumblebee.``
 
 ![](/Assets/walkthrough/2024-03-08_18-23_1.png)
+
+![](/Assets/walkthrough/2024-03-11_16-37.png)
+
+![](/Assets/walkthrough/2024-03-11_16-38.png)
+
+![](/Assets/walkthrough/2024-03-11_16-41.png)
+
+![](/Assets/walkthrough/2024-03-11_16-42.png)
+
+![](/Assets/walkthrough/2024-03-11_16-46.png)
+
+![](/Assets/walkthrough/2024-03-11_16-47.png)
+
+![](/Assets/walkthrough/2024-03-11_17-09.png)
+
+![](/Assets/walkthrough/2024-03-11_17-09_1.png)
+
+![](/Assets/walkthrough/2024-03-11_17-10.png)
