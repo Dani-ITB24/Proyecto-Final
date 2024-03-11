@@ -52,7 +52,7 @@
 - Ajuda i soport a les tasques de els altres membres de l'equip
 - Probes de docker i resolucio
 
-## Dijous 08-03-24-
+## Dilluns 11-03-24-
 - Probes de docker i resolucio
 - Documentar
   
