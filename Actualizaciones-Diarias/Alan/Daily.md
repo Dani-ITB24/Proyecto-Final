@@ -109,8 +109,10 @@
 
 ## Lunes 11 de Marzo 2024:
 
-- [X] Desarrollo y gestiones de la máquina 2 (dockerfile, prueba de imágenes de Docker, test en contenedores) 
-- [X] Pruebas de vsftpd en un contenedor Docker 
+- [X] Reunión de inicio de etapa (segunda máquina). Brainstorming sobre maneras de hacer la máquina. Planificación de trabajo de los primeros días.
+- [X] Desarrollo y gestiones de la máquina 2 (dockerfile, prueba de imágenes de Docker, test en contenedores).
+- [X] Pruebas de vsftpd en un contenedor Docker.
+- [X] Cambios en dockerfile y scripts (añadir start de vsftpd y configurar puertos).
 
 ## Martes 12 de Marzo 2024:
 
