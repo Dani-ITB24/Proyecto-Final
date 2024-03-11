@@ -78,4 +78,11 @@
 - [x] Buscar soluciones para aplicar sistemas de logs para SSH en contenedor Docker.
 - [x] Intento de aplicar sistemas de logs para SSH. (Fallido)
 - [x] Practicar con Dockerfile y scripts para automatizar comando es el inicio de una imagen Docker.
-- [x] Practicar cómo subir imagenes de Docker a Mi repositorio GitHub. 
+- [x] Practicar cómo subir imagenes de Docker a Mi repositorio GitHub.
+
+# 09/03/2024:
+
+- [x] Hacer commit del contenedor sin registros de haber sido vulnerado.
+- [x] Atacar las vulnerabilidades del contenedor dejando rastro.
+- [x] Hacer commit del contenedor una vez ha sido atacado, con presencia de logs.
+- [x] Documentar procedimiento.
