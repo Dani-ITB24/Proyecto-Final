@@ -143,9 +143,15 @@
 
 ![](/Assets/walkthrough/2024-03-08_18-23_1.png)
 
+``Una vez estamos dentro de bumblebee, miramos si podemos encontrar algo.``
+
 ![](/Assets/walkthrough/2024-03-11_16-37.png)
 
+``Encontramos la llave SSH privada.``
+
 ![](/Assets/walkthrough/2024-03-11_16-38.png)
+
+``.``
 
 ![](/Assets/walkthrough/2024-03-11_16-41.png)
 
