@@ -79,3 +79,8 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 ## 8/03/24 Reporte Diario
 
 - [x] Documentación del analisis forense en la documentación final
+
+## 8/03/24 Reporte Diario
+
+- [x] Corregir la documentación de analisis de forense en la documentación final
+- [ ] Intentar instalar cobecart
