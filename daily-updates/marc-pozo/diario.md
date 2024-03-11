@@ -87,3 +87,14 @@
 
 - [x] Organización y avance de la documentación
 - [x] Continuación de implementación de logs SSH
+
+# Viernes 8 de marzo 2024:
+
+- [x] Revisión de la documentación
+- [x] Comienzo de planteamiento del segundo contenedor 
+
+# Lunes 11 de marzo 2024:
+
+- [x] Planteamiento del segundo contenedor
+- [x] Búsqueda de vulnerabilidades relacionadas con el riesgo
+- [x] Búsqueda de vulnerabilidades de 2023 en adelante  
