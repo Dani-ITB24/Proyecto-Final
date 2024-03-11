@@ -82,3 +82,20 @@
     - Dentro de la imagen estará el contenido al que se hace referencia en el archivo mencionado anteriormente
 
 ![](/ReportesDiarios/Joan/img/bee.jpg)
+
+## Miercoles 06/03/2024
+
+- Creación de la primera máquina.
+    - He estado ayudando a crear la primera máquina. Hemos juntando todas las partes que hemos estado configurando y creando hasta la fecha, verificando que todo funcione correctamente.
+
+## Jueves 07/03/2024
+
+- Instalación de la imagen y creación del walkthrough
+    - Hoy he descargado la imagen de la primera máquina del docker hub del Jordi y me ha empezado a dar errores el docker, pero los he podido solucionar y he empezado a hacer capturas de los pasos a seguir para solucionar la primera máquina y añadiendo las capturas a la documentación de la máquina uno.
+
+![](/ReportesDiarios/Joan/img/2024-03-07_18-15.png)
+
+## Viernes 08/04/2024
+
+- Continuación de la creación del walkthrough
+    - Hoy he seguido haciendo el walkthrough haciendo capturas de los pasos a seguir y añadiéndolas a la documentación de la máquina uno.
