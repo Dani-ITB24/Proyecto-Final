@@ -426,8 +426,28 @@ Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la ve
 </p>
 
 ## [Análisis del Contenedor una vez Explotado](#índice)
+Para analizar la maquina explotada primero hemos mirado los logs que tenemos en la maquina docker.
+
+Tenemos los siguientes logs en nuestro docker:
+
+- Logs de inicio de sesion de la pagina farm.
+
+<p align="center">
+<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logs.png" />
+</p>
+
+- Logs de inicio de sesion de la pagina banco.
+  <p align="center">
+<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logsBanco.png" />
+</p>
+
+- Logs de apache para ver los post y los get.
+  
+- Logs de mariadb para ver las querris.
 
 ### [Herramientas Empleadas](#índice)
+
+
 
 # [Contenedor Numero 2 Fallas de Identificación y Autenticación](#índice)
 
