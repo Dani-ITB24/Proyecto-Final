@@ -1,4 +1,4 @@
-# START MAQUINA 2 - CTF SSRF 
+# START MAQUINA 1 - CTF TU1MILLON 
 
 #!/bin/bash
 
