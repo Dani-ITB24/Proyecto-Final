@@ -70,3 +70,12 @@
 
 # Viernes 8 de marzo 2024
 - [X] Muerte subita de mi HDD de 1TB y descubrimiento de sectores defectuosos en mi SSD
+
+# Sabado 9 de marzo 2024
+- [X] Terminar documentacion Desarrollo
+- [ ] Pruebas preparacion primera snapshto safespot:clean
+
+# Viernes 11 de marzo 2024
+- [X] Terminar snapshot safespot:clean
+- [X] Terminar snapshot safespot:pentest
+- [X] Subir ambas imagenes a dockerhub
