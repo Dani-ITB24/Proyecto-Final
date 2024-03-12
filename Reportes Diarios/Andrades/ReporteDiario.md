@@ -85,7 +85,7 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [x] Corregir la documentación de analisis de forense en la documentación final
 - [ ] Intentar instalar cubecart
       Error a instalar cubecart5.0
-    - [ ] ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/99e6f923-e8f5-4d48-8651-f42783642da1)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/99e6f923-e8f5-4d48-8651-f42783642da1)
      
 ## 9/03/24 Reporte Diario
 - Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionbar los errors anteriores.
