@@ -38,6 +38,10 @@ En la primera línea se específica que imagen se usará para montar el contened
 
 <h1 name="Problemas">5. Problemas encontrados en el desarrollo</h1>
 
+Se intentó instalar la versión 2.3.4 de vsftpd para aprovechar la vulnerabilidad [CVE-2011-2523](https://www.exploit-db.com/exploits/49757). Para empezar esta versión no se puede instalar directamente con apt, así que había que descargarla desde github u otro recurso de internet, y posteriormente instalarla. Nos encontramos con fallos al intentar hacer el **make** de esta versión de vsftpd.
+<br>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error3.png)
+
 
 <h1 name="">6. </h1>
 
