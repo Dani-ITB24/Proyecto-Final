@@ -106,3 +106,16 @@
     - Hemos acabado el walkthrough de la primera máquina con todas las capturas comentadas
 - Creación CVE-2023-22809
     - Hemos instalado el servidor PaperCut versión 18 para que sea vulnerable al CVE-2023-22809
+
+## Martes 12/03/2024
+- Compartición de la segunda máquina en Docker Hub
+    - Jordi ha creado la segunda máquina y nos la ha compartido por docker hub y ahora podemos modificar los 3 la máquina y subir los cambios.
+![](/ReportesDiarios/Joan/img/docker.png)
+
+- Instalación PaperCut en el docker
+    - Hemos instalado PaperCut 18.3 en el docker.
+![](/ReportesDiarios/Joan/img/paper.png)
+
+- Instalacioón de CUPS
+    - Hemos intentado compartir las impresoras de CUPS con el servidor PaperCup pero no hemos sido capaces.
+![](/ReportesDiarios/Joan/img/cups.png)
