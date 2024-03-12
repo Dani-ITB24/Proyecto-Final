@@ -95,15 +95,11 @@
 - [X] Documentación sobre pentest.
 - [X] Fusionar los 2 dockerfile (Wireshark y apache) en un dockerfile definitivo.
 - [X] Pruebas de docker push a Docker Hub (todo ok).
-- [ ] Fusionar los 2 contenedores de desarrollo/prueba que teníamos hasta el momento en 1 solo contenedor definitivo.
-- [ ] Hacer el push de la snapshot del contenedor Docker (sin atacar).
-- [ ] Hacer el pentest.
-- [ ] Hacer el push de la snapshot del contenedor Docker (atacado).
+- [X] Fusionar los 2 contenedores de desarrollo/prueba que teníamos hasta el momento en 1 solo contenedor definitivo.
  
 ## Viernes 8 de Marzo 2024:
 
 - [X] Corrección de errores Docker. 
-
 
 # Semana 4 - Preparación máquina 2:
 
