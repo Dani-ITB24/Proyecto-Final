@@ -5,6 +5,7 @@
 <span style="color:black;">3. [ Desarrollo y configuración de FTP](#ftp)</span><br>
 <span style="color:black;">4. [ Desarrollo de las webs](#Desarrollo2)</span><br>
 <span style="color:black;">5. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
+<span style="color:black;">6. [ ](#)</span><br>
 
 ---
 
