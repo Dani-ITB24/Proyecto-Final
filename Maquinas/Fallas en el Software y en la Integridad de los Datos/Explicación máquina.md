@@ -20,7 +20,7 @@ Esta vulnerabilidad consiste en abusar del método file inclusion y SQL Injectio
 
 A través de esta vulnerabilidad se puede encontrar un fichero con codigo base64 que el atacante puede descodificar y ver usuario y contraseña de wordpress, una vez dentro de wordpress el atacante tendra que modificar una de las paginas para hacer una reverse shell en php a su propio equipo obteniendo acceso al sistema como www-data.
 
-En este nuevo usuario se podrá visualizar la flag de user.txt dentro de /var/www/.
+En este usuario se podrá visualizar la flag de user.txt dentro de /var/www/.
 
 Este usuario tendrá un permiso de SUID en chmod que tenga como propietario a root, de esta forma el usuario podrá abusar de este permiso SUID y escalar privilegios al usuario root,
 comprometiendo totalmente la máquina y disponiendo de permisos y acceso total.
