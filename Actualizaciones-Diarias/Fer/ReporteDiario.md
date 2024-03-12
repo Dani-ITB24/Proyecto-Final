@@ -78,3 +78,8 @@
 ✅ Organización y distribución de tareas diarias <br>
 :white_large_square: Preparación de la nueva máquina <br>
 :white_large_square: Problema con el ftp dentro del docker <br>
+
+## Martes 12 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+✅ Problema con el ftp dentro del docker <br>
+✅ Preparación del contenedor del docker
