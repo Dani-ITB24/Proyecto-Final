@@ -96,3 +96,10 @@
 - Configuración del ftp acabada, con el usuario anonymous que entre en su propia carpeta, y solo pueda visualizar una imagen puesta a proposito.
 - Instalación y configuración del apache, con cubecart.
 - Visualización de la web cubecart y investigación de que se puede hacer con ella.
+
+## Martes 12/03/2024
+
+- Modificación de idea de la maquina, y vuelta a crear dockerfile.
+- Problema al instalar woedpress.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f618b89f-513f-4b27-b0e9-a2ee51bc99b1)
+
