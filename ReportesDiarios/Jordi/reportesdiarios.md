@@ -114,6 +114,14 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 ![](/Assets/papercut.jpg)
 
 
+# Reporte 12 de marzo de 2024
 
+- Creacion de un repositorio compartido con los compañeros.
+
+![](/ReportesDiarios/Jordi/img/repo.jpg)
+
+- Cracion del docker de la maquina2 y instalcion de todos los servicios necesarios (apache,mysql,php,telnet)
+
+- Tambien hemos instalado el papercut, que es el software vulnerable al cve, y hemos intentado añadir una impersora virtual con cups, pero despues de muchos problemas hemos buscado otro metodo para proporcionar las credenciales.
 
 
