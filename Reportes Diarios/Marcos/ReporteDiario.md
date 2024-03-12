@@ -133,3 +133,7 @@ Durante el dia de hoy he realizado las siguientes tareas:
 Durante el dia de hoy he realizado las siguientes tareas:
 
 - Finalizar con el WriteUp de la maquina de diseño inseguro.
+
+# Reporte Diario 12 de Marzo de 2024
+
+- Empezar con la plannificación e idea pricipal de maquina de fallas en el software.
