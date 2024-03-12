@@ -98,3 +98,10 @@
 - [x] Planteamiento del segundo contenedor
 - [x] Búsqueda de vulnerabilidades relacionadas con el riesgo
 - [x] Búsqueda de vulnerabilidades de 2023 en adelante  
+
+# Martes 12 de marzo 2024:
+
+- [x] Planteamiento del segundo contenedor
+- [x] Búsqueda de vulnerabilidades relacionadas con el riesgo
+- [x] Búsqueda de vulnerabilidades de 2023 en adelante
+- [x] Intento de recreaciión del CVE-2024-27747 sin éxito 
