@@ -42,6 +42,11 @@ Se intentó instalar la versión 2.3.4 de vsftpd para aprovechar la vulnerabilid
 <br>
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error3.png)
 
+Había que añadir "**-lcrypt**" en una línea del makefile de vsftpd para poder hacer el **make**. Tras instalar las dependencias necesarias e instalar vsftpd, no hubo manera de iniciar el servicio.
+<br>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error2.png)
+
 
 <h1 name="">6. </h1>
 
