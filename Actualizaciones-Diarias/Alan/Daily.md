@@ -116,7 +116,7 @@
 
 ## Martes 12 de Marzo 2024:
 
-- [ ] 
+- [ ] Documentación de desarrollo de la A06:2021 con el trabajo realizado ayer. Capturas de configuración y demás.
 - [ ] 
 
 ## Miércoles 13 de Marzo 2024:
