@@ -117,7 +117,7 @@
 ## Martes 12 de Marzo 2024:
 
 - [ ] Documentación de desarrollo de la A06:2021 con el trabajo realizado ayer. Capturas de configuración y demás.
-- [ ] 
+- [ ] Búsquedas de CVE y ataques reales sobre A06:2021-Vulnerable and Outdated Components.
 
 ## Miércoles 13 de Marzo 2024:
 

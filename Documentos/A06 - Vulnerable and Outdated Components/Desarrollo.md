@@ -2,9 +2,10 @@
 
 <span style="color:black;">1. [ Introducción](#introducción)</span><br>
 <span style="color:black;">2. [ Desarrollo del contenedor](#Desarrollo)</span><br>
-<span style="color:black;">3. [ Desarrollo de las webs](#Desarrollo2)</span><br>
-<span style="color:black;">4. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
-<span style="color:black;">5. [ CTF](#CTF)</span><br>
+<span style="color:black;">3. [ Desarrollo y configuración de FTP](#ftp)</span><br>
+<span style="color:black;">4. [ Desarrollo de las webs](#Desarrollo2)</span><br>
+<span style="color:black;">5. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
+
 ---
 
 <br>
@@ -28,11 +29,15 @@ El Dockerfile que generará el contenedor es el siguiente:
 En la primera línea se específica que imagen se usará para montar el contenedor, después se realiza una actualización de paquetes y se instalan las utilidades necesarias para hacer el contenedor vulnerable frente a la A06:2021, el parámetro **DEBIAN_FRONTEND=noninteractive** se utiliza para que a la hora de instalar los paquetes no aparezca ningún prompt y que se aplique la opción predeterminada a la hora de configurar los paquetes en la instalación, la última línea **rm -rf /var/lib/apt/lists/** eliminará los archivos temporales que ya no son necesarios después de la instalación de los paquetes, de esta forma se optimiza el espacio del contenedor. A continuación se crea el directorio sshd dentro de /var/run, esto se realiza de forma automática a la hora de poner en marcha el servicio SSH sin embargo es mejor crearlo antes de poner en marcha el servicio por si se necesita de antemano. A continuación se establece que la variable de entorno **DISPLAY** apunte al display de la máquina anfitrión, esto nos servirá para poder usar Wireshark de forma gráfica. Por último se abren los puertos necesarios para los servicios de SSH, FTP y Apache y se ponen en marcha dichos servicios.
 
 
-<h1 name="Desarrollo2">3. Desarrollo</h1>
+<h1 name="ftp">3. Desarrollo y configuración de FTP</h1>
 
 
-<h1 name="Problemas">4. Problemas encontrados en el desarrollo</h1>
+
+<h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
 
-<h1 name="CTF">5. CTF</h1>
+<h1 name="Problemas">5. Problemas encontrados en el desarrollo</h1>
+
+
+<h1 name="">6. </h1>
 
