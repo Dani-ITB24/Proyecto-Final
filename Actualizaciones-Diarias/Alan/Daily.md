@@ -122,7 +122,7 @@
 
 ## Miércoles 13 de Marzo 2024:
 
-- [X] Desarrollo de la web/login con HTML y CSS
+- [X] Desarrollo de la web/login con HTML y CSS.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/index.html.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/style.css.png)
