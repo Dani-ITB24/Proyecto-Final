@@ -75,7 +75,19 @@
 - [X] Terminar documentacion Desarrollo
 - [ ] Pruebas preparacion primera snapshto safespot:clean
 
-# Viernes 11 de marzo 2024
+# Domingo 10 de marzo 2024
 - [X] Terminar snapshot safespot:clean
 - [X] Terminar snapshot safespot:pentest
 - [X] Subir ambas imagenes a dockerhub
+
+# Lunes 11 de marzo 2024
+- [X] Reunion grupal para comentar segunda parte
+- [ ] Realizar busqueda inicial de FTP y sus vulnerabilidades
+- [ ] Buscar programas desactualizados para poder implementar
+
+# Martes 12 de marzo 2024
+- [X] Configurar servidor FTP para permitir subida de archivos en el contenedor
+- [ ] Intento de conexion utilizando reveresn shell
+
+# Martes 13 de marzo 2024
+- [X] Terminar de configurar el servidor FTP para que sea vulnerable
