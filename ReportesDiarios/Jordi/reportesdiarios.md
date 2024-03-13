@@ -131,7 +131,7 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 ![](/ReportesDiarios/Jordi/img/credsthegrafg.jpg)
 
-- Instalacion de samba y configuracion para que solo escuche en al servidor interno.
+- Instalacion de samba y configuracion para que solo escuche connexiones internas.
 
 ![](/ReportesDiarios/Jordi/img/smbconf1.jpg)
 
