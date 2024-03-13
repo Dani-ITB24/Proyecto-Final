@@ -145,7 +145,7 @@
 - Creación de cuenta de DockerHub para guardar las imagenes en la nube y poder compartiras con el grupo.
 - Creación acrivo dockerfile:
 
-FROM marcositb/grupo4_insecure_design:v1.0
+FROM marcositb/grupo4_insecure_design:versionFinal
 
 // Exponer los puertos necesarios
 
