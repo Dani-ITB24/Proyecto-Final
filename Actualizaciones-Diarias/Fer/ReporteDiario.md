@@ -77,9 +77,14 @@
 <h2>Lunes 11 de marzo 2024</h2>
 ✅ Organización y distribución de tareas diarias <br>
 :white_large_square: Preparación de la nueva máquina <br>
-:white_large_square: Problema con el ftp dentro del docker <br>
+:white_large_square: Problema con el ftp dentro del Docker <br>
 
 ## Martes 12 de marzo 2024
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Problema con el ftp dentro del docker <br>
-✅ Preparación del contenedor del docker
+:white_large_square: Preparación del contenedor del Docker
+
+## Miércoles 6 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+:white_large_square: Preparación del contenedor del Docker
+✅ Documentación del desarrollo de la vulnerabilidad A06
