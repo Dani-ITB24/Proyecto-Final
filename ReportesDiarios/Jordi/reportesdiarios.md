@@ -125,3 +125,29 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 - Tambien hemos instalado el papercut, que es el software vulnerable al cve, y hemos intentado añadir una impersora virtual con cups, pero despues de muchos problemas hemos buscado otro metodo para proporcionar las credenciales.
 
 
+# Reporte 13 de marzo de 2024
+
+- Hemos añadido las credenciales del primer usuario a la pagina web.
+
+![](/ReportesDiarios/Jordi/img/credsthegrafg.jpg)
+
+- Instalacion de samba y configuracion para que solo escuche connexiones internas.
+
+![](/ReportesDiarios/Jordi/img/smbconf1.jpg)
+
+- Configruacion del recurso compartido
+
+![](/ReportesDiarios/Jordi/img/smbconf2.jpg)
+
+- Hemos configurado el port forearding con chisel para comprobar su funionamiento
+
+![](/ReportesDiarios/Jordi/img/chiselsrv.jpg)
+![](/ReportesDiarios/Jordi/img/chiselclient.jpg)
+
+- Tambien hemos hecha furezabruta a un usuaio de smb con metasploit.
+
+![](/ReportesDiarios/Jordi/img/msfsmbbrute.jpg)
+
+- Hemos montado el recurso compartido en la mquina para tener acceso a el
+
+![](/ReportesDiarios/Jordi/img/mount.jpg)
