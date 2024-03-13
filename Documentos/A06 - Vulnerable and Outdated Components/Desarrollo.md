@@ -38,6 +38,8 @@ La configuracion del ftp tendra estos permisos habilitados:
 - Con la opción "xferlog_enable" habilitada el servidor FTP comenzará a registrar información sobre las transferencias de archivos en las cuales será guardada en un archivo de registro. Esto registrará desde una descarga (GET), una subida (PUT), el usuario que realizo la acción, etc.
 > xferlog_enable=YES
 
+- Con esta opción habilitada en el servidor permite al usuario acceder al servidor FTP de forma que no sea necesario la autentificación.
+> Anonymous_enable=YES
 
 <h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
