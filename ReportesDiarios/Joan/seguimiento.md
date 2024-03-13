@@ -119,3 +119,11 @@
 - Instalacioón de CUPS
     - Hemos intentado compartir las impresoras de CUPS con el servidor PaperCup pero no hemos sido capaces.
 ![](/ReportesDiarios/Joan/img/cups.png)
+
+## Miercoles 13/03/2024
+
+- Instalación de SAMBA
+    - Hemos instalado y configurado SAMBA para que tenga recursos compartidos para un solo usuario.
+
+- Configuración de los puertos de los servicios para que solo se vean en local host
+    - Hemos hecho que algunos servicios solo sean accesibles desde localhost y para ello hemos utilizado la herramienta chisel
