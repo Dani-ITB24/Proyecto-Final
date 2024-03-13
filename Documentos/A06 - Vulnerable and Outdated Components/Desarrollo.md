@@ -54,7 +54,7 @@ La configuracion del ftp tendra estos permisos habilitados:
 <h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
 **Web login** <br>
-Se ha realizado un login falso para la página web. Para la creación de la página, hemos utilizado  HTML y CSS. No es una página funcional, la función es distraer a los atacantes.
+Se ha realizado el desarrollo de un login falso para la página web con la temática de la empresa Tu1millon. Para la creación de la página, se ha utilizado HTML y CSS. No es una página funcional, la función es distraer a los atacantes.
 <br>
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/index.html.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/style.css.png)
