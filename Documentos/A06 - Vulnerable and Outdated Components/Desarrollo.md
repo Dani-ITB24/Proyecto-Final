@@ -44,6 +44,10 @@ La configuracion del ftp tendra estos permisos habilitados:
 - Con esta opción habilitada en el servidor permitiremos que los usuarios que hayan accedido al servidor FTP de forma anónima puedan subir sus propios archivos al servidor
 > anon_upload_enable=YES
 
+- Estas opciones de listen hacen que el servidor FTP únicamente escuche a través de las interfaces de red disponibles y solamente desde IPV4. Esto significa que el servidor FTP solo aceptará conexiones en IPv4 a través de las interfaces de red disponibles en el sistema, ignorando cualquier interfaz IPv6 que pueda estar presente.
+> listen=YES
+> listen_ipv6=NO
+  
 <h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
 
