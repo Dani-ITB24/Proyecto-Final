@@ -137,3 +137,11 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 12 de Marzo de 2024
 
 - Empezar con la plannificación e idea pricipal de maquina de fallas en el software.
+
+# Reporte Diario 13 de Marzo de 2024
+
+- Descargar ubuntu latest para la maquina de fallas en el software.
+
+- Instalar y configurar wordpress
+
+- Intentar configurar e instalar plugin vulnerable a LFI https://www.exploit-db.com/exploits/40290
