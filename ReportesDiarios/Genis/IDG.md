@@ -59,4 +59,10 @@
 ## Dimarts 12-03-24-
 - Recerca i organitzacio per la segona ctf
 
+
+## Dimecres 13-03-24-
+- Recerca i organitzacio per la segona ctf
+
+  
+
   
