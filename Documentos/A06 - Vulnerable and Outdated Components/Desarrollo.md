@@ -36,25 +36,20 @@ En la primera línea se específica que imagen se usará para montar el contened
 La configuracion del ftp tendra estos permisos habilitados:
 
 - Con la opción "xferlog_enable" habilitada el servidor FTP comenzará a registrar información sobre las transferencias de archivos en las cuales será guardada en un archivo de registro. Esto registrará desde una descarga (GET), una subida (PUT), el usuario que realizo la acción, etc.
-> xferlog_enable=YES \
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracionFTP-1.png)
+> xferlog_enable=YES
 
 - Con esta opción habilitada en el servidor permite al usuario acceder al servidor FTP de forma que no sea necesario la autentificación.
-> anonymous_enable=YES \
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracionFTP-2.png)
+> anonymous_enable=YES 
 
 - Con esta opción habilitada en el servidor permitiremos que los usuarios que hayan accedido al servidor FTP de forma anónima puedan subir sus propios archivos al servidor
-> anon_upload_enable=YES \
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracionFTP-3.png)
+> anon_upload_enable=YES 
 
 - Estas opciones de listen hacen que el servidor FTP únicamente escuche a través de las interfaces de red disponibles y solamente desde IPV4. Esto significa que el servidor FTP solo aceptará conexiones en IPv4 a través de las interfaces de red disponibles en el sistema, ignorando cualquier interfaz IPv6 que pueda estar presente.
 > listen=YES \
-> listen_ipv6=NO \
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracionFTP-4.png)
+> listen_ipv6=NO 
 
 - Habilitando este permiso en el servidor permitimos que los usuarios tengan los permisos necesarios para poder compartir, editar contenido existente o administrar los archivos.
-> write_enable=YES \
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracionFTP-5.png)
+> write_enable=YES 
 
 <h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
