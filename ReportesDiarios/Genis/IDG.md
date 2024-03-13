@@ -55,5 +55,8 @@
 ## Dilluns 11-03-24-
 - Probes de docker i resolucio
 - Documentar
-  
+
+## Dimarts 12-03-24-
+- Recerca i organitzacio per la segona ctf
+
   
