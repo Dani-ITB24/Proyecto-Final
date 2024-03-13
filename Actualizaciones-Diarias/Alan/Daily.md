@@ -112,9 +112,9 @@
 
 ## Martes 12 de Marzo 2024:
 
-- [ ] Documentación de desarrollo de la A06:2021 con el trabajo realizado ayer. Capturas de configuración y demás.
-- [ ] Búsquedas de CVE y ataques reales sobre A06:2021-Vulnerable and Outdated Components.
-- [ ] Búsqueda de información, resolución de problemas con vsftpd 2.3.4 (problemas tanto en instalación como en puesta en marcha)
+- [X] Documentación de desarrollo de la A06:2021 con el trabajo realizado ayer. Capturas de configuración y demás.
+- [X] Búsquedas de CVE y ataques reales sobre A06:2021-Vulnerable and Outdated Components.
+- [X] Búsqueda de información, resolución de problemas con vsftpd 2.3.4 (problemas tanto en instalación como en puesta en marcha)
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error2.png)
@@ -122,7 +122,12 @@
 
 ## Miércoles 13 de Marzo 2024:
 
-- [ ] 
+- [X] Desarrollo de la web/login con HTML y CSS
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/index.html.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/style.css.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/tu1millon-web.png)
+
 - [ ] 
 
 ## Jueves 14 de Marzo 2024:
