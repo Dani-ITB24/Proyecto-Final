@@ -103,3 +103,8 @@
 - Problema al instalar woedpress.
   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f618b89f-513f-4b27-b0e9-a2ee51bc99b1)
 
+## Miercoles 13/03/2024
+
+- Problema anterior solucionado
+- Busqueda de pluguins vulderables y intentar explotarlos.
+
