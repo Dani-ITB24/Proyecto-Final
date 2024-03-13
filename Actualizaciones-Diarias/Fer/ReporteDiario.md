@@ -84,7 +84,7 @@
 ✅ Problema con el ftp dentro del docker <br>
 :white_large_square: Preparación del contenedor del Docker
 
-## Miércoles 6 de marzo 2024
+## Miércoles 13 de marzo 2024
 ✅ Organización y distribución de tareas diarias <br>
-:white_large_square: Preparación del contenedor del Docker
+:white_large_square: Preparación del contenedor del Docker <br>
 ✅ Documentación del desarrollo de la vulnerabilidad A06
