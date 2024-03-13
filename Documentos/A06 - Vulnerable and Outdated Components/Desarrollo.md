@@ -39,7 +39,10 @@ La configuracion del ftp tendra estos permisos habilitados:
 > xferlog_enable=YES
 
 - Con esta opción habilitada en el servidor permite al usuario acceder al servidor FTP de forma que no sea necesario la autentificación.
-> Anonymous_enable=YES
+> anonymous_enable=YES
+
+- Con esta opción habilitada en el servidor permitiremos que los usuarios que hayan accedido al servidor FTP de forma anónima puedan subir sus propios archivos al servidor
+> anon_upload_enable=YES
 
 <h1 name="Desarrollo2">4. Desarrollo de las webs</h1>
 
