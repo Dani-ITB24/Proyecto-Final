@@ -161,7 +161,8 @@ De normal las configuraciones de las bases de datos no requieren autenticación 
 
 
 # Docker - A06:2021 Componentes vulnerables y desactualizados
-
+Para poder desarrollar un contenedor vulnerable frente a este ataque, se utilizará una imagen Docker basada en Ubuntu Server 20.04 LTS. Dentro de esta imagen, se configurará un servidor Apache, el cual alojará una página web, un servidor VSFTP el cual presentará ciertas debilidades que se pueden aprovechar para acceder al sistema. El contenedor tendrá software desactualizado y vulnerable frente a ataques que ponen en riesgo el acceso desautorizado con el usuario administrador de la máquina.
+Este contenedor también contará con OpenSSH Server para hacer uso de SSH y poder acceder de manera remota. Además, estará equipada con Wireshark para capturar el tráfico de red en el momento del ataque. Wireshark es una herramienta de análisis de paquetes de red que permite visualizar y analizar el tráfico de red que pasa a través de la interfaz de red del sistema.
 
 # Docker - A10:2021 SSRF
 
