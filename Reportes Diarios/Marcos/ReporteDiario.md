@@ -145,3 +145,9 @@ Durante el dia de hoy he realizado las siguientes tareas:
 - Instalar y configurar wordpress
 
 - Intentar configurar e instalar plugin vulnerable a LFI https://www.exploit-db.com/exploits/40290
+
+# Reporte Diario 14 de Marzo de 2024
+
+- Volver a realizar las tareas del dia anterior ya que es necesario la versión de Wordpress 5.5.1
+
+- Intentar resolver problemas al instalar wordpress de **Error establishing a database connection**
