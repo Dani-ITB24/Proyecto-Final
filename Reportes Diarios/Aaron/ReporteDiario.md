@@ -108,3 +108,8 @@
 - Problema anterior solucionado
 - Busqueda de pluguins vulderables y intentar explotarlos.
 
+## Jueves 14/03/2024
+- Instalación de wordpress 5.5.1 mas el plugin mail-masta para conseguir la vulnerabilidad.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f336d616-d9d1-4f88-bca4-01b9f081553e)
+
