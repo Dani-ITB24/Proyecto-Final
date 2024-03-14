@@ -88,3 +88,7 @@
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
 :white_large_square: Configuración del servidor FTP <br>
+
+## Jueves 7 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+✅ Instalacion del sudo version 1.8.0 <br>
