@@ -6,8 +6,6 @@
 <span style="color:black;">4. [ Desarrollo de las webs](#Desarrollo2)</span><br>
 <span style="color:black;">5. [ Escalado de privilegios](#Escalado)</span><br>
 <span style="color:black;">6. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
-
-
 ---
 
 <br>
