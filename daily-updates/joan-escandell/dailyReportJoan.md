@@ -86,3 +86,22 @@
 - [x] Atacar las vulnerabilidades del contenedor dejando rastro.
 - [x] Hacer commit del contenedor una vez ha sido atacado, con presencia de logs.
 - [x] Documentar procedimiento.
+
+
+# 11/03/2024:
+
+- [x] Conocer el procedimiento para subir imágenes de Docker a GitHub.
+- [x] Hacer pruebas y subir las imágenes de Docker creadas a Docker.
+- [x] Hacer pruebas de su correcto funcionamiento.
+
+# 13/03/2024:
+
+- [x] Buscar posibles CVE que se puedan implementar en la segunda máquina.
+- [x] Descargar y hacer pruebas con diferentes softwares para poder implementar en la segunda máquina.
+- [x] Probar varias opciones de configuraciones apache (diseño de la máquina 2)
+
+# 14/03/2024:
+
+- [x] Buscar otros posibles CVE que se puedan implementar en la segunda máquina. (Algunos no funcionan correctamente)
+- [x] Descargar y hacer pruebas con diferentes softwares para poder implementar en la segunda máquina.
+- [x] Probar varias opciones de configuraciones apache (diseño de la máquina 2) 
