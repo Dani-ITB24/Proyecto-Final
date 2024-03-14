@@ -89,3 +89,18 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
      
 ## 9/03/24 Reporte Diario
 - Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionbar los errors anteriores.
+
+## 11/03/24 Reporte Diario
+- Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionbar los errors anteriores.
+
+- Se a abandonó la idea de instalar cubecart
+
+## 12/03/24 Reporte Diario
+- Se intento instalar un plugin pero sin exito. debido que el plugin es muy antiguo y no está actualizado. 
+
+- Se intento que se ejecutará con el wordpress 8.0 pero se abandonó la idea por cuestione personales.
+
+## 13/03/24 Reporte Diario
+- Se está intentando instalar la version del wordpress 5.0 con versiones php 7.0 con todas sus dependencias.
+
+- El wordpress no me le correctamente la base de datos y tampoco lee bien el archivo wp-config-sample.php e wp-config.php.
