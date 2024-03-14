@@ -92,5 +92,9 @@
 - [X] Configurar servidor FTP para permitir subida de archivos en el contenedor
 - [ ] Intento de conexion utilizando reveresn shell
 
-## Martes 13 de marzo 2024
+## Miercoles 13 de marzo 2024
 - [X] Terminar de configurar el servidor FTP para que sea vulnerable
+
+## Jueves 13 de marzo 2024
+- [X] Pruebas para utilizar una version de sudo desactualizada
+- [ ] Investigar programas y sus versiones desactualizadas
