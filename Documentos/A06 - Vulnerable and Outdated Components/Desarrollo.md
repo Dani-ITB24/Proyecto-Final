@@ -4,8 +4,9 @@
 <span style="color:black;">2. [ Desarrollo del contenedor](#Desarrollo)</span><br>
 <span style="color:black;">3. [ Desarrollo y configuración de FTP](#ftp)</span><br>
 <span style="color:black;">4. [ Desarrollo de las webs](#Desarrollo2)</span><br>
-<span style="color:black;">5. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
-<span style="color:black;">6. [ ](#)</span><br>
+<span style="color:black;">5. [ Escalado de privilegios](#Escalado)</span><br>
+<span style="color:black;">6. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
+
 
 ---
 
@@ -60,7 +61,12 @@ Se ha realizado el desarrollo de un login falso para la página web con la temá
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/style.css.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/tu1millon-web.png)
 
-<h1 name="Problemas">5. Problemas encontrados en el desarrollo</h1>
+<br>
+
+<h1 name="Escalado">5. Escalado de privilegios</h1>
+
+
+<h1 name="Problemas">6. Problemas encontrados en el desarrollo</h1>
 
 Se intentó instalar la versión 2.3.4 de vsftpd para aprovechar la vulnerabilidad [CVE-2011-2523](https://www.exploit-db.com/exploits/49757). Para empezar esta versión no se puede instalar directamente con apt, así que había que descargarla desde github u otro recurso de internet, y posteriormente instalarla. Nos encontramos con fallos al intentar hacer el **make** de esta versión de vsftpd.
 <br>
@@ -72,5 +78,5 @@ Había que añadir "**-lcrypt**" en una línea del makefile de vsftpd para poder
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error2.png)
 
 
-<h1 name="">6. </h1>
+
 
