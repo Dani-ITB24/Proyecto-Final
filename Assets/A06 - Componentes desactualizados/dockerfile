@@ -9,6 +9,8 @@ RUN apt update && \
         apache2 \
         openssh-server \
         iproute2 \
+        make \
+        gcc \
         php \
         php-cli \
         nano \
