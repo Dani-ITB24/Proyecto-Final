@@ -132,8 +132,8 @@
 
 ## Jueves 14 de Marzo 2024:
 
-- [ ] Documentación de desarrollo y trabajo final.
-- [ ] 
+- [X] Documentación de desarrollo y trabajo final.
+- [X] Cambios en el dockerfile para tener una imagen con más herramientas/software.
 
 ## Viernes 15 de Marzo 2024:
 
