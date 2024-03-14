@@ -128,11 +128,11 @@
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/style.css.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/tu1millon-web.png)
 
-- [ ] 
+- [X] Documentación de desarrollo y capturas. 
 
 ## Jueves 14 de Marzo 2024:
 
-- [ ] 
+- [ ] Documentación de desarrollo y trabajo final.
 - [ ] 
 
 ## Viernes 15 de Marzo 2024:
@@ -173,63 +173,81 @@
 # Semana 6 - Probar y documentar:
 ## Lunes 1 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Martes 2 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Miércoles 3 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Jueves 4 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Viernes 5 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 
 # Semana 7 - Aplicar mejoras:
 
 ## Lunes 8 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Martes 9 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Miércoles 10 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Jueves 11 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Viernes 12 de Abril 2024:
 
+- [ ] 
+- [ ] 
 
 # Semana 8 - Creación CTF:
 
 ## Lunes 15 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Martes 16 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Miércoles 17 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Jueves 18 de Abril 2024:
 
-
+- [ ] 
+- [ ] 
 
 ## Viernes 19 de Abril 2024:
+
+- [ ] 
+- [ ] 
 
