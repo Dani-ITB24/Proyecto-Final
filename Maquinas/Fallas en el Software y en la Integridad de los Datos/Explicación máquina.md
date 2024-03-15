@@ -31,10 +31,22 @@ Cuando el atacante tenga acceso a la maquina como **www-data**, deberá ver que 
 
 Para cambiar a este usuario **daniel**, el atacante tendrá que utilizar la contraseña que aparece en wp-config.php ya que esta será una contraseña reutilizada con este usuario, de esta forma el atacante podrá cambiar de usuario a **daniel**.
 
-Una vez el atacante tenga acceso como **daniel**, para escalar de privilegios tendra que abusar de una capabilitie de **vim**.
 
+**//Esto es la explicación antigua**
 
-Una vez tenga acceso con el usuario root, el atacante podrá visualizar el flag de root.txt dentro de /root/, además de obtener acceso completo a toda la maquina.
+Una vez que el atacante haya obtenido acceso como **daniel**, para escalar privilegios, tendrá que aprovechar un permiso SUID de vim. El atacante deberá buscar el permiso SUID utilizando el comando **find**.
+
+Una vez que el atacante haya accedido la ubicación del permiso SUID, deberá ejecutar el siguiente comando para acceder como root: "**./vim -c ':python3 import os; os.execl("/bin/bash", "bash", "-pc", "reset; exec bash -p")'**".
+
+Una vez que el usuario te root, encontrará la flag que está en el directorio **/root/root.txt.**"
+
+**//Esta es explicación pero actualizada de la anterior. Cual os gusta más?**
+
+Cuando el atacante acceda como **daniel** encontrá la flag **user.txt** dentro del **home de daniel**. Ya encontrada la flag el atacante, tendrá que buscar una manera de escalar privilegios con el usuario**daniel**, después de estar buscando el atacante encontrará que puede ejecutar con permiso **SUID** el comando **vim**.
+
+El atacante después de saber esto intentará alguna manera de con vim poder acceder con un bash para esto se va a **gtfobins** a ver si se puede ejecutar una **shell** con **vim**, encuentra el siguiente comando "**./vim -c ':python3 import os; os.execl("/bin/bash", "bash", "-pc", "reset; exec bash -p")'**" para ejecutar una **shell**. 
+
+Una vez que el atacante tenga acceso al usuario **root**, el atacante podrá ver la flag de **root.txt** dentro de **/root/**, además de obtener acceso completo a toda la máquina.
 
 ## Configuración del entorno
 Para configurar el entorno utilizaremos un contenedor Docker con el sistema operativo Ubuntu Server. Los servicios que utilizaremos son:

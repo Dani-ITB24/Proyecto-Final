@@ -109,6 +109,12 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 ## 14/03/24 Reporte Diario
 - Se ha seguido investigando el error anterior pero sin exito.
 - Investigación sobre otra vulnerabilidad para introducir al wordpress por si no se consigue lo del plugin Mail Masta.
-- 
+
+## 15/03/24 Reporte Diario
+- [X] Correción explicación de la maquina de falla en el software
+- [x] Proponer ideas
+- [x] Investigación sobre permiso SUID a vim
+- [x] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
+- [x] Pulido de la maquina.
 
 
