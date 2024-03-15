@@ -391,3 +391,80 @@ La metodología del NIST se basa en un proceso de tres pasos: evaluación del ri
 Se ha intentado garantizar la mejor calidad de las evidencias durante todo este proceso. Sin embargo, dada la situación que ha experimentado la empresa, es crucial prestar mayor atención al control de las actualizaciones y a la seguridad en el diseño del servidor para evitar la recurrencia de este problema. Además, se deben implementar medidas como el cambio periódico de las contraseñas de cada usuario, establecer un límite máximo de intentos y asegurarse de que las contraseñas no sean vulnerables, todo ello con el fin de garantizar la seguridad de la empresa.
 
 5. Biografía y URL
+
+
+
+
+
+
+# Maquina Fallas en el Software y en la Integridad de los Datos
+
+## Creación de la maquina:
+
+- Instalación de docker a nuestro sistema Ubuntu.
+- Creación de cuenta de DockerHub para guardar las imagenes en la nube y poder compartiras con el grupo.
+- Creación acrivo dockerfile:
+  
+FROM marcositb/grupo4_software_failures:versionFinal
+
+// Exponer los puertos necesarios
+
+EXPOSE 80 
+
+// Comando para iniciar los servicios
+
+CMD service apache2 start && service mariadb start
+
+Abrimos un terminal y nos ponemos como sudo(sudo su).
+En la misma ruta donde esta el archivo dockerfile ejecutamos el siguiente comando: docker build -t marcositb/grupo4_software_failures:versionFinal . para crear la imagen.
+Una vez creada la iniciamos haciendo un docker run marcositb/grupo4_software_failures:versionFinal
+Entramos dentro de la maquina haciendo un docker exec -it idContenedor bash.
+Hemos tenido que instalar por nuestra cuenta diferentes herramientas como: vim, wget, cat, etc.
+
+## BASE DE DATOS (mariadb)
+
+Lo primero de todo hacemos un service mariadb start para encender este servicio. 
+Con el comando **mysql** entramos dentro de la configuración de mariadb y crearemos lo siguente:
+
+- Una base de datos llamada wordpress.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/c3fb945a-bf20-47a7-87aa-768d93de38e0)
+
+- Un usuario llamado admin con la contraseña @111wireshark-2.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/35e3af52-afd2-4673-978e-0026900d6f8d)
+
+- Darle permisos a este usuario en la base de datos wordpress.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/62f7f56f-1343-47e1-ade5-d27542f1b257)
+
+- Y para estos cambios se necesita hacer lo siguiente.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/980c4cec-72c4-4cee-a38b-56b58a265022)
+
+  
+## WEB (apache2)
+
+Para la web hemos implementado wordpress-5.5.14 para hacer esta instalación hemos hecho lo siguiente:
+
+- Descargar la version correcta de wordpress con wget.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d5aed03b-6c12-44db-a73a-18b84f1a1232)
+
+- Descomprimir el archivo.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f2f6219c-bfa6-44de-9d9c-b0bbe7fbd1f7)
+
+- La carpeta descomprimida la movemos al directorio /var/www/html.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/c43718ce-f313-4af8-ade7-2319c425a3f9)
+
+- Le damos permisos al www-data sobre esta carpeta.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/4be98b83-25a8-4c40-924c-684c1510a817)
+
+- Por ultimo hacemos una copia del archivo wp-config-sample.php llamada wp-config.php con estos cambios.
+  ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e1b978eb-c583-40f8-a78b-db4bea7d85c5)
+
+
+Al haber creado la tabla y usuario en mariadb, podemos iniciar con wordpress.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/a8098c2e-9f60-4b64-99fb-6324c88257c0)
+
+Y creamos nuestro propio usuario para iniciar sesion.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/1b27e5c6-f15c-48f9-8226-e3c59a21fbfb)
+
+
+
+
