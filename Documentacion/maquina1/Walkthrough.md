@@ -1,70 +1,70 @@
 # Walkthrough
 
-## Reconocimiento 
+## Recognition 
 
-``Comenzamos haciendo un nmap para descubrir los puertos que estan abiertos. Vemos que tiene 3 puertos, ftp, ssh, http. Y vemos que las versiones de los servicios estan actualizadas y no son vulnerables.``
+``We start doing an nmap to discover the ports that are open. We see that it has 3 ports, ftp, ssh, http. And we see that the versions of the services are up to date and are not vulnerable.``
 
 ![](/Assets/walkthrough/2024-03-07_18-19.png)
 
-``Accedemos a la pagina web, para ver si tiene algo interesante.``
+``We access the website, to see if it has anything interesting.``
 
 ![](/Assets/walkthrough/2024-03-07_18-21.png)
 
-``Como no encontramos nada vamos a hacer fuzzing para descubrir subdirectorios ocultos.``
+``As we did not find anything we are going to fuzzing to discover hidden subdirectories.``
 
 ![](/Assets/walkthrough/2024-03-07_18-26.png)
 
-``Encontramos un robots.txt y una carpeta donde se guardan los estilos de css.``
+``We find a robots.txt and a folder where the css styles are stored.``
 
 ![](/Assets/walkthrough/2024-03-07_18-26_1.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-27.png)
 
-``Vamos a ver los estilos css por si tienen algo interesante.``
+``Let's take a look at the css styles in case they have something interesting.``
 
 ![](/Assets/walkthrough/2024-03-07_18-28.png)
 
-``Encontramos la ruta de un posible archivo, así que vamos a buscarlo.``
+``We found the path to a possible file, so let's look for it.``
 
 ![](/Assets/walkthrough/2024-03-07_18-28_1.png)
 
-``Se nos descarga un archivo, que contiene lo siguiente:``
+``A file containing the following is downloaded:``
 
 ![](/Assets/walkthrough/2024-03-07_18-30.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-34.png)
 
-``Si nos decargamos la foto y comprovamos si tiene contenido oculto encotramos esto:``
+``If we download the photo and check if it has hidden content we find this:``
 
 ![](/Assets/walkthrough/2024-03-07_18-41.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-42.png)
 
-``Conseguimos un archivo zip.zip pero tiene contraseña, asi que vamos a crackearlo con la herrameienta jhon.``
+``We got a zip.zip file but it has a password, so we are going to crack it with the jhon tool.``
 
 ![](/Assets/walkthrough/2024-03-07_18-46.png)
 
-``Dentro del zip encontrmos un archivo que nos da una posible ruta, y asi accedemos a ella encontrmos un panel de login para un panel de control.``
+``Inside the zip we find a file that gives us a possible path, and so we access to it we find a login panel for a control panel.``
 
 ![](/Assets/walkthrough/2024-03-07_18-48.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-48_1.png)
 
-``Tras investigar el panel de control encotrmos que no podemos hacer nada, y tampoco podemos hacer fuerzabruta ya que esta bloqueado.``
+``After investigating the control panel we find that we can't do anything, and we can't force-route because it is blocked.``
 
 ![](/Assets/login.jpg)
 
-``Así que vamos a intentar de vulnerar otro servicio:``
+``So we are going to try to breach another service:``
 
 ![](/Assets/walkthrough/2024-03-07_18-56.png)
 
-``Podemos acceder al servidor ftp con el usuario anonymous, y en el encotrmos una archivo con las credenciales del panel de control.``
+``We can access the ftp server with the user anonymous, and in it we find a file with the control panel credentials.``
 
 ![](/Assets/walkthrough/2024-03-07_18-57.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-58.png)
 
-``Una vez en el panel navegamos por la pagina y encotrmos varias cosas interesantes, como un listado de usuarios y tambien una serie de acciones para realizar en el servidor.``
+``Once in the panel we navigate through the page and find several interesting things, such as a list of users and also a series of actions to perform on the server.``
 
 ![](/Assets/walkthrough/2024-03-07_18-58_1.png)
 
@@ -72,25 +72,25 @@
 
 ![](/Assets/walkthrough/2024-03-08_17-33_1.png)
 
-``Todas las acciones estan protegidas con una contrsaña, menos una:``
+``All shares are protected with a password, except one:``
 
 ![](/Assets/walkthrough/2024-03-08_17-34.png)
 
 ![](/Assets/walkthrough/2024-03-08_17-34_1.png)
 
-``Inteceptamos la petición con BurpSuite y vemos que hay un parametro command el cual tiene un comando de la terminal de linux, así que vamos a intentar entrar po ahí.``
+``We accept the request with BurpSuite and we see that there is a command parameter which has a linux terminal command, so let's try to enter there.``
 
 ![](/Assets/walkthrough/2024-03-08_17-36.png)
 
-``Funciona!``
+``It works!``
 
 ![](/Assets/walkthrough/2024-03-08_17-37.png)
 
 
 ![](/Assets/walkthrough/2024-03-08_17-39.png)
 
-## Explotaicón
-``Tras intentar conseguir la reverse shell de distintos modos nada funciona, así que vamos a intentar subir u archivo php con una reverse shell.``
+## Exploitation
+``After trying to get the reverse shell in different ways nothing works, so let's try to upload a php file with a reverse shell.``
 
 ---
 
@@ -100,19 +100,19 @@
 
 ![](/Assets/walkthrough/2024-03-08_17-44.png)
 
-``Ya tenemos el archivo listo, así que creamos un servidor web con python y intentamos copiar el arcchivo.``
+``We already have the file ready, so we create a web server with python and try to copy the arcfile.``
 
 ![](/Assets/walkthrough/2024-03-08_17-51.png)
 
 ![](/Assets/walkthrough/2024-03-08_17-51_1.png)
 
-``Vemos que usando wget el servidor no recibe ninguna peticion, así que vamos a interar otra manera.``
+``We see that using wget the server does not receive any request, so let's try another way.``
 
 ![](/Assets/walkthrough/2024-03-08_17-51_2.png)
 
 ![](/Assets/walkthrough/2024-03-08_17-52.png)
 
-``Al hacerlo con curl si que tenemos la peticion, así que vamos a poner el atacante en escucha y a acceder al archvio malicioso.``
+``By doing it with curl we do have the request, so let's put the attacker on listen and access the malicious file.``
 
 ![](/Assets/walkthrough/2024-03-08_17-53.png)
 
@@ -120,57 +120,57 @@
 
 ![](/Assets/walkthrough/2024-03-08_17-54_1.png)
 
-``Ya estamos dentro.``
+``We are already inside.``
 
 
 ![](/Assets/walkthrough/2024-03-08_17-55.png)
 
-## Post explotación
+## Post exploitation
 
-``Entramos como el usuario www-data, así que vamos a buscar si hay algun binario con suid, y todos parecen normales menos uno que si lo ejecutamos vemos lo siguiente:``
+``We log in as the user www-data, so let's look for any binaries with suid, and they all look normal except for one that if we run it we see the following:``
 
 ![](/Assets/walkthrough/2024-03-08_18-02.png)
 
 ![](/Assets/walkthrough/2024-03-08_18-06.png)
 
-``Si nos copiamos la cadena haxadecimal 20 y la desciframos obtenemos lo que parece una contraseña.``
+``If we copy the haxadecimal string 20 and decrypt it we get what looks like a password.``
 
 ![](/Assets/walkthrough/2024-03-08_18-18.png)
 
 ![](/Assets/walkthrough/2024-03-08_18-22.png)
 
-``Probamos la contaseña y accedemos como bumblebee.``
+``We try the password and log in as bumblebee.``
 
 ![](/Assets/walkthrough/2024-03-08_18-23_1.png)
 
-``Una vez estamos dentro de bumblebee, miramos si podemos encontrar algo.``
+``Once we are inside bumblebee, we look to see if we can find anything.``
 
 ![](/Assets/walkthrough/2024-03-11_16-37.png)
 
-``Encontramos la llave SSH privada.``
+``We found the private SSH key.``
 
 ![](/Assets/walkthrough/2024-03-11_16-38.png)
 
-``Copiamos la llave en documento de texto.``
+``Copy the key into a text document.``
 
 ![](/Assets/walkthrough/2024-03-11_16-41.png)
 
 ![](/Assets/walkthrough/2024-03-11_16-42.png)
 
-``Usamos john para desencriptar la llave SSH.``
+``We use john to decrypt the SSH key.``
 
 ![](/Assets/walkthrough/2024-03-11_16-46.png)
 
-``Usando la contrasenya recientemente encontrada accedemos al ususraio maya por SSh.``
+``Using the newly found password, we access the Mayan user account via SSh.``
 
 ![](/Assets/walkthrough/2024-03-11_16-47.png)
 
-``Una vez en maya buscamos.``
+``Once in Maya we search.``
 
 ![](/Assets/walkthrough/2024-03-11_17-09.png)
 
 ![](/Assets/walkthrough/2024-03-11_17-09_1.png)
 
-``Despues de buscar un poco encontramos la ultima flag.``
+``After some searching we find a SUID of wget and we use it to escalate privileges. Once we are root we get the last flag.``
 
 ![](/Assets/walkthrough/2024-03-11_17-10.png)
