@@ -85,8 +85,8 @@ Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está dispon
     <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo1.png">
 </p>
 
+Así que optamos por descargarnos el código fuente y luego instalarlo. Así que para ello tuvimos que seguir estos comandos para la instalación:
 
-Así optamos por descargarnos el código fuente y luego instalarlo. Así que para ello hemos optado por estos pasos:
 >apt-get install libpam0g-dev <br>
 >apt-get install build-essential <br>
 >tar -zxvf sudo-1.8.0.tar.gz <br>
