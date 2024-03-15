@@ -96,3 +96,8 @@ Así que optamos por descargarnos el código fuente y luego instalarlo. Así que
 >make install <br>
 
 Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin éxito alguno. Así que decidimos comprobar que versión estaba instalada y al comprobarlo vimos la versión correcta.
+
+<p align="center">
+    <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo2.png">
+</p>
+
