@@ -16,16 +16,32 @@ RUN apt update && \
         nano \
         vim \
         x11-utils \
+        default-jdk wget \
         && rm -rf /var/lib/apt/lists/* 
+        
+# Descargar Tomcat 9.0.30
+RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz
+
+# Descomprime el archivo tar.gz
+RUN tar -xzf apache-tomcat-9.0.30.tar.gz
+
+# Mueve el directorio de Tomcat a /opt
+RUN mv apache-tomcat-9.0.30 /opt/tomcat
+
+#Iniciamos servicios SSH, Apache y FTP
+RUN service ssh start
+RUN service vsftpd start
+RUN service apache2 start
 
 # Exponer puerto 80 para apache, 22 para SSH y 20 y 21 para FTP
 EXPOSE 80
 EXPOSE 22
 EXPOSE 21
 EXPOSE 20
+EXPOSE 8080
 
-# Estartear el servicio de apache y SSH
-CMD service ssh start && service vsftpd start && apache2ctl -D FOREGROUND
+# Inicia Tomcat
+CMD ["/opt/tomcat/bin/catalina.sh", "run"]
 
 # Establece la variable de entoro DISPLAY para que apunte al servidor X del sistema
 ENV DISPLAY=:0
