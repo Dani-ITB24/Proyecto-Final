@@ -139,7 +139,7 @@
 
 - [X] Reunión grupal, evaluación del trabajo de la primera semana.
 - [X] Búsqueda de escalada de privilegios con el ataque A06: Componentes vulnerables y desactualizados.
-
+- [X] Investigación sobre Apache Struts 2. 
 
 
 # Semana 5 - Preparación máquina 2:
