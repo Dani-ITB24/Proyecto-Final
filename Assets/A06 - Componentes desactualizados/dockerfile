@@ -17,6 +17,7 @@ RUN apt update && \
         vim \
         x11-utils \
         default-jdk wget \
+        sudo \
         && rm -rf /var/lib/apt/lists/* 
         
 # Descargar Tomcat 9.0.30
