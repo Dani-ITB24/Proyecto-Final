@@ -79,7 +79,11 @@ Había que añadir "**-lcrypt**" en una línea del makefile de vsftpd para poder
 También se ha intentado instalar una versión antigua de sudo para la vulnerabilidad de la máquina [CVE-2023-22809](https://s2grupo.es/vulnerabilidad-de-sudo-cve-2023-22809/). Para instalar esta versión de sudo intentamos usar este código:
 > apt-get install sudo=1.8.0*
 
-Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está disponible en los repositorios de paquetes.
+Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está disponible.
+
+<p align="center">
+    <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo1.png">
+</p>
 
 
 Así optamos por descargarnos el código fuente y luego instalarlo. Así que para ello hemos optado por estos pasos:
