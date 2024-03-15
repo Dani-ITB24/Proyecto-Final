@@ -113,3 +113,8 @@
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f336d616-d9d1-4f88-bca4-01b9f081553e)
 
+## Viernes 15/03/2024
+
+- Creación de usuario para subir de privilegios desdes www-data.
+- Puesta en prueba la vulnerabilidad mail-masta.
+- Explicación de como se ha creado la maquina, que se ha implementado y porque.
