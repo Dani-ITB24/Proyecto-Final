@@ -151,3 +151,7 @@ Durante el dia de hoy he realizado las siguientes tareas:
 - Volver a realizar las tareas del dia anterior ya que es necesario la versión de Wordpress 5.5.1
 
 - Intentar resolver problemas al instalar wordpress de **Error establishing a database connection**
+
+# Reporte Diario 15 de Marzo de 2024
+
+- Finalizar con la explicación y planteamiento de la maquina de fallas en el software y en la integridad de los datos, despues de los cambios finales en la maquina.
