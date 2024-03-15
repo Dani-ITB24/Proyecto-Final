@@ -467,4 +467,7 @@ Y creamos nuestro propio usuario para iniciar sesion.
 
 
 
+## Que vulnerabilidades hemos hecho y como las hemos implementado:
+
+Para empezar el wordpress instalado es una version antigua la cual tiene acceso a plugins antiguos y vulnerables.
 
