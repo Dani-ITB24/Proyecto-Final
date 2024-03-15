@@ -88,7 +88,7 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/99e6f923-e8f5-4d48-8651-f42783642da1)
      
 ## 9/03/24 Reporte Diario
-- Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionbar los errors anteriores.
+- Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionar los errores anteriores.
 
 ## 11/03/24 Reporte Diario
 - Se a intentado de todas las maneras instalar cubecart5.0 pero no se ha podido, a pesar de solucionbar los errors anteriores.
@@ -96,7 +96,7 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - Se a abandonó la idea de instalar cubecart
 
 ## 12/03/24 Reporte Diario
-- Se intento instalar un plugin pero sin exito. debido que el plugin es muy antiguo y no está actualizado. 
+- Se intento instalar un plugin Mail Masta 1.0 pero sin exito. debido que el plugin es muy antiguo y no está actualizado. 
 
 - Se intento que se ejecutará con el wordpress 8.0 pero se abandonó la idea por cuestione personales.
 
@@ -104,3 +104,11 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - Se está intentando instalar la version del wordpress 5.0 con versiones php 7.0 con todas sus dependencias.
 
 - El wordpress no me le correctamente la base de datos y tampoco lee bien el archivo wp-config-sample.php e wp-config.php.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/cbd58bc0-7db5-4e43-a2b2-a72858a5fbf6)
+
+## 14/03/24 Reporte Diario
+- Se ha seguido investigando el error anterior pero sin exito.
+- Investigación sobre otra vulnerabilidad para introducir al wordpress por si no se consigue lo del plugin Mail Masta.
+- 
+
+
