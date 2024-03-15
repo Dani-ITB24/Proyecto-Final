@@ -109,7 +109,7 @@
 # Miércoles 13 de marzo 2024:
 
 - [x] Planteamiento del segundo contenedor
-- [x] Comienzo de planteamiento de la vulnerabilidad relacionadas con el riesgo principal
+- [x] Comienzo de planteamiento de la vulnerabilidad relacionada con el riesgo principal
 - [x] Búsqueda de vulnerabilidades de 2023 en adelante
 
 # Jueves 14 de marzo 2024:
@@ -118,3 +118,10 @@
 - [x] Planteamiento de la vulnerabilidad relacionadas con el riesgo principal
 - [x] Búsqueda de vulnerabilidades de 2023 en adelante
 - [x] Comienzo de recreación de una vulnerabilidad
+
+# Viernes 15 de marzo 2024:
+
+- [x] Planteamiento del segundo contenedor
+- [x] Planteamiento de la vulnerabilidad relacionada con el riesgo principal
+- [x] Búsqueda de vulnerabilidades de 2023 en adelante
+- [x] Finalización (fallida) de recreación de una vulnerabilidad
