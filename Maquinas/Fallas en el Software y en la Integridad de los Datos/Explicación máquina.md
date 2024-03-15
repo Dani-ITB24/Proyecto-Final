@@ -4,12 +4,8 @@
 Esta máquina está específicamente diseñada para explotar la vulnerabilidad ***A08:2021 – Fallas en el Software y en la Integridad de los Datos*** y otras vulnerabilidades.
 
 ## Planteamiento
-Para cumplir con este objetivo, la máquina alojará varios servicios como **FTP**, **MySQL** y **Apache** que alojarán la plataforma de **Wordpress**.
+Para cumplir con este objetivo, la máquina alojará varios servicios como **MySQL** y **Apache** que alojarán la plataforma de **Wordpress**.
 Estos servicios se encontrarán expuestos externamente para que cuando el atacante realice un reconocimiento pueda detectarlos.
-
-El servicio **FTP** podrá ser accesible de forma anónima pero no vera ni podra hacer nada, sera para despistar.
-
-El servicio de **SSH** no tendrá ninguna función más que despistar al atacante.
 
 El servicio de **MariaDB** tendrá la función de almacenar usuarios en la BBDD.
 
@@ -30,7 +26,6 @@ Obteniendo el acceso a root podremos visualizar la flag de root.txt dentro de /r
 ## Configuración del entorno
 Para configurar el entorno utilizaremos un contenedor Docker con el sistema operativo Ubuntu Server. Los servicios que utilizaremos son:
 
-- **FTP**: *vsftpd* version 3.0.3 --> Para transferencia de archivos.
 - **HTTP**: *Apache 2.4.58* --> Para el servidor web.
 - **MySQL**: *MySQL 2.1.0* --> Para las bases de datos
  
