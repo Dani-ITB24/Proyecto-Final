@@ -151,3 +151,11 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 - Hemos montado el recurso compartido en la mquina para tener acceso a el
 
 ![](/ReportesDiarios/Jordi/img/mount.jpg)
+
+
+# Reporte 14 de marzo de 2024
+
+- Correciones de la mquina uno
+    - Elimiar nuestros nombre y habilitar los servicios
+
+- Busqueda de movimientos laterales para la maquina 2.
