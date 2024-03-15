@@ -11,7 +11,7 @@ El servicio **FTP** podrá ser accesible de forma anónima pero no vera ni podra
 
 El servicio de **SSH** no tendrá ninguna función más que despistar al atacante.
 
-El servicio de **MySQL** tendrá la función de almacenar usuarios en la BBDD.
+El servicio de **MariaDB** tendrá la función de almacenar usuarios en la BBDD.
 
 El servicio de apache alojará la plataforma de **Wordpress** que es una plataforma para montar paginas web online. 
 Esta plataforma de **Wordpress** dispondrá de plugins como  **mail-masta 1.0**, la cual es vulnerable a **Fallas en el Software y en la Integridad de los Datos**. 
@@ -20,7 +20,7 @@ Esta vulnerabilidad consiste en abusar del método file inclusion y SQL Injectio
 
 A través de esta vulnerabilidad se puede encontrar un fichero con codigo base64 que el atacante puede descodificar y ver usuario y contraseña de wordpress, una vez dentro de wordpress el atacante tendra que modificar una de las paginas para hacer una reverse shell en php a su propio equipo obteniendo acceso al sistema como www-data.
 
-En este usuario se podrá visualizar la flag de user.txt dentro de /var/www/.
+www-data podra ver el fichero /etc/passwd, y saber que usuario existen en el sistema. En el sistema hay un usuario llamado daniel, que tendra la contraseña de admin que se encuentra en wp-config.php.
 
 Este usuario tendrá un permiso de SUID en chmod que tenga como propietario a root, de esta forma el usuario podrá abusar de este permiso SUID y escalar privilegios al usuario root,
 comprometiendo totalmente la máquina y disponiendo de permisos y acceso total.
