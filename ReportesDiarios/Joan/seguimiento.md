@@ -127,3 +127,18 @@
 
 - Configuración de los puertos de los servicios para que solo se vean en local host
     - Hemos hecho que algunos servicios solo sean accesibles desde localhost y para ello hemos utilizado la herramienta chisel
+
+## Jueves 14/03/2024
+
+- Seguimiento presencial en grail
+
+## Viernes 15/03/2024
+
+- Modificaciones de máquina uno.
+    - La máquina no iniciaba los servicios automáticamente al iniciar y lo hemos corregido, también hemos quitado nuestros nombres de la máquina.
+
+- Traducción del walkthrough
+    Hemos traducido el walkthrough de español a inglés.
+
+- Búsqueda de movimiento lateral y escalada de privilegios
+    - Hemos estado buscando formas más complicadas de poder hacer movimieto lateral y escalada de privilegios en la segunda máquina.
