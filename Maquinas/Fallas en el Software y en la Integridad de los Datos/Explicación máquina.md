@@ -4,30 +4,43 @@
 Esta máquina está específicamente diseñada para explotar la vulnerabilidad ***A08:2021 – Fallas en el Software y en la Integridad de los Datos*** y otras vulnerabilidades.
 
 ## Planteamiento
-Para cumplir con este objetivo, la máquina alojará varios servicios como **MySQL** y **Apache** que alojarán la plataforma de **Wordpress**.
+Para cumplir con este objetivo, la máquina alojará varios servicios como **MariaDB** y **Apache** que alojarán el gestor de contenido de **Wordpress**.
 Estos servicios se encontrarán expuestos externamente para que cuando el atacante realice un reconocimiento pueda detectarlos.
 
-El servicio de **MariaDB** tendrá la función de almacenar usuarios en la BBDD.
+El servicio de **MariaDB** tendrá la función de almacenar los usuarios e información necesaria de Wordpress en la BBDD.
 
-El servicio de apache alojará la plataforma de **Wordpress** que es una plataforma para montar paginas web online. 
-Esta plataforma de **Wordpress** dispondrá de plugins como  **mail-masta 1.0**, la cual es vulnerable a **Fallas en el Software y en la Integridad de los Datos**. 
+El servicio de **apache** alojará el gestor de contenido de **Wordpress** que es una plataforma para diseñar paginas web online de forma sencilla.
 
-Esta vulnerabilidad consiste en abusar del método file inclusion y SQL Injection
+El gestor de contenido de **Wordpress** tendrá la versión **5.5.14** y dispondrá del plugin [**mail-masta 1.0**](https://www.exploit-db.com/exploits/50226), este plugin es vulnerable a **Local File Inclusion** a través de un parametro en la URL.
 
-A través de esta vulnerabilidad se puede encontrar un fichero con codigo base64 que el atacante puede descodificar y ver usuario y contraseña de wordpress, una vez dentro de wordpress el atacante tendra que modificar una de las paginas para hacer una reverse shell en php a su propio equipo obteniendo acceso al sistema como www-data.
+****
 
-www-data podra ver el fichero /etc/passwd, y saber que usuario existen en el sistema. En el sistema hay un usuario llamado daniel, que tendra la contraseña de admin que se encuentra en wp-config.php.
+Para comenzar el atacante realizará un reconocimiento de los servicios expuestos por la maquina, y de primeras solo podrá ver los servicios de **apache** y **mariaDB**.
 
-Este usuario tendrá un permiso de SUID en chmod que tenga como propietario a root, de esta forma el usuario podrá abusar de este permiso SUID y escalar privilegios al usuario root,
-comprometiendo totalmente la máquina y disponiendo de permisos y acceso total.
+Cuando el atacante se ponga a revisar la web verá que se trata de una web hecha con **Wordpress**, el atacante se pondra realizar FUZZING para descubrir subdirectorios ocultos, pero no encontrará nada.
 
-Obteniendo el acceso a root podremos visualizar la flag de root.txt dentro de /root/.
+Para encontrar la vulnerabilidad el atacante deberá utilizar la herramienta de **wpscan** para saber más información acerca de que plugins y configuraciones tiene Wordpress, de esta forma encontrará que existe un plugin con nombre de **mail-masta 1.0**.
+
+Cuando se ponga a buscar vulnerabilidades sobre este plugin verá que puede realizar un LFI, el cual deberá usar para apuntar al fichero de wp-config.php del propio Wordpress, esto se tendrá que realizar utilizando el wrapper de base64 encode, para que la pagina web no interprete el codigo PHP y solo lo muestre por pantalla en base64.
+
+Este texto en base64 será el contenido de wp-config.php y aqui se verá almacenado el usuario y contraseña del usuario **alfredo** que es administrador en **Wordpress**.
+
+Una vez se tenga acceso como administrador en wordpress el atacante podrá modificar cualquier archivo **.php** para poder introducir codigo en **PHP** y ejecutarse una reverse shell.
+
+Cuando el atacante tenga acceso a la maquina como **www-data**, deberá ver que usuarios existen dentro del sistema y encontrara al usuario **daniel**.
+
+Para cambiar a este usuario **daniel**, el atacante tendrá que utilizar la contraseña que aparece en wp-config.php ya que esta será una contraseña reutilizada con este usuario, de esta forma el atacante podrá cambiar de usuario a **daniel**.
+
+Una vez el atacante tenga acceso como **daniel**, para escalar de privilegios tendra que abusar de una capabilitie de **vim**.
+
+
+Una vez tenga acceso con el usuario root, el atacante podrá visualizar el flag de root.txt dentro de /root/, además de obtener acceso completo a toda la maquina.
 
 ## Configuración del entorno
 Para configurar el entorno utilizaremos un contenedor Docker con el sistema operativo Ubuntu Server. Los servicios que utilizaremos son:
 
-- **HTTP**: *Apache 2.4.58* --> Para el servidor web.
-- **MySQL**: *MySQL 2.1.0* --> Para las bases de datos
+- **HTTP**: *Apache 2.4.52* --> Para el servidor web.
+- **MariaDB**: *MariaDB 10.6.16* --> Para las bases de datos
  
 ## Pasos a seguir
 
