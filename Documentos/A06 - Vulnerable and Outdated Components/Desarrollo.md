@@ -83,12 +83,12 @@ Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está dispon
 
 
 Así optamos por descargarnos el código fuente y luego instalarlo. Así que para ello hemos optado por estos pasos:
->apt-get install libpam0g-dev
->apt-get install build-essential
->tar -zxvf sudo-1.8.0.tar.gz
->cd sudo-1.8.0
->./configure
->make
->make install
+>apt-get install libpam0g-dev <br>
+>apt-get install build-essential <br>
+>tar -zxvf sudo-1.8.0.tar.gz <br>
+>cd sudo-1.8.0 <br>
+>./configure <br>
+>make <br>
+>make install <br>
 
 Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin éxito alguno. Así que decidimos comprobar que versión estaba instalada y al comprobarlo vimos la versión correcta.
