@@ -63,6 +63,9 @@
 ## Dimecres 13-03-24-
 - Recerca i organitzacio per la segona ctf
 
+## Divendres 15-03-24-
+- Recerca per la ctf
+
   
 
   
