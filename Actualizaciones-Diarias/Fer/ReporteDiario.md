@@ -89,6 +89,11 @@
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
 :white_large_square: Configuración del servidor FTP <br>
 
-## Jueves 7 de marzo 2024
+## Jueves 14 de marzo 2024
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Instalacion del sudo version 1.8.0 <br>
+
+## Viernes 15 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+✅ Buscar aplicaciones vulnerables <br>
+:white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
