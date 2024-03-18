@@ -125,3 +125,9 @@
 - [x] Planteamiento de la vulnerabilidad relacionada con el riesgo principal
 - [x] Búsqueda de vulnerabilidades de 2023 en adelante
 - [x] Finalización (fallida) de recreación de una vulnerabilidad
+
+# Lunes 18 de marzo 2024:
+
+- [x] Planteamiento de la vulnerabilidad relacionada con el riesgo principal
+- [x] Búsqueda de vulnerabilidades de 2023 en adelante
+- [x] Recreación correcta de una vulnerabilidad 
