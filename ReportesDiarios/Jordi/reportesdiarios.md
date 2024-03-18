@@ -159,3 +159,15 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
     - Elimiar nuestros nombre y habilitar los servicios
 
 - Busqueda de movimientos laterales para la maquina 2.
+
+
+# Reporte 15 de marzo de 2024
+
+- Traduccion.
+
+- Busqueda de ideas para movimiento lateral.
+
+
+# Reporte 18 de marzo de 2024
+
+- Hemos intentado implemantar movimeinto lateral por medio de un script en python, jugando con las librerias.
