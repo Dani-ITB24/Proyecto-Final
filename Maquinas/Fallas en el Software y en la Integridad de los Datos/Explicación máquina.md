@@ -33,7 +33,7 @@ Para cambiar a este usuario **daniel**, el atacante tendrá que utilizar la cont
 
 Cuando el atacante acceda como **daniel** encontrá la flag **user.txt** dentro del **home de daniel**. Ya encontrada la flag el atacante, tendrá que buscar una manera de escalar privilegios con el usuario **daniel**, después de estar buscando el atacante encontrará que puede ejecutar con permiso **SUID** el comando **vim**.
 
-El atacante después de saber esto intentará alguna manera de con vim poder acceder con un bash para esto se va a **gtfobins** a ver si se puede ejecutar una **shell** con **vim**, encuentra el siguiente comando "**./vim -c ':python3 import os; os.execl("/bin/bash", "bash", "-pc", "reset; exec bash -p")'**" para ejecutar una **shell** como **root**. 
+El atacante después de saber esto intentará alguna manera de con vim poder acceder con un bash para esto se va a **gtfobins** a ver si se puede ejecutar una **shell** con **vim**, encuentra el siguiente comando "**vim -c ':python3 import os; os.execl("/bin/bash", "bash", "-pc", "reset; exec bash -p")'**" para ejecutar una **shell** como **root**. 
 
 Una vez que el atacante tenga acceso al usuario **root**, el atacante podrá ver la flag de **root.txt** dentro de **/root/**, además de obtener acceso completo a toda la máquina.
 
