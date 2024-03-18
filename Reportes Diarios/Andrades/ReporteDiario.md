@@ -114,7 +114,13 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [X] Correción explicación de la maquina de falla en el software
 - [x] Proponer ideas
 - [x] Investigación sobre permiso SUID a vim
-- [x] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
+- [ ] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
 - [x] Pulido de la maquina.
+
+## 15/03/24 Reporte Diario
+- [X] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
+- [X] Finalización de la pagina final
+- [ ] redación de la documentación final sobre la vuelnerabilidad de SUID
+ 
 
 
