@@ -470,4 +470,45 @@ Y creamos nuestro propio usuario para iniciar sesion.
 ## Que vulnerabilidades hemos hecho y como las hemos implementado:
 
 Para empezar el wordpress instalado es una version antigua la cual tiene acceso a plugins antiguos y vulnerables.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e642e773-5566-44ac-848a-d04c726f5f1f)
+
+Gracias a esta versión podemos instalar el pluguin mail-masta 1.0 que en la version mas nueva no podiamos.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/fe89801a-ff4d-46af-90c3-5955dc64069d)
+
+Con este plugin el atacante puede hacer **Local File Inclusion** como usuario www-data.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/0db1b213-51c1-48fc-830a-dac5af61384d)
+
+Una vez en este punto el atacante tiene que pensar que archivos de wordpress pueden contener informacion de usuarios o pistas para poder acceder dendro de wordpress.
+Este archivo se llama wp-config.php, pero no puede visualizarlo haciendo local file inclusion tal cual, tiene que codificarlo como base64 para poder visualizarlo por web.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/5eb4512d-bd11-45e6-ae6c-b7d9ea20f9da)
+
+Una vez con este codigo en base64 lo copiamos y pegamos en un archivo php creado en la maquina atacante.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/ae0f4bc0-1849-4a89-8c2a-e367f9439dfe)
+
+Y hacermos un cat de este archivo descodificandolo, para que se pueda visualizar el contenico.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/9c3a3a63-61db-4ab2-8b48-e4dac57edf19)
+
+El atacante ya puede ver que existen dos usuarios y dos contraseñas distintsas en este archivo.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/81b23301-5eec-4f03-9d88-c0834fb956cf)
+
+Probara a entrar con las dos, aceptandole la entrada con el usuario alfredo y su contraseña.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/0bce1624-d670-4e50-93ba-6cd55ebce6f2) ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/fcfb5788-01de-42cd-b7a3-3586c0d473ea)
+
+Una vez dentro del worpress, el atacante tendra que acceder al editor de temas para cambiar uno de los codigos web a una reverse shell php.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/62fb2c38-d9a2-454e-a317-7b2971d0bd32)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/c1bec3a7-79e1-4ae6-a9b8-1f8dcd440ba3)
+
+Buscamos esta pagina para que se ejecute este codigo dentro del servidor, nos ponemos en escucha para que nos llegue la respuesta y estaremos dentro como www-data.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/170f30cd-e4c9-43e8-8e83-12ecc60ee009)
+
+Una vez dentro, si anteriormente ya se visualizo este archivo o si no se visualiza ahora: Vemos que existe un usuario daniel.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/6d73b255-fbe4-4d05-8cda-3fee15baf1b8)
+
+Con el usuario www-data no puede acceder a daniel escalando permisos o encontrando pistas, porque la contraseña ya la tenemos de un anteror paso. En el archivo wp-config.php habian dos usuarios y dos contraseñas, con un usuario y una contraseña entras a wordpress y utilizando la otra contraseña entras como daniel.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/09d6096c-91b5-46c4-95c1-b0fad356779a)
+
+Aqui probamos la contraseña y vemos que funciona.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/08135818-990f-400c-a664-0c80917ad540)
+
+
 
