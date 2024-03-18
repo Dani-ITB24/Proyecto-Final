@@ -499,15 +499,18 @@ Una vez dentro del worpress, el atacante tendra que acceder al editor de temas p
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/c1bec3a7-79e1-4ae6-a9b8-1f8dcd440ba3)
 
 Buscamos esta pagina para que se ejecute este codigo dentro del servidor, nos ponemos en escucha para que nos llegue la respuesta y estaremos dentro como www-data.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/170f30cd-e4c9-43e8-8e83-12ecc60ee009)
 
 Una vez dentro, si anteriormente ya se visualizo este archivo o si no se visualiza ahora: Vemos que existe un usuario daniel.
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/6d73b255-fbe4-4d05-8cda-3fee15baf1b8)
 
 Con el usuario www-data no puede acceder a daniel escalando permisos o encontrando pistas, porque la contraseña ya la tenemos de un anteror paso. En el archivo wp-config.php habian dos usuarios y dos contraseñas, con un usuario y una contraseña entras a wordpress y utilizando la otra contraseña entras como daniel.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/09d6096c-91b5-46c4-95c1-b0fad356779a)
 
 Aqui probamos la contraseña y vemos que funciona.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/08135818-990f-400c-a664-0c80917ad540)
 
 
