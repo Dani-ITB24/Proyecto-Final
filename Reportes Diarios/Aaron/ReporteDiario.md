@@ -118,3 +118,7 @@
 - Creación de usuario para subir de privilegios desdes www-data.
 - Puesta en prueba la vulnerabilidad mail-masta.
 - Explicación de como se ha creado la maquina, que se ha implementado y porque.
+
+## Lunes 18/03/2024
+
+- Explicación de las vulnerabilidades que he implementado y como explotarlas.
