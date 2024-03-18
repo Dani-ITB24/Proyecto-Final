@@ -142,3 +142,8 @@
 
 - Búsqueda de movimiento lateral y escalada de privilegios
     - Hemos estado buscando formas más complicadas de poder hacer movimieto lateral y escalada de privilegios en la segunda máquina.
+
+## Lunes 18/03/2023
+
+- Nueva forma de hacer movimiento lateral en la segunda máquina
+    - Hemos creado un script en python importando diferentes librerías y la idea es que se pueda hacer movimiento lateral aprovechando el path de ejecución de python, aún no lo hemos terminado de implementar.
