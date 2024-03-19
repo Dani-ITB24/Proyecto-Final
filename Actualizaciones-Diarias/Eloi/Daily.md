@@ -98,3 +98,12 @@
 ## Jueves 13 de marzo 2024
 - [X] Pruebas para utilizar una version de sudo desactualizada
 - [ ] Investigar programas y sus versiones desactualizadas
+
+## Viernes 14 de marzo 2024
+- [X] Instalacion de programas necesarios en el contendor 
+- [X] Comporbacion de vulnerabilidades del contenedor
+
+## Lunes 18 de marzo 2024
+- [X] Pruebas para montar contenedor completo
+
+## Martes 19 de marzo 2024
