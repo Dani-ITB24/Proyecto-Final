@@ -451,7 +451,6 @@ Tenemos los siguientes logs en nuestro docker:
 
 # [Contenedor Numero 2 Fallas de Identificación y Autenticación](#índice)
 
-## Planteamiento y Componentes
 
 El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. 
 
