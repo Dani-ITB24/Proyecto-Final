@@ -122,3 +122,7 @@
 ## Lunes 18/03/2024
 
 - Explicación de las vulnerabilidades que he implementado y como explotarlas.
+
+## Martes 19/03/2024
+
+- Documentación de explotación de la maquina como si fuera atacante.
