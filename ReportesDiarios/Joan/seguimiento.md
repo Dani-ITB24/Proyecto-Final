@@ -147,3 +147,14 @@
 
 - Nueva forma de hacer movimiento lateral en la segunda máquina
     - Hemos creado un script en python importando diferentes librerías y la idea es que se pueda hacer movimiento lateral aprovechando el path de ejecución de python, aún no lo hemos terminado de implementar.
+![](/ReportesDiarios/Joan/img/2024-03-19_18-15.png)
+
+## Martes 19/03/2024
+
+- Continuación de creación del movimiento lateral para la segunda máquina
+    - Hemos seguido intentando hacer el movimiento lateral en la segunda máquina, pero hemos tenido bastantes complicaciones para poder realizarlo. Hemos estado casi todas las horas intentando solucionar los errores.
+![](/ReportesDiarios/Joan/img/2024-03-19_17-42.png)
+
+- Configuración de los permisos correctamente
+    - Finalmente hemos podido solucionar los errores que nos daba python con los permisos y hemos podido cambiar de usuario abusando del script mencionado el día de ayer.
+![](/ReportesDiarios/Joan/img/2024-03-19_18-23.png)
