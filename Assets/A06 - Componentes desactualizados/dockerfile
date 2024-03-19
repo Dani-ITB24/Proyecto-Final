@@ -1,48 +1,38 @@
 FROM ubuntu:20.04 as base
 
-# Actualizar y descargar paquetes 
-RUN apt update && \
-        DEBIAN_FRONTEND=noninteractive apt-get install -y \
-        wireshark \
-        vsftpd \ 
-        ftp \
-        apache2 \
-        openssh-server \
-        iproute2 \
-        make \
-        gcc \
-        php \
-        php-cli \
-        nano \
-        vim \
-        x11-utils \
-        default-jdk wget \
-        sudo \
-        && rm -rf /var/lib/apt/lists/* 
-        
+# Actualizar e instalar paquetes necesarios
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    wireshark \
+    vsftpd \
+    apache2 \
+    openssh-server \
+    iproute2 \
+    make \
+    gcc \
+    php \
+    php-cli \
+    nano \
+    vim \
+    x11-utils \
+    default-jdk \
+    wget \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
 # Descargar Tomcat 9.0.30
-RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz
+RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz && \
+    tar -xzf apache-tomcat-9.0.30.tar.gz && \
+    mv apache-tomcat-9.0.30 /opt/tomcat && \
+    rm apache-tomcat-9.0.30.tar.gz
 
-# Descomprime el archivo tar.gz
-RUN tar -xzf apache-tomcat-9.0.30.tar.gz
+# Exponer puertos: 80 para Apache, 22 para SSH, 20 y 21 para FTP, 8080 para Tomcat
+EXPOSE 80 22 20 21 8080
 
-# Mueve el directorio de Tomcat a /opt
-RUN mv apache-tomcat-9.0.30 /opt/tomcat
+# Copiar script de inicio personalizado
+COPY start_services.sh /usr/local/bin/start_services.sh
 
-#Iniciamos servicios SSH, Apache y FTP
-RUN service ssh start
-RUN service vsftpd start
-RUN service apache2 start
-
-# Exponer puerto 80 para apache, 22 para SSH y 20 y 21 para FTP
-EXPOSE 80
-EXPOSE 22
-EXPOSE 21
-EXPOSE 20
-EXPOSE 8080
-
-# Inicia Tomcat
-CMD ["/opt/tomcat/bin/catalina.sh", "run"]
-
-# Establece la variable de entoro DISPLAY para que apunte al servidor X del sistema
-ENV DISPLAY=:0
+# Establecer permisos y ejecutar el script al iniciar el contenedor
+RUN chmod +x /usr/local/bin/start_services.sh
+CMD ["start_services.sh"]
+#RUN /usr/local/bin/start_services.sh
