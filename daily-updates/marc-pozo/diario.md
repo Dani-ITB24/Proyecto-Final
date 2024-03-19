@@ -131,3 +131,8 @@
 - [x] Planteamiento de la vulnerabilidad relacionada con el riesgo principal
 - [x] Búsqueda de vulnerabilidades de 2023 en adelante
 - [x] Recreación correcta de una vulnerabilidad 
+
+# Martes 19 de marzo 2024:
+
+- [x] Replanteamiento del CTF
+- [x] Intento fallido de recreación de la vulnerabilidad del día anterior en el contenedor
