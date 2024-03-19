@@ -150,8 +150,8 @@
 
 ## Martes 19 de Marzo 2024:
 
-- [ ] 
-- [ ] 
+- [X] Correcciones y nuevos cambios en la máquina. 
+- [X] Documentación.
 
 ## Miércoles 20 de Marzo 2024:
 
