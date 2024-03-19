@@ -151,7 +151,7 @@ Investigamos para hacer un find para ver si tenemos algun permiso como root, y v
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/2e1f8475-f132-4314-9f64-94925e63e181)
 
-Buscamos por nustro navegador en GTFOBins para ver como hacer el SUID de vim.
+Buscamos por nustro navegador en GTFOBins para ver como hacer el SUID de vim, cambiando py por python3.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/2aff246c-8577-4e6e-af73-c13e473c551a)
 
