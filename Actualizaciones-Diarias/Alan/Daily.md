@@ -146,8 +146,7 @@
 
 ## Lunes 18 de Marzo 2024:
 
-- [ ] 
-- [ ] 
+- [X] Búsqueda de escalada de privilegios con el ataque A06: Componentes vulnerables y desactualizados. 
 
 ## Martes 19 de Marzo 2024:
 
