@@ -102,3 +102,5 @@
 Falta
 
 ## Martes 19 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+:white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
