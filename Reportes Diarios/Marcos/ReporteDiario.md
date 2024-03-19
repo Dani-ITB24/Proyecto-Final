@@ -159,3 +159,7 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 18 de Marzo de 2024
 
 - Realizar el diseño de la pagina web.
+
+# Reporte Diario 19 de Marzo de 2024
+
+- Revisión de la documentación final de la maquina de fallas en el software.
