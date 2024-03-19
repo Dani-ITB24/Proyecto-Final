@@ -99,6 +99,7 @@ Ya podemos ver bien este archivo, y he descubierto dos usuarios y dos contraseñ
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/f1caafb9-fa6a-4bd5-8e34-b81ae9fe88d5)
 
 Las apuntamos en el fichero txt para guardar culquier pista.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/78056615-92a7-47da-bb27-d475ba76b27b)
 
 Buscamos hacer login en wordpress, que es poniendo en nuestro navegador detras de wordpress /wp-login.php.
@@ -110,12 +111,14 @@ Probamos con admin y su contraseña pero no funciona. Ahora prbamos con alfredo 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/3984d646-0a74-49fe-bb23-07d1ced3c998)
 
 Tenemos control total del wordpress, una vez aqui dentro podemos ver plugins, cambiar paginas, y lo que utilizaremos sera el editor de temas para poder hacer una reverse shell.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/24488e10-9fb2-4116-b577-d68a72fb7593)
 
 Elegimos una pagina facil de encontrar por ejemplo el footer.php que podemos editar el codigo fuente de esta pagina desde aqui.
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/105ba433-06d3-4630-97dc-33c8034104ef)
 
 Borramos el codigo que viene por defecto y lo cambiamos por una reverse shell en php. Cambiamos la ip por la nuestra y el puerto que queramos.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/4e312f9f-6e7e-461f-bc38-787af6f8d763)
 
 Actualizamos el archivo, para que quede guardado.
@@ -130,6 +133,7 @@ En nuestro navegador buscamos esta pagina editad, para ejecutar el codigo cambia
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/2c613480-20f2-4b5d-a7aa-e00a0fecb5a4)
 
 Investigando el usuario www-data no tiene acceso a nada ni hay ninguna pista, lo unico que sabemos e sque hay un usuario llamado daniel. visto anteriormente en /etc/passwd.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e28ceda4-4d86-4033-b3bc-d3197162a9d1)
 
 Lo unico que nos queda es probnar las contraseñas acumuladas anteriormente, si con suerte una de estas es la de daniel.
