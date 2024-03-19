@@ -107,3 +107,5 @@
 - [X] Pruebas para montar contenedor completo
 
 ## Martes 19 de marzo 2024
+- [X] Crear contenedor completo
+- [ ] Realizar pentesting
