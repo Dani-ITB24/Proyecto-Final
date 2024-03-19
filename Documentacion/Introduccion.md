@@ -453,12 +453,35 @@ Tenemos los siguientes logs en nuestro docker:
 
 ## Planteamiento y Componentes
 
-TO DO
+El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. 
+
+<p align="center">
+<img  alt="drawing"  src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
+</p>
 
 ## Vulnerabilidades CVE Extra
 
+Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
+- **La CVE debe ser del año 2023 o posterior**
+- **La CVE debe ser reproducible**
+- **La CVE debe tener un exploit desarrollado**
+
+CVE Extra elegida para su reproducción:
+
+- **CVE-2024-2168**
+
+Esta permite al atacante hacer una inyección de SQL que es posible lanzar el ataque de forma remota.
+
+**Mitigación**
+
+Manténer el software actualizado , Monitorea y registrar la actividad del sistema.
+
+<p align="center">
+<img  alt="drawing"  src="https://kinsta.com/es/wp-content/uploads/sites/8/2020/11/supervision-rendimiento-aplicaciones.png" />
+</p>
+
+
 ## Desarrollo de las Vulnerabilidades
 
-## Walkthrough
 
 ## Análisis del Contenedor una vez Explotado
