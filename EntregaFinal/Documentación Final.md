@@ -530,3 +530,113 @@ Ahora el atacante prueba si funciona y como vemos en la siguiente imagen, se gen
 Una vez que el atacante sabe eso, el atacante se dirigirá a **/root**, donde encontrará la flag de **root**, con el nombre **root.txt** 
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/2b6fe610-eac6-480b-97c6-83f7fb309df5)
+
+
+
+## Forense
+1. **INTRODUCCION**  
+
+1.1 **Informacion recibida**  
+La empresa The DarkArm solicita analizar un equipo que ha sido atacado. Se solicita al analista en cuestión determinar si ha sido comprometido. La empresa sospecha que el atacante pudo haber escalado permisos debido a fallas en el software.
+
+**1.2 Conceptos y terminología**  
+Contamos con un equipo de respuesta a incidentes que nos permite identificar, recuperar, reconstruir y analizar evidencias de lo ocurrido. Este equipo forense nos ayuda a llevar a cabo investigaciones, ya sean de naturaleza criminal o no.  
+
+En la actualidad, un incidente de seguridad informática puede considerarse como una violación o intento de violación de la política de seguridad. 
+
+Existen diferentes tipos de incidentes. En este caso, nos enfrentamos a un Ataque de Escalada de Privilegios Externa, lo que indica que el objetivo del atacante es obtener un nivel más alto de acceso del que originalmente poseía, con el fin de controlar, manipular o comprometer el sistema.  
+
+1.3 **Prevención de ataques a sistemas**  
+Para la prevención de ataque tenemos que tener en cuenta: 
+
+- Tener una correcta gestión de actualizaciones de hardware y software, ya que muchos de los ataques influyen en estas vulnerabilidades.  
+- Hacer una buena gestión de configuración tanto como hardware y software, ya que también muchos ataques influyen que está mal configurado un servicio.  
+- Revisar que los servidores tengan un tipo de privilegio mínimo, esto es para que tengan un nivel de registros mínimos y tener más controlado el tráfico de personas que pasan por el servidor.  
+
+En este caso se tendría que haber tenido en cuenta la posible incidencia de que una persona vea la falta de seguridad en el diseño del servidor y intente acceder a datos privados o intentar atacar a la empresa con el propósito de acabar con ella o para ganar algo, en casi todos los casos dinero. Se tendría que haber mejorado los diferentes servicios, actualizarlos y protegerlos para que a esta persona le sea mucho más difícil poder acceder o atacar a la empresa, porque si es el caso de que puede , esta puede ir subiendo de privilegios y acabar en el usuario principal para tener acceso a toda la empresa.
+
+1.4 Aspectos legales
+
+Si con el primer análisis se sospecha de que el incidente ha sido desde el exterior de la propia red de la empresa. Se tendrá que utilizar tiempo para investigar bien por donde y que se ha utilizado para provocar este incidente, hasta llegar al causante de esto, asegurándose antes de que esta persona es la culpable.
+
+En este caso se ha realizado una escalada de privilegios externa , un delito de acceso no autorizado a sistemas informáticos, hacking o intrusión informática, dependiendo de la jurisdicción y las leyes locales específicas, programas o documentos en redes o sistemas informáticos.
+
+2. Fases de Análisis Digital
+
+2.1 Identificación del incidente: búsqueda y recopilación de evidencias.
+
+En el caso de una sospecha de que su equipo ha sido manipulado o comprometido lo primero de todo es no perder la calma , estos incidentes pasan a menudo.
+Antes de nada asegúrese que no es un problema de hardware(problemas en sus componentes) o software(aplicaciones, servicios), o problemas de red. 
+
+La resolución de un posible equipo de uso ilegítimo por parte de un atacante, que aprovechó algunas vulnerabilidades en varios servicios incorporados en dicho equipo. Estos servicios no estaban bien configurados, lo que le dio al atacante la oportunidad de acceder de forma comprometedora al equipo. 
+
+2.1.1 Recopilación de evidencias.
+
+- /var/log/apache2/access.log
+- /var/log/apache2/error.log 
+- /var/log/vsftpd.log
+
+2.1.2 Análisis de la evidencia  
+
+Lo primero que se analizó es el fichero de **access.log** para ver si encontramos algún acceso en la página web.
+
+Lo primero que encontramos en el fichero es como se intentó hacer un escaneo de fuerza bruta de directorio a la página, nos damos puedan porque sale la herramienta **wfuzz** que sirve para esto, y también vemos muchas peticiones de diferentes directorios. Identificamos que la IP que ha hecho este escaneo es la **172.17.0.1**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6fea04ba-189d-44b8-b401-7f2a0b303b28)
+
+Seguimos mirando el fichero de **access.log**, encontramos las siguientes líneas, encontró unos directorios ocultos en el servicio de la máquina web.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ea56c380-16cf-49dd-ac46-4d0ae03e5354)
+
+Vemos que unos de esos hay una carpeta que se llama **FTP**. Pensando en eso, creemos que el atacante pudo haber accedido por el servicio FTP. Ahora vamos a ver los logs del servicio FTP que el fichero se llama **vsftpd.log**.
+
+Como vemos, el usuario accedió como el usuario anonymous e intento crear un directorio en directorio /test.  
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/dd89fa31-9796-4250-92cd-bccb58ddefc5)
+
+Una vez que el atacante vio que no puede hacer nada con el usuario, seguimos viendo los logs y encontramos como el atacante intento acceder con el usuario **elijah** mediante **fuerza bruta**.  
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/45b7e58b-0e20-41e8-9581-d990daf6a235)
+
+El atacante, después de muchos intento, pudo acceder al usuario **elijah** porque ese usuario tenía una contraseña débil.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ad1006ac-7e83-4667-9c27-0e880fe3f09a)
+
+Una vez dentro del usuario **elijah** vemos que el atacante accede en una carpeta que se llama **elijah** y subió un fichero que se llama **cmd.php** a las **17:32:23**.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7462e9a1-3a21-459d-8ce3-0488dc6fadbb)
+
+Como vimos en el ataque de fuerza fruta de directorio con la herramienta **wfuzz**, el atacante encontró otro fichero oculto con el nombre **document**.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/743b56f5-c405-4c55-8634-6d71bcedf835)
+
+A raíz de eso pensamos que el atacante podría acceder a dicho directorio en la web. Y para eso nos dirigimos a los logs de apache que lo guarda los errores en el fichero **erros.log**.
+
+Como vemos en la imagen, el atacante intento acceder a **document** y después a **document/elijah**, pero le denegó el acceso al directorio que se mencionaron anteriormente. Como vemos, el usuario intento acceder **17:36:52** 1 minuto después de haber subido el fichero **cmd.php**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/e0a0212f-3845-4609-a5ff-2b516acceb4d)
+
+Seguimos mirando los logs de error de apache, y vemos como el atacante intento acceder el fichero que subió con el nombre **cmd.php** a la hora **17:37:19**. Y lo intentó varias veces, pero sin éxito.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/90c57fe3-c55d-45c1-ac59-ab20b9b924f8)
+
+
+Después de eso, el atacante intento si podía darle permisos adicionales al fichero **cmd.php** con el usuario **elijah** desde el servidor **FTP**. Como vemos en el fichero **vsftpd.log** hizo **chmod 777** al fichero **cmd.php** con éxito a las **17:39:30**, 2 minutos después de intentar acceder al fichero anteriormente mencionado.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7cdd9fc7-8c6a-4930-a803-71bcc241a59c)
+
+A raíz de eso, pensamos que el atacante intentaría acceder de nuevo al fichero **cmd.php**. Para ver si el atacante accedió al fichero correctamente después de darle los permisos, nos dirigimos al log de Apache con el nombre **access.log**.
+
+Como vemos en la imagen del fichero **access.log** el atacante accedió correctamente al fichero **cmd.php** que subió. Y ejecuto **whoami** en ese mismo fichero a las **17:59:48**, 20 minutos después de hacer los cambios. Esto indica que el atacante subió una **Reverse Shell**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/884ad44b-ecca-4192-b80c-67f867821bcc)
+
+Seguimos mirando el fichero **access.log**, y ejecuta **curl** a las **18:00:04,** casi un minuto después de ejecutar el **whoami**, el curl apunta a la dirección del servidor y después añade una línea adicional con **bash**. Esto confirma que es una **Reverse Shell** para poder acceder al servidor vía **terminal** para comprometer el servidor y poder acceder a datos confidenciales del servidor.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/abcee1f7-09a7-45a4-bdda-724ba9c2497c)
+
+2.2 Metodología NIST
+
+La metodología del NIST se basa en un proceso de tres pasos: evaluación del riesgo; mitigación del riesgo; y análisis y evaluación
+
+3. Herramientas para Análisis Forense Digital
+- Docker
+
+4. Conclusión
+
+Se ha intentado garantizar la mejor calidad de las evidencias durante todo este proceso. Sin embargo, dada la situación que ha experimentado la empresa, es crucial prestar mayor atención al control de las actualizaciones y a la seguridad en el diseño del servidor para evitar la recurrencia de este problema. Además, se deben implementar medidas como el cambio periódico de las contraseñas de cada usuario, establecer un límite máximo de intentos y asegurarse de que las contraseñas no sean vulnerables, todo ello con el fin de garantizar la seguridad de la empresa.
+
+5. Biografía y URL
