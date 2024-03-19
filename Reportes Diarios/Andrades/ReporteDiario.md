@@ -117,10 +117,12 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [ ] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
 - [x] Pulido de la maquina.
 
-## 15/03/24 Reporte Diario
+## 18/03/24 Reporte Diario
 - [X] Implemeción de la vulnerabilidad sobre el permiso SUID a vim
-- [X] Finalización de la pagina final
+- [X] Finalización de la maquina final
 - [ ] redación de la documentación final sobre la vuelnerabilidad de SUID
  
-
+## 19/03/24 Reporte Diario
+- [X] redación de la documentación final sobre la vuelnerabilidad de SUID
+- [ ] Inicio del analisi forense
 

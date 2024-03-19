@@ -513,5 +513,20 @@ Aqui probamos la contraseña y vemos que funciona.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/08135818-990f-400c-a664-0c80917ad540)
 
+Ya dentro como el usuario Daniel, el atacante tienes que buscar alguna manera de poder escalar privilegios a root, esto hace el atacante busque archivos que tengan permisos **SUID** u otros permisos adicionales.
 
+Una vez que el atacante haya ejecutado el comando para ver si encontrar permisos **SUID**, encontrará varios resultados y ve que el **vim.basic** tiene permisos **SUID** y es algo que el programa vim no debería de tener dichos permisos.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/c50feb9c-a79b-45b0-b614-8d99bc4ee56d)
+
+El atacante busca a ver si alguna forma de poder usar el **SUID** de **vim** y para eso se va **gtfobins** donde encuentra un comando para ejecutar el **vim** y poder ejecutar una ***shell** haciendo pasar por **root**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6ebfa6aa-e166-4309-a73f-38914cf69549)
+
+Ahora el atacante prueba si funciona y como vemos en la siguiente imagen, se genera una **shell** que si ejecutamos **whoami** nos sale que es root.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/a5f8d85a-64c3-463d-8da1-cc68fe0319e8)
+
+Una vez que el atacante sabe eso, el atacante se dirigirá a **/root**, donde encontrará la flag de **root**, con el nombre **root.txt** 
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/2b6fe610-eac6-480b-97c6-83f7fb309df5)
