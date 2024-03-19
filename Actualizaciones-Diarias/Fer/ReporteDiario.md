@@ -97,3 +97,8 @@
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Buscar aplicaciones vulnerables <br>
 :white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
+
+## Lunes 18 de marzo 2024
+Falta
+
+## Martes 19 de marzo 2024
