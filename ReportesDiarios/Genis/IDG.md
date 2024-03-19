@@ -69,6 +69,9 @@
 ## Dilluns 18-03-24-
 - recerca per a mobiment lateral 
 
+## Dimarts 19-03-24-
+- Recerca per a mobiment lateral 
+
   
 
   
