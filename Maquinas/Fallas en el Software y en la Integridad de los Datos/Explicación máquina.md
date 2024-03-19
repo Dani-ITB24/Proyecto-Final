@@ -143,6 +143,24 @@ Ponemos la contraseña de admin y parece que este usuario tiene la misma contras
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/8ddd77cb-261f-488d-be93-ff531056566b)
 
+Mirando el home de daniel vemos que existe una flag dentro llamada user.txt.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/c6b47763-30fd-4655-ba91-2a26cfc38325)
 
+Investigamos para hacer un find para ver si tenemos algun permiso como root, y vemos que tenemos permisos SUID en vim.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/2e1f8475-f132-4314-9f64-94925e63e181)
+
+Buscamos por nustro navegador en GTFOBins para ver como hacer el SUID de vim.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/2aff246c-8577-4e6e-af73-c13e473c551a)
+
+Ponemos el SUID de vim en el terminal y vemos que ya estamos como root.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/40669776-1270-45fc-bb81-992727b63ed2)
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/7a710474-7595-49c6-8cd5-a75d38304f2f)
+
+Ya podemos visualizar la flag en el directorio root llamada root.txt
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/b26a43b6-76ee-4c21-af66-129bb694ca66)
