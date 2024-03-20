@@ -158,3 +158,16 @@
 - Configuración de los permisos correctamente
     - Finalmente hemos podido solucionar los errores que nos daba python con los permisos y hemos podido cambiar de usuario abusando del script mencionado el día de ayer.
 ![](/ReportesDiarios/Joan/img/2024-03-19_18-23.png)
+
+## Miercoles 20/02/2024
+
+- Creación de la escalada de privilegios para la segunda máquina
+    - Hemos estado intentando crear una escalada de privilegios con algo relacionado con apache2, pero tras estar haciendo pruebas no nos ha convencido. Al final hemos decidido hacer la escalada con crontab, pero aún no lo hemos logrado. La idea es crear un script que utiliza tar y comprima toda la home de un usuario y aprovechar eso para inyectar argumentos creando ficheros con nombres que correspondan a argumentos válidos para tar. Mañana miraremos el porqué no nos ha funcionado.
+
+![](/ReportesDiarios/Joan/img/2024-03-20_18-29.png)
+
+![](/ReportesDiarios/Joan/img/2024-03-20_18-31.png)
+
+![](/ReportesDiarios/Joan/img/2024-03-20_18-30.png)
+
+![](/ReportesDiarios/Joan/img/2024-03-20_18-29_1.png)
