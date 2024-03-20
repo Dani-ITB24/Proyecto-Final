@@ -171,3 +171,19 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 # Reporte 18 de marzo de 2024
 
 - Hemos intentado implemantar movimeinto lateral por medio de un script en python, jugando con las librerias.
+
+
+# Reporte 19 de marzo de 2024
+
+- Hemos acabado el moviemnto lateral y hemos empezado a investigar el movimiento vertical.
+
+
+# Reporte 20 de marzo de 2024
+
+- Hemos intentado implemantar movimeinto vertical con tareas de cron.
+
+![](/ReportesDiarios/Jordi/img/ml1.png)
+![](/ReportesDiarios/Jordi/img/mv2.png)
+![](/ReportesDiarios/Jordi/img/mv3.png)
+
+- Al final no ha funcionado.
