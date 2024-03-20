@@ -67,7 +67,13 @@ Se ha realizado el desarrollo de un login falso para la página web con la temá
 
 Dentro de la configuración del servidor de Tomcat (**/opt/tomcat/webapps/ROOT/WEB-INF/web.xml**) estará oculto el usuario y la contraseña del usuario vulnerable.
 
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracion-tomcat.png).
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracion-tomcat.png)
+
+El siguiente paso será crear el usuario vulnerable “Pepe” y añadimos la contraseña que hemos puesto anteriormente.  
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/creacion-userPepe.png)
+
+Y ya por último hemos tenido que acceder a **/etc** y modificar el archivo sudoers. Añadiremos este comando para que el usuario Pepe tenga permisos para poder usar solamente la aplicación de vim.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/permisosPepe.png)
 
 <br>
 
