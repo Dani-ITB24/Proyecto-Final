@@ -154,8 +154,8 @@
 - [X] Documentación.
 
 ## Miércoles 20 de Marzo 2024:
-
-- [ ] 
+ 
+- [X] Documentación de pentest y capturas.
 - [ ] 
 
 ## Jueves 21 de Marzo 2024:
