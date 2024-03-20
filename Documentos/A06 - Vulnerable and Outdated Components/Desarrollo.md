@@ -65,7 +65,7 @@ Se ha realizado el desarrollo de un login falso para la página web con la temá
 
 <h1 name="webtomcat">5. Desarrollo de la web Tomcat</h1>
 
-Dentro de la configuración del servidor de Tomcat (**/opt/tomcat/webapps/ROOT/WEB-INF/web.xml**) estara oculto el usuario y la contraseña del usuario vulnerable.
+Dentro de la configuración del servidor de Tomcat (**/opt/tomcat/webapps/ROOT/WEB-INF/web.xml**) estará oculto el usuario y la contraseña del usuario vulnerable.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracion-tomcat.png).
 
