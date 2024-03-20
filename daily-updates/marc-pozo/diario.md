@@ -136,3 +136,7 @@
 
 - [x] Replanteamiento del CTF
 - [x] Intento fallido de recreación de la vulnerabilidad del día anterior en el contenedor
+
+# Miércoles 20 de marzo 2024:
+
+- [x] Intento satisfactorio de recreación de la vulnerabilidad del día anterior en el contenedor 
