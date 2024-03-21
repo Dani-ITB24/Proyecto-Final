@@ -79,11 +79,11 @@ Se expone el puerto 8080, que es el puerto predeterminado de Tomcat para las sol
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/config-tomcat1.png)
 
-Después se copia el script llamado **start_services.sh** que con este script se iniciarán los servidores necesarios dentro del contenedor. 
+Después se copia el script llamado **start_services.sh** que con este script se iniciarán los servicios necesarios dentro del contenedor. 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/config-tomcat2.png)
 
-Luego por último estableceremos permisos de ejecución al script para que inicie lo servicios automáticamente cuando se inicie el contenedor.
+Luego por último estableceremos permisos de ejecución al script para que se inicien lo servicios automáticamente cuando se inicie el contenedor.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/config-tomcat3.png)
 
