@@ -67,10 +67,19 @@
 - Recerca per la ctf
 
 ## Dilluns 18-03-24-
-- recerca per a mobiment lateral 
+- recerca per a moviment lateral 
 
 ## Dimarts 19-03-24-
-- Recerca per a mobiment lateral 
+- Recerca per a mobiment lateral
+
+## Dijous 20-03-24-
+-  Recerca per a mobiment lateral
+-  Recerca per a escalada
+
+## Dijous 21-03-24-
+- Començar a fer la part forense
+
+
 
   
 
