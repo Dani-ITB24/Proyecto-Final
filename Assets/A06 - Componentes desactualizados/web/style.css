@@ -1,0 +1,115 @@
+html, body{
+    background-color: #eeeeee;
+}
+
+.container {
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formimg img {
+    display: block;
+    margin: 0 auto;
+    width: 450px; /* Ajusta el ancho de la imagen */
+}
+
+.form-container {
+    width: 450px; /* Ancho igual al de la imagen */
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Añade sombra */
+    box-sizing: border-box
+}
+
+.form {
+    font-family: Montserrat, sans-serif;
+}
+
+
+.form h1{
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.labelclass {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #55636F;
+    text-align: left !important;
+}
+
+.inputclass {
+    width: 100%;
+    border-radius: 2px;
+    line-height: 1.6;
+    border: 1px solid #e6e9ec;
+    padding: 8px 12px;
+}
+
+.form-group{
+
+    margin-bottom: 16px;
+}
+
+#remember-me{
+    position:relative;
+    left: -7px;
+    display: inline-block;
+    padding: 0px;
+    width: 20px;
+}
+
+.recuerda{
+    margin-bottom: 16px;
+}
+
+
+#rememberlabel{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #55636F;
+}
+
+button {
+    background: #2e91fc;
+    border-color: #2e91fc;
+    border: 2px solid #2e91fc;
+    padding: 12px 30px;
+    color: #fff;
+    width: 100%;
+    font-size: 1.1em;
+    font-family: Montserrat;
+    font-weight: 800;
+    border-radius: 4px;
+    white-space: normal;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.lastdiv{
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+.olvide-passwd{
+    width: calc(450px + 40px);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #2e91fc;
+    text-decoration: none;
+    margin: 50px auto;
+
+}
