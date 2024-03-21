@@ -73,7 +73,7 @@ Dentro de los archivos creados por TomCat guardaremos el nombre de usuario y la 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/configuracion-tomcat.png)
 
-El siguiente paso será crear el usuario vulnerable “Pepe” y añadimos la contraseña que hemos puesto anteriormente.  
+El siguiente paso será crear el usuario vulnerable “Pepe” y añadimos la contraseña sin cifrar.  
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/creacion-userPepe.png)
 
 Y ya por último hemos tenido que acceder a **/etc** y modificar el archivo sudoers. Añadiremos este comando para que el usuario Pepe tenga permisos para poder usar solamente la aplicación de vim.
