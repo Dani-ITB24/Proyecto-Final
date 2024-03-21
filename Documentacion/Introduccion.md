@@ -490,13 +490,16 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 
 4.Hacemos el ataque sqlmap.
 
-5.encuentra un usuario llamado "pedroSSH"
-6.Fuerza bruta mediante SSH a este usuario para entrar
-7.encuentra un script hecho en BASH que se ejecute como root desde crontab
-
 <p align="center">
 <img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/dumped.png" />
 </p>
+
+5.encuentra un usuario llamado "pedroSSH"
+
+6.Fuerza bruta mediante SSH a este usuario para entrar
+
+7.encuentra un script hecho en BASH que se ejecute como root desde crontab
+
 
 
 ## [Análisis del Contenedor](#índice)
