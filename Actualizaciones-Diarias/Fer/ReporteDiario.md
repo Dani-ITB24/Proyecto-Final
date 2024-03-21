@@ -109,3 +109,7 @@ Falta
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Preparación de otra máquina para la nueva vulnerabilidad <br>
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
+
+## Jueves 21 de marzo 2024
+✅ Organización y distribución de tareas diarias <br>
+✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
