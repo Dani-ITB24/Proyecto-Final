@@ -77,6 +77,7 @@ Se descomprime e instala TomCat. Luego mueve el directorio, a otra carpeta.
 Se expone el puerto 8080, que es el puerto predeterminado de Tomcat para las solicitudes HTTP. 
 > Expose 8080 
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/config-tomcat1.png)
 
 <h1 name="Escalado">6. Escalado de privilegios</h1>
 
