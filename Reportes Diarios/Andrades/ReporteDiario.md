@@ -126,3 +126,11 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [X] redación de la documentación final sobre la vuelnerabilidad de SUID
 - [ ] Inicio del analisi forense
 
+## 20/03/24 Reporte Diario
+- [ ] documentación del analisis forense
+- [ ] Inicio del analisi forense
+
+## 20/03/24 Reporte Diario
+- [X] documentación del analisis forense
+- [X] finalización del analisi forense
+
