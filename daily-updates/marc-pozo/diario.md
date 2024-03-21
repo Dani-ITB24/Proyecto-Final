@@ -139,4 +139,9 @@
 
 # Miércoles 20 de marzo 2024:
 
-- [x] Intento satisfactorio de recreación de la vulnerabilidad del día anterior en el contenedor 
+- [x] Intento satisfactorio de recreación de la vulnerabilidad del día anterior en el contenedor
+
+# Jueves 21 de marzo 2024:
+
+- [x] Planteamiento de escalado de privilegios del CTF
+- [x] Prueba de diferentes vulnerabilidades de escalado 
