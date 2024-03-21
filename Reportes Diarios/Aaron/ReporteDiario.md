@@ -126,3 +126,12 @@
 ## Martes 19/03/2024
 
 - Documentación de explotación de la maquina como si fuera atacante.
+
+## Miercoles 20/03/2024
+
+- Retoques finales.
+
+## Jueves 21/03/2024
+
+- Retoques finales.
+- Evaluación del forense.
