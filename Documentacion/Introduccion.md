@@ -11,13 +11,13 @@
     - [PHP](#php)
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
     - [Vulnerabilidades CVE Extra](#vulnerabilidades-cve-extra)
-    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-la-vulnerabilidades)
+    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-las-vulnerabilidades)
     - [Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
     - [Herramientas Empleadas](#herramientas-empleadas)
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
     - [Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
-    - [Desarrollo de las Vulnerabilidad](#desarrollo-de-la-vulnerabilidad)
+    - [Desarrollo de las Vulnerabilidad](#desarrollo-de-las-vulnerabilidad)
     - [Análisis del Contenedor](#análisis-del-contenedor)
 
 
