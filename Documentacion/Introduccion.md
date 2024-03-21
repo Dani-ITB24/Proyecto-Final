@@ -11,15 +11,15 @@
     - [PHP](#php)
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
     - [Vulnerabilidades CVE Extra](#vulnerabilidades-cve-extra)
-    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-la-vulnerabilidad)
+    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-la-vulnerabilidades)
     - [Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
     - [Herramientas Empleadas](#herramientas-empleadas)
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
-    - [Vulnerabilidades CVE Extra](#vulnerabilidades-cve-extra)
-    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-la-vulnerabilidad)
-    - [_Walkthrough_ Explotación del Contenedor] (#desarrollo-de-la-vulnerabilidad)
-    - [Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)    
+    - [Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
+    - [Desarrollo de las Vulnerabilidad](#desarrollo-de-la-vulnerabilidad)
+    - [Análisis del Contenedor](#análisis-del-contenedor)
+
 
 # [Introducción](#índice)
 
@@ -458,7 +458,7 @@ El sistema operativo utilizado para el desarrollo de este primer contenedor es U
 <img  alt="drawing"  src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
 </p>
 
-## Vulnerabilidades CVE Extra
+## [Vulnerabilidad CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -480,7 +480,19 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 </p>
 
 
-## Desarrollo de las Vulnerabilidades
+## [Desarrollo de las Vulnerabilidad](#índice)
+
+1.Atacante hace fuzzing y encuentra el panel de inicio de Travel manager.
+
+2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
+
+3.Subimos un archvio para hacer un ataque sqlmap,
+
+4.Hacemos el ataque sqlmap.
+
+<p align="center">
+<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/dumped.png" />
+</p>
 
 
-## Análisis del Contenedor una vez Explotado
+## [Análisis del Contenedor](#índice)
