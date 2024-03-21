@@ -22,7 +22,9 @@ El contenedor Docker estará basado en Ubuntu 20.04 Server y tendrá instalados 
   <li>Apache, nos permitirá tener un servidor web alojado en Docker.</li> 
   <li>VSFTPD, servidor FTP para acceder a recursos y archivos del sistema.</li> 
   <li>X11, esta utilidad nos permite utilizar Wireshark de forma gráfica desde el contenedor Docker.</li> 
-  <li>VIM/NANO, editores de texto.</li> 
+  <li>VIM/NANO, editores de texto.</li>
+  <li>SUDO, para poder realizar el escalado de privilegios</li>
+  <li>Tomcat, servicio web vulnerable para poder realizar el ataque</li>
 </ul>
 
 El Dockerfile que generará el contenedor es el siguiente:
