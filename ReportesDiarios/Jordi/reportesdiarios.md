@@ -187,3 +187,9 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 ![](/ReportesDiarios/Jordi/img/mv3.png)
 
 - Al final no ha funcionado.
+
+
+# Reporte 21 de marzo de 2024
+
+- Hemos terminado la escalada de privilegios con tares de cron
+- Inicio documentacion maquina2.
