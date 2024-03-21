@@ -31,7 +31,7 @@ En la primera línea se específica que imagen se usará para montar el contened
 
 <br>
 
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/start_services.sh.png)\
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/start_services.sh.png)
 
 <br>
 <h1 name="ftp">3. Desarrollo y configuración de FTP</h1>
