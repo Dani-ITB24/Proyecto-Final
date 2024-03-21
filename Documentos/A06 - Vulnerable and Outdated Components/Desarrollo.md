@@ -77,7 +77,7 @@ Durante la creación del contenedor de docker se realizan las siguientes accione
 Se realiza la descarga del TomCat 
 > wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz  
 
-Se descomprime e instala TomCat. Luego mueve el directorio, a otra carpeta. 
+Se descomprime el programa TomCat. Y mueve la carpeta a /opt/tomcat que es donde suele encontrarse este servicio. 
 > tar –xzf apache-tomcat-9.0.30.tar.gz \
 > mv apache-tomcat-9.0.30 /opt/tomcat 
 
@@ -105,9 +105,8 @@ Dentro de los archivos creados por TomCat guardaremos el nombre de usuario y la 
 El siguiente paso será crear el usuario vulnerable “Pepe” y añadimos la contraseña sin cifrar.  
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/creacion-userPepe.png)
 
-Y ya por último hemos tenido que acceder a **/etc** y modificar el archivo sudoers. Ahí añadiremos este comando para que el usuario Pepe tenga permisos para poder usar solamente la aplicación de vim.
-
->pepe ALL=(ALL) NOPASSWD: /usr/bin/bin
+Y ya por últimoa accedemmos a  **/etc** y modificamos el archivo sudoers. Ahí añadiremos una linea para el ususario pepe, de esta forma podra ejecutar el binario vim utilizando **sudo sin contraseña**.
+>pepe ALL=(ALL) NOPASSWD: /usr/bin/vim
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/permisosPepe.png)
 
