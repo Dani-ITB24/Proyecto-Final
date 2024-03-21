@@ -65,6 +65,17 @@ Se ha realizado el desarrollo de un login falso para la página web con la temá
 
 <h1 name="webtomcat">5. Desarrollo de la web Tomcat</h1>
 
+Durante la creación del docker se realizan las siguientes acciones para la configuración del tomcat: 
+
+Se realiza la descarga del TomCat 
+> wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz  
+
+Se descomprime e instala TomCat. Luego mueve el directorio, a otra carpeta. 
+> tar –xzf apache-tomcat-9.0.30.tar.gz \
+> mv apache-tomcat-9.0.30 /opt/tomcat 
+
+Se expone el puerto 8080, que es el puerto predeterminado de Tomcat para las solicitudes HTTP. 
+> Expose 8080 
 
 
 <h1 name="Escalado">6. Escalado de privilegios</h1>
