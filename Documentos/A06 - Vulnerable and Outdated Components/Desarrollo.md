@@ -65,7 +65,7 @@ Se ha realizado el desarrollo de un login falso para la página web con la temá
 
 <h1 name="webtomcat">5. Desarrollo de la web Tomcat</h1>
 
-Durante la creación del docker se realizan las siguientes acciones para la configuración del tomcat: 
+Durante la creación del contenedor de docker se realizan las siguientes acciones para la configuración del TomCat: 
 
 Se realiza la descarga del TomCat 
 > wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz  
