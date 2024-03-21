@@ -109,3 +109,8 @@
 ## Martes 19 de marzo 2024
 - [X] Crear contenedor completo
 - [ ] Realizar pentesting
+
+## Jueves 21 de marzo 2024
+- [X] Realizar pentesting
+- [X] Subir docker images, tu1millon:clean y tu1millon:pentest a dockerhub
+- [X] Terminar documentacion, Pentest y Desarrollo 
