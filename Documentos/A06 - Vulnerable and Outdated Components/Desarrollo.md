@@ -49,7 +49,10 @@ La configuracion del ftp tendra estos permisos habilitados:
 > listen_ipv6=NO 
 
 - Habilitando este permiso en el servidor permitimos que los usuarios tengan los permisos necesarios para poder compartir, editar contenido existente o administrar los archivos.
-> write_enable=YES 
+> write_enable=YES
+
+- Por ultimo aplicaremos una mascara de permisos para que cualquier archivo que se suba con usuario anonymous tenga permisos de lectura y escritura para el propietario grupos y otros. De esta forma podremos ejecutar una reverse-shell via web. 
+> anon_umask=022
 
 <h1 name="weblogin">4. Desarrollo del login - Apache</h1>
 
