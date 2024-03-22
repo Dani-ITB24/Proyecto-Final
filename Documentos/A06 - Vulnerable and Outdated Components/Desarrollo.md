@@ -87,7 +87,7 @@ Durante la creación del contenedor de docker se realizan las siguientes accione
 Se realiza la descarga del TomCat 
 > wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz  
 
-Se descomprime el programa TomCat. Y mueve la carpeta a /opt/tomcat que es donde suele encontrarse este servicio. 
+Se descomprime el programa TomCat. Y mueve la carpeta de instalación a /opt/tomcat que es donde suele encontrarse este servicio. 
 > tar –xzf apache-tomcat-9.0.30.tar.gz \
 > mv apache-tomcat-9.0.30 /opt/tomcat 
 
