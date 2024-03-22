@@ -133,9 +133,12 @@ Había que añadir "**-lcrypt**" en una línea del makefile de vsftpd para poder
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ftp_error2.png)
 
 <br>
-También se ha intentado instalar una versión antigua de sudo para la vulnerabilidad de la máquina [CVE-2023-22809](https://s2grupo.es/vulnerabilidad-de-sudo-cve-2023-22809/). Para instalar esta versión de sudo intentamos usar este código:
+También se ha intentado instalar una versión antigua de sudo para la vulnerabilidad de la máquina <a href="https://www.s2grupo.es/vulnerabilidad-de-sudo-cve-2023-22809/">CVE-2023-22809</a>. Para instalar esta versión de sudo intentamos usar este código:
+<br>
+
 > apt-get install sudo=1.8.0*
 
+<br>
 Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está disponible.
 
 <p align="center">
