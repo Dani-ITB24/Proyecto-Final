@@ -34,12 +34,14 @@ Dockerfile:
 <br>
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockerfile.png)
 <br>
-start_services.sh:
-<br>
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/start_services.sh.png)
 
 En la primera línea se específica que imagen se usará para montar el contenedor, después se realiza una actualización de paquetes y se instalan las utilidades necesarias para hacer el contenedor vulnerable frente a la A06:2021, el parámetro **DEBIAN_FRONTEND=noninteractive** se utiliza para que a la hora de instalar los paquetes no aparezca ningún prompt y que se aplique la opción predeterminada a la hora de configurar los paquetes en la instalación, la última línea **rm -rf /var/lib/apt/lists/** eliminará los archivos temporales que ya no son necesarios después de la instalación de los paquetes, de esta forma se optimiza el espacio del contenedor. A continuación se crea el directorio sshd dentro de /var/run, esto se realiza de forma automática a la hora de poner en marcha el servicio SSH sin embargo es mejor crearlo antes de poner en marcha el servicio por si se necesita de antemano. A continuación se realiza la instalación del servicio Tomcat, para ello descargaremos y descomprimimos la version 9.0.30 despues movemos la carpeta a /opt/tomcat que es donde suele encontrarse este servicio. Se abren los puertos necesarios para los servicios de SSH, FTP, Apache Y Tomcat. Y por ultimo se copia en el directorio **/usr/local/bin** el script **start_services.sh** el cual se utiliza para poner en marcha los servicios FTP, SSH, Apache2 y Tomcat, se le añadiran permisos de ejecucion al script y con la utilidad **CMD** de docker ejecutaremos el script de esta forma nos asegurarnos de que los servicios se inician al poner el contenedor en marcha. 
 
+<br>
+
+start_services.sh:
+<br>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/start_services.sh.png)
 
 <br>
 <h1 name="ftp">3. Desarrollo y configuración de FTP</h1>
