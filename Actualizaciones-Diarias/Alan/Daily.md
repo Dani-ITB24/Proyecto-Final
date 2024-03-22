@@ -160,12 +160,11 @@
 
 ## Jueves 21 de Marzo 2024:
 
-- [ ] 
-- [ ] 
+- [X] Acabar documentación, actualizar capturas y revisar configuración.
 
 ## Viernes 22 de Marzo 2024:
 
-- [ ] 
+- [X] Comprobar documentación y acabar documento final.
 - [ ] 
 
 
