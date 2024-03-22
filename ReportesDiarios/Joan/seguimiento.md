@@ -171,3 +171,16 @@
 ![](/ReportesDiarios/Joan/img/2024-03-20_18-30.png)
 
 ![](/ReportesDiarios/Joan/img/2024-03-20_18-29_1.png)
+
+## Jueves 22/03/2024
+
+- Continuación escalada de privilegios.
+    - Hoy hemos seguido intentando la escalada de privilegios y lo hemos logrado. La escalada de privilegios da permisos sudo al usuario ampeter para todo, abusando de una cronjob que usa tar.
+
+- Creación walkthrough
+    - Hemos empezado a hacer el walkthrough de la segunda máquina.
+
+## Viernes 23/03/2024
+
+- Continuación walkthrough
+    - He seguido tomando capturas del paso a paso para poder resolver la seguna máquina.
