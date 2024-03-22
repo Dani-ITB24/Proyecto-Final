@@ -79,7 +79,7 @@
 ## Dijous 21-03-24-
 - Començar a fer la part forense
 
-## Dijous 22-03-24-
+## Divendres 22-03-24-
 - treballar en la part forense
 
 
