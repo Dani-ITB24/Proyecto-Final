@@ -553,15 +553,13 @@ Para la prevención de ataque tenemos que tener en cuenta:
 - Hacer una buena gestión de configuración tanto como hardware y software, ya que también muchos ataques influyen que está mal configurado un servicio.  
 - Revisar que los servidores tengan un tipo de privilegio mínimo, esto es para que tengan un nivel de registros mínimos.
 
-En este caso se tendría que haber tenido en cuenta la posible incidencia de que una persona vea que los servicio este de 
-
 En este caso se tendría que haber tenido en cuenta la posible incidencia de que una persona vea la falta de seguridad en el diseño del servidor y intente acceder a datos privados o intentar atacar a la empresa con el propósito de acabar con ella o para ganar algo, en casi todos los casos dinero. Se tendría que haber mejorado los diferentes servicios, actualizarlos y protegerlos para que a esta persona le sea mucho más difícil poder acceder o atacar a la empresa, porque si es el caso de que puede , esta puede ir subiendo de privilegios y acabar en el usuario principal para tener acceso a toda la empresa.
 
 1.4 Aspectos legales
 
 Si con el primer análisis se sospecha de que el incidente ha sido desde el exterior de la propia red de la empresa. Se tendrá que utilizar tiempo para investigar bien por donde y que se ha utilizado para provocar este incidente, hasta llegar al causante de esto, asegurándose antes de que esta persona es la culpable.
 
-En este caso, se ha llevado a cabo una escalada de privilegios externa a través de un plugin desactualizado que fue infectado con código malicioso. Este incidente constituye un delito de acceso no autorizado a sistemas informáticos, hacking o intrusión informática, dependiendo de la jurisdicción y las leyes locales específicas. Estos actos ilícitos implican la manipulación indebida de programas o documentos en redes o sistemas informáticos.
+En este caso, se ha realizado una escalada de privilegios externa debido a que el software estaba desactualizado, lo cual posibilitó la presencia de un plugin con una versión desactualizada que fue infectado con un código malicioso. Este incidente constituye un delito de acceso no autorizado a sistemas informáticos, conocido como hacking o intrusión informática, dependiendo de la jurisdicción y las leyes locales específicas. Estos actos ilícitos implican la manipulación indebida de programas o documentos en redes o sistemas informáticos. 
 
 2. Fases de Análisis Digital
 
@@ -576,10 +574,32 @@ La resolución de un posible equipo de uso ilegítimo por parte de un atacante, 
 
 - /var/log/apache2/access.log
 - /var/log/apache2/error.log 
-- 
+- WP Activity Log
 
 2.1.2 Análisis de la evidencia  
 
+Lo primero que se analizó es el fichero de **access.log** para ver si encontramos algún acceso en la página web.
+
+
+
+access.log  
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/74686f6a-6a0e-4cb1-8e40-528b9c9bb45d)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/72b8fb4b-17fe-441a-a7f3-be1840f75f2d)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/509ef663-daff-414c-a467-bc4d3b0d33fc)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/f05bdc38-15eb-4837-8ba5-1f51a03dc16f)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/20742610-7c2d-4d21-917c-53c9be50bf66)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7c03ec34-c23a-41d4-b38d-fd66f4a10883)
+
+error.log
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6e59898f-f71f-4bdd-aa79-06ff25d74859)
+
+WP Activity Log
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8c87df66-4fe7-47d8-88ed-b15b1f65b8c5)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/9e870007-9e07-436e-be6c-e36e5e0d268a)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/cbe10983-a48d-4436-9d55-f25bd3679ae9)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/242b08b0-a9c3-4c75-ae32-112045ac4e07)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/eec9b201-78a6-4170-bf2a-958f4eb53414)
 
 
 2.2 Metodología NIST
