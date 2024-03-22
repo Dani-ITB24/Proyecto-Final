@@ -119,7 +119,6 @@ Y ya por últimoa accedemmos a  **/etc** y modificamos el archivo sudoers. Ahí 
 >pepe ALL=(ALL) NOPASSWD: /usr/bin/vim
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/permisosPepe.png)
-
 <br>
 
 <h1 name="Problemas">7. Problemas encontrados en el desarrollo</h1>
