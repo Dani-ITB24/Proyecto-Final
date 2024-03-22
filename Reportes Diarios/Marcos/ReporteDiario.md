@@ -163,3 +163,7 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 19 de Marzo de 2024
 
 - Revisión de la documentación final de la maquina de fallas en el software.
+
+# Reporte Diario 22 de Marzo de 2024
+
+- Correción y revisión de todas las documentaciones.
