@@ -19,6 +19,7 @@ Para desarrollar el contenedor Docker, se ha tenido en cuenta que debe ser vulne
 El contenedor Docker estará basado en Ubuntu 20.04 Server y tendrá instalados los siguientes programas:
 <ul>
   <li>Wireshark, el cual nos permitirá realizar una captura de red mientras se ejecuta el ataque. Esta captura será analizada posteriormente.</li> 
+  <li>SSH, servidor openSSH para la conexión remota con el contenedor.</li>
   <li>Apache, nos permitirá tener un servidor web alojado en Docker.</li> 
   <li>VSFTPD, servidor FTP para acceder a recursos y archivos del sistema.</li> 
   <li>X11, esta utilidad nos permite utilizar Wireshark de forma gráfica desde el contenedor Docker.</li> 

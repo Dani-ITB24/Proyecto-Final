@@ -19,7 +19,8 @@ Para desarrollar el contenedor Docker, se ha tenido en cuenta que debe ser vulne
 <h1 name="Desarrollo">2. Desarrollo del contenedor</h1>
 El contenedor Docker estará basado en Ubuntu 22.04.3 LTS Server y tendrá instalados los siguientes programas:
 <ul>
-  <li>Wireshark, el cual nos permitirá realizar una captura de red mientras se ejecuta el ataque. Esta captura será analizada posteriormente.</li> 
+  <li>Wireshark, el cual nos permitirá realizar una captura de red mientras se ejecuta el ataque. Esta captura será analizada posteriormente.</li>
+  <li>SSH, servidor openSSH para la conexión remota con el contenedor.</li>
   <li>Apache, nos permitirá tener un servidor web alojado en Docker donde se podrá realizar el ataque SSRF.</li>
   <li>X11, esta utilidad nos permite utilizar Wireshark de forma gráfica desde el contenedor Docker.</li> 
   <li>PHP, proporciona capacidades para ejecutar y administrar scripts y aplicaciones PHP en el contenedor. Junto con   otros paquetes relacionados como php-cli y php-fpm.</li>
