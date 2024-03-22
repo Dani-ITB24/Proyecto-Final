@@ -580,26 +580,51 @@ La resolución de un posible equipo de uso ilegítimo por parte de un atacante, 
 
 Lo primero que se analizó es el fichero de **access.log** para ver si encontramos algún acceso en la página web.
 
+Lo primero que encontramos en el fichero es como se intentó hacer un escaneo de fuerza bruta de directorio a la página, nos damos cuenta porque sale la herramienta **gobuster** que sirve para esto, y también vemos muchas peticiones de diferentes directorios. Identificamos que la IP que ha hecho este escaneo es la **172.17.0.1**.
 
-
-access.log  
-
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/74686f6a-6a0e-4cb1-8e40-528b9c9bb45d)
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/72b8fb4b-17fe-441a-a7f3-be1840f75f2d)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/509ef663-daff-414c-a467-bc4d3b0d33fc)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/f05bdc38-15eb-4837-8ba5-1f51a03dc16f)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/20742610-7c2d-4d21-917c-53c9be50bf66)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7c03ec34-c23a-41d4-b38d-fd66f4a10883)
 
-error.log
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6e59898f-f71f-4bdd-aa79-06ff25d74859)
+Seguimos mirando el fichero de **access.log**, y encontramos que el atacante encontro la carpeta wordpress y accedio a ella.
 
-WP Activity Log
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8c87df66-4fe7-47d8-88ed-b15b1f65b8c5)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/9e870007-9e07-436e-be6c-e36e5e0d268a)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/cbe10983-a48d-4436-9d55-f25bd3679ae9)
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/242b08b0-a9c3-4c75-ae32-112045ac4e07)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/bf72fdcd-085e-4ab0-a16e-e1002a4b2c74)
+
+seguimos el fichero **access.log**, y vemos que una vez que el atacante una vez dentro de la web intenta acceder un file inclusion como vemos en la imagen. 
+
+Esto case es que el atacante se descarga en base64 todo el fichero **wp-config.php** Una vez que el atacante lo encodea puede ver texto normal toda la configuración de **wp-config**.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/f5920dd1-fdbb-4426-b2e9-8347c601805c)
+
+Raíz de eso el atacante mediante el **gobuster** encuentra la dirección y accede al panel de **wp-admin** como vemos en la imagen.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/c87b7316-9126-4f8b-bdde-75fed5250b88)
+
+Una vez que encontro el panel **wp-admin** con el fichero php-config.php que codificó el atacante dentro del dicho fichero se encuentra los usuarios de la base de datos que usa wordpress para validar los usuario de la web.
+
+Unos de esos usuario hay uno que está comentado que puedes acceder al wordpress como administrador.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/e7e0c006-4c53-406f-97f3-36e2455fdfb2)
+
+Como vemos en la imagen el atacante accede a traves del wp-admin que hasta lo readireciona.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/2568f139-91ba-4e54-bd16-1987bd981c12)
+
+Ya dentro con el usuario alfredo vemos que el usuario alfredo se conecto a las 15:35:06 del 19 de marzo con la IP 172.17.0.1 dicho usuario no podía conectarse ese dia ya que no fue al trabajo.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/0a66a9bd-5e2a-451e-9fa8-9ea297dda06b)
+
+Vemos lo que hizo el administrador alfredo y hizo una series de modificaciones a unos temas como vemos a en la imagen.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ec547984-6cfb-458b-813d-e5a1a3304d22)
+
+Cuando nos dirigimos a la fichero que modificó el administrador alfredo. Y vemos que intento hacer una reverse shell, como vemos en la imagen
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8ddc7c8e-d4fb-4210-95e4-30afcef476cc)
+
+Ahora nos vamos al access.log y vemos si accedió con la revere shell.
+Como vemos en la petición GET no le salio ningun error. En el archivo 404.php tiene el codigo malicioso de la reverse shell.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/eec9b201-78a6-4170-bf2a-958f4eb53414)
+
 
 
 2.2 Metodología NIST
