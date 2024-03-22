@@ -130,7 +130,7 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [ ] documentación del analisis forense
 - [ ] Inicio del analisi forense
 
-## 20/03/24 Reporte Diario
+## 21/03/24 Reporte Diario
 - [X] documentación del analisis forense
 - [X] finalización del analisi forense
 
