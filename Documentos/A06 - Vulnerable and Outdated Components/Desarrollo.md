@@ -142,9 +142,7 @@ También se ha intentado instalar una versión antigua de sudo para la vulnerabi
 
 Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está disponible.
 
-<p align="center">
-    <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo1.png">
-</p>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo1.png)
 
 Así que optamos por descargarnos el código fuente y luego instalarlo. Así que para ello tuvimos que seguir estos comandos para la instalación:
 
@@ -158,7 +156,4 @@ Así que optamos por descargarnos el código fuente y luego instalarlo. Así que
 
 Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin éxito alguno. Así que decidimos comprobar que versión estaba instalada y al comprobarlo vimos la versión correcta. Pero tras realizar varias pruebas no se pudo explotar esta vulnerabilidad con exito.
 
-<p align="center">
-    <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo2.png">
-</p>
-
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo2.png)
