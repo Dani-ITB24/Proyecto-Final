@@ -139,7 +139,7 @@ También se ha intentado instalar una versión antigua de sudo para la vulnerabi
 <br>
 
 > apt-get install sudo=1.8.0*
-<br>
+
 Al hacerlo nos saltó un aviso diciendo que esa versión de sudo no está disponible.
 
 <p align="center">
