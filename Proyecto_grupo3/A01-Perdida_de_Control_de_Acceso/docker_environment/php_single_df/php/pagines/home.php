@@ -36,7 +36,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         if (isset($_SESSION['Ussr'])){
                 echo "<a href='admin.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
-                echo "<p>shrek-master</p>";
+                echo "<p>web-master</p>";
                 echo "</a>";
                 echo "<a href='logout.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
@@ -59,7 +59,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <br />
-    <p>Author: shrek-master </p>
+    <p>Author: web-admin </p>
     </div>
         <?php
         if (isset($_GET['op'])) {

@@ -33,7 +33,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         if (isset($_SESSION['Ussr'])){
                 echo "<a href='admin.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
-                echo "<p>shrek-master</p>";
+                echo "<p>web-master</p>";
                 echo "</a>";
                 echo "<a href='logout.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
@@ -51,7 +51,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div class="w3-padding-large" id="main">
         <div class="w3-container w3-dark-grey">
             <div class="w3-panel">
-                <h1 class="w3-opacity">ShrekWeb</h1>
+                <h1 class="w3-opacity">Intranet</h1>
             </div>
             <h3>Regenerar contraseña:</h3>
             <form action="../utility/verification.php" method="POST" class="w3-container">

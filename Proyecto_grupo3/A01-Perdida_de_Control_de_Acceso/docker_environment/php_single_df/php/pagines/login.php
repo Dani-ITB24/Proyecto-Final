@@ -33,7 +33,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         if (isset($_SESSION['Ussr'])){
                 echo "<a href='admin.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
-                echo "<p>shrek-master</p>";
+                echo "<p>web-master</p>";
                 echo "</a>";
                 echo "<a href='logout.php' class='w3-bar-item w3-button w3-padding-large'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
