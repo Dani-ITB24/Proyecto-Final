@@ -30,6 +30,6 @@ RUN a2enmod rewrite
 FROM php-base AS php
 
 # Copy files
-COPY ./php/ /var/www/html/
+COPY ./php_single_df/php/ /var/www/html/
 
 EXPOSE 80
