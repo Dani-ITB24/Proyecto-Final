@@ -84,7 +84,15 @@ Comunicacion con el equipo
   - Investigacion del problema con la parte de la web por el php
   - Creacion de Dockerfile para la web y busqueda de imagenes ya creadas
 
-## Lunes 19/03/2024
+## Martes 19/03/2024
   - Investigacion del problema con la parte de la web por el php 
   - Creacion de Dockerfile para la web y busqueda de imagenes ya creadas
 
+## Miercoles 20/03/2024
+  - configuraciones del conetendor
+
+## Jueves 21/03/2024
+  - configuraciones del conetendor
+
+## Viernes 22/03/2024
+  - reunion y aclaracion de las dos maquinas
