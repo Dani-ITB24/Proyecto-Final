@@ -193,3 +193,8 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 - Hemos terminado la escalada de privilegios con tares de cron
 - Inicio documentacion maquina2.
+
+
+# Reporte 22-27 de marzo de 2024
+
+- He terminado la documentacion de la creacion de la mauqina2, y he tenido problemas para iniciar los servicios automaticamente, estoy investigando
