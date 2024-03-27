@@ -55,3 +55,17 @@ De esta manera como el script usa varias librerías, si añadimos un archivo con
 
 Con esto podemos llegar al usuario ampeter, que ya es el último antes que root.
 Para llegar a root desde este usuario lo que hemos hecho, es un script que comprime la home de ampeter con un script que se ejecuta cada minuto con una tarea de cron.
+
+Hemos creado un script que con el comando tar cea un archivo comprimido de todos los documentos que se encuentran en la home de ampeter.
+
+![](/Assets/scriptcompress.png)
+
+Tambien hemos creado una tarea con cron para que se ejecute automáticamente cada minuto.
+
+![](/Assets/cron.png)
+
+Es importante reiniciar el servicio cron, si no no se ejecuta la tarea.
+
+![](/Assets/resetcron.png)
+
+```` Por medio de esta tarea podemos llegar a root y completar la máquina. ````
