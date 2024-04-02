@@ -16,7 +16,7 @@
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/raw/Grupo5(Eloi-Alan-Fernando-Jose-Zome%C3%B1o)/Assets/Img/nmap.png" alt="nmap">
 
-> nmap -sVC -p- 172.17.0.2 
+> nmap -p- -sVC 172.17.0.2 
 
 <br>
 <h1 name="Vulnerabilidades">2. Buscar vulnerabilidades</h1>
