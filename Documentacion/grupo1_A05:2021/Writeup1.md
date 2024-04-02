@@ -6,6 +6,8 @@ Tiene abiertos los puertos SSH, FTP y HTTP:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c731883d-fdef-4570-ab40-d94744e94526)
 
+Revisamos los diferentes directorios y encuentro un mensaje en los diferentes CSS:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/cff05f2b-d6aa-4908-ac47-26d65feba064)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/618291d5-9bac-4cbb-a03d-64c8617ef8b5)
@@ -14,17 +16,29 @@ Tiene abiertos los puertos SSH, FTP y HTTP:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/43bccfda-f89f-4924-908f-93d6c869067d)
 
+A continuación navego hacia ese directorio indicado y se me descarga el siguiente archivo:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/47a2bb82-285d-434d-9efd-51c25de5059a)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/6f0f9e5b-f230-4820-9eb5-753d05fe58b1)
 
+Navego para ver la imagen indicada:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/764d92bd-0f95-4516-81c8-df4aedd37175)
+
+Me la descargo por si hubiera algo metido en ella y la analizo:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3cbe9f40-d191-49e3-89d2-83bebf7a6b14)
 
+Hay un zip con contraseña, la crackeo con JohnTheRipper:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3727d05d-3fab-4f47-bcd3-98513b6fc607)
 
+Navego al directorio encontrado, que parece ser un panel de inicio de sesión, pero aparentemente no es vulnerable a ningún ataque:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/28f0dd0e-0fb3-48b1-b3cb-babdbd8bff4b)
+
+Encuentro que el usuario "anonymous" está habilitado en el servicio FTP y encuentro un archivo con las credenciales del usuario "investiga":
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/42bc0c4f-0738-4813-b52d-f03ce23a3310)
 
@@ -34,9 +48,13 @@ Tiene abiertos los puertos SSH, FTP y HTTP:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/668adb54-8f3a-4e90-93b5-276b3713e077)
 
+Pruebo a acceder a este usuario mediante SSH, pero no funciona, así que lo intento en el panel de inicio de la web, y funciona:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/72fbe24c-79a8-429e-bdb7-4547181ef296)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/4b8d0b99-a8c3-4689-99f8-1acfd5f964bc)
+
+Una de las funciones de la web que ejecuta comandos, no está protegida con contraseña, por lo pruebo a ejecutar otros comandos y efectivamente funcionan. Sabiendo esto, subo una reverse shell y la ejecuto para conectarme a la máquina atacante con el usuario "www-data"
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/a0636d19-174e-4a39-aba9-5378972319a7)
 
@@ -62,23 +80,37 @@ Tiene abiertos los puertos SSH, FTP y HTTP:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3f782d04-43c4-476f-b429-99a6c75742b3)
 
+A continuación enumerando un poco la máquina, encuentro un binario extraño. Al ejecutarlo encuentro la ruta de una imágen:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/2588e7ff-4473-4d6a-880f-01829caa3f87)
+
+Al analizarla encuentro una contraseña tras pasar las cadenas HEX y descifrarlo de Base86:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c27357d5-1c05-4aac-9d1a-0f2854b78ee3)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3567f72c-906e-4d43-8aca-0ef9224de9f2)
 
+Pruebo la contraseña con el usuario bumblebee y funciona:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/523d6b92-3c5b-4f1c-a144-3d68ceaaf93c)
+
+Aquí encuentro la flag de usuario:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/f89f8697-fc07-413f-ba14-980fec5d8a1d)
 
+Y también una llave privada SSH:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/35844140-4c6d-4378-9f08-839e4c61fc61)
+
+Me la descargo e intento conectarme con el usuario maya, pero tiene contraseña así que la crackeo con John The Ripper:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/7047aa9a-dedc-49be-b0a2-68c996afd7d3)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/fff0a07a-a2a5-4155-b87c-568fb9dc64f8)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/d6d5a8f8-4a72-49f3-adf2-b7b4a7b5948a)
+
+Finalmente accedo y encuentro un SUID vulnerable (wget), así que lo exploto y consigo root, con su respectiva flag:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c264ac7e-df6b-49f0-9273-801964cf1eec)
 
