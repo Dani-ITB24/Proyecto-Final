@@ -165,19 +165,14 @@
 ## Viernes 22 de Marzo 2024:
 
 - [X] Comprobar documentación y acabar documento final.
-- [ ] 
 
 
 
 # Semana 6 - Probar y documentar:
-## Lunes 1 de Abril 2024:
-
-- [ ] 
-- [ ] 
 
 ## Martes 2 de Abril 2024:
 
-- [ ] 
+- [X] Comunicación con otros grupos para hacer las CTF.
 - [ ] 
 
 ## Miércoles 3 de Abril 2024:
