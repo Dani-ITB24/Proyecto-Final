@@ -118,4 +118,5 @@
 ## Lunes 02/04/2024
 - [ ] Hacerle pentestig a Grupo 1 (No han entregado ninguna máquina)
 - [X] Explorar entorno docker de Grupo 2
+- [X] Reorganizar trabajo final y documentar como ejecutar las CTF
       
