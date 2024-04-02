@@ -104,4 +104,24 @@
 
 - [x] Buscar otros posibles CVE que se puedan implementar en la segunda máquina. (Algunos no funcionan correctamente)
 - [x] Descargar y hacer pruebas con diferentes softwares para poder implementar en la segunda máquina.
-- [x] Probar varias opciones de configuraciones apache (diseño de la máquina 2) 
+- [x] Probar varias opciones de configuraciones apache (diseño de la máquina 2)
+
+# 15/03/2024:
+
+- [x] Plantear y buscar diferentes opciones para el segundo contenedor
+- [x] Planteamiento de la vulnerabilidad relacionada con el riesgo principal
+- [x] Probar algún software con CVE del 2023 en adelante en Docker 
+- [x] Finalización (fallida) de recreación de una vulnerabilidad
+
+# 18/03/2024:
+- [x] Investigar posibles vulnerabilidades (CVE) desde el año 2023 en adelante.
+- [x] Reproducir adecuadamente una vulnerabilidad.
+- [x] Identificar la debilidad en relación con el principal riesgo.
+
+# 19/03/2024:
+- [x] Replantearnos la opción elegida para hacer el CTF debido a varios errores encontrados en la creación de éste mismo.
+- [x] Buscar y testear otras opciones para hacer el CTF de nuestra vulnerabilidad.
+
+# 20/03/2024:
+- [x] Descargar y aplicar software encontrado en nustro CTF (funcionamiento correcto por el momento)
+- [x] Conocer a fondo el software y instalar algunos servicios para el desarrollo de nuestro CTF, entre ellos SSH, apache, MariaDB...
