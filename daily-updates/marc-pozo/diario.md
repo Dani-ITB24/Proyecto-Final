@@ -145,3 +145,8 @@
 
 - [x] Planteamiento de escalado de privilegios del CTF
 - [x] Prueba de diferentes vulnerabilidades de escalado 
+
+# Martes 02 de abril de 2024:
+
+- [x] Intento fallido de subida del contedor a Docker HUB
+- [x] Writeup de una máquina
