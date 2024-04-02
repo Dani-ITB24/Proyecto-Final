@@ -113,4 +113,9 @@
 ## Jueves 21 de marzo 2024
 - [X] Realizar pentesting
 - [X] Subir docker images, tu1millon:clean y tu1millon:pentest a dockerhub
-- [X] Terminar documentacion, Pentest y Desarrollo 
+- [X] Terminar documentacion, Pentest y Desarrollo
+
+## Martes 2 de abril 2024
+- [X] Reunion general de grupo
+- [X] Pruebas pentesting jordi24itb/m1
+
