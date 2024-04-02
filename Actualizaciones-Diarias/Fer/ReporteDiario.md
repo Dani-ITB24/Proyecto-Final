@@ -101,7 +101,7 @@
 :white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
 
 <h1 name="Semana5">Semana 5: Preparación máquina 2</h1>
-## Lunes 18 de marzo 2024
+<h2>Lunes 18 de marzo 2024</h2>
 Falta
 
 ## Martes 19 de marzo 2024
