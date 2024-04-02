@@ -138,6 +138,7 @@
 
 ## Martes 02/04/2024
 
+- Creación de la estructura de carpetas y archivos para el Feedback de cada vulnerabilidad por grupo.
 - Descarga de maquinas a las que analizar.
 - Explotación de primera maquina del grupo5 realizando la explicación de como lo he hecho.
 - Comienzo de la explotación de la segunda maquina del gruipo5, mas la explicación de ello.
