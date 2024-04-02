@@ -101,13 +101,21 @@
 - [X] I+D en headers php.
 - [X] Gestiones del código y repositorio
 
-## Martes 18/03/2024
+## Martes 19/03/2024
 - [X] Gestiones del código y repositorio
 - [X] Dar soporte técnico al grupo
 
-## Miércoles 18/03/2024
+## Miércoles 20/03/2024
 - [X] Configuraciones Docker
 - [X] Dar soporte técnico al grupo
 
-## Jueves
+## Jueves 21/03/2024
 - [X] Con Azrael terminar CTF1 y CTF2
+
+## Viernes 22/03/2024
+- [X] Reunión de grupo, organizar y delegar tareas.
+
+## Lunes 02/04/2024
+- [ ] Hacerle pentestig a Grupo 1 (No han entregado ninguna máquina)
+- [X] Explorar entorno docker de Grupo 2
+      
