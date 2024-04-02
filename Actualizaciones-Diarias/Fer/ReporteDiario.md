@@ -98,6 +98,7 @@
 ✅ Buscar aplicaciones vulnerables <br>
 :white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
 
+<h1 name="Semana4">Semana 4: Preparación máquina 2</h1>
 ## Lunes 18 de marzo 2024
 Falta
 
@@ -118,7 +119,7 @@ Falta
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
 ✅ Acabado de documentación y revisión de faltas
 
-<h1 name="Semana4">Semana 4: Preparación máquina 2</h1>
+<h1 name="Semana4">Semana 6: Probar y documentar</h1>
 <h2>Martes 2 de abril 2024</h2>
 ✅ Elección de las máquinas para atacarlas <br>
 ✅ Preparación de la máquina <br>
