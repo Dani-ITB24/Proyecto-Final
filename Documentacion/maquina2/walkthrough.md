@@ -54,8 +54,6 @@
 
 ![](/Assets/walkthrough2/2024-04-02_18-03.png)
 
-![](/Assets/walkthrough2/2024-04-02_18-04.png)
-
 ![](/Assets/walkthrough2/2024-04-02_18-09.png)
 
 ![](/Assets/walkthrough2/2024-04-02_18-14.png)
