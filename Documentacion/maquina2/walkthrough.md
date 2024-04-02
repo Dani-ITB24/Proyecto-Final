@@ -36,6 +36,8 @@
 
 ![](/Assets/walkthrough2/2024-03-21_17-53.png)
 
+![](/Assets/walkthrough2/2024-04-02_17-31.png)
+
 ![](/Assets/walkthrough2/2024-03-21_17-54.png)
 
 ![](/Assets/walkthrough2/2024-03-21_18-07.png)
