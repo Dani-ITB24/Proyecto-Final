@@ -184,3 +184,11 @@
 
 - Continuación walkthrough
     - He seguido tomando capturas del paso a paso para poder resolver la seguna máquina.
+
+## Martes 02/04/2024
+
+- Continuación walkthrough
+    - He seguido tomando capturas del paso a paso para poder resolver la seguna máquina.
+
+- Reparto de CTFs con los compañeros
+    - Hemos dividido las CTFs que tenemos que resolver entre los tres.
