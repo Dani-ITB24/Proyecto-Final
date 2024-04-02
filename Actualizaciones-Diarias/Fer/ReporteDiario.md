@@ -113,3 +113,14 @@ Falta
 ## Jueves 21 de marzo 2024
 ✅ Organización y distribución de tareas diarias <br>
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
+
+## Viernes 22 de marzo 2024
+✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
+✅ Acabado de documentación y revisión de faltas
+
+<h1 name="Semana4">Semana 4: Preparación máquina 2</h1>
+<h2>Martes 2 de abril 2024</h2>
+✅ Elección de las máquinas para atacarlas
+✅ Preparación de la máquina
+:white_large_square: Reconocimiento del contenido de la máquina
+:white_large_square: Documentación de la vulnerabilidad de A09
