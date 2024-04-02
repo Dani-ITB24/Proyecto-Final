@@ -60,7 +60,26 @@ Tiene abiertos los puertos SSH, FTP y HTTP:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/7bbc25cf-e59c-45a3-943a-3a68cdce9f90)
 
-
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3f782d04-43c4-476f-b429-99a6c75742b3)
 
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/2588e7ff-4473-4d6a-880f-01829caa3f87)
 
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c27357d5-1c05-4aac-9d1a-0f2854b78ee3)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3567f72c-906e-4d43-8aca-0ef9224de9f2)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/523d6b92-3c5b-4f1c-a144-3d68ceaaf93c)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/f89f8697-fc07-413f-ba14-980fec5d8a1d)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/35844140-4c6d-4378-9f08-839e4c61fc61)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/7047aa9a-dedc-49be-b0a2-68c996afd7d3)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/fff0a07a-a2a5-4155-b87c-568fb9dc64f8)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/d6d5a8f8-4a72-49f3-adf2-b7b4a7b5948a)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c264ac7e-df6b-49f0-9273-801964cf1eec)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/cfcf6901-1c00-4a91-b324-3d58da8779e8)
