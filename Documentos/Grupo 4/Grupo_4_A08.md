@@ -14,7 +14,7 @@
 
 <h1 name="Enumeración">1. Enumeración</h1>
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/raw/Grupo5(Eloi-Alan-Fernando-Jose-Zome%C3%B1o)/Assets/Img/nmap.png" alt="nmap">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/nmap.png" alt="nmap">
 
 > nmap -p- -sVC 172.17.0.2 
 
