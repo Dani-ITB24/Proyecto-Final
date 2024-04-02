@@ -405,7 +405,7 @@ Se ha intentado garantizar la mejor calidad de las evidencias durante todo este 
 - Creación de cuenta de DockerHub para guardar las imagenes en la nube y poder compartiras con el grupo.
 - Creación acrivo dockerfile:
   
-FROM marcositb/grupo4_software_failures:versionFinal
+FROM marcositb/grupo4_software_failures:version_Final
 
 // Exponer los puertos necesarios
 
