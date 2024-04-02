@@ -1,3 +1,5 @@
+# Explotación de la maquina
+
 Primero de todo hacemos un escaneo de puertos con nmap para ver que servicios estan abiertos.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/b9203e95-4dbe-4fac-b977-69f0f9a9fdba)
@@ -22,4 +24,7 @@ El admin es un login
 Y l,p,k tiene un fichero .txt que dice esto.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/ee78d258-38bf-444b-a3d8-5003f0a259eb)
+
+
+# Feedback
 
