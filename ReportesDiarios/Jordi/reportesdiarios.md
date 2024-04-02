@@ -198,3 +198,8 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 # Reporte 22-27 de marzo de 2024
 
 - He terminado la documentacion de la creacion de la mauqina2, y he tenido problemas para iniciar los servicios automaticamente, estoy investigando
+
+
+# Reporte 2 de Abril de 2024
+
+- He terminado de configurar el Docker para que se inicien los servicios solos y he terminado el WriteUp de la máquina tu1millon del grupo5 con la vulnerabilidad A06.
