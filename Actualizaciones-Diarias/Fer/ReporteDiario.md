@@ -2,6 +2,8 @@
 <span style="color:black;">[ Semana 2: Preparación máquina](#Semana2)</span><br>
 <span style="color:black;">[ Semana 3: Preparación máquina](#Semana3)</span><br>
 <span style="color:black;">[ Semana 4: Preparación máquina 2](#Semana4)</span><br>
+<span style="color:black;">[ Semana 5: Preparación máquina 2](#Semana5)</span><br>
+<span style="color:black;">[ Semana 6: Probar y documentar](#Semana6)</span><br>
 ---
 
 <h1 name="Semana1">Semana 1: Planificación</h1>
@@ -98,7 +100,7 @@
 ✅ Buscar aplicaciones vulnerables <br>
 :white_large_square: Preparación de otra máquina para la nueva vulnerabilidad
 
-<h1 name="Semana4">Semana 4: Preparación máquina 2</h1>
+<h1 name="Semana5">Semana 5: Preparación máquina 2</h1>
 ## Lunes 18 de marzo 2024
 Falta
 
@@ -119,7 +121,7 @@ Falta
 ✅ Documentación del desarrollo de la vulnerabilidad A06 <br>
 ✅ Acabado de documentación y revisión de faltas
 
-<h1 name="Semana4">Semana 6: Probar y documentar</h1>
+<h1 name="Semana6">Semana 6: Probar y documentar</h1>
 <h2>Martes 2 de abril 2024</h2>
 ✅ Elección de las máquinas para atacarlas <br>
 ✅ Preparación de la máquina <br>
