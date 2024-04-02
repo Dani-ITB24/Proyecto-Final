@@ -22,11 +22,11 @@
 
 [http]
   [http.routers]
-    [http.routers.pino-wordpress]
-      rule = "Host(`pino-wordpress.local`)"
-      service = "pino-wordpress"
+    [http.routers.pino-php]
+      rule = "Host(`pino-php.local`)"
+      service = "pino-php"
       entryPoints = ["websecure"]
-      [http.routers.pino-wordpress.tls]
+      [http.routers.pino-php.tls]
         options = "mytls"
     [http.routers.arbusto-php]
       rule = "Host(`arbusto-php.local`)"
@@ -36,9 +36,9 @@
         options = "mytls"
 
   [http.services]
-    [http.services.pino-wordpress.loadBalancer]
-      [[http.services.pino-wordpress.loadBalancer.servers]]
-        url = "http://pino-wordpress:80"
+    [http.services.pino-php.loadBalancer]
+      [[http.services.pino-php.loadBalancer.servers]]
+        url = "http://pino-php:80"
     [http.services.arbusto-php.loadBalancer]
       [[http.services.arbusto-php.loadBalancer.servers]]
         url = "http://arbusto-php:80"
