@@ -192,3 +192,11 @@
 
 - Reparto de CTFs con los compañeros
     - Hemos dividido las CTFs que tenemos que resolver entre los tres.
+
+## Miercoles 03/04/2024
+
+- Finalización walkthrough segunda máquina.
+    - Hoy he terminado de hacer el paso a paso de la segunda máquina.
+
+- Resolución CTF compañeros.
+    - He empezado a resolver máquinas de otros grupos y a crear el walkthrough
