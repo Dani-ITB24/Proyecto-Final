@@ -82,6 +82,9 @@ Ahora tenemos un texto cifrado en base64, vamos a proceder a decodearlo.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/decode.png" alt="decode">
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/decoded.png" alt="decoded">
+
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
