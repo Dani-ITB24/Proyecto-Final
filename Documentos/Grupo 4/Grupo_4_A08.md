@@ -50,6 +50,11 @@ Lo cambiamos por **http://172.17.0.2/wordpress/wp-content/plugins/mail-masta/inc
 Gracias al archivo /etc/passwd podemos visualizar los servicios que tiene instalados el servidor, como MySQL Server, entre otros. También podemos observar que existe un usuario **daniel** en el sistema. Vamos a apuntarlo por si nos es necesario en un futuro.
 
 <br>
+
+Ahora que sabemos que podemos acceder a archivos del sistema, podríamos intentar acceder a otros archivos para encontrar posibles credenciales de acceso o alguna otra pista.
+
+
+<br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
 
