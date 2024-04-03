@@ -129,5 +129,5 @@ Falta
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
 
 <h2>Martes 3 de abril 2024</h2>
-:white_large_square: Descubrimiento de la vulnerabilidad de A09<br>
+✅ Descubrimiento de la vulnerabilidad de A09<br>
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
