@@ -74,9 +74,7 @@ Listamos los recursos compartidos sin autenticarnos con "smbclient". Vemos que h
 
 ![](/Assets/walkthrough2/2024-04-02_17-31.png)
 
-Vamos a la home para ver que usuarios existen, y vemos que existe: lolito, ampeter, papercut y thegrefg.
 
-![](/Assets/walkthrough2/2024-03-21_17-54.png)
 
 ![](/Assets/walkthrough2/2024-03-21_18-07.png)
 
