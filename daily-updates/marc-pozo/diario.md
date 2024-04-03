@@ -150,3 +150,8 @@
 
 - [x] Intento fallido de subida del contedor a Docker HUB
 - [x] Writeup de una máquina
+
+# Miércoles 03 de abril de 2024:
+
+- [x] Reconstrucción del primer contenedor debido a un error
+- [x] Writeup de una máquina
