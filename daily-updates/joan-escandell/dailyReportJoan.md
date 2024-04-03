@@ -125,3 +125,7 @@
 # 20/03/2024:
 - [x] Descargar y aplicar software encontrado en nustro CTF (funcionamiento correcto por el momento)
 - [x] Conocer a fondo el software y instalar algunos servicios para el desarrollo de nuestro CTF, entre ellos SSH, apache, MariaDB...
+
+# 02/04/2024:
+- [x] Crear cuenta y probar funcionamiento de DockerHub
+- [x] Pruebas de subir imágenes de docker a DockerHub (fallido)
