@@ -47,7 +47,7 @@ Lo cambiamos por **http://172.17.0.2/wordpress/wp-content/plugins/mail-masta/inc
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/plugin-exploit.png" alt="plugin-exploit">
 
-Gracias al archivo /etc/passwd podemos visualizar los servicios que tiene instalados el servidor, como MySQL Server, entre otros. También podemos observar que existe un usuario **daniel** en el sistema. Vamos a apuntarlo por si no es necesario en un futuro.
+Gracias al archivo /etc/passwd podemos visualizar los servicios que tiene instalados el servidor, como MySQL Server, entre otros. También podemos observar que existe un usuario **daniel** en el sistema. Vamos a apuntarlo por si nos es necesario en un futuro.
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
