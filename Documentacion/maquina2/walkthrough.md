@@ -67,3 +67,23 @@
 ![](/Assets/walkthrough2/2024-04-02_18-41.png)
 
 ![](/Assets/walkthrough2/2024-04-02_18-42.png)
+
+![](/Assets/walkthrough2/2024-04-03_16-24.png)
+
+![](/Assets/walkthrough2/2024-04-03_16-24_1.png)
+
+![](/Assets/walkthrough2/2024-04-03_16-28.png)
+
+![](/Assets/walkthrough2/2024-04-03_16-36.png)
+
+![](/Assets/walkthrough2/2024-04-03_16-49.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-00.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-02.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-27.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-28.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-39.png)
