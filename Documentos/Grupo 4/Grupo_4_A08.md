@@ -71,6 +71,7 @@ Investigando, he encontrado una web con técnicas a aplicar para aprovechar mejo
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/phpfilter.png" alt="phpfilter">
 
+En este caso vamos a cambiar el **php://filter/convert.base64-encode/resource=index.php** y lo vamos a aplicar de la siguiente manera:  **pl=php://filter/convert.base64-encode/resource=../../../../../wp-config.php**
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
