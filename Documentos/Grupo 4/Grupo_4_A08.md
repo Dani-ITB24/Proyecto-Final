@@ -94,6 +94,10 @@ Password: @111wireshark-2
 Usuario: alfredo
 Password: \_h@ckMy_
 
+Vamos a probar estas credenciales para acceder al panel de administrador de Wordpress.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/wordpress-login.png" alt="Wordpress login">
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
