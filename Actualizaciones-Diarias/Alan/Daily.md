@@ -173,7 +173,7 @@
 ## Martes 2 de Abril 2024:
 
 - [X] Comunicación con otros grupos para hacer las CTF.
-- [ ] 
+- [X] Empezar a hacer la CTF del grupo 4 A08:2021 - Software and Data Integrity Failures 
 
 ## Miércoles 3 de Abril 2024:
 
