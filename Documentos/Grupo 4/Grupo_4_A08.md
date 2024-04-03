@@ -53,6 +53,11 @@ Gracias al archivo /etc/passwd podemos visualizar los servicios que tiene instal
 
 Ahora que sabemos que podemos acceder a archivos del sistema, podríamos intentar acceder a otros archivos para encontrar posibles credenciales de acceso o alguna otra pista.
 
+https://www.hackercoolmagazine.com/lfi-hacking-beginners/
+
+En esta web podemos encontrar información para intentar acceder a los archivos wp-settings.php y wp-config.php de wordpress.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/info-wp-config.png" alt="Acceder a wp-config.php">
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
