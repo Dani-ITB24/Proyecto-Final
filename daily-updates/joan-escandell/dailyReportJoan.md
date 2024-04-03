@@ -129,3 +129,9 @@
 # 02/04/2024:
 - [x] Crear cuenta y probar funcionamiento de DockerHub
 - [x] Pruebas de subir imágenes de docker a DockerHub (fallido)
+
+# 03/04/2024:
+- [x] VOLVER A CREAR LA CTF DE INYECCIÓN DE NUEVO!!! (daba error de todas las formas posibles al subirlo a DockerHub)
+- [x] Completar la CTF y hacer commit para tener versión con logs para hacer Forense
+- [x] Crear repositorio en DockerHub
+- [x] Subir las dos imágenes a DockerHub (previa al ataque y posterior al ataque)
