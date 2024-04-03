@@ -119,3 +119,6 @@
 - [X] Reunion general de grupo
 - [X] Pruebas pentesting jordi24itb/m1
 
+## Miercoles 3 de abril 2024
+- [X] Pruebas pentesting jordi24itb/m1
+
