@@ -60,7 +60,9 @@
 
 ``We can access the ftp server with the user anonymous, and in it we find a file with the control panel credentials.``
 
-![](/Assets/walkthrough/2024-03-07_18-57.png)
+![](/Assets/walkthrough/image.png)
+
+![](/Assets/walkthrough/2024-04-03_17-12.png)
 
 ![](/Assets/walkthrough/2024-03-07_18-58.png)
 
