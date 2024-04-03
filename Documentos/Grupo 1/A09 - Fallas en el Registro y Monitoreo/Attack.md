@@ -1,8 +1,8 @@
 # **Índice**
 
 <span style="color:black;">1. [ Búsqueda de direcciones IP](#direccionesIP)</span><br>
-<span style="color:black;">1. [ Búsqueda de direcciones IP](#vulnerabilidades)</span><br>
-
+<span style="color:black;">2. [ Búsqueda de direcciones IP](#vulnerabilidades)</span><br>
+<span style="color:black;">3. [ Otros recursos encontrados](#otros)</span><br>
 ---
 <br>
 
