@@ -4,6 +4,14 @@ Lo primero de todo hacemos un escaneo de puertos de la maquina para ver que serv
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/0ff31222-6fb0-49ab-97b0-5dae84970aab)
 
+Vemos que tiene una web que es un login.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d95749eb-70a5-4539-bba0-6278ad27361d)
+
+Hacermos un dirbuster para ver si tiene algun directorio oculto pero no vemnos que tenga nada.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/8456c465-34e1-4642-8701-a67f2cd119ae)
+
 Vemos las diferentes versiones de los servicios, la version del apache es antigua y mirando por inetrnet he encontrado la siguiente cve con el tomcat.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/1a453b12-f4ba-4274-b645-5907f4464b25)
@@ -41,6 +49,11 @@ Vemos que tenemos vim, buscamos en GTFOBins para ver si funciona.
 Probamos y vemos que estamos ya como root.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/95a32830-41e7-4b97-987e-14acf3c486b4)
+
+La flag root no esta en su directorio de usuario, a si que he hecho un find para ver si esta en otro lado, y la he encontrado hacemos un cat y vemos el contenido.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/a8fa4d2a-27eb-476d-b699-87f1b9d1a1a3)
+
 
 
 # Feedback
