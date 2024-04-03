@@ -26,3 +26,6 @@ Se ha encontrado lo siguiente: <br>
 Sabemos que la versión que hay instalada del Papercut es la versión 18.3. Asi que hemos  buscado su cve
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-5.png)
+
+De todos los encontrado ha habido que ha destacado en particular:
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-6.png)
