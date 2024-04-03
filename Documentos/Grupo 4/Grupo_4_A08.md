@@ -65,6 +65,8 @@ Vamos a intentar esta técnica.
 
 Independientemente de que se añadan más o menos */../* nos continúa saliendo el mismo resultado, no nos devuelve nada.
 
+[Vulnerabilidad Local File Inclusion](https://medium.com/@nyomanpradipta120/local-file-inclusion-vulnerability-cfd9e62d12cb)
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
