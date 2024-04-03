@@ -37,7 +37,7 @@ Vemos que tenemos vim, buscamos en GTFOBins para ver si funciona.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e50fdde8-f4a7-427f-9d2b-91dfe66cb2b2)
 
-Probamos y vemos que estamos ya como root, y visualizamos la flag de usuario admin.
+Probamos y vemos que estamos ya como root.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/95a32830-41e7-4b97-987e-14acf3c486b4)
 
