@@ -45,10 +45,6 @@ Probamos y vemos que estamos ya como root.
 
 # Feedback
 
-En el directorio root no hay flag.
-
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/a96aa85f-4849-4ab8-9de6-a80eaf1034f4)
-
 El principio de la maquina, hay que descubir bien que es lo que podemos utilizar para entrar, o podemos aprovechar para seguir avanzando, pero una vez con el usuario se facilitan las cosas.
 
 
