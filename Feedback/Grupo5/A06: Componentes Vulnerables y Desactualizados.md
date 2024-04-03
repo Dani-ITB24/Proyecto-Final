@@ -1,3 +1,5 @@
+# Explotación de la maquina
+
 Lo primero de todo hacemos un escaneo de puertos de la maquina para ver que servicios estan activados.
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/0ff31222-6fb0-49ab-97b0-5dae84970aab)
 
@@ -39,5 +41,13 @@ Probamos y vemos que estamos ya como root, y visualizamos la flag de usuario adm
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/95a32830-41e7-4b97-987e-14acf3c486b4)
 
+
+# Feedback
+
+En el directorio root no hay flag.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/a96aa85f-4849-4ab8-9de6-a80eaf1034f4)
+
+El principio de la maquina, hay que descubir bien que es lo que podemos utilizar para entrar, o podemos aprovechar para seguir avanzando, pero una vez con el usuario se facilitan las cosas.
 
 
