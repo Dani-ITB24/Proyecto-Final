@@ -82,6 +82,4 @@
 
 ![](/Assets/walkthrough2/2024-04-03_17-00.png)
 
-![](/Assets/walkthrough2/2024-04-03_17-28.png)
-
 ![](/Assets/walkthrough2/2024-04-03_17-39.png)
