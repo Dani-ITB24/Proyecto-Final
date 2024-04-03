@@ -65,7 +65,12 @@ Vamos a intentar esta técnica.
 
 Independientemente de que se añadan más o menos */../* nos continúa saliendo el mismo resultado, no nos devuelve nada.
 
+Investigando, he encontrado una web con técnicas a aplicar para aprovechar mejor el Local File Inclusion:
 [Vulnerabilidad Local File Inclusion](https://medium.com/@nyomanpradipta120/local-file-inclusion-vulnerability-cfd9e62d12cb)
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/phpfilter.png" alt="phpfilter">
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
