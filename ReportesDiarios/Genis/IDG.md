@@ -82,6 +82,15 @@
 ## Divendres 22-03-24-
 - treballar en la part forense
 
+## Dimarts 2-04-24-
+- treballar en la part forense
+
+
+## Dimecres 3-04-24-
+- treballar en la part forense
+- verificar funcionament de la maquina
+
+
 
 
   
