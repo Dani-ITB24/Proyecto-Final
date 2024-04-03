@@ -84,6 +84,15 @@ Ahora tenemos un texto cifrado en base64, vamos a proceder a decodearlo.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/decoded.png" alt="decoded">
 
+Una vez decodeado el wp-config.php podemos ver que hay 2 usuarios y contraseñas en texto plano, en total tenemos la siguiente información:
+
+Usuario: daniel
+
+Usuario: admin
+Password: @111wireshark-2
+
+Usuario: alfredo
+Password: \_h@ckMy_
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
