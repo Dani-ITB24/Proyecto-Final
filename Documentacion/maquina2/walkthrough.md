@@ -78,11 +78,9 @@
 
 ![](/Assets/walkthrough2/2024-04-03_16-49.png)
 
-![](/Assets/walkthrough2/2024-04-03_17-00.png)
-
-![](/Assets/walkthrough2/2024-04-03_17-02.png)
-
 ![](/Assets/walkthrough2/2024-04-03_17-27.png)
+
+![](/Assets/walkthrough2/2024-04-03_17-00.png)
 
 ![](/Assets/walkthrough2/2024-04-03_17-28.png)
 
