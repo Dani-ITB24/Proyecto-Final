@@ -63,6 +63,7 @@ Ahora que estamos dentro, vamos a ver que servicios estan corriendo.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-17.png)
 
 Vemos que el puerto 139 esta escuchando, se ha visto que este puerto lo suele usar smbClient. Se ha mirado si estaba instalado y de ser asi ver la version del samba que esta instalada. No se ha encontrado ninguna vulnerabilidad para la version que tiene en ubuntu.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-19.png)
 
 Ahora vamos a probar si hay alguna cosa compartida.
