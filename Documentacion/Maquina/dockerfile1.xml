@@ -1,21 +1,14 @@
+# Utiliza la imagen base
+FROM injection:v1
 
-FROM ubuntu:20.04
+# Instala los paquetes necesarios para los servicios
+RUN apt-get update && \
+    apt-get install -y mariadb-server apache2 openssh-server
 
-<!--- Poner informacion version, nombre----->
-LABEL maintainer=" 123@gmail.com"
-LABEL version="0.1"
+# Configura los servicios para que se inicien automáticamente al iniciar el contenedor
+RUN systemctl enable mariadb && \
+    systemctl enable apache2 && \
+    systemctl enable ssh
 
-<!--- Actualiza los paquetes o poner nuevos----->
-RUN apt-get update
-RUN apt upgrade -y
-
-  
-<!---(Instalar aplicaciones adicionales)----->
- RUN apt-get install -y apache2
- RUN apt-get install mariadb-server
-
-<!---(Exponer puertos)----->
- EXPOSE 80 443
-
-<!---(Copiar archivos o directorios desde el host al contenedor)----->
-COPY /ruta/del/origen /ruta/destino
+# Define el comando de inicio del contenedor
+CMD ["bash", "-c", "service mariadb start && service apache2 start && service ssh start && tail -f /dev/null"]
