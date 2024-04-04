@@ -102,6 +102,9 @@ Accedemos a http://172.17.0.2/wordpress/wp-admin
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/wordpress-admin.png" alt="Wordpress admin">
 
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/reverseshell.png" alt="Reverse Shell">
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
