@@ -134,3 +134,14 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [X] documentación del analisis forense
 - [X] finalización del analisi forense
 
+## 2/04/24 Reporte Diario
+- [X] Descarga de la primera maquina del grupo1
+- [ ] Inicio de explotación de la primera maquina del grupo1
+
+## 03/03/24 Reporte Diario
+- [X] Finalización de explotación de la primera maquina del grupo1
+- [X] Feeback de la la primera maquina del grupo1
+
+## 04/03/24 Reporte Diario
+- [ ] Descarga de la segunda maquina del grupo2
+- [ ] Inicio de explotación de la segunda maquina del grupo2
