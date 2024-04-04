@@ -58,6 +58,6 @@ La flag root no esta en su directorio de usuario, a si que he hecho un find para
 
 # Feedback
 
-El principio de la maquina, hay que descubir bien que es lo que podemos utilizar para entrar, o podemos aprovechar para seguir avanzando, pero una vez con el usuario se facilitan las cosas.
+El principio de la maquina, hay que descubir bien que es lo que podemos utilizar para entrar, o podemos aprovechar para seguir avanzando, pero una vez con el usuario pepe es facil encontrar que podemos urilizar para subir a root. Tener la flag de root escondida esta bien, ya que de normal no se esconde.
 
 
