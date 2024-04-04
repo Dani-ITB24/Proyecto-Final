@@ -5,9 +5,8 @@
 <span style="color:black;">1. [ Enumeración](#Enumeración)</span><br>
 <span style="color:black;">2. [ Buscar vulnerabilidades](#Vulnerabilidades)</span><br>
 <span style="color:black;">3. [ Flag user.txt](#Flag1)</span><br>
-<span style="color:black;">4. [ Movimiento lateral](#Movimiento)</span><br>
-<span style="color:black;">5. [ Escalada de privilegios a Root](#Escalada)</span><br>
-<span style="color:black;">6. [ Flag de Root](#flag-root)</span><br>
+<span style="color:black;">4. [ Escalada de privilegios a Root y flag de root](#root)</span><br>
+
 ---
 
 <br>
@@ -122,17 +121,9 @@ Antes de guardar el tema con la reverse shell hemos tenido que poner a escuchar 
 Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el usuario "**daniel**" en el sistema. Si recordamos, anteriormente hemos encontrado 2 contraseñas: **@111wireshark-2** y **\_h@ckMy_**. Vamos a probar acceder con el usuario daniel.
 
 
-
-
-
 <br>
-<h1 name="Movimiento">4. Movimiento lateral</h1>
+<h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/flagroot.png" alt="Escalada a Root y flag root.txt">
 
-<br>
-<h1 name="Escalada">5. Escalada de privilegios a Root</h1>
-
-
-<br>
-<h1 name="flag-root">6. Flag de Root</h1>
 
