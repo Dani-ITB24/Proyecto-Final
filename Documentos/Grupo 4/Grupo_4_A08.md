@@ -108,6 +108,8 @@ Ya estamos dentro del panel de administración de Wordpress, veamos que podemos 
 
 Podemos aprovechar el editor de los temas de Wordpress para meter el código de una [Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
 
+La reverse shell apunta hacia a IP de nuestra máquina atacante **200.200.200.5** por el puerto **4444**.
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
