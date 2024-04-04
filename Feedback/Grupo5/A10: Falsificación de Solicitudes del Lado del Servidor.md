@@ -55,6 +55,13 @@ Vamos a sacar este fichero a la maquina principal para hacerle un jhon y con sue
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/8edc5dfc-74b2-4529-96d5-740cb4da8df5)
 
+Utilizamos ssh2john.py y john para sacar la contraseña de dendo de la clave privada.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/795c4d5b-d7d1-4795-a826-8786d1f522b8)
+
+Entramos con francisca
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e6c98979-c19f-4a20-973d-36eca675905a)
 
 
 # Feedback
