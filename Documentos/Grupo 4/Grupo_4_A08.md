@@ -114,7 +114,7 @@ La reverse shell apunta hacia a IP de nuestra máquina atacante **200.200.200.5*
 
 Antes de guardar el tema con la reverse shell hemos tenido que poner a escuchar a nuestra máquina atacante por el puerto **4444**.
 
-
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/user_flag.png" alt="user.txt flag">
 
 
 
