@@ -35,5 +35,5 @@ Se ha buscado un exploit para explotar esta vulnerabilidad. Y se ha encontrado u
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-8.png)
 
-En el achivo python se ha mirado que hacia exactamente. Se ha visto que si se añade "/app?service=page/SetupCompleted" en url se puede vulnerar.
-
+En el achivo python se ha mirado que hacia exactamente. Se ha visto que si se añade "/app?service=page/SetupCompleted" a la url se puede vulnerar la aplicacion.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-9.png)
