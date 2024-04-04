@@ -39,6 +39,11 @@ Hemos encontrado 2 directorios ocultos tras el servidor web.
 
 Se puede acceder como usuario anónimo al servidor FTP. Intentando subir una reverse shell por FTP, nos da un error. Así que vamos a intentarlo por otro lado.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/searchsploit.png" alt="Searchsploit">
+
+Buscando todas las versiones de los servicios instalados, encontramos que el servicio OpenSSH de la versión 7.2p2 tiene una vulnerabilidad frente a enumeración de usuarios.
+
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
