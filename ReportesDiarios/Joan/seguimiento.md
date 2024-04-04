@@ -200,3 +200,10 @@
 
 - Resolución CTF compañeros.
     - He empezado a resolver máquinas de otros grupos y a crear el walkthrough
+
+## Jueves 04/04/2024
+
+- Corrección segunda máquina.
+    - Ayer terminé el walkthrough de la segunda máquina, pero subí la máquina ya resulta, así que hoy he eliminado todos los archivos y he redireccionado el bash_history de todos los usuarios.
+
+- Continuación resolución de las máquinas de los compañeros.
