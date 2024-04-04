@@ -25,6 +25,34 @@ Y l,p,k tiene un fichero .txt que dice esto.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/ee78d258-38bf-444b-a3d8-5003f0a259eb)
 
+En la pagina principal he buscado si se puede hacer sql inclusion o ssrf , y he encontrado una web que me a ayudado a poder sacar el archivo /etc/passwd. Visualizando el usuario paco y francisca.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/da1d4528-668b-4c7d-ba54-891d13254d08)
+
+No he encontrado nada mas, a si que intentare hacer un hydra de cada usuario a ver si alguno de los dos tiene una contraseña vulnerable.
+
+Parece que paco si tiene contraseña vulnerable.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e3774a22-7cea-4cc7-ad49-7220c89087cd)
+
+Francisca de momento no esta encontrando nada, a si que vamos a intentar entrar como paco a ver que podemos hacer.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/36081f25-f7e8-4b23-9ff5-a9d731d5fb64)
+
+Encontramos la flag del usuario.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d8d8da70-8617-4d94-8e7c-a6acc87ec64a)
+
+He buscado si paco tenia algun permiso como administrador y no es el caso, a si que supongo que francisca tiene que tener algo mas de privilegios que paco. Desde paco lo unico que se me ocurrio es buscar alguna pista o diractamente las claves de francisca. 
+
+He entrado dentro del direcorio de sshkey, y he visto como propietario el grupo dbadmin que dentro esta francisca.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d0f0371f-e5b6-4496-822a-61a5a48740fe)
+
+Vamos a sacar este fichero a la maquina principal para hacerle un jhon y con suerte descubir alguna contraseña.
+
+
+
 
 # Feedback
 
