@@ -142,3 +142,13 @@
 - Descarga de maquinas a las que analizar.
 - Explotación de primera maquina del grupo5 realizando la explicación de como lo he hecho.
 - Comienzo de la explotación de la segunda maquina del gruipo5, mas la explicación de ello.
+
+## Miercoles 03/04/2024
+
+ - Cambnios en la explicación de ayer y en el feedback.
+ - Seguimiento de la segunda maquina.
+
+## Jueves 04/04/2024
+
+- A punto de finalizar la explicación y la explotación de la segunda maquina.
+
