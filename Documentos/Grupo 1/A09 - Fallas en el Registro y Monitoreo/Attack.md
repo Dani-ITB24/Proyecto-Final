@@ -1,7 +1,7 @@
 # **Índice**
 
 <span style="color:black;">1. [ Búsqueda de direcciones IP](#direccionesIP)</span><br>
-<span style="color:black;">2. [ Búsqueda de direcciones IP](#vulnerabilidades)</span><br>
+<span style="color:black;">2. [ Búsqueda de vulnerabilidades](#vulnerabilidades)</span><br>
 <span style="color:black;">3. [ Otros recursos encontrados](#otros)</span><br>
 ---
 <br>
@@ -52,6 +52,6 @@ Se estuvo mirando los datos de los usuarios creados y ninguno tiene informacion 
 Se ha podido quitar el aviso, asi que se ha entrado y se ha podido ver una contraseña pero con asteriscos.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-14.png)
 
-Asi que inspeccionamos la pagina y ponemos que el campo de la contraseña sea text en vez de password.
+Asi que inspeccionamos la pagina y ponemos que el campo de la contraseña sea text en vez de password. Y con esto tenemos el usuario y password de uno de los admin.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-15.png)
 
