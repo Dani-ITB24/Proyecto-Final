@@ -18,6 +18,13 @@
 
 > nmap -p- -sVC 172.17.0.2 
 
+Encontramos un servidor FTP, SSH y un Apache por el puerto por defecto.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/gobuster.png" alt="gobuster">
+
+> gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+
 <br>
 <h1 name="Vulnerabilidades">2. Buscar vulnerabilidades</h1>
 
