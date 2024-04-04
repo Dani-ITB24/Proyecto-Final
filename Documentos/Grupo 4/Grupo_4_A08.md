@@ -124,6 +124,6 @@ Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el us
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/flagroot.png" alt="Escalada a Root y flag root.txt">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/rootflag.png" alt="Escalada a Root y flag root.txt">
 
 
