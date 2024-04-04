@@ -138,18 +138,26 @@ Cuando ejecutamos el script se nos inicia una especie de juego que se parece al 
 
 ![](/Assets/walkthrough2/2024-04-03_16-24.png)
 
-Si miramos el script por dentro vemos que importa 3 librerias distintas, así que podemos mirar el path de sigue python para buscar las librerias.
+Si miramos el script por dentro vemos que importa 3 librerias distintas, así que podemos mirar la lista de rutas de búsqueda de módulos de python que python utiliza para encontrar módulos importados.
 
 ![](/Assets/walkthrough2/2024-04-03_16-24_1.png)
 
-
+Creamos el script y lo ejecutamos. Vemos que el primer lugar donde mira python es nuestra home, así que vamos a aprovechar y vamos a crear un archivo que se llame igual que la librería para que ejecute nuestro script primero y así hacer el movimiento lateral.
 
 ![](/Assets/walkthrough2/2024-04-03_16-36.png)
 
+Creamos un script que ejecuta un shell. Al ejecutar el script como usuario ampeter nos convertimos en ampeter.
+
 ![](/Assets/walkthrough2/2024-04-03_16-49.png)
+
+Ahora que somos ampeter vamos a la home de ampeter. Encontramos la flag de user y un script en bash que hace un backup comprimiendo todos los archivos de la home de ampeter con tar. Al ser un script que hace backups, lo más seguro se ejecute automáticamente con alguna cronjob.
 
 ![](/Assets/walkthrough2/2024-04-03_17-27.png)
 
+Investigando un poco, encontramos una tarea que ejecuta el script del backup cada minuto por root, así que vamos a hacer una ejecución arbitraria de comandos a tar, ya que tar tiene parámetros por los cuales se puede tener la capacidad de ejecutar comandos.
+
 ![](/Assets/walkthrough2/2024-04-03_17-00.png)
+
+Concretamente, para tar, podemos hacer uso de los parámetros de la imagen, donde en “ACTION” usaremos “exec” para ejecutar un comando externo dado. Una vez creados los comandos, esperamos 1 minuto y ya somos capaces de hacer sudo su. Ya somos root y podemos acceder a la flag de root.
 
 ![](/Assets/walkthrough2/2024-04-03_17-39.png)
