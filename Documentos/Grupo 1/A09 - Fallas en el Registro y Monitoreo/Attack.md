@@ -1,12 +1,12 @@
 # **Índice**
 
-<span style="color:black;">1. [ Búsqueda de direcciones IP](#direccionesIP)</span><br>
+<span style="color:black;">1. [ Búsqueda de servicios](#servicios)</span><br>
 <span style="color:black;">2. [ Búsqueda de vulnerabilidades](#vulnerabilidades)</span><br>
 <span style="color:black;">3. [ Otros recursos encontrados](#otros)</span><br>
 ---
 <br>
 
-<h1 name="direccionesIP">1. Búsqueda de direcciones IP</h1>
+<h1 name="servicios">1. Búsqueda de servicios</h1>
 
 > netstat -tuln
 
@@ -58,4 +58,5 @@ Asi que inspeccionamos la pagina y ponemos que el campo de la contraseña sea te
 Al ver que puertos estaban escuchando, se vio que estaba el puerto 23 que suele ser el puerto que usa Telnet. Probamos con las credenciales que hemos obtenido.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-16.png)
 
-Ahora que estamos dentro, podemos probar a sacar
+Ahora que estamos dentro, vamos a ver que servicios estan corriendo.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-17.png)
