@@ -49,8 +49,11 @@ He entrado dentro del direcorio de sshkey, y he visto como propietario el grupo 
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d0f0371f-e5b6-4496-822a-61a5a48740fe)
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/ebe01e89-692d-436d-ac3d-aff8f88c11c4)
+
 Vamos a sacar este fichero a la maquina principal para hacerle un jhon y con suerte descubir alguna contraseña.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/8edc5dfc-74b2-4529-96d5-740cb4da8df5)
 
 
 
