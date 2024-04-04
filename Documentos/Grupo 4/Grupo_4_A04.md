@@ -24,6 +24,7 @@ Encontramos un servidor FTP, SSH y un Apache por el puerto por defecto.
 
 > gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
+Hemos encontrado 2 directorios ocultos tras el servidor web.
 
 <br>
 <h1 name="Vulnerabilidades">2. Buscar vulnerabilidades</h1>
