@@ -31,6 +31,10 @@ Hemos encontrado 2 directorios ocultos tras el servidor web.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/web_principal.png" alt="Web principal">
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/web_ftp.png" alt="Web FTP">
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/web_documents.png" alt="Web Documents">
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
