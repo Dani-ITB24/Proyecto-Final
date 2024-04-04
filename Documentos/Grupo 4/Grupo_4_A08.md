@@ -114,13 +114,14 @@ La reverse shell apunta hacia a IP de nuestra máquina atacante **200.200.200.5*
 
 Antes de guardar el tema con la reverse shell hemos tenido que poner a escuchar a nuestra máquina atacante por el puerto **4444**.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/user_flag.png" alt="user.txt flag">
-
-
-
-
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/user_flag.png" alt="user.txt flag">
+
+Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el usuario "**daniel**" en el sistema. Si recordamos, anteriormente hemos encontrado 2 contraseñas: **@111wireshark-2** y **\_h@ckMy_**. Vamos a probar acceder con el usuario daniel.
+
+
 
 
 
