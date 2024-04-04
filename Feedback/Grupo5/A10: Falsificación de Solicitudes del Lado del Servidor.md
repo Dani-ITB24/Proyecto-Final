@@ -63,6 +63,11 @@ Entramos con francisca
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/e6c98979-c19f-4a20-973d-36eca675905a)
 
+Investigando un poco, vemos que podemos ejecutar como root backupdb1.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/9ff567da-4788-48a9-95f2-f496e66d5060)
+
+
 
 # Feedback
 
