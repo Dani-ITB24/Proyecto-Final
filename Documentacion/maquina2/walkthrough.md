@@ -74,41 +74,75 @@ Listamos los recursos compartidos sin autenticarnos con "smbclient". Vemos que h
 
 ![](/Assets/walkthrough2/2024-04-02_17-31.png)
 
-
+Accedemos a la ruta del recurso compartido, pero no tenemos permisos. El propietario del archivo es lolito y él es el único que tiene permisos sobre el archivo, así que vamos a hacer port forwarding con chisel a smb para poder hacer un ataque de fuerza bruta.
 
 ![](/Assets/walkthrough2/2024-03-21_18-07.png)
 
+Nos descargamos el binario de chisel y abrimos un servidor http con python3.
+
 ![](/Assets/walkthrough2/2024-04-02_17-51.png)
+
+Nos descargamos chisel en máquina víctima y le damos permisos de ejecución.
 
 ![](/Assets/walkthrough2/2024-04-02_17-51_1.png)
 
+En nuestra máquina atacante, nos ponemos en escucha con chisel por el puerto 5678
+
 ![](/Assets/walkthrough2/2024-04-02_17-52.png)
+
+En la máquina víctima, establecemos la conexión con la máquina servidor y de esta forma redirigimos todo el tráfico del puerto 445 de la máquina víctima, para que vaya al puerto 445 de la máquina atacante.
 
 ![](/Assets/walkthrough2/2024-04-02_17-54.png)
 
+Como podemos ver se ha establecido la conexión correctamente. Ahora vamos a utilizar msfconsole para hacer un ataque de fuerza bruta a smb.
+
 ![](/Assets/walkthrough2/2024-04-02_17-55.png)
+
+Seleccionamos el módulo auxiliar "scanner/smb/smb_login", y especificamos nuestro usuario objetivo, ip objetivo, la wordlist que vamos a usar y que cuando encuentre las credenciales que pare de buscar.
 
 ![](/Assets/walkthrough2/2024-04-02_18-03.png)
 
+Vemos que la contraseña de lolito para smb es lamborghini.
+
 ![](/Assets/walkthrough2/2024-04-02_18-09.png)
+
+Intentamos iniciar sesión por telnet para ver si hay suerte, pero parece que estas credenciales solo sirven para smb.
 
 ![](/Assets/walkthrough2/2024-04-02_18-14.png)
 
+Ahora que ya tenemos las credenciales de lolito nos descargamos el recurso compartido en smb.
+
 ![](/Assets/walkthrough2/2024-04-02_18-15.png)
+
+El archivo contiene muchos nombres de videojuegos, y parece una wordlist, así que vamos a probar de hacer nuevamente fuerza bruta a lolito pero ahora en telnet.
 
 ![](/Assets/walkthrough2/2024-04-02_18-16.png)
 
+Seleccionamos el módulo auxiliar "scanner/telnet/telnet_login", y especificamos nuestro usuario objetivo, ip objetivo, la wordlist que vamos a usar y que cuando encuentre las credenciales que pare de buscar.
+
 ![](/Assets/walkthrough2/2024-04-02_18-40.png)
+
+Vemos que la contraseña de lolito para telnet es Valorant.
 
 ![](/Assets/walkthrough2/2024-04-02_18-41.png)
 
+Iniciamos sesión con lolito por telnet.
+
 ![](/Assets/walkthrough2/2024-04-02_18-42.png)
+
+Probamos de hacer un sudo -l para ver si tenemos algun permiso para ejecutar algun comando como root. Vemos que tenemos permisos de ejecutar un script que esta en nuestra home, y lo podemos ejecutar como ampeter.
+
+![](/Assets/walkthrough2/2024-04-03_16-28.png)
+
+Cuando ejecutamos el script se nos inicia una especie de juego que se parece al ahorcado. No podemos modificarlo, ya que no tenemos permisos.
 
 ![](/Assets/walkthrough2/2024-04-03_16-24.png)
 
+Si miramos el script por dentro vemos que importa 3 librerias distintas, así que podemos mirar el path de sigue python para buscar las librerias.
+
 ![](/Assets/walkthrough2/2024-04-03_16-24_1.png)
 
-![](/Assets/walkthrough2/2024-04-03_16-28.png)
+
 
 ![](/Assets/walkthrough2/2024-04-03_16-36.png)
 
