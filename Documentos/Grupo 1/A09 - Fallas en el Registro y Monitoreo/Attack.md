@@ -55,3 +55,7 @@ Se ha podido quitar el aviso, asi que se ha entrado y se ha podido ver una contr
 Asi que inspeccionamos la pagina y ponemos que el campo de la contraseña sea text en vez de password. Y con esto tenemos el usuario y password de uno de los admin.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-15.png)
 
+Al ver que puertos estaban escuchando, se vio que estaba el puerto 23 que suele ser el puerto que usa Telnet. Probamos con las credenciales que hemos obtenido.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-16.png)
+
+Ahora que estamos dentro, podemos probar a sacar
