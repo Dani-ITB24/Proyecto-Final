@@ -48,3 +48,10 @@ Se ha dado al botón iniciado sesión y se ha podido entrar al inicio de la apli
 Se estuvo mirando los datos de los usuarios creados y ninguno tiene informacion que nos valga la pena. Asi que nos quedaba la impresora, pero nos lo bloquea un aviso. Se pulso el boton de "más inforamación" y nos lleva a una pagina sin salida. Asi que se ha optado por eliminar el div que nos bloqueba.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-13.png)
+
+Se ha podido quitar el aviso, asi que se ha entrado y se ha podido ver una contraseña pero con asteriscos.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-14.png)
+
+Asi que inspeccionamos la pagina y ponemos que el campo de la contraseña sea text en vez de password.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-15.png)
+
