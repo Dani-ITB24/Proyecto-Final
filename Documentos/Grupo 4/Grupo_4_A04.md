@@ -29,6 +29,7 @@ Hemos encontrado 2 directorios ocultos tras el servidor web.
 <br>
 <h1 name="Vulnerabilidades">2. Buscar vulnerabilidades</h1>
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/web_principal.png" alt="Web principal">
 
 
 <br>
