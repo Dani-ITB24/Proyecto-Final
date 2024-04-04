@@ -40,3 +40,8 @@ En el archivo python se ha mirado que hacia exactamente. Se ha visto que si se a
 
 Se ha añadido ese texto a la url y hemos podido vulnerar la aplicación.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-10.png)
+
+Se ha dado al botón iniciado sesión y se ha podido entrar al inicio de la aplicación sin necesidad de credenciales. Dentro de la aplicacion se han encontrado los usuarios registrados y la impresora que usan.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-11.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-12.png)
+
