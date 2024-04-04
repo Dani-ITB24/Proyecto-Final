@@ -167,3 +167,11 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 22 de Marzo de 2024
 
 - Correción y revisión de todas las documentaciones.
+
+# Reporte Diario 3 de Abril de 2024
+
+- Intentar iniciar la maquina del grupo 3 y no poder por problemas de ellos en su entorno y no especificar correctamente como iniciar la maquina
+
+# Reporte Diario 4 de Abril de 2024
+
+- Explotar maquina 2 del grupo 1
