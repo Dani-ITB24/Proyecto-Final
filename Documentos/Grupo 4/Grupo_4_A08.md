@@ -102,8 +102,11 @@ Accedemos a http://172.17.0.2/wordpress/wp-admin
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/wordpress-admin.png" alt="Wordpress admin">
 
+Ya estamos dentro del panel de administración de Wordpress, veamos que podemos hacer desde aquí.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/reverseshell.png" alt="Reverse Shell">
+
+Podemos aprovechar el editor de los temas de Wordpress para meter el código de una [Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
