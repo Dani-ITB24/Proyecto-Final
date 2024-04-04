@@ -202,9 +202,14 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 # Reporte 2 de Abril de 2024
 
-- He terminado de configurar el Docker para que se inicien los servicios solos y he terminado el WriteUp de la máquina tu1millon del grupo5 con la vulnerabilidad A06.
+- He terminado de configurar el Docker para que se inicien los servicios solos 
+- Terminado el WriteUp de la máquina tu1millon del grupo5 con la vulnerabilidad A06.
 
 
 # Reporte 3 de Abril de 2024
 
-- He empezado ha resolver la mauqina A04 del grupo 4.
+- He empezado ha resolver la mauqina A04 del grupo 4. 
+
+# Reporte 4 de Abril de 2024
+
+- He terminado resolver y documentar la mauqina A04 del grupo 4.
