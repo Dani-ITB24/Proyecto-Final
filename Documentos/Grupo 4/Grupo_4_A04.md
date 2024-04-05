@@ -45,6 +45,8 @@ Buscando todas las versiones de los servicios instalados, encontramos que el ser
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/opensshenum.png" alt="OpenSSH Users Enumeration">
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/tries.png" alt="Intentos de enumeración de usuarios">
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
