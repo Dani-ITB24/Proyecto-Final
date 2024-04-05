@@ -50,17 +50,27 @@ En el código fuente no se ve nada raro.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-23.png)
 
-Como hasta ahora no encontramos nada interesante vamos a volver a la página de validación de URLs y vamos a poner una URL para ver que es lo que hace. Vemos que nos muestra la página del enlace, pero des de el archivo. Como que el archivo hace la peticion por nosotros. Vamos a aprovechar esto y vamos a poner la página del puerto 5000 y ver si nos da un nuevo resultado.
+Como hasta ahora no encontramos nada interesante, vamos a volver a la página de validación de URLs y vamos a poner una URL para ver que es lo que hace.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-24.png)
 
+Vemos que nos muestra la página del enlace, pero desde el archivo. Como que el archivo hace la petición por nosotros.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-24_1.png)
+
+Vamos a aprovechar esto y vamos a poner la página del puerto 5000 y ver si nos da un nuevo resultado.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-25.png)
 
+Ya no nos sale el mensaje de Acceso prohibido, ahora dice que la página está en desarrollo.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-25_1.png)
 
+Si miramos el código fuente vemos que hay un mensaje diciendo que la contraseña de Paco es muy débil, así que vamos a comprobarlo.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-26.png)
+
+
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-37.png)
 
