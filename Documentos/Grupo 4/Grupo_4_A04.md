@@ -57,6 +57,14 @@ Teniendo en cuenta lo anterior, ya que tenemos una página web con bastante info
 
 Vamos a analizar la página web que hemos encontrado en un principio. El título principal de la página nos indica que es una fan page de ["The Originals"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBj9HonauFAxURdaQEHd84DzUQFnoECCwQAQ&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FThe_Originals&usg=AOvVaw0EHJwCYHTZMM4HscPDiWkv&opi=89978449), una serie de drama de Estados Unidos, del año 2013.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/personajes.png" alt="Personajes de la serie The Originals">
+
+Explorando más la página, encontramos un apartado dedicado exclusivamente a algunos personajes de la serie. Mirando por internet, encontramos que la serie cuenta con 41 personajes, pero en esta fan page únicamente han dedicado tiempo en estos 7. Seguramente estemos ante los personajes principales o los favoritos de los creadores de la fan page. Vamos a añadirlos en el diccionario.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/users.png" alt="Diccionario de usuarios">
+
+Diccionario con los personajes de la serie, todo en minúsculas y con la primera en mayúscula.
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/tries.png" alt="Intentos de enumeración de usuarios">
 
 
