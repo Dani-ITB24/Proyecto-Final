@@ -138,7 +138,7 @@ Desencriptamos el zip con la contraseña y reemplazamos el archivo pwd.txt que e
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="">
 
-
+**_Empleado46**
 
 
 
