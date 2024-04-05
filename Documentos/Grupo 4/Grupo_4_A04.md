@@ -101,6 +101,17 @@ Si intentamos entrar por SSH con las credenciales nos devuelve un error, en camb
 
 Ahora ya tenemos permisos para leer y subir archivos, vamos a subir una [Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) y a intentar acceder posteriormente.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/connect_reverse.png" alt="connect to reverse.php">
+
+Si accedemos a la ruta http://172.17.0.2/documents/elijah/reverse.php habiendo puesto a escuchar por el puerto 4444 anteriormente, ejecutaremos la reverse shell y nos conectaremos a la máquina.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/access.png" alt="Connect as www-data">
+
+Después de haber puesto nuestra máquina atacante a escuchar por el puerto 4444 y ejecutar la reverse shell **reverse.php**
+
+
+
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
