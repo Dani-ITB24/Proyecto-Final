@@ -100,29 +100,65 @@ Una vez que hayamos mando la petición con el codigo malicioso comprobamos si a 
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/a0e44147-120d-4935-a924-74d26874a500)
 
-una vez dentro lo que haremos 
-
+una vez dentro lo que haremos es ir a la dirección web y buscar a ver si se a subido la reverse shell como vemos en la imagen
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/c3aac6af-2516-46e5-9372-6817077e042e)
 
+Si encuentra en el servidor de la web nuestro revershe y volvemos al servidor que dejamos escuchando, saldrá lo siguiente que indica que hemos conectado mediante una revershell.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/5cfdc8bd-cc13-4451-bff2-3e6c74a99d5e)
 
+Ya dentro como www-data busca permisos SUID en el servidor y encontramos un permiso que esta em binario
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/793064ce-8623-4d07-a16c-0054c08efa70)
 
+Para saber lo que contiene dicho binario, lo haremos con el comando xxd que nos permite crear un volcado helx para saber que contiene el binario. Como vemos en la imagen cogemos el hexadeximal de 20 que es el que contiene una contraseña.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/1f82a298-3b49-4e86-8c9b-11c12c0ae781)
 
+Una vez que cogemos el numero 20, lo llevamos a cyberchef para decodificarlo y nos sale la siguiente.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ee0718d6-92d1-47ce-8b0b-b14635327a58)
 
+Ya que dice que sale el nombre de la maya, comprobaremos si es su contraseña, haciendo SSH.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/266ddda5-2cf4-4f73-a7b8-11c1cf4cb242)
 
+Una vez que hemos comprobado si es la contraseña maya, que no lo es, miramos el home y vemos el usuario bumblebee. Lo intetaremos con él
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8fca23d5-1c76-41d7-9f30-9000d0f6fa58)
 
+Vemos que la contraseña que estaba encondida en el binario pertenecia al usuario bumblebee.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/07233f5d-eb6e-4a5e-874a-89924b122e75)
 
+Ya dentro del usuario bumblebee vemos que tiene un fichero que se llama file.txt que contiene la private key de la contraseña del posible usuario a maya.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8f011ac0-6983-40f0-ba8a-06087a72a876)
 
+Lo que intentaremos ahora es crackear el private key para poder acceder a maya.
 
+Lo primero que haremos es guardanos el contenido del fichero file.txt de manera local.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/5a66fac7-4bdd-4d97-aa85-efce84d0b5f3)
 
+Después generamos un hash con ssh2john para posteriormente crackearlo.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/0e7fcc3f-da67-439d-8640-dbff2083f0dc)
 
+Como vemos los hemos crackeado con john el hash de private key.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6e6cb488-3c02-4857-9953-c7e386d73ee2)
 
+Ahora vamos a intentar hacer login con maya.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/2f192b0e-8fe1-4fe2-a6f2-442160b6c658)
 
+Una vez que hayamos hecho login con maya, lo siguiente que haremos es buscar permisos SUID.
 
+Encontramos un permiso SUID con wget en el home de maya
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/a47629db-f69f-4836-bfbd-4b929303168a)
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/8ebc9609-02d7-4050-993c-a01c5e2032f9)
 
+Ya identificado el SUID, nos vamos a GTFobins para buscar como ejecutar un bash haciendo pasar por root y encontramos lo siguiente.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/da9b0841-882c-4770-a13a-8b03b4ac22f0)
+
+Como vemos en la imagen inferior, como accedimos como root.
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/5413bc90-52ca-447d-b9f0-5258cd6d279b)
+
+Ahora buscamos la flag de root, que se encuentra /root con el nombre de root.txt
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/ea9116d8-463e-49fc-87ea-87b42342e9cb)
 
 
 # Feedback
