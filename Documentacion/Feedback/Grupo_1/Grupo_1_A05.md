@@ -114,4 +114,4 @@ Finalmente accedo y encuentro un SUID vulnerable (wget), así que lo exploto y c
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c264ac7e-df6b-49f0-9273-801964cf1eec)
 
-![imagen](https://github.com/Dani-ITB24/Proyecto
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/cfcf6901-1c00-4a91-b324-3d58da8779e8)
