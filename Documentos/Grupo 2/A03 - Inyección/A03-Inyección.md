@@ -32,7 +32,9 @@ Ya descifrada iniciamos sesión correctamente.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-8.png)
 
+Una vez ahí intentamos ver de que manera podemos vulnerar esta página. Y se ha encontrado una forma de vulnerar la página, que es a través de la sección "manage pigs" podemos crear una nuevo sección y en un de los campos para rellenar se puede subir cualquier tipo de archivos, ya que no verifica la extensión de archivo. Ahí subiremos un archivo php para hacer un reverse-shell.
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-9.png)
 
 
 
