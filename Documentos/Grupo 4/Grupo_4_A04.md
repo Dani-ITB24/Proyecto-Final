@@ -95,11 +95,11 @@ Una vez sabemos que hay el usuario **elijah**, vamos a realizar un ataque de fue
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/connect.png" alt="Conectarse por SSH y FTP">
 
-
+Si intentamos entrar por SSH con las credenciales nos devuelve un error, en cambio si que podemos conectarnos por FTP con las mismas credenciales.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/upload_reverse1.png" alt="Subir reverse.php por FTP">
 
-
+Ahora ya tenemos permisos para
 
 
 <br>
