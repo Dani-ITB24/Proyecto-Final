@@ -97,7 +97,7 @@ Una vez sabemos que hay el usuario **elijah**, vamos a realizar un ataque de fue
 
 
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/connect.png" alt="Conectarse por SSH y FTP">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/upload_reverse1.png" alt="Subir reverse.php por FTP">
 
 
 
