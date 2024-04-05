@@ -121,3 +121,7 @@ Ahora sí que podemos ejecutar el binario. Al ejecutarlo nos pide un nombre, se 
 Para escalar privilegios vamos a cambiar el path de ejecución para que busque primero en el directorio donde nos encontramos y crearemos un archivo que se llamara head con un el comando bash para que se ejecute una shell como root. Una vez ejecutamos el binario ya somos root y podemos encontrar la flag de root escondida en el .bash_history.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-37.png)
+
+## Conclusión
+
+A mi parecer, es una buena máquina, ya que tenemos fuerza, movimiento lateral, Path Hijacking, y lo que me ha sorprendido ha sido lo de hacer consultas a páginas web desde un archivo, algo innovador. A mi parecer, la máquina es de nivel fácil y cumple con el objetivo de cubrir la vulnerabilidad Server-Side Request Forgery. Buen trabajo.
