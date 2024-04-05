@@ -1,4 +1,4 @@
-Explotación
+# **Explotación**
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/fecbef20-71dc-4628-a655-29d7b414e0d6)
 
@@ -71,3 +71,7 @@ Explotación
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/bd334284-ca1d-4590-959a-f95f00383e83)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/a6e9dd28-7205-48e4-a15b-f6bd8d918eea)
+
+# **Feedback**
+
+a
