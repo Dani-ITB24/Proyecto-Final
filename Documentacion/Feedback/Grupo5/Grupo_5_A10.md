@@ -70,13 +70,19 @@ Si miramos el código fuente vemos que hay un mensaje diciendo que la contraseñ
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-26.png)
 
-
+El mensaje estaba en lo cierto. Haciendo fuerza bruta con hydra somos capaces de encontrar la contraseña de paco.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-37.png)
 
+Iniciamos sesión con paco y ya tenemos la flag de user.txt.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-38.png)
 
+Buscamos archivos con permisos SUID y vemos que existe un binario con SUID que se 
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-40.png)
+
+![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-28.png)
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-50.png)
 
@@ -92,14 +98,6 @@ Si miramos el código fuente vemos que hay un mensaje diciendo que la contraseñ
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-08_1.png)
 
-![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-28.png)
-
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-31.png)
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-37.png)
-
-![](/Documentacion/Feedback/Grupo5/img_A10/.png)
-
-![](/Documentacion/Feedback/Grupo5/img_A10/.png)
-
-![](/Documentacion/Feedback/Grupo5/img_A10/.png)
