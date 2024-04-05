@@ -156,8 +156,12 @@
 - [x] Reconstrucción del primer contenedor debido a un error
 - [x] Writeup de una máquina
 
-
 # Jueves 04 de abril de 2024:
 
 - [x] Avances en el segundo contenedor
+- [x] Writeup de una máquina
+
+# Viernes 05 de abril de 2024:
+
+- [x] Reorganización estructura Github
 - [x] Writeup de una máquina
