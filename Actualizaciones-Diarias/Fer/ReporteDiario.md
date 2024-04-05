@@ -129,6 +129,7 @@ Falta
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
 
 <h2>Miércoles 3 de abril 2024</h2>
+✅ Reconocimiento del contenido de la máquina <br>
 :white_large_square: Descubrimiento de la vulnerabilidad de A09<br>
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
 
