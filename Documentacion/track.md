@@ -192,7 +192,7 @@ Para poder realizar un análisis forense una vez explotada la máquina, hemos me
 <img  alt="drawing" width="600" height="100" src="./images/logs.png" />
 </p>
 
-# [(NOT FINISHED) Walkthrough](#índice)
+# Walkthrough](#índice)
 
 En primer lugar hacemos un escaneo de puertos para ver qué puertos hay abiertos:
 
