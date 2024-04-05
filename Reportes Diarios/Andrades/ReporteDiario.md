@@ -143,5 +143,5 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 - [X] Feeback de la la primera maquina del grupo1
 
 ## 04/03/24 Reporte Diario
-- [ ] Descarga de la segunda maquina del grupo2
-- [ ] Inicio de explotación de la segunda maquina del grupo2
+- [X] Descarga de la segunda maquina del grupo1
+- [X] Inicio de explotación de la segunda maquina del grupo1
