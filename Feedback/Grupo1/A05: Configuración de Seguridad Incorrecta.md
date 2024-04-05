@@ -1,8 +1,5 @@
 # Explotación
 
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/e6983039-7225-4e31-942e-548ca81442a0)
-
-
 Primero hice un nmap para saber que servicio habia activos.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/02cabe21-966d-4bc0-a9ea-e4b58a60cf97)
