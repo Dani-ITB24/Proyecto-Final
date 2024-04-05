@@ -90,6 +90,12 @@
 - treballar en la part forense
 - verificar funcionament de la maquina
 
+## Dijous 4-04-24-
+- fer la resolucio de una maqina
+
+## Divendres 5-04-24-
+-  Avançar  en la part forense
+
 
 
 
