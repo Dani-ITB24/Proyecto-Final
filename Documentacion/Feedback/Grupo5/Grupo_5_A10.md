@@ -1,14 +1,26 @@
 # WriteUp segunda máquina
 
+Empezamos haciendo un nmap para descubrir los puertos abiertos. Vemos que tiene 3 puertos abiertos, un ssh por el puerto 22, un http por el puerto 80 y otro http por el puerto 5000.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-08.png)
+
+Si accedemos al puerto 80 por el navegador podemos ver que es un validador de URLs. De momento vamos a seguir investigando.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-10.png)
 
+Vamos a hacer fuzzing para ver si encontramos algo interesante. Encontramos diferentes carpetas y un info.php con error 500. Primero vamos a mirar las carpetas.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-06.png)
+
+En la carpeta admin vemos un login, pero vemos que lo que escribimos se ve reflejado en la URL, eso quiere decir que se está utilizando GET en vez de POST.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-17.png)
 
+Si miramos el código fuente de la página, vemos que es un simple html y no envía la información a ningún lugar, así vamos a dejar esto de lado, ya que no nos lleva a ningún lugar.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-17_1.png)
+
+Las carpetas k, l y p son simplemente un rabbit thole que nos hacen perder el tiempo
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-20.png)
 
@@ -22,13 +34,23 @@
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-21_1.png)
 
+Cuando entramos en el archivo info.php nos deja entrar, pero no nos muestra ningún tipo de información.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-22.png)
+
+Si miramos el código fuente tampoco encontramos nada.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-22_1.png)
 
+Hacemos un fuzzing al puerto 5000, pero no encuentra nada. Entramos en el puerto 5000, para ver si hay algo interesante. Vemos que nos sale un mensaje de Acceso Prohibido.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-10_1.png)
 
+En el código fuente no se ve nada raro.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-23.png)
+
+Como hasta ahora no encontramos nada interesante vamos a volver a la página de validación de URLs y vamos a poner una URL para ver que es lo que hace. Vemos que nos muestra la página del enlace, pero des de el archivo. Como que el archivo hace la peticion por nosotros. Vamos a aprovechar esto y vamos a poner la página del puerto 5000 y ver si nos da un nuevo resultado.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-24.png)
 
