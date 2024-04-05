@@ -78,26 +78,46 @@ Iniciamos sesión con paco y ya tenemos la flag de user.txt.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-38.png)
 
-Buscamos archivos con permisos SUID y vemos que existe un binario con SUID que se 
+Buscamos archivos con permisos SUID y vemos que existe un binario con SUID que se llama backup1.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-40.png)
 
+Si lo intentamos ejecutar no podemos.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-28.png)
+
+Vamos a pasar linpeas a la máquina víctima para buscar formas de hacer movimiento lateral o escalda de privilegios.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-50.png)
 
+Nos descargamos linpeas, le damos permisos de ejecución y lo ejecutamos.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-51.png)
+
+Linpeas ha encontrado una llave privada ssh que podemos usar para iniciar como otro usuario.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-53.png)
 
+Si miramos los usuarios que ha listado linpeas, solo podemos probar con francisca.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-54.png)
+
+Nos pasamos la llave a la máquina atacante.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-57.png)
 
+Nos descargamos la llave. Utilizamos ssh2john para sacarle el hash y crackearlo con john. La contraseña es laracroft.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-07.png)
+
+Cambiamos los permisos de la llave y iniciamos sesión por ssh con el usuario francisca.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-08_1.png)
 
+Ahora sí que podemos ejecutar el binario. Al ejecutarlo nos pide un nombre, se lo damos, y después dice que muestra las primeras líneas del archivo, así que lo más seguro es que esté utilizando head.
+
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-31.png)
+
+Para escalar privilegios vamos a cambiar el path de ejecución para que busque primero en el directorio donde nos encontramos y crearemos un archivo que se llamara head con un el comando bash para que se ejecute una shell como root. Una vez ejecutamos el binario ya somos root y podemos encontrar la flag de root escondida en el .bash_history.
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_17-37.png)
