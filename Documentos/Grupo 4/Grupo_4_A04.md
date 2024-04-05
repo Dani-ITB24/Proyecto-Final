@@ -114,10 +114,13 @@ Después de haber puesto nuestra máquina atacante a escuchar por el puerto 4444
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/explore.png" alt="Explorando directorios">
 
+Si exploramos la máquina como www-data encontramos con que el usuario elijah no puede iniciar sesión en el equipo. También encontramos con una imagen con el nombre **caroline.jpg** en el directorio /var/www, una ruta un tanto extraña para guardar documentos e imágenes. Si indagamos en el directorio /home de la máquina encontramos con que el usuario principal de la máquina es **caroline**, al igual que la imagen encontrada en /var/www. 
 
+Vamos a intentar descargar la imagen y vamos a tratarla desde nuestra máquina atacante con alguna herramienta.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/binwalk.png" alt="Binwalk">
 
+Si ejecutamos la herramienta **binwalk** a la imagen encontrada en /var/www
 
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
