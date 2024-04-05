@@ -128,7 +128,7 @@ Con la herramienta **zip2john** creamos el hash del zip para empezar a crackear 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john2.png" alt="">
 
-Una vez tenemos el hash en el archivo **hash.txt**
+Una vez tenemos el hash en el archivo **hash.txt** utilizamos la herramienta **john** para crackear el hash con el diccionario **rockyou.txt**.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john3.png" alt="">
 
