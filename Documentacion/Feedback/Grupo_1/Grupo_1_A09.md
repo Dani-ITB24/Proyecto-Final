@@ -2,7 +2,7 @@
 Lo primero que vamos hacer es un nmap para descubrir ver los puertos abiertos.
 
 <p align="center">
-<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/imagesScreenshot_30.png" />
+<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_30.png" />
 </p>
 
 Entramos en el  navegador miramos lo que hay en la pagina web.
@@ -19,7 +19,7 @@ Buscamos la vulnerabilidad del servidor PaperCut.
 
 Probamos de poner /app?service=page/SetupCompleted a la url del navegador haver si nos deja entrar en la pagina web.
 <p align="center">
-<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/grupo1A09/Screenshot_33.png" />
+<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_33.png" />
 </p>
 
 Hemos entrado dentro.
