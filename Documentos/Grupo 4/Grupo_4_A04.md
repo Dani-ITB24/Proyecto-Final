@@ -53,6 +53,10 @@ Ahora que sabemos que es vulnerable frente a enumeración de usuarios del sistem
 Teniendo en cuenta lo anterior, ya que tenemos una página web con bastante información, vamos a proceder a crear un diccionario con la información que encontremos relevante.
 
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/header.png" alt="Menú de la web">
+
+Vamos a analizar la página web que hemos encontrado en un principio. El título principal de la página nos indica que es una fan page de ["The Originals"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBj9HonauFAxURdaQEHd84DzUQFnoECCwQAQ&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FThe_Originals&usg=AOvVaw0EHJwCYHTZMM4HscPDiWkv&opi=89978449), una serie de drama de Estados Unidos, del año 2013.
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/tries.png" alt="Intentos de enumeración de usuarios">
 
 
