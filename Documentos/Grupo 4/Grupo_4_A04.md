@@ -134,7 +134,7 @@ Gracias a la herramienta descubrimos que la contraseña del zip encriptado de de
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john3.png" alt="">
 
-Desencriptamos el zip con la contraseña y reemplazamos el archivo pwd.txt que estaba vacío por uno nuevo, el cual parece ser un diccionario de contraseñas.
+Desencriptamos el zip con la contraseña y reemplazamos el archivo pwd.txt que estaba vacío por uno nuevo, el cual parece ser un diccionario de contraseñas. Ahora que tenemos este nuevo diccionario de contraseñas, lo podemos utilizar para hacer un ataque de fuerza bruta con **hydra** y el usuario **caroline**.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="">
 
