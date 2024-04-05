@@ -65,9 +65,28 @@ Entramos con francisca
 
 Investigando un poco, vemos que podemos ejecutar como root backupdb1.
 
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/9ff567da-4788-48a9-95f2-f496e66d5060)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/33febda3-cafe-4bf8-8b82-8d489e4b8dd6)
 
+Este archivo lee un archivo llamado head.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/4d6333a4-76c1-4001-8e24-d7d1b8977c37)
+
+Vamos a crear un archivo llamado head en el directorio francisca ya que hay tenemos privilegios. Dentro ponemos codigo bash para iniciar como root ya que el archivo backupdb1 se ejecuta como root.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/7c30367a-a077-4253-b046-ab66eb3e375c)
+
+Iniciamos desde el directorio francisca el backupdb1 y probamos si funciona. Pero no funciona.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/cbbf62e6-b0eb-4a69-bb2e-3dfa889ddad4)
+
+Damos permisos 777 al fichero head y volvemosa probar, esta vez si funciona.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/d2cf0469-17ec-4f3d-8271-31ddea6d8d94)
+
+Una vez en root vamosa su directorio y buscamos la flag. Parece estar escondida. He hecho un cat del bash_history a ver si encontraba alguna pista, y parece estar ya aqui.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/41e9a3c3-156b-48fd-af1e-4398293d1aea)
 
 # Feedback
 
+La maquina esta bien hecha, he encontrado alguna forma diferente para visualizar como www-data desde la web, pero por lo otro esta bastante bien, es rebuscada y tienes que pensar bien en el movimiento lateral.
