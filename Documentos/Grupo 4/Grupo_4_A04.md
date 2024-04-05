@@ -132,16 +132,17 @@ Una vez tenemos el hash en el archivo **hash.txt** utilizamos la herramienta **j
 
 Gracias a la herramienta descubrimos que la contraseña del zip encriptado de dentro de la imagen caroline.jpg es **hellokitty**.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john3.png" alt="">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john3.png" alt="Descomprimir zip con contraseña">
 
 Desencriptamos el zip con la contraseña y reemplazamos el archivo pwd.txt que estaba vacío por uno nuevo, el cual parece ser un diccionario de contraseñas. Ahora que tenemos este nuevo diccionario de contraseñas, lo podemos utilizar para hacer un ataque de fuerza bruta con **hydra** y el usuario **caroline**.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="Fuerza bruta con hydra">
 
 Una vez hemos seguido los pasos anteriormente mencionamos, hemos conseguido sacar la contraseña del usuario caroline.
 
 Contraseña: **_Empleado46**
 
+Si intentamos acceder como usuario caroline por SSH nos dará el mismo error que anteriormente nos ha dado. Por suerte podemos iniciar sesión como caroline a través de la reverse shell iniciada como www-data.
 
 
 
