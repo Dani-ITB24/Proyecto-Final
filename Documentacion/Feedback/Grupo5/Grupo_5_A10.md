@@ -4,8 +4,6 @@
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-10.png)
 
-![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-10_1.png)
-
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-06.png)
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-17.png)
@@ -27,6 +25,8 @@
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-22.png)
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-22_1.png)
+
+![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-04_18-10_1.png)
 
 ![](/Documentacion/Feedback/Grupo5/img_A10/2024-04-05_16-23.png)
 
