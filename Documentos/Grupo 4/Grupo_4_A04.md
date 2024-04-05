@@ -89,6 +89,10 @@ Seguidamente añadimos el usuario o el diccionario de usuarios haciendo **set us
 
 Cuando esté todo listo, hacemos **run** para ejecutar el ataque. Nos ha encontrado el usuario *elijah*.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/hydra.png" alt="hydra">
+
+Una vez sabemos que hay el usuario **elijah**, vamos a realizar un ataque de fuerza bruta frente al servicio SSH.
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
