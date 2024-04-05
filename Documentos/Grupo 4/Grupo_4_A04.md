@@ -144,7 +144,7 @@ Contraseña: **_Empleado46**
 
 Si intentamos acceder como usuario caroline por SSH nos dará el mismo error que anteriormente nos ha dado. Por suerte podemos iniciar sesión como caroline a través de la reverse shell iniciada como www-data.
 
-
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/.png" alt="">
 
 
 
