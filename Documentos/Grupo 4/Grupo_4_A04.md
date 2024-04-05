@@ -93,6 +93,13 @@ Cuando esté todo listo, hacemos **run** para ejecutar el ataque. Nos ha encontr
 
 Una vez sabemos que hay el usuario **elijah**, vamos a realizar un ataque de fuerza bruta frente al servicio SSH.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/connect.png" alt="Conectarse por SSH y FTP">
+
+
+
+
+
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
