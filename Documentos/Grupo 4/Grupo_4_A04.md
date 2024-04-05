@@ -122,6 +122,23 @@ Vamos a intentar descargar la imagen y vamos a tratarla desde nuestra máquina a
 
 Si ejecutamos la herramienta **binwalk** a la imagen encontrada en /var/www nos encontramos con un zip encriptado y con un archivo .txt vacío.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john1.png" alt="">
+
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john2.png" alt="">
+
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john3.png" alt="">
+
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="">
+
+
+
+
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
 
