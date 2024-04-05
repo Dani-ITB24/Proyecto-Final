@@ -45,6 +45,14 @@ Buscando todas las versiones de los servicios instalados, encontramos que el ser
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/opensshenum.png" alt="OpenSSH Users Enumeration">
 
+Ahora que sabemos que es vulnerable frente a enumeración de usuarios del sistema por SSH, podemos tomar dos caminos:
+
+1. Utilizar un diccionario de usuarios.
+2. Crear nuestro propio diccionario de usuarios.
+
+Teniendo en cuenta lo anterior, ya que tenemos una página web con bastante información, vamos a proceder a crear un diccionario con la información que encontremos relevante.
+
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/tries.png" alt="Intentos de enumeración de usuarios">
 
 
