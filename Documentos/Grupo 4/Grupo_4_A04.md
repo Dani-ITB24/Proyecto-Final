@@ -71,7 +71,13 @@ Probando diferentes scripts encontramos con fallos y errores, vamos a intentarlo
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/msfconsole1.png" alt="msfconsole">
 
+Vamos a abrir Metasploit Msfconsole, pero antes hemos de seguir los siguientes pasos:
 
+1. service postgresql start
+2. msfdb init
+3. msfconsole
+
+Una vez se ejecute msfconsole y estemos podemos buscar lo que queramos utilizando **search**. Cuando busquemos lo que necesitemos, nos mostrarán los resultados, ponemos use y el número del auxilar que queramos utilizar. 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/msfconsole2.png" alt="msfconsole">
 
