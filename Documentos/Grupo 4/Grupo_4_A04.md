@@ -122,11 +122,11 @@ Vamos a intentar descargar la imagen y vamos a tratarla desde nuestra máquina a
 
 Si ejecutamos la herramienta **binwalk** a la imagen encontrada en /var/www nos encontramos con un zip encriptado y con un archivo .txt vacío.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john1.png" alt="">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john1.png" alt="Crear el hash con zip2john">
 
 Con la herramienta **zip2john** creamos el hash del zip para empezar a crackear el zip encriptado.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john2.png" alt="">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john2.png" alt="Crackear el hash con john">
 
 Una vez tenemos el hash en el archivo **hash.txt** utilizamos la herramienta **john** para crackear el hash con el diccionario **rockyou.txt**.
 
@@ -135,6 +135,10 @@ Una vez tenemos el hash en el archivo **hash.txt** utilizamos la herramienta **j
 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="">
+
+
+
+
 
 
 
