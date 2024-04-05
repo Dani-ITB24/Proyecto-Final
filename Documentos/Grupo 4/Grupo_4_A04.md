@@ -109,14 +109,14 @@ Si accedemos a la ruta http://172.17.0.2/documents/elijah/reverse.php habiendo p
 
 Después de haber puesto nuestra máquina atacante a escuchar por el puerto 4444 y ejecutar la reverse shell **reverse.php**
 
-
-
-
-
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/explore.png" alt="Explorando directorios">
 
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/binwalk.png" alt="Binwalk">
 
 
 <br>
