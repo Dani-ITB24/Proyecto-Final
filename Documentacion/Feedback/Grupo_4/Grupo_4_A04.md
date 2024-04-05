@@ -71,4 +71,8 @@ Veo que puedo ejecutar como root python3.10:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/858d7942-82a7-47f0-b223-7b6372277066)
 
+Modifico el script para que me abra una shell, y lo ejecuto como root. Finalmente ya soy root y puedo ver la flag root.txt:
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/7565dc54-b59e-431e-9831-31145d656a98)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c3076365-e372-4d60-984b-62f45eaf4347)
