@@ -83,7 +83,9 @@ Una vez se ejecute msfconsole y estemos podemos buscar lo que queramos utilizand
 
 Ahora ya estamos utilizando el auxilar para enumerar los usuarios por SSH. Hacemos **show options** para ver los requisitos del script. Añadimos como **rhosts** o **remote hosts** a la IP de la máquina víctima, en este caso **172.17.0.2**.
 
-Seguidamente añadimos el usuario o el diccionario de usuarios haciendo **set user_file** y la ruta completa del diccionario.
+Seguidamente añadimos el usuario o el diccionario de usuarios haciendo **set user_file** y la ruta completa del diccionario. 
+
+Cuando esté todo listo, hacemos **run** para ejecutar el ataque. Nos ha encontrado el usuario *elijah*.
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
