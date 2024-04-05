@@ -99,7 +99,7 @@ Si intentamos entrar por SSH con las credenciales nos devuelve un error, en camb
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/upload_reverse1.png" alt="Subir reverse.php por FTP">
 
-Ahora ya tenemos permisos para
+Ahora ya tenemos permisos para leer y subir archivos, vamos a subir una [Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) 
 
 
 <br>
