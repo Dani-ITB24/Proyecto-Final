@@ -107,3 +107,7 @@ Ahora que tenemos acceso root, visitaremos la clásica carpeta root.
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/160483285/8d244d15-c60a-42b8-b713-eec42106507e)
 Y aquí encontramos la flag de finalización!
 
+
+FEEDBACK:
+Está bien, es algo enreversada en distintos puntos al grado que he tenido que consultar y pedir ayuda. Pero al final, se ha podido sacar. Hemos usado herramientas vistas en clase y rebuscado funciones que han sido un reto de ejecutar.
+Si tuviera que hacer alguna recomendación, sería tal vez dejar más pistas sobre cómo seguiro a dónde mirar. Pero esto es probable que sea influenciado por mi capacidad personal de resolver CTFs.
