@@ -1,5 +1,3 @@
-Grupo 4: Fallas en el Software y en la Integridad de los Datos
-
 Preparación de maquina:
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/160483285/4e98bdcb-e2b0-4420-b8f7-3cd696bdc158)
 
