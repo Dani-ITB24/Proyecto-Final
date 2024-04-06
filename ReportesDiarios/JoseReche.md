@@ -116,7 +116,15 @@
 - [X] Reunión de grupo, organizar y delegar tareas.
 
 ## Lunes 02/04/2024
-- [ ] Hacerle pentestig a Grupo 1 (No han entregado ninguna máquina)
-- [X] Explorar entorno docker de Grupo 2
 - [X] Reorganizar trabajo final y documentar como ejecutar las CTF
-      
+
+## Martes 03/04/2024
+- [X] Preparar entorno CTF Kali y probar las CTF.
+- [X] Brindar soporte técnico sobre las CTF de nuestro grupo.
+
+## Jueves 04/04/2024
+- NO ESTUVE DISPONIBLE ESTE DÍA.
+
+## Viernes 03/04/2024
+- [X] Terminar el pentesting y documentar CTFs
+- [X] Pushear writeups al repositorio (viernes-sabado)
