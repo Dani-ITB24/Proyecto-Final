@@ -125,6 +125,7 @@
 ## Jueves 04/04/2024
 - NO ESTUVE DISPONIBLE ESTE DÍA.
 
-## Viernes 03/04/2024
+## Viernes 05/04/2024
 - [X] Terminar el pentesting y documentar CTFs
 - [X] Pushear writeups al repositorio (viernes-sabado)
+- [X] Registrar mi actividad reciente. 
