@@ -772,6 +772,30 @@ Encuentro 2 potenciales usuarios:
 - pedro
 - andrea
 
+Intento fuerza bruta en ambos usuarios vía SSH, y encuentro las credenciales de "pedro":
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/bd5841d0-57f8-49e9-92f4-61991481e55c)
+
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/11234a38-506b-45c9-8472-850ab8a008d9)
 
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/9732ef8f-8747-49aa-9c1e-24b4cb7015da)
 
+Inicio sesión y encuentro la flag user.txt. También encuentro un script en bash, el cual voy a intentar explotar para intentar escalar privilegios:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/f2b82bb1-415a-430a-a83c-591dae6d88df)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/4ace3156-1ce5-4cd6-881a-daaa94d5a803)
+
+Meto una reverse shell ya que encuentro una nota indicando que el script se ejecuta como root cada 2 min., y pongo el puerto 4444 en escucha:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/524d75e3-69cd-45bd-bc6d-864d383af7bd)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/aab36d7c-7013-4e48-a23f-4e8230821ec5)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/bdd40f0b-1430-44b0-97ce-30c6c52adc6f)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/5a4882b6-3847-4349-bd0c-bad623e95d9d)
+
+Finalmente obtengo la flag root.txt:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/e7ed8919-3a61-4065-9d6c-854bea1f52bd)
