@@ -46,6 +46,8 @@ Antes de ejecutar el archivo php, tenemos que poner a escuchar el puerto que hem
 --------------------Problema-------------------- <br>
 Habido un problema, cuando pusimos el puerto ha escuchar y ejecutamos el archivo php en ningún momento se llega establecer la conexión. Se que da el puerto escuchando y el php pasado nos da un time out o se queda en pantalla en blanco. <br>
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-12.png)
+
 <br>
 Este problema lo comunicamos con los creadores del contenedor y nos dio un par de soluciones que tampoco funcionaron.
 <br>
