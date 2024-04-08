@@ -154,8 +154,9 @@ Una vez somos caroline y de tratar la terminal para hacerla interactiva, si hace
 
 Podemos aprovechar este error de configuración para investigar más sobre este tema.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/gtfobins.png" alt="GTFOBins de Python">
 
-
+[GTFOBins](https://gtfobins.github.io/gtfobins/python/#sudo)
 
 
 <br>
