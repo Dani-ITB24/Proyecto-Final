@@ -52,6 +52,9 @@ Este problema lo comunicamos con los creadores del contenedor y nos dio un par d
 <br>
 ------------------------------------------------<br>
 
+Para poder seguir con el ataque hemos tenido que iniciar la sesion como www-data. Una vez que estemos alli, nos hemos dirigido donde esta subida la web para ver que más cosas tienen guardada. Una vez ahi encontramos otra dirección.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-13.png)
 
 
 
