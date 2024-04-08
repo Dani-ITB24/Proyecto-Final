@@ -129,3 +129,4 @@ Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el us
 
 <h1 name="valoracion">5. Valoración</h1>
 
+La máquina tiene una dificultad normal, la vulnerabilidad esta aplicada aunque es bastante facil de encontrar utilizando WPScan.
