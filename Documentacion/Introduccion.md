@@ -10,17 +10,17 @@
     - [Apache](#apache)
     - [PHP](#php)
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
-    - [1 Vulnerabilidades CVE Extra](#1-vulnerabilidades-cve-extra)
-    - [1 Creación del CTF](#1-creación-del-ctf)
-    - [1 Análisis del Contenedor una vez Explotado](#1-análisis-del-contenedor-una-vez-explotado)
-    - [1 Walkthrough](#1-walkthrough)
+    - [Contenedor 1 Vulnerabilidades CVE Extra](#Contenedor-1-vulnerabilidades-cve-extra)
+    - [Contenedor 1 Creación del CTF](#Contenedor-1-creación-del-ctf)
+    - [Contenedor 1 Análisis del Contenedor una vez Explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
+    - [Contenedor 1 Walkthrough](#Contenedor-1-walkthrough)
 
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
-    - [2 Vulnerabilidad CVE Extra](#2-vulnerabilidad-cve-extra)
-    - [2 Creación del CTF](#2-creación-del-ctf)
-    - [2 Análisis del Contenedor](#2-análisis-del-contenedor)
-    - [2 Walkthrough](#2-walkthrough)
+    - [Contenedor 2 Vulnerabilidad CVE Extra](#Contenedor-2-vulnerabilidad-cve-extra)
+    - [Contenedor 2 Creación del CTF](#Contenedor-2-creación-del-ctf)
+    - [Contenedor 2 Análisis del Contenedor](#Contenedor-2-análisis-del-contenedor)
+    - [Contenedor 2 Walkthrough](#Contenedor-2-walkthrough)
 
 
 # [Introducción](#índice)
@@ -301,7 +301,7 @@ El sistema operativo utilizado para el desarrollo de este primer contenedor es U
 </p>
 
 
-## [1 Vulnerabilidades CVE Extra](#índice)
+## [Contenedor 1 Vulnerabilidades CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -326,7 +326,7 @@ Esta vulnerablidad permite al usuario dumpear la clave maestra de KeePass en tex
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la versión.
 
-## [1 Creación del CTF](#índice)
+## [Contenedor 1 Creación del CTF](#índice)
 
 Para el desarrollo del formulario hemos empleado únicamente HTML, CSS y PHP.
 
@@ -487,7 +487,7 @@ Para poder realizar un análisis forense una vez explotada la máquina, hemos me
 <img  alt="drawing" src="./images/logs.png" />
 </p>
 
-## [1 Análisis del Contenedor una vez Explotado](#índice)
+## [Contenedor 1 Análisis del Contenedor una vez Explotado](#índice)
 Para analizar la maquina explotada primero hemos mirado los logs que tenemos en la maquina docker.
 
 Tenemos los siguientes logs en nuestro docker:
@@ -507,7 +507,7 @@ Tenemos los siguientes logs en nuestro docker:
   
 - Logs de mariadb para ver las querris.
 
-## [1 Walkthrough](#índice)
+## [Contenedor 1 Walkthrough](#índice)
 
 En primer lugar hacemos un escaneo de puertos para ver qué puertos hay abiertos:
 
@@ -665,7 +665,7 @@ El sistema operativo utilizado para el desarrollo de este primer contenedor es U
 <img  alt="drawing"  src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
 </p>
 
-## [2 Vulnerabilidad CVE Extra](#índice)
+## [Contenedor 2 Vulnerabilidad CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -687,7 +687,7 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 </p>
 
 
-## [2 Creación del CTF](#índice)
+## [Contenedor 2 Creación del CTF](#índice)
 
 Implementación de la vulnerabilidad extra (CVE-2024-2168):
 
@@ -722,7 +722,21 @@ Hacemos SQLi con sqlmap:
 </p>
 
 
-## [2 Análisis del Contenedor](#índice)
+## [Contenedor 2 Análisis del Contenedor](#índice)
 
-## [2 Walkthrough](#índice)
+## [Contenedor 2 Walkthrough](#índice)
+
+1.Atacante hace fuzzing y encuentra el panel de inicio de Travel manager.
+
+2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
+
+3.Subimos un archvio para hacer un ataque sqlmap,
+
+4.Hacemos el ataque sqlmap.
+
+5.encuentra un usuario llamado "pedroSSH"
+
+6.Fuerza bruta mediante SSH a este usuario para entrar
+
+7.encuentra un script hecho en BASH que se ejecute como root desde crontab
 
