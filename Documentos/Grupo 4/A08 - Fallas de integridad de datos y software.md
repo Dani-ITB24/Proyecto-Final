@@ -127,11 +127,11 @@ Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el us
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/rootflag.png" alt="Escalada a Root y flag root.txt">
 
-Si buscamos los archivos con permisos SUID encontramos con **vim**, lo que no suele ser nada común, si vamos a GTFOBins y buscamos vim encontramos lo siguiente:
+Si buscamos los archivos con permisos SUID con el comando *find / -perm -4000 2>/dev/null* encontramos con **vim**, lo que no suele ser nada común, si vamos a GTFOBins y buscamos vim encontramos lo siguiente:
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/gtfobins.png" alt="GTFOBins de vim">
 
-
+Podemos aprovechar el comando que nos da [GTFOBins](https://gtfobins.github.io/gtfobins/vim/#suid) para aprevecharnos de los permisos SUID que tiene vim
 
 <br>
 <h1 name="valoracion">5. Valoración</h1>
