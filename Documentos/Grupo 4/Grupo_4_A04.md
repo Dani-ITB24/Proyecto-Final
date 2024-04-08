@@ -178,8 +178,11 @@ Podemos aprovechar este error de configuración para investigar más sobre este 
 
 Si aplicamos el apartado de **sudo** sobre python que encontramos en GTFOBins y la adaptamos a esta máquina (cambiamos python por python3.10 y lo ejecutamos desde la ruta /usr/bin), conseguiremos acceso como super usuario.
 
+En el directorio de root encontraremos un archivo llamado **root.txt** con un mensaje cifrado en base64.
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/base64_root_decode.png" alt="Base64 de /root decodificado">
 
+Al descodificarlo encontramos la flag final de la CTF.
 
 <br>
 <h1 name="valoracion">6. Valoración</h1>
