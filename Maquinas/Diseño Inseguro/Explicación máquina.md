@@ -67,25 +67,25 @@ Realizamos un escaneo de los puertos de la maquina y lo exportamos a un fichero.
 
 ![](Imagenes/1_diseñoInseguro.png)
 
-Con un script en python extraemos los puertos del fichero e identificamos que son los puertos **21, 22 y 80**.
+Con un script en Python extraemos los puertos del fichero e identificamos que son los puertos **21, 22 y 80**.
 
 ![](Imagenes/2_diseñoInseguro.png)
 
-Sabiendo los puertos realizamos un escaneo de los puertos para saber sus versiones y ejecutar unos scripts basicos para identificar alguna vulnerabilidad mediante **nmap**.
+Sabiendo los puertos, realizamos un escaneo de los puertos para saber sus versiones y ejecutar unos scripts básicos para identificar alguna vulnerabilidad mediante **nmap**.
 
 ![](Imagenes/3_diseñoInseguro.png)
 
-Accedemos a la web y mediante **Wappalyzer** visualizamos información acerca de la pagina web, por ejemplo, detectamos que la web interpreta codigo **php**.
+Accedemos a la web y mediante **Wappalyzer** visualizamos información acerca de la página web, por ejemplo, detectamos que la web interpreta código **PHP**.
 
 ![](Imagenes/4_diseñoInseguro.png)
 
-Utilizamos **WFUZZ** para escanear la pagina web e identificar rutas escondidas, de esta forma encontramos las rutas **ftp** y **documents**.
+Utilizamos **WFUZZ** para escanear la página web e identificar rutas escondidas, de esta forma encontramos las rutas **FTP** y **documents**.
 
 ![](Imagenes/5_diseñoInseguro.png)
 
-Como a través de la web no visualizamos nada más, ni ningun vector de ataque, nos conectamos al **ftp** con el usuario **anonymous** ya que este esta habilitado.
+Como a través de la web no visualizamos nada más, ni ningún vector de ataque, nos conectamos al **FTP** con el usuario, **anonymous** ya que este está habilitado.
 
-Intentamos realizar varias acciones con **anonymous** pero verificamos que este no tiene permisos para realizar ninguna acción.
+Intentamos realizar varias acciones con **anonymous**, pero verificamos que este no tiene permisos para realizar ninguna acción.
 
 ![](Imagenes/6_diseñoInseguro.png)
 
@@ -97,13 +97,13 @@ El fichero con los nombres se verá de la siguiente forma.
 
 ![](Imagenes/8_diseñoInseguro.png)
 
-Al volver a revisar las versiones de los servicios, nos damos cuenta que la **versión 7.2 de SSH** es vulnerable a enumeración de usuarios del sistema.
+Al volver a revisar las versiones de los servicios, nos damos cuenta de que la **versión 7.2 de SSH** es vulnerable a enumeración de usuarios del sistema.
 
 ![](Imagenes/9_diseñoInseguro.png)
 
 Mediante **wget** nos descargamos el [CVE-2018-15473](https://github.com/epi052/cve-2018-15473/tree/master) y le damos permisos de ejecución.
 
-Despues ejecutamos el script de **enumeración de usuarios** junto con el fichero de nombres de usuarios creado a través de los personajes de la web, de esta forma verificamos que el usuario **elijah** existe en el sistema.
+Después ejecutamos el script de **enumeración de usuarios** junto con el fichero de nombres de usuarios creado a través de los personajes de la web, de esta forma verificamos que el usuario **elijah** existe en el sistema.
 
 ![](Imagenes/10_diseñoInseguro.png)
 
@@ -112,20 +112,20 @@ Con la herramienta de **Hydra** hacemos fuerza bruta al servicio de **FTP** con 
 ![](Imagenes/11_diseñoInseguro.png)
 ![](Imagenes/12_diseñoInseguro.png)
 
-En **FTP** nos autenticamos como **elijah** y conseguimos acceso, al acceder vemos que **elijah** puede visualizar y acceder a la carpeta **documents**, además dentro de **documents** visualiza y puede acceder dentro del directorio **elijah**. Dentro del directorio **elijah** verificamos que podemos subir ficheros, por lo cual creamos un fichero en **PHP** que nos permita ejecutar comandos via web.
+En **FTP** nos autenticamos como **elijah** y conseguimos acceso, al acceder vemos que **elijah** puede visualizar y acceder a la carpeta **documents**, además dentro de **documents** visualiza y puede acceder dentro del directorio **elijah**. Dentro del directorio **elijah** verificamos que podemos subir ficheros, por lo cual creamos un fichero en **PHP** que nos permita ejecutar comandos vía web.
 
 Este fichero lo llamamos **cmd.php** y lo subimos dentro del directorio **elijah**, además le damos permisos de ejecución.
 
 ![](Imagenes/14_diseñoInseguro.png)
 ![](Imagenes/13_diseñoInseguro.png)
 
-En la web accedemos a **http://172.17.0.2/documents/elijah/cmd.php** y vemos que aqui se encuentra el fichero cmd.php que hemos subido mediante **FTP**.
+En la web accedemos a **http://172.17.0.2/documents/elijah/cmd.php** y vemos que aquí se encuentra el fichero cmd.php que hemos subido mediante **FTP**.
 
 Para verificar que podemos ejecutar comandos, escribimos lo siguiente en la web **http://172.17.0.2/documents/elijah/cmd.php?cmd=whoami** y nos devuelve que el usuario que ejecuta los comandos es **www-data**.
 
 ![](Imagenes/15_diseñoInseguro.png)
 
-Con el siguiente comando verificamos que nos encontramos en la maquina **http://172.17.0.2/documents/elijah/cmd.php?cmd=ifconfig**.
+Con el siguiente comando verificamos que nos encontramos en la máquina **http://172.17.0.2/documents/elijah/cmd.php?cmd=ifconfig**.
 
 ![](Imagenes/16_diseñoInseguro.png)
 
@@ -137,25 +137,25 @@ Para ejecutarnos una reverse shell escribiremos lo siguiente en la URL **http://
 
 ![](Imagenes/17_diseñoInseguro.png)
 
-Desde el terminal que estamos en escucha por el **puerto 443** obtenemos una **reverse shell** a la maquina con el usuario **www-data**.
+Desde el terminal que estamos en escucha por el **puerto 443** obtenemos una **reverse shell** a la máquina con el usuario **www-data**.
 
-Seguidamente empezaremos con el tratamiento de la **TTY**.
+Seguidamente, empezaremos con el tratamiento de la **TTY**.
 
 ![](Imagenes/19_diseñoInseguro.png)
 
 ![](Imagenes/20_diseñoInseguro.png)
 
-Investigando los ficheros de la maquina vemos que en **/var/www/** existe un fichero **caroline.jpg** el cual es bastante sospechoso.
+Investigando los ficheros de la máquina vemos que en **/var/www/** existe un fichero **caroline.jpg** el cual es bastante sospechoso.
 
-Compartimos este fichero de **caroline.jpg** en un servidor web para despues descargarlo desde nuestra maquina atacante.
+Compartimos este fichero de **caroline.jpg** en un servidor web para después descargarlo desde nuestra máquina atacante.
 
-Tambien calcumos el hash md5 para verificar si ambos hash (original y descargado en la maquina atacante) del fichero **caroline.jpg** son iguales.
+También calculamos el hash md5 para verificar si ambos hash (original y descargado en la máquina atacante) del fichero **caroline.jpg** son iguales.
 
-Además si miramos los usuarios del sistema, vemos que **caroline** es una usuaria del sistema la cual se puede hacer **login**.
+Además, si miramos los usuarios del sistema, vemos que **caroline** es una usuaria del sistema, la cual se puede hacer **login**.
 
 ![](Imagenes/23_diseñoInseguro.png)
 
-Desde nuestra maquina atacante descargamos el fichero **caroline.jpg** y calculamos el hash md5 para verificar que coincide con la maquina atacada.
+Desde nuestra máquina atacante descargamos el fichero **caroline.jpg** y calculamos el hash md5 para verificar que coincide con la máquina atacada.
 
 ![](Imagenes/22_diseñoInseguro.png)
 
@@ -163,7 +163,7 @@ Con la herramienta **binwalk** detectamos la imagen **caroline.jpg** tiene un fi
 
 ![](Imagenes/24_diseñoInseguro.png)
 
-Intentamos descomprimir el fichero **zip** pero se encuentra protegido con contraseña.
+Intentamos descomprimir el fichero **zip**, pero se encuentra protegido con contraseña.
 
 ![](Imagenes/25_diseñoInseguro.png)
 
@@ -183,7 +183,7 @@ Extraemos el contenido del **zip** y vemos que se nos ha extraído un fichero **
 
 ![](Imagenes/29_diseñoInseguro.png)
 
-Con la herramienta de **Hydra** hacemos fuerza bruta al servicio de **SSH** con el listado de contraseñas de **pwd.txt** y el usuario **caroline**, de esta forma obtenemos la contraseña de **caroline** que nos permitirá acceder a la maquina autenticados como **caroline**.
+Con la herramienta de **Hydra** hacemos fuerza bruta al servicio de **SSH** con el listado de contraseñas de **pwd.txt** y el usuario **caroline**, de esta forma obtenemos la contraseña de **caroline** que nos permitirá acceder a la máquina autenticados como **caroline**.
 
 La contraseña de la usuaria **caroline** es **_Empleado46**.
 
@@ -199,25 +199,25 @@ Dentro del **home** de **caroline** podemos visualizar la flag de **user.txt**, 
 
 ![](Imagenes/32_diseñoInseguro.png)
 
-Ejecutando **sudo -l** nos encontramos que la usuaria **caroline** tiene permisos para ejecutar como cualquier usuario (incluido **root**) sin necesidad necesidad de contraseña el binario de **python3.10**.
+Ejecutando **sudo -l** nos encontramos que la usuaria **caroline** tiene permisos para ejecutar como cualquier usuario (incluido **root**) sin necesidad de contraseña el binario de **python3.10**.
 
 ![](Imagenes/33_diseñoInseguro.png)
 
-Investigando el codigo del script en **python** que encontramos en el **home** de **caroline** vemos que este script utiliza las librerias de **base64** y **sys**.
+Investigando el código del script en **python** que encontramos en el **home** de **caroline** vemos que este script utiliza las librerías de **base64** y **sys**.
 
 ![](Imagenes/34_diseñoInseguro.png)
 
-Probamos el funcionamiento del script y detectamos que su función es recibir un **parametro** y convertir este **parametro** a **base64** para luego mostrarlo por pantalla.
+Probamos el funcionamiento del script y detectamos que su función es recibir un **parámetro** y convertir este **parámetro** a **base64** para luego mostrarlo por pantalla.
 
 ![](Imagenes/35_diseñoInseguro.png)
 
-Buscamos la ruta de la liberia **base64** y encontramos que se ubica en **/usr/lib/python3.10/**, esta libreria de **base64** tiene como nombre **base64.py** y detectamos que tiene permisos incorrectamente configurados ya que **otros usuarios** aparte del **propietario** pueden modificar el contenido del fichero **base64.py**.
+Buscamos la ruta de la Liberia **base64** y encontramos que se ubica en **/usr/lib/python3.10/**, esta librería de **base64** tiene como nombre **base64.py** y detectamos que tiene permisos incorrectamente configurados, ya que **otros usuarios** aparte del **propietario** pueden modificar el contenido del fichero **base64.py**.
 
 ![](Imagenes/36_diseñoInseguro.png)
 
-Despues de haber comprendido el funciomiento del script en python, sabemos que el script utiliza la función **b64encode**.
+Después de haber comprendido el funcionamiento del script en python, sabemos que el script utiliza la función **b64encode**.
 
-Por lo cual modificamos el fichero **base64.py** para importar la libreria **os**, además de añadir en la función **b64encode** una linea de codigo que **spawnee** una **bash** del usuario que ejecuta el **script**.
+Por lo cual modificamos el fichero **base64.py** para importar la librería **os**, además de añadir en la función **b64encode** una línea de código que **spawnee** una **bash** del usuario que ejecuta el **script**.
 
 ![](Imagenes/37_diseñoInseguro.png)
 
