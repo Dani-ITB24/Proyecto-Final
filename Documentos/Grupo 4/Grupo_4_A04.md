@@ -187,8 +187,15 @@ Al descodificarlo encontramos la flag final de la CTF.
 <br>
 <h1 name="valoracion">6. Valoración</h1>
 
+Sinceramente me ha cautivado positivamente esta máquina, la he encontrado muy real en cuanto a un nivel Easy de cualquier plataformas de Capture The Flag, desde recopilar información desde la página web, la típica reverse shell, un FTP que te da esperanzas desde un principio con el usuario anónimo que finalmente no te ayuda en nada.
 
+Encontrar un software con una versión vulnerable también se ajusta a la A04:2021. El ataque de fuerza bruta podría decir que es muy "sencillo" al utilizar el famoso diccionario rockyou, pero en realidad es lo primero que se te viene a la cabeza cuando te plantean la idea de hacer una CTF.
 
+No me esperaba lo del zip encriptado en una imagen, ha sido un buen detalle, personalmente, cuando se incluyen hashes y fuerza bruta sobre estos, lo agradezco ya que se sale de lo común en CTF de esta dificultad.
+
+Incluir recopilación de información para utilizar el diccionario que te proporcionan en el zip encriptado contra un usuario del sistema también está muy bien pensado y aplicado. Ya que se podría haber hecho aplicando las mismas técnicas pero de una forma más precaria y sencilla, así que es de agradecer que todo esté bien correlacionado.
+
+Respecto a la escalada de privilegios quizá habría preferido un punto más de dificultad, aunque tal vez sea porque ya tengo esta técnica muy vista. Buen trabajo.
 
 
 <br>
