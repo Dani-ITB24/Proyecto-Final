@@ -17,9 +17,9 @@
 
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
-    - [2 Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
+    - [2 Vulnerabilidad CVE Extra](#2-vulnerabilidad-cve-extra)
     - [2 Creación del CTF](#2-creación-del-ctf)
-    - [2 Análisis del Contenedor](#análisis-del-contenedor)
+    - [2 Análisis del Contenedor](#2-análisis-del-contenedor)
     - [2 Walkthrough](#2-walkthrough)
 
 
