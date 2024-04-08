@@ -213,3 +213,15 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 # Reporte 4 de Abril de 2024
 
 - He terminado resolver y documentar la mauqina A04 del grupo 4.
+
+
+# Reporte 5 de Abril de 2024
+
+- Hemos repasadop y reorganizado la resolucion de las maquinas.
+- He empezado a resolver la maquina A07 - Fallas de Identificación y Autenticación del grupo 5.
+
+
+# Reporte 8 de Abril de 2024
+
+- Hemos resuleto un problema con uno de nuestros dockers, ya que no se iniviavan los servicios.
+- He continuado resolviendo la maquina A07 - Fallas de Identificación y Autenticación.
