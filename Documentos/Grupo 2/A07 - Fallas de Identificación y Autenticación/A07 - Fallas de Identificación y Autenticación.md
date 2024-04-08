@@ -14,11 +14,11 @@
 
 <h1 name="Enumeración">1. Enumeración</h1>
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/Assets/nmap.png" alt="nmap">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/nmap.png" alt="nmap">
 
 > nmap -p- -sVC 172.17.0.2 
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/Assets/gobuster.png" alt="gobuster">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/gobuster.png" alt="gobuster">
 
 > gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
