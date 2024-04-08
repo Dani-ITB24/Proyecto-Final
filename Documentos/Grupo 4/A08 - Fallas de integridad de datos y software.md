@@ -133,7 +133,7 @@ Si buscamos los archivos con permisos SUID con el comando *find / -perm -4000 2>
 
 Podemos aprovechar el comando que nos da [GTFOBins](https://gtfobins.github.io/gtfobins/vim/#suid) para aprevecharnos de los permisos SUID que tiene vim.
 
-Lo único que tenemos que modificar del comando para que funcione es cambiar el **py** por **python**. Al ejecutarlo se nos abrirá una shell como root.
+Lo único que tenemos que modificar del comando para que funcione es cambiar el **py** por **python**. Al ejecutarlo se nos abrirá una shell como root y podremos conseguir la flag.
 
 <br>
 <h1 name="valoracion">5. Valoración</h1>
