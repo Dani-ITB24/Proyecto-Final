@@ -127,6 +127,17 @@ Con el usuario www-data no podemos hacer nada, solo podemos ver que existe el us
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A08/rootflag.png" alt="Escalada a Root y flag root.txt">
 
+<br>
 <h1 name="valoracion">5. Valoración</h1>
 
-La máquina tiene una dificultad normal, la vulnerabilidad esta aplicada aunque es bastante facil de encontrar utilizando WPScan.
+La máquina tiene una dificultad normal, la vulnerabilidad está bien aplicada aunque es bastante fácil de encontrar utilizando WPScan. A partir de ahí se va complicando la CTF, desde que había que aplicar un filtro de php desde la URL para poder encodear la página en base64 para poder acceder.
+
+Siguiendo por la CTF conseguimos el acceso de administrador al panel de Wordpress gracias a que conseguimos las credenciales a partir de encontrarlas descodificando la página de base64. Un poco irreal a mi parecer de ver las cosas. Tengo que destacar que no me habría podido llegar a imaginar que se puede subir una reverse shell de php a partir de modificar los temas de Wordpress. Una vez eres consciente, parece más sencillo de lo que imaginaba, ese punto fue bastante difícil y me quedé un buen tiempo en este punto.
+
+Tras subir la reverse shell y conseguir acceder al sistema después de tanto trabajo me encuentro con que únicamente era usuario **www-data**. Por lo que me imaginaba un camino largo y tedioso para hacer el movimiento lateral y escalar de privilegios. Pero nada más lejos de la realidad, desde el usuario www-data encontramos con que vim tiene permisos SUID. 
+Y por segunda vez, para escalar de privilegios se opta por GTFOBins
+
+
+
+
+<br>
