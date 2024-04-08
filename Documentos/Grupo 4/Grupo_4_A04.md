@@ -154,9 +154,11 @@ Nos conectamos como caroline haciendo **su caroline** e introduciendo la contras
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/home_caroline.png" alt="Home del usuario caroline">
 
+Si nos movemos al directorio home del usuario caroline nos encontraremos con un archivo user.txt con un mensaje cifrado en bas64, vamos a decodearlo.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/base64_decode.png" alt="Base64 decodificado">
 
+Tenemos la primera flag de la CTF. Vamos a ver como podemos seguir avanzando.
 
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
@@ -174,7 +176,7 @@ Podemos aprovechar este error de configuración para investigar más sobre este 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/root_flag.png" alt="flag de root root.txt">
 
-
+Si aplicamos el apartado de **sudo** sobre python que encontramos en GTFOBins y la adaptamos a esta máquina (cambiamos python por python3.10 y lo ejecutamos desde la ruta /usr/bin), conseguiremos acceso como super usuario.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/base64_root_decode.png" alt="Base64 de /root decodificado">
 
