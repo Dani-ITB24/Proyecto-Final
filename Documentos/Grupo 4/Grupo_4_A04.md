@@ -171,5 +171,19 @@ Podemos aprovechar este error de configuración para investigar más sobre este 
 
 [GTFOBins](https://gtfobins.github.io/gtfobins/python/#sudo)
 
-<h1 name="valoracion">5. Valoración</h1>
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/root_flag.png" alt="flag de root">
+
+
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/base64_root_decode.png" alt="Base64 de /root decodificado">
+
+
+<br>
+<h1 name="valoracion">6. Valoración</h1>
+
+
+
+
+
+<br>
