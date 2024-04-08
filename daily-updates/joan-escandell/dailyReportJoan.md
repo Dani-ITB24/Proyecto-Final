@@ -135,3 +135,25 @@
 - [x] Completar la CTF y hacer commit para tener versión con logs para hacer Forense
 - [x] Crear repositorio en DockerHub
 - [x] Subir las dos imágenes a DockerHub (previa al ataque y posterior al ataque)
+
+# 04/04/2024:
+- [x] Creación de la máquina 2
+- [x] Instalación de servicios de MariaDB, Apache2, cron, ssh.. y todo lo necesario para crear nuestar ctf
+- [x] Configurar directorios de Apache2 para que peudan ser averiguados con Dirbuster
+- [x] Instalación de del softweare elegido (Travel Mangement) para usar la principal vulnerabilidad " Broken Authentication"
+- [x] Encontramos varios problemas a la hora de usar el software, sobretodo el la parte en la que se usa el SQLMAP para atacar una variable de PHP para dumpear toda la base de datos.
+
+# 05/04/2024:
+- [x] Creación de usuarios del sistema para que se pueda hacer escala de privilegios
+- [x] Configuración de permisos en los archivos de usuario
+- [x] Editar base de datos del software y añadir los usuarios que existen en el sistema para que se sepa cuáles hay.
+- [x] Configurar la base de datos para que pueda ser dumpeada con ayuda de SQLMAP y BURPSUITE
+
+# 08/04/2024:
+- [x] Creación de ficheros de logs.txt (Páginas de login del software elegido)
+- [x] Configuración de los ficheros de logs para que guarden fecha, hora, username, y password del login registrado.
+- [x] Creación de flags, una en el usuario "pedro" y otra para cuando escalas privilegios, es decir en "root"
+- [x] Creación de fichero date.sh el cual puede ser modificado por "pedro" y ejecutado como root, y de esta forma puede escalar de privilegios
+- [x] Terminar últimos detalles de la máquina 2
+- [x] Simular ataque a la máquina 2
+- [x] Subir a DockerHub las 2 versiones (1 antes del ataque, 1 después del ataque)
