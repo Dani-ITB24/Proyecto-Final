@@ -202,7 +202,8 @@
 - [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
 - [X] Documentar CTF grupo 4 - A04:2021.
 - [X] CTF A08:2021 y documentación finalizada.
-- [X] Crear feedback A04.
+- [X] Crear feedback A04:2021 (grupo 4).
+- [X] Crear feedback A08:2021 (grupo 4).
 
 ## Martes 9 de Abril 2024:
 
