@@ -85,7 +85,7 @@ Comunicacion con el equipo
   - Creacion de Dockerfile para la web y busqueda de imagenes ya creadas
 
 ## Martes 19/03/2024
-  - Investigacion del problema con la parte de la web por el php 
+  - Investigacion del problema con la parte de la web por el php
   - Creacion de Dockerfile para la web y busqueda de imagenes ya creadas
 
 ## Miercoles 20/03/2024
@@ -96,3 +96,16 @@ Comunicacion con el equipo
 
 ## Viernes 22/03/2024
   - reunion y aclaracion de las dos maquinas
+
+## Martes 02/04/2024
+- Preparar maquina Kali y maquina para las CTF.
+- Prueba de nuestro entorno, porque nos indica que nolevanta
+
+## Miercoles 03/04/2024
+- Realizacion de la ctf A06 falta conseguir los privilegios de root.
+
+## Jueves 03/04/2024
+- Realizacion de la ctf A10, no se consigue encontrar nada y se mira el walktrouh por lo que se ve que falta abrir el puerto 8009, tambien falta conseguir los provilegios a root.
+
+## Viernes 05/04/2024
+- Terminar documentacion y conseguir los privilegios root de las maquina que se finilaza durante el fin de semana.
