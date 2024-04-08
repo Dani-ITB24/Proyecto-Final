@@ -150,6 +150,9 @@ Nos conectamos como caroline haciendo **su caroline** e introduciendo la contras
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/sudo -l.png" alt="sudo -l">
 
+Una vez somos caroline y de tratar la terminal para hacerla interactiva, si hacemos el comando **sudo -l** podremos visualizar que tenemos la opción de utilizar el programa de python como superusuario sin necesidad de contraseña.
+
+Podemos aprovechar este error de configuración para investigar más sobre este tema.
 
 
 
