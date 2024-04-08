@@ -80,6 +80,9 @@ Sabiendo las credenciales de los usuarios, intentamos hacerles un ssh.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-19.png)
 
+Ahi vemos que archivos ahí.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-20.png)
 
 Se ha encontrado el archivo flag.txt dentro de root.
 
