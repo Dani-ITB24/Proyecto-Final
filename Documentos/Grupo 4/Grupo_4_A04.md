@@ -187,7 +187,7 @@ Al descodificarlo encontramos la flag final de la CTF.
 <br>
 <h1 name="valoracion">6. Valoración</h1>
 
-Sinceramente me ha cautivado positivamente esta máquina, la he encontrado muy real en cuanto a un nivel Easy de cualquier plataformas de Capture The Flag, desde recopilar información desde la página web, la típica reverse shell, un FTP que te da esperanzas desde un principio con el usuario anónimo que finalmente no te ayuda en nada.
+Sinceramente me ha cautivado positivamente esta máquina, la he encontrado muy real en cuanto a un nivel Easy de cualquier plataforma de Capture The Flag, desde recopilar información desde la página web, la típica reverse shell, un FTP que te da esperanzas desde un principio con el usuario anónimo que finalmente no te ayuda en nada.
 
 Encontrar un software con una versión vulnerable también se ajusta a la A04:2021. El ataque de fuerza bruta podría decir que es muy "sencillo" al utilizar el famoso diccionario rockyou, pero en realidad es lo primero que se te viene a la cabeza cuando te plantean la idea de hacer una CTF.
 
