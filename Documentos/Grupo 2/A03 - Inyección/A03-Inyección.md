@@ -36,7 +36,9 @@ Una vez ahí intentamos ver de que manera podemos vulnerar esta página. Y se ha
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-9.png)
 
+Una vez que hayamos subido el fichero, nos saldra una notificacion de que se ha subido correctamente en una direccion. Accedemos a la direccion que nos dice y vemos los archivos que hay y el que hemos subido.
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-10.png)
 
 
 

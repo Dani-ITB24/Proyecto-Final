@@ -122,3 +122,10 @@
 ## Miercoles 3 de abril 2024
 - [X] Pruebas pentesting jordi24itb/m1
 
+## Jueves 5 de abril 2024
+- [X] Documentaro writeup jordi24itb/m1
+
+## Viernes 6 de abril 2024
+- [X] Reparticion maquinas restantes
+- [X] Ayudar al grupo a realizar pentest
+
