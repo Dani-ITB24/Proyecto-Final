@@ -11,13 +11,14 @@
     - [PHP](#php)
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
     - [Vulnerabilidades CVE Extra](#vulnerabilidades-cve-extra)
-    - [Desarrollo de las Vulnerabilidades](#desarrollo-de-las-vulnerabilidades)
+    - [Creación del CTF]
+    - [Walkthrough]
     - [Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
-    - [Herramientas Empleadas](#herramientas-empleadas)
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
     - [Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
-    - [Desarrollo de las Vulnerabilidad](#desarrollo-de-las-vulnerabilidad)
+    - [Creación del CTF]
+    - [Walkthrough]
     - [Análisis del Contenedor](#análisis-del-contenedor)
 
 
@@ -324,105 +325,165 @@ Esta vulnerablidad permite al usuario dumpear la clave maestra de KeePass en tex
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la versión.
 
-## [Desarrollo de las Vulnerabilidades](#índice)
+## [Creación del CTF](#índice)
 
-1.Atacante hace fuzzing y encuentra el panel de inicio de cerdos.
+Para el desarrollo del formulario hemos empleado únicamente HTML, CSS y PHP.
+
+- **HTML:** Estructura del formulario
+- **CSS:** Personalización del formulario
+- **PHP:** _Backend_ del formulario (validación & conexión con la base de datos)
+
+El script en php está hecho de manera que no valida correctamente la entrada. De esta manera es vulnerable a inyección SQL.
+
+Representación gráfica de la validación errónea:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/gobuster.png" />
+<img  alt="drawing" src="./images/sqli.png" />
 </p>
 
-2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
+Apariencia final del formulario:
+
 <p align="center">
-<img  alt="drawing"src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder1.png" />
-</p>
-<p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/intruder2.png" />
+<img  alt="drawing" src="./images/formularioFinal.png" />
 </p>
 
-3.Despues de saltar el login el atacante sube un archivo php en la pagina web.
+Para el desarrollo del primer contenedor, instalamos Docker siguiendo el [tutorial](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) de la documentación oficial de Docker. Una vez hecho esto comenzamos con la creación del contenedor de manera manual:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/addPig1.png" />
+<img  alt="drawing" src="./images/1.jpeg" />
 </p>
 
-4.Luego el atacante tiene que ir updatefolder donde esta su archvio php y lo ejecuta para hacer una Reverse Shell.
+Descargamos la imagen de ubuntu para docker:
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/uploadfolder.png" />
+<img  alt="drawing" src="./images/2.png" />
+</p>
+<p align="center">
+<img  alt="drawing" src="./images/3.png" />
 </p>
 
-5.Nos ponemos con el netcat escuchando en el puerto 4444 para entrar al sistema.
+A continuación creamos el contenedor con esta imágen:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/www-data.png" />
+<img  alt="drawing" src="./images/4.png" />
 </p>
 
-6.Hemos entrado al sistema con el usuario www-data miramos lo que hay con el comando ls , hacemos otro ls para ver lo que hay dentro de la carpeta compartidos por ultimo hacemos un cat para ver lo que hay en datos.txt .
+Prueba Instalación MariaDB:
+
+Para instalar y poner contraseña a root dentro del contenedor:
+
+```
+apt install mariadb-server
+service mariadb start
+mariadb
+```
+
+Una vez dentro:
+
+```
+USE mysql;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'contraseña';
+flush privileges;
+exit;
+```
+
+A continuación accedemos con el usuario root con el comando:
+
+```
+mysql -u root -p
+```
+
+Para crear la base de datos y un usuario válido en el formulario SQLi:
+
+```
+CREATE DATABASE db1;
+use db1;
+CREATE TABLE users(id CHAR(30) NOT NULL,user CHAR(20) NOT NULL,password CHAR(20) NOT NULL);
+INSERT INTO users VALUES ('0','usuarioPrivilegiado','passUserPriv1');
+```
+
+Comprobación:
 
 <p align="center">
-<img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/way2.png" />
+<img  alt="drawing" src="./images/9.png" />
 </p>
 
-7.Vamos a la pagina banco de credenciales.
+Instalación PHP y Prueba Conexión DB con Validador
+
+Instalamos php y sus respectivos módulos:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/bancoCredencialesPrivado.png" />
+<img  alt="drawing" src="./images/10.png" />
 </p>
 
-8.Hacemos un ataque sql injection a la pagina banco de credenciales.
+Prueba Creación de Snapshot en Docker
+
+Comando empleado:
+
+```
+sudo docker commit ubuntu ubuntu1
+```
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/loginBancoSQLi.png" />
+<img  alt="drawing" src="./images/7.png" />
 </p>
 
-9.Nos saldra los nombres de usuarios con sus contraseñas incriptadas en base64.
+Y para ejecutarla:
+
+```
+sudo docker run -it --name ubuntu1 ubuntu1
+```
 
 <p align="center">
-<img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/finalCredentials.png" />
+<img  alt="drawing" src="./images/8.png" />
 </p>
 
-10.Vamos a desencriptar las contraseñas encriptadas en base 64.
+Implementación CVE Extra (CVE-2023-37629)
+ 
+En primer lugar descargamos el software y lo descomprimimos en la ruta /var/www/html. Una vez hecho esto creamos la base de datos:
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/base64Decode.png" />
+<img  alt="drawing" src="./images/11.png" />
 </p>
 
-11.Entramos en el usuario Pastorpaco , hacemos ls para ver lo que hay dentro del usuario dentro hay un zip incriptado y una flag. Abrimos la flag del usuario.
+A continuación importamos el archivo .sql que viene con el software, y verificamos que se hayan creado las tablas:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/flagUser.png" />
+<img  alt="drawing" src="./images/12.png" />
 </p>
 
-12.Usamos jhon the ripper para romper la contraseña de credencialesseguras.zip
+Finalmente comprobamos accediendo mediante el navegador:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/john.png" />
+<img  alt="drawing" src="./images/13.png" />
 </p>
 
-13.Cuando rompamos la contraseña abrimos el zip y vemos lo que hay dentro.
+E iniciamos sesión para verificar que está conectado con la base de datos de igual manera:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/granjero.txt.png" />
+<img  alt="drawing" src="./images/14.png" />
 </p>
 
+Creación de Usuarios:
 
-14.Miramos que grupos esta el usuario granjero
+Creamos todos los usuarios que formarán parte del CTF, entre los que se encuentran:
+
+- pastorPaco 
+- pastorJose
+- granjero
+
 <p align="center">
-<img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/groups.png" />
-
-
-15.Hacemos sudo su y entramos en el usuario root.
+<img  alt="drawing" src="./images/etcPasswd.png" />
 </p>
 
-<p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/getRoot.png" />
-</p>
+El escalado a root se hará desde el usuario "granjero". El usuario "pastorPaco" será el usuario puente hacia "granjero". Y el usuario "pastorJose" es un simple _rabbit hole_.
 
-16. Por ultimo buscamos la flag de root.
+Implementación de Logs
+
+Para poder realizar un análisis forense una vez explotada la máquina, hemos mejorado el código de los scripts de validación de ambos formularios con la finalidad de almacenar logs de inicio de sesión, almacenando los campos introducidos por el cliente:
 
 <p align="center">
-<img  alt="drawing" width="550" height="400" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/flagRoot.png" />
+<img  alt="drawing" src="./images/logs.png" />
 </p>
 
 ## [Análisis del Contenedor una vez Explotado](#índice)
@@ -445,8 +506,153 @@ Tenemos los siguientes logs en nuestro docker:
   
 - Logs de mariadb para ver las querris.
 
-### [Herramientas Empleadas](#índice)
+## [Walkthrough](#índice)
 
+En primer lugar hacemos un escaneo de puertos para ver qué puertos hay abiertos:
+
+<p align="center">
+<img  alt="drawing" src="./images/nmap.png" />
+</p>
+
+A continuación accedemos vía navegador al puerto 80 para ver la web:
+
+<p align="center">
+<img  alt="drawing" src="./images/oos.png" />
+</p>
+
+Parece que no hay nada interesante, hacemos un ataque de fuzzing al URL para ver posibles directorios ocultos y encontramos el siguiente:
+
+<p align="center">
+<img  alt="drawing" src="./images/gobuster.png" />
+</p>
+
+Accedemso y aparentemente hay un panel de inicio de sesión. No parece ser vulnerable, así que intentamos hacer fuerza bruta sobre este formulario con BurpSuite:
+
+<p align="center">
+<img  alt="drawing" src="./images/intruder1.png" />
+</p>
+
+<p align="center">
+<img  alt="drawing" src="./images/intruder2.png" />
+</p>
+
+Se diferencia un código de status 302, por lo que probamos esas credenciales y en efecto son funcionales:
+
+<p align="center">
+<img  alt="drawing" src="./images/loggedin.png" />
+</p>
+
+A continuación exploramos un poco el panel de administración y encontramos una función donde puedes añadir un cerdo a la base de datos. En este formulario te deja subir una imagen, sin embargo se nos permite subir un archivo .php ya que no está bien sanitizado:
+
+<p align="center">
+<img  alt="drawing" src="./images/addPig1.png" />
+</p>
+
+<p align="center">
+<img  alt="drawing" src="./images/addPig2.png" />
+</p>
+
+A continuación ponemos un puerto en escucha y ejecutamos el archivo .php que hemos subido y cuya función es ejecutar una reverse shell:
+
+<p align="center">
+<img  alt="drawing" src="./images/ncListenPort.png" />
+</p>
+
+<p align="center">
+<img  alt="drawing" src="./images/executeReverse.png" />
+</p>
+
+Y ya estamos conectados a la máquina con el usuario **www-data**:
+
+<p align="center">
+<img  alt="drawing" src="./images/www-data.png" />
+</p>
+
+Con este usuario encontramos un directorio diferente dentro de /html:
+
+<p align="center">
+<img  alt="drawing" src="./images/way1.png" />
+</p>
+
+Accedemos vía navegador y encontramos otro panel de inicio de sesión:
+
+<p align="center">
+<img  alt="drawing" src="./images/bancoCredencialesPrivado.png" />
+</p>
+
+Afortunadamente este sí es vulnerable a SQL Injection por lo que nos facilita en gran medida el bypass de acceso:
+
+<p align="center">
+<img  alt="drawing" src="./images/loginBancoSQLi.png" />
+</p>
+
+Una vez hecho el bypass, nos redirige a un "banco de credenciales" donde parece haber las credenciales de varios usuarios, aparentemente encodeadas en Base64:
+
+<p align="center">
+<img  alt="drawing" src="./images/finalCredentials.png" />
+</p>
+
+Lo desencodeamos:
+
+<p align="center">
+<img  alt="drawing" src="./images/base64Decode.png" />
+</p>
+
+Y obtenemos una posible contraseña. A continuación nos conectamos vía SSH para probar si funciona:
+
+<p align="center">
+<img  alt="drawing" src="./images/flagUser.png" />
+</p>
+
+Accedemos correctamente, y lo primero que encontramos es un archivo .zip protegido con contraseña y la flag "user.txt", así que nos los llevamos a la máquina atacante mediante SCP y probamos a hacer fuerza bruta por si la contraseña fuese débil. Obtenemos el hash del zip e iniciamos el ataque:
+
+<p align="center">
+<img  alt="drawing" src="./images/scp.png" />
+</p>
+
+<p align="center">
+<img  alt="drawing" src="./images/zip2john.png" />
+</p>
+
+Al realizar el ataque descubrimos la contraseña del zip, al extraerlo vemos que dentro de este hay un archivo llamado "granjero.txt":
+
+<p align="center">
+<img  alt="drawing" src="./images/john.png" />
+</p>
+
+Al listar el contenido vemos las credenciales de un usuario nuevo, cuya contraseña está también cifrada en Base64:
+
+<p align="center">
+<img  alt="drawing" src="./images/granjero.txt.png" />
+</p>
+
+La desencodeamos:
+
+<p align="center">
+<img  alt="drawing" src="./images/granjeroDecode.png" />
+</p>
+
+Accedemos mediante SSH para comprobar si funcionan, y sí lo hacen:
+
+<p align="center">
+<img  alt="drawing" src="./images/sshGranjero.png" />
+</p>
+
+Lo primero que hacemos es listar los grupos y por suerte este usuario está en el grupo root y sudo, por lo que el escalado de privilegios es simplemente ejecutar un comando:
+
+<p align="center">
+<img  alt="drawing" src="./images/groups.png" />
+</p>
+
+<p align="center">
+<img  alt="drawing" src="./images/getRoot.png" />
+</p>
+
+Y finalmente encontramos la flag root.txt en el directorio  /root:
+
+<p align="center">
+<img  alt="drawing" src="./images/flagRoot.png" />
+</p>
 
 
 # [Contenedor Numero 2 Fallas de Identificación y Autenticación](#índice)
@@ -480,26 +686,38 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 </p>
 
 
-## [Desarrollo de las Vulnerabilidad](#índice)
+## [Creación del CTF 2](#índice)
 
-1.Atacante hace fuzzing y encuentra el panel de inicio de Travel manager.
+Implementación de la vulnerabilidad extra (CVE-2024-2168):
 
-2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
-
-3.Subimos un archvio para hacer un ataque sqlmap,
-
-4.Hacemos el ataque sqlmap.
+Descargamos el software y lo descomprimimos:
 
 <p align="center">
-<img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/dumped.png" />
+<img  alt="drawing" width="600" height="100" src="./images/unzipCont2.png" />
 </p>
 
-5.encuentra un usuario llamado "pedroSSH"
+Creamos la base de datos e importamos el archivo .sql proporcionado:
 
-6.Fuerza bruta mediante SSH a este usuario para entrar
+<p align="center">
+<img  alt="drawing" width="600" height="300" src="./images/dbCont2.png" />
+</p>
 
-7.encuentra un script hecho en BASH que se ejecute como root desde crontab
+Modificamos la configuración de la conexión a la base de datos en los siguientes archivos:
 
+- /user/config.php
+- /admin/config.php de la carpeta admin
+- /admin/package_details.php de la carpeta admin
 
+Revisamos que funcione y que sea vulnerable:
+
+<p align="center">
+<img  alt="drawing" width="600" height="300" src="./images/working.png" />
+</p>
+
+Hacemos SQLi con sqlmap:
+
+<p align="center">
+<img  alt="drawing" width="600" height="300" src="./images/dumped.png" />
+</p>
 
 ## [Análisis del Contenedor](#índice)
