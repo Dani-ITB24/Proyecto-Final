@@ -69,9 +69,11 @@ Una vez dentro vemos que hay unas credenciales puestas.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-16.png)
 
 Vemos que las tres contraseñas estan cifradas, se ha comprobado mediante una web que estan cifradas en Base64.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-17.png)
 
 Y las deciframos las contraseñas.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-18.png)
 
 
