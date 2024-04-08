@@ -3,7 +3,7 @@ para levantar la maquina se ha tenido que redireccionar el puerto 5000 hacia el 
 
 ## enumeracion de puertos
 
-primer escaner con nmap 
+primer escaner con nmap
 vm1-imagen1
 ### web 80
 Realizacion de busqueda de directorios con gobuster
@@ -13,7 +13,7 @@ si ponemos google nos aparece la web de google en otro formato, y si intentamos 
 Realizacion de busqueda de directorios con gobuster
 vm1-imagen2
 nos indica que no tenemos acceso
-### ssh 22 
+### ssh 22
 esta el servicio ssh con la version 8.9
 
 
@@ -26,7 +26,7 @@ con lo que entendemos que hay 3 personas que tienen acceso a este server, Franci
 
 
 ### Fuerza bruta
-realizamos un ataque de fuerza bruta por ssh al usuario ssh 
+realizamos un ataque de fuerza bruta por ssh al usuario ssh
 
 vm-imagen4
 vm-imagen5
@@ -44,3 +44,15 @@ al intentar hacer login vemos que nos pide la passphrase, con lo que con el jhon
 
 vm1-imagen6
 vm1-imagen7
+
+
+## Subida de prilegios
+
+invesitagamos los permisos y grupos del usuario y vemos que pertence a un grupo de dbadmin y vemos a que permisos tiene este grupo con el siguiente comando
+
+find / -type f -group 'dbadmin' -perm /g=x -exec ls -l {} \; 2>/dev/null
+
+si revisamos el fichero del backupdb1 vemos que crea un directorio con el comando mkdir con lo que podemos crear un fichero mkdir con los permisos 777 que contenga /bin/bash y exportar el PATH de esta ubicacion. Ahora cuando intentemos ejecutar backupdb1 y ejecute el comando mkdir abrira un shell en root
+
+vm-imagen8
+vm-imagen9
