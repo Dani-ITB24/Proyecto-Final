@@ -36,13 +36,20 @@ Una vez ahí intentamos ver de que manera podemos vulnerar esta página. Y se ha
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-9.png)
 
-Una vez que hayamos subido el fichero, nos saldra una notificacion de que se ha subido correctamente en una direccion. Accedemos a la direccion que nos dice y vemos los archivos que hay y el que hemos subido.
+Una vez que hayamos subido el fichero, nos saldrá una notificación de que se ha subido correctamente en una dirección. Accedemos a la dirección que nos dice y vemos los archivos que hay y el que hemos subido.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-10.png)
 
+Antes de ejecutar el archivo php, tenemos que poner a escuchar el puerto que hemos puesto en el php.
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-11.png)
 
+--------------------Problema-------------------- <br>
+Habido un problema, cuando pusimos el puerto ha escuchar y ejecutamos el archivo php en ningún momento se llega establecer la conexión. Se que da el puerto escuchando y el php pasado nos da un time out o se queda en pantalla en blanco. <br>
 
-
+<br>
+Este problema lo comunicamos con los creadores del contenedor y nos dio un par de soluciones que tampoco funcionaron.
+<br>
+------------------------------------------------<br>
 
 
 
