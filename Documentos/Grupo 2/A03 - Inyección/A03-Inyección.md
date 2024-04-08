@@ -43,12 +43,12 @@ Una vez que hayamos subido el fichero, nos saldrá una notificación de que se h
 Antes de ejecutar el archivo php, tenemos que poner a escuchar el puerto que hemos puesto en el php.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-11.png)
 
---------------------Problema--------------------
-Habido un problema, cuando pusimos el puerto ha escuchar y ejecutamos el archivo php en ningún momento se llega establecer la conexión. Se que da el puerto escuchando y el php pasado nos da un time out.
+--------------------Problema-------------------- <br>
+Habido un problema, cuando pusimos el puerto ha escuchar y ejecutamos el archivo php en ningún momento se llega establecer la conexión. Se que da el puerto escuchando y el php pasado nos da un time out. <br>
 
-
+<br>
 Este problema lo comunicamos con los creadores del contenedor y nos dio un par de soluciones que tampoco funcionaron.
-------------------------------------------------
+------------------------------------------------<br>
 
 
 
