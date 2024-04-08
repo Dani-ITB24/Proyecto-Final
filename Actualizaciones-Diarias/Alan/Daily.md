@@ -181,25 +181,27 @@
 
 - [X] Realización de la CTF A08:2021 - Software and Data Integrity Failures (grupo 4).
 - [X] Documentar CTF grupo 4 - A08:2021.
-- [ ] 
 
 ## Jueves 4 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Realización de la CTF A08:2021 - Software and Data Integrity Failures (grupo 4).
+- [X] Documentar CTF grupo 4 - A08:2021
+- [X] CTF A08:2021 documentación finalizada.
+- [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
+- [X] Documentar CTF grupo 4 - A04:2021.
 
 ## Viernes 5 de Abril 2024:
 
-- [ ] 
-- [ ] 
-
+- [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
+- [X] Documentar CTF grupo 4 - A04:2021.
 
 # Semana 7 - Aplicar mejoras:
 
 ## Lunes 8 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
+- [X] Documentar CTF grupo 4 - A04:2021.
+- [X] CTF A08:2021 y documentación finalizada.
 
 ## Martes 9 de Abril 2024:
 
