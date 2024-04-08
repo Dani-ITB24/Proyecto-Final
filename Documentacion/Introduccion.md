@@ -12,14 +12,15 @@
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
     - [1 Vulnerabilidades CVE Extra](#1-vulnerabilidades-cve-extra)
     - [1 Creación del CTF](#1-creación-del-ctf)
+    - [1 Análisis del Contenedor una vez Explotado](#1-análisis-del-contenedor-una-vez-explotado)
     - [1 Walkthrough](#1-walkthrough)
-    - [1 Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
+
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
     - [2 Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
     - [2 Creación del CTF](#2-creación-del-ctf)
-    - [2 Walkthrough](#2-walkthrough)
     - [2 Análisis del Contenedor](#análisis-del-contenedor)
+    - [2 Walkthrough](#2-walkthrough)
 
 
 # [Introducción](#índice)
