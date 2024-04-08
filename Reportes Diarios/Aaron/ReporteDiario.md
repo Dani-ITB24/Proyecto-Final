@@ -152,3 +152,10 @@
 
 - A punto de finalizar la explicación y la explotación de la segunda maquina.
 
+## Lunes 08/04/2024
+
+- Creacón de primer power Diseño inseguro.
+- Casi acabado el Primer power.
+  
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/85725acc-191a-49d6-a418-c455bbcb628e)
+
