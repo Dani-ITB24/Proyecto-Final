@@ -10,16 +10,16 @@
     - [Apache](#apache)
     - [PHP](#php)
 8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
-    - [Vulnerabilidades CVE Extra](#vulnerabilidades-cve-extra)
-    - [Creación del CTF]
-    - [Walkthrough]
-    - [Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
+    - [1 Vulnerabilidades CVE Extra](#1-vulnerabilidades-cve-extra)
+    - [1 Creación del CTF](#1-creación-del-ctf)
+    - [1 Walkthrough](#1-walkthrough)
+    - [1 Análisis del Contenedor una vez Explotado](#análisis-del-contenedor-una-vez-explotado)
 
 9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
-    - [Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
-    - [Creación del CTF]
-    - [Walkthrough]
-    - [Análisis del Contenedor](#análisis-del-contenedor)
+    - [2 Vulnerabilidad CVE Extra](#vulnerabilidad-cve-extra)
+    - [2 Creación del CTF](#2-creación-del-ctf)
+    - [2 Walkthrough](#2-walkthrough)
+    - [2 Análisis del Contenedor](#análisis-del-contenedor)
 
 
 # [Introducción](#índice)
@@ -300,7 +300,7 @@ El sistema operativo utilizado para el desarrollo de este primer contenedor es U
 </p>
 
 
-## [Vulnerabilidades CVE Extra](#índice)
+## [1 Vulnerabilidades CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -325,7 +325,7 @@ Esta vulnerablidad permite al usuario dumpear la clave maestra de KeePass en tex
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la versión.
 
-## [Creación del CTF](#índice)
+## [1 Creación del CTF](#índice)
 
 Para el desarrollo del formulario hemos empleado únicamente HTML, CSS y PHP.
 
@@ -486,7 +486,7 @@ Para poder realizar un análisis forense una vez explotada la máquina, hemos me
 <img  alt="drawing" src="./images/logs.png" />
 </p>
 
-## [Análisis del Contenedor una vez Explotado](#índice)
+## [1 Análisis del Contenedor una vez Explotado](#índice)
 Para analizar la maquina explotada primero hemos mirado los logs que tenemos en la maquina docker.
 
 Tenemos los siguientes logs en nuestro docker:
@@ -506,7 +506,7 @@ Tenemos los siguientes logs en nuestro docker:
   
 - Logs de mariadb para ver las querris.
 
-## [Walkthrough](#índice)
+## [1 Walkthrough](#índice)
 
 En primer lugar hacemos un escaneo de puertos para ver qué puertos hay abiertos:
 
@@ -664,7 +664,7 @@ El sistema operativo utilizado para el desarrollo de este primer contenedor es U
 <img  alt="drawing"  src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
 </p>
 
-## [Vulnerabilidad CVE Extra](#índice)
+## [2 Vulnerabilidad CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -686,7 +686,7 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 </p>
 
 
-## [Creación del CTF 2](#índice)
+## [2 Creación del CTF](#índice)
 
 Implementación de la vulnerabilidad extra (CVE-2024-2168):
 
@@ -720,4 +720,6 @@ Hacemos SQLi con sqlmap:
 <img  alt="drawing" width="600" height="300" src="./images/dumped.png" />
 </p>
 
-## [Análisis del Contenedor](#índice)
+## [2 Walkthrough](#índice)
+
+## [2 Análisis del Contenedor](#índice)
