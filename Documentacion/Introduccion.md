@@ -726,17 +726,52 @@ Hacemos SQLi con sqlmap:
 
 ## [Contenedor 2 Walkthrough](#índice)
 
-1.Atacante hace fuzzing y encuentra el panel de inicio de Travel manager.
+En primer lugar realizo un scaneo de puertos:
 
-2.Entra en la pagina login y usa la herramienta burpsuite para hacer un ataque de fuerza bruta.
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/ccf340c1-d4f1-407e-9467-e7c756fb4204)
 
-3.Subimos un archvio para hacer un ataque sqlmap,
+Solo tiene abiertos el 80 y el 22, el landing page es una página en mantenimiento así que hago fuzzing para ver si encuentro algo:
 
-4.Hacemos el ataque sqlmap.
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/20453291-1c5a-462e-9574-60a03348ace5)
 
-5.encuentra un usuario llamado "pedroSSH"
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/04a2ca5c-5f3b-42c1-aca9-2fdc65f41633)
 
-6.Fuerza bruta mediante SSH a este usuario para entrar
+Encuentro un directorio, entro y parece que puedo iniciar sesión en dos paneles distintos:
 
-7.encuentra un script hecho en BASH que se ejecute como root desde crontab
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/f7d26532-3c6c-4dcf-aefa-eabd6770ef52)
+
+Haciendo una búsqueda en google, pruebo las credenciales predeterminadas por si no las hubieran cambiado y funcionan:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/58ffc2bc-a932-4899-b57c-85e4a901306c)
+
+Acceso con las siguientes credenciales:
+- Usuario: mayuri.infospace@gmail.com
+- Contraseña: admin
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/f491efc4-0b9e-4457-bb22-bb8c38d7770f)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/9a97bc5a-4dc5-4f56-bc6b-b9a610cbf2cc)
+
+Investigo acerca de este software y encuentro un vulnerabilidad (SQLi) cuyo CVE es CVE-2024-2168.
+
+Para explotar esta vulnerabilidad, intercepto la petición de "Add Expense Category":
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/b8525d4f-c474-4df1-9310-f10cd754b4d6)
+
+La guardo haciendo Click Derecho > Copy To File, y la utilizo con SQLMap para intentar dumpear la base de datos:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3e9f8ccc-a76b-43dd-bd02-15572aab3d33)
+
+Me llama la atención la tabla de admin, así que dumpeo la información:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/1681ec01-6abe-4dd2-9f6e-8350ca9d9a7f)
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/efae3b7f-6c58-4553-a3ad-db9ffdb34067)
+
+Encuentro 2 potenciales usuarios:
+- pedro
+- andrea
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/11234a38-506b-45c9-8472-850ab8a008d9)
+
 
