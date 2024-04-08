@@ -207,3 +207,7 @@
     - Ayer terminé el walkthrough de la segunda máquina, pero subí la máquina ya resulta, así que hoy he eliminado todos los archivos y he redireccionado el bash_history de todos los usuarios.
 
 - Continuación resolución de las máquinas de los compañeros.
+
+## Viernes 05/04/2024
+
+- He terminado de resolver y documentar la máquina A10 del grupo 5.
