@@ -88,7 +88,11 @@ Descargamos el zip y lo descomprimimos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-21.png)
 
+Una vez descrompimido, miramos que es lo que contiene el txt. Por lo que se puede leer ahi una direccion de un txt distinto.
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-22.png)
+
+Realizaremos un a
 
 Se ha encontrado el archivo flag.txt dentro de root.
 
