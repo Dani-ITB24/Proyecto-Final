@@ -135,7 +135,9 @@ La máquina tiene una dificultad normal, la vulnerabilidad está bien aplicada a
 Siguiendo por la CTF conseguimos el acceso de administrador al panel de Wordpress gracias a que conseguimos las credenciales a partir de encontrarlas descodificando la página de base64. Un poco irreal a mi parecer de ver las cosas. Tengo que destacar que no me habría podido llegar a imaginar que se puede subir una reverse shell de php a partir de modificar los temas de Wordpress. Una vez eres consciente, parece más sencillo de lo que imaginaba, ese punto fue bastante difícil y me quedé un buen tiempo en este punto.
 
 Tras subir la reverse shell y conseguir acceder al sistema después de tanto trabajo me encuentro con que únicamente era usuario **www-data**. Por lo que me imaginaba un camino largo y tedioso para hacer el movimiento lateral y escalar de privilegios. Pero nada más lejos de la realidad, desde el usuario www-data encontramos con que vim tiene permisos SUID. 
-Y por segunda vez, para escalar de privilegios se opta por GTFOBins
+Y por segunda vez, para escalar de privilegios se opta por GTFOBins y escalamos directamente de www-data a root.
+
+Hubiera preferido un movimiento lateral para alargar más la fase media y final de la CTF. Buen trabajo.
 
 
 
