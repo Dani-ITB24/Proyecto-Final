@@ -84,7 +84,9 @@ Ahí vemos que archivos ahí, encontramos un zip con posible información críti
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-20.png)
 
-Descargamos el zip
+Descargamos el zip y lo descomprimimos.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-21.png)
 
 
 
