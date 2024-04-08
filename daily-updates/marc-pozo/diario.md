@@ -165,3 +165,9 @@
 
 - [x] Reorganización estructura Github
 - [x] Writeup de una máquina
+
+# Lunes 08 de abril de 2024:
+
+- [x] Avance en la documentación principal
+- [x] Finalización del segundo contenedor 
+- [x] Redacción del Walkthrough del segundo contenedor
