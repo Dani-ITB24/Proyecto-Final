@@ -1,1 +1,16 @@
+# Utiliza la imagen base
+FROM prueba1:latest
+
+# Instala los paquetes necesarios para los servicios
+RUN apt-get update && \
+    apt-get install -y mariadb-server apache2 openssh-server cron
+
+# Configura los servicios para que se inicien automáticamente al iniciar el contenedor
+RUN systemctl enable mariadb && \
+    systemctl enable apache2 && \
+    systemctl enable ssh && \
+    systemctl enable cron
+
+# Define el comando de inicio del contenedor
+CMD ["bash", "-c", "service mariadb start && service apache2 start && service ssh start && service cron start && tail -f /dev/null"]
 
