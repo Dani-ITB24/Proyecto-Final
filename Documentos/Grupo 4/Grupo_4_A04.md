@@ -4,9 +4,10 @@
 
 <span style="color:black;">1. [ Enumeración](#Enumeración)</span><br>
 <span style="color:black;">2. [ Buscar vulnerabilidades](#Vulnerabilidades)</span><br>
-<span style="color:black;">3. [ Flag user.txt](#Flag1)</span><br>
-<span style="color:black;">4. [ Escalada de privilegios a Root y flag de root](#root)</span><br>
-<span style="color:black;">5. [ Valoración](#valoracion)</span><br>
+<span style="color:black;">3. [ Movimiento lateral](#movimientolateral)</span><br>
+<span style="color:black;">4. [ Flag user](#Flag1)</span><br>
+<span style="color:black;">5. [ Escalada de privilegios a Root y flag de root](#root)</span><br>
+<span style="color:black;">6. [ Valoración](#valoracion)</span><br>
 
 ---
 
@@ -110,7 +111,7 @@ Si accedemos a la ruta http://172.17.0.2/documents/elijah/reverse.php habiendo p
 Después de haber puesto nuestra máquina atacante a escuchar por el puerto 4444 y ejecutar la reverse shell **reverse.php**
 
 <br>
-<h1 name="Flag1">3. Flag user.txt</h1>
+<h1 name="movimientolateral">3. Movimiento lateral</h1>
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/explore.png" alt="Explorando directorios">
 
@@ -136,6 +137,9 @@ Gracias a la herramienta descubrimos que la contraseña del zip encriptado de de
 
 Desencriptamos el zip con la contraseña y reemplazamos el archivo pwd.txt que estaba vacío por uno nuevo, el cual parece ser un diccionario de contraseñas. Ahora que tenemos este nuevo diccionario de contraseñas, lo podemos utilizar para hacer un ataque de fuerza bruta con **hydra** y el usuario **caroline**.
 
+
+<h1 name="Flag1">4. Flag user</h1>
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/zip2john4.png" alt="Fuerza bruta con hydra">
 
 Una vez hemos seguido los pasos anteriormente mencionamos, hemos conseguido sacar la contraseña del usuario caroline.
@@ -148,6 +152,12 @@ Si intentamos acceder como usuario caroline por SSH nos dará el mismo error que
 
 Nos conectamos como caroline haciendo **su caroline** e introduciendo la contraseña que hemos extraído haciendo fuerza bruta con el diccionario del .zip encriptado.
 
+
+
+
+<br>
+<h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/sudo -l.png" alt="sudo -l">
 
 Una vez somos caroline y de tratar la terminal para hacerla interactiva, si hacemos el comando **sudo -l** podremos visualizar que tenemos la opción de utilizar el programa de python como superusuario sin necesidad de contraseña.
@@ -157,12 +167,6 @@ Podemos aprovechar este error de configuración para investigar más sobre este 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%204/img_A04/gtfobins.png" alt="GTFOBins de Python">
 
 [GTFOBins](https://gtfobins.github.io/gtfobins/python/#sudo)
-
-
-<br>
-<h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
-
-
 
 <h1 name="valoracion">5. Valoración</h1>
 
