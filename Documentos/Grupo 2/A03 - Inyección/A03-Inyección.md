@@ -101,14 +101,14 @@ Accedemos al directorio y vemos un txt. Leemos que hay en el txt y vemos que son
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-24.png)
 
-Desciframos la contraseña e intamos hacer ssh con el usuario que hemos obtenido recientemente.
+Desciframos la contraseña e intentamos hacer ssh con el usuario que hemos obtenido recientemente.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-25.png)
 
-Miramos a ver en que grupos esta este usuario y como vemos esta con el usuario de sudo. Intentamos cambiarnos al usuario sudo. 
+Miramos a ver en que grupos está este usuario y como vemos está con el usuario de sudo. Intentamos cambiarnos al usuario sudo.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-26.png)
 
-Una vez que estamos dentro vemos que encontramos y vemos que hay un txt. Veemos que contiene y vemos que hemos encontrado la flag. 
+Una vez que estamos dentro vemos que encontramos y vemos que hay un txt. Vemos que contiene y vemos que hemos encontrado la flag.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-27.png)
