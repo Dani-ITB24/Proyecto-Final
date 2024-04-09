@@ -689,9 +689,13 @@ Implementación de la vulnerabilidad extra (CVE-2024-2168):
 En Ubuntu 22.04.4 instalamos Apache2, MariaDB, Cron y SSH:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b546be7b-c5f5-4e94-9435-9eb4d7911cb0)
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/82d29733-0dba-435b-8184-8ecaf1266386)
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4e8c7768-da65-4b2b-a58a-2226c5ca07aa)
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4d34e8d2-038e-46f6-97f7-6b8663134eea)
+
 
 También instalamos el paquete PHP:
 
@@ -717,6 +721,7 @@ Una vez dentro de /var/www/html/ nos encontramos una página inicial con un mens
 Continuamos configurando mysql, asignando contraseña a root y creando la base de datos necesaria para el correcto funcionamiento del software:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/97ebca18-2fc7-4091-bd89-c19723c752d7)
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3241d669-c06d-499a-8ab9-04b749ae6dc4)
 
 La base de datos con la que vamos a trabajar es la "tour1".
@@ -730,12 +735,15 @@ En esta tabla se van a añadir 2 usuarios adicionales, los cuales estaran creado
 El siguiente paso es configurar el software para que pueda hacer las consultas sql de forma correcta. Varios ficheros van a requerir de las credenciales de acceso.
 
 admin/config.php
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/af8615b3-43a4-4c07-a23f-89c0822c02e5)
 
 admin/package_details.php
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3b54a3eb-5062-443f-b8d2-fc35e108d8d7)
 
 user/config.php
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/dcdffadf-649e-4849-a087-297d26b7b988)
 
 Ahora mismo tenemos todo configurado para empezar a utilizar el software.
@@ -761,6 +769,7 @@ El punto principal y más importante de este fichero es que va a poder ser edita
 Como ayuda, el fichero oculto ".secret_note" que se encuentra en el mismo directorio, nos lo va a indicar.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/c1c4e849-f385-4876-804e-694ff7ab51d3)
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b1b999c9-cc46-4fff-af3f-618a17388a8e)
 
 En el mismo directorio también podremos dar por finalizada la primera parte de la CTF, dónde encontraremos la primera flag llamda "user.txt":
