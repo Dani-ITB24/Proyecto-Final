@@ -99,3 +99,6 @@ Buscamos la flag de root y la mostramos
 </p
 
 ## Feedback
+
+La maquina esta muy bien , me ha sonprendido hacer consultas a la pagina web desde el archivo.
+
