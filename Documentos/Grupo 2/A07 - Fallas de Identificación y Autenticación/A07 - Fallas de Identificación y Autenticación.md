@@ -43,7 +43,11 @@ Analizando toda esta información lo primero que pensé fue: esta web no ha sido
 
 Después de estar horas buscando en decenas de webs y no encontrar nada, me topé con este vídeo de YouTube, el cual es un tutorial de exactamente el mismo proyecto de "Travel management".
 
-En la descripción del mismo vídeo podemos encontrar una página web para descargar el proyecto: [Web de descarga del proyecto](https://www.mayurik.com/source-code/P5963/online-tours-and-travels-management-system-project-in-php-and-mysql).
+En la descripción del mismo vídeo podemos encontrar una página web para descargar el proyecto: [Web de descarga del proyecto](https://www.mayurik.com/source-code/P5963/online-tours-and-travels-management-system-project-in-php-and-mysql)
+
+
+Credenciales: mayuri.infospace@gmail.com / admin
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
