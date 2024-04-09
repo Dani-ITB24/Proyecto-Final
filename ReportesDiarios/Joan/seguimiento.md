@@ -211,3 +211,14 @@
 ## Viernes 05/04/2024
 
 - He terminado de resolver y documentar la máquina A10 del grupo 5.
+
+# Lunes 08/04/2024
+
+- Corrección máquina A09
+    - La máquina estaba ya lista, pero no se iniciaban los servicios de forma automática, así que lo hemos tenido que arreglar para que los compañeros puedan resolver la máquina
+
+- Continuación resolución de las máquinas de los compañeros.
+
+# Martes 09/04/2024
+
+- He terminado de resolver y documentar la máquina A03 del grupo 2.
