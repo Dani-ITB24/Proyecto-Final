@@ -63,8 +63,9 @@ Podemos encontrar varios CVE sobre SQL y ejecución de código en remoto en dife
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/burpsuite1.png" alt="Interceptar petición con burpsuite">
 
+Nos desplazaremos hasta el desplegable "**Expense Managament**" > "**Add Expense**" y añadiremos un nuevo gasto. Antes habremos  configurado la extensión de foxyproxy por el puerto 8080 (por ejemplo), y tendremos el Proxy Intercept de Burpsuite activo para interceptar la petición. 
 
-
+Al dar a "**Save**" conseguiremos capturar la petición. En burpsuite haremos clic derecho > Copy to file y lo guardaremos en el directorio que consideremos.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sql1.png" alt="sql file">
 
