@@ -121,6 +121,13 @@ Encontramos varios usuarios con sus respectivas contraseñas cifradas. Estas con
 
 Pasaremos entonces a hacerlo de manera manual. Generaremos un diccionario de usuarios con los usuarios extraídos directamente de la base de datos. Aproovecharemos que nuestra máquina víctima cuenta con el servicio de SSH para intentar acceder por ahí en un futuro. 
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/hydra.png" alt="Fuerza bruta con hydra con el diccionario de usuarios y rockyou">
+
+
+
+
+
+
 
 
 
