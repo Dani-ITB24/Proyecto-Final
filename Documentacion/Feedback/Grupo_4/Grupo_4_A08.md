@@ -1,3 +1,5 @@
+## Writeup
+
 En primer lugar hago un scaneo de puertos y solo está abierto el 80 así que decido hacer un Fuzzing:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/6c551145-361d-48cb-bb4f-13f09fb328d1)
@@ -67,4 +69,8 @@ Exploto vim.basic haciendoo uso de GTFO Bins y ya soy root, encuentro la flag en
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/79e6b79d-942d-453d-902d-b124f94cb819)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/6914eaff-73cc-492f-9c9b-f130e616f7a2)
+
+## Feedback
+
+Cumple con los problemas de seguridad asignados y además han implementado vulnerabilidades que hemos visto durante el curso. Bien planteada, algunos puntos un poco rebuscados.
 
