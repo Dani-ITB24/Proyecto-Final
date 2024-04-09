@@ -93,12 +93,17 @@ Añadiremos los siguientes parámetros al comando:
 
 -D: indicamos la base de datos sobre la que queremos trabajar.
 
---tables: para mostrar las tablas de la base de datos indicada.
+--tables: para mostrar las tablas de la base de datos seleccionada.
 
+Nos devuelve bastantes tablas. Vamos a empezar a investigarlas.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sqlmap3.png" alt="sqlmap para ver las columnas de la tabla admin de la base de datos tour1">
 
+Añadiremos los siguientes parámetros al comando:
 
+-T: indicamos la tabla sobre la que queremos trabajar
 
+--columns: para mostrar las columnas de la tabla seleccionada.
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
