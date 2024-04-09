@@ -51,6 +51,13 @@ Credenciales: mayuri.infospace@gmail.com / admin
 
 Ahora tenemos acceso al panel de administración. Vamos a intentar descubrir si podemos subir una reverse shell o por donde podemos continuar.
 
+Después de investigar durante un buen rato descubrimos varias cosas:
+
+1. No se puede subir absolutamente ningún archivo.
+2. Solo se puede añadir información sobre la gestión de impuestos, gestión de equipaje y los viajeros (toda esta información se añade en una base de datos en local).
+3. Se puede interceptar la petición al añadir información sobre la gestión de los gastos (expense managament) con burpsuite.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/vulnerabilities.png" alt="Búsqueda de vulnerabilidades del proyecto Travel Manager">
 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/burpsuite1.png" alt="Interceptar petición con burpsuite">
