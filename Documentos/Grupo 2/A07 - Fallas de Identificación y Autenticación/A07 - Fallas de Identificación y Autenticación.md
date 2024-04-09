@@ -115,7 +115,7 @@ Añadiremos los siguientes parámetros al comando:
 
 --dump: para volcar la info de la query
 
-
+Encontramos varios usuarios con sus respectivas contraseñas cifradas. Estas contraseñas no han podido ser encontradas en [CrackStation](https://crackstation.net/) ni tampoco saber el cifrado que tienen con la herramienta de Kali **hash-identifier**
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/users.png" alt="Creamos diccionario de usuarios">
 
