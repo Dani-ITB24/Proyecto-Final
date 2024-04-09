@@ -31,7 +31,15 @@ Si accedemos a la IP de la máquina con un navegador web nos encontramos con una
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/web2.png" alt="Web secundaria /accountlogin">
 
-En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de adminstradores y de usuarios "normales", cada uno por separado. Siendo http://172.17.0.2/accountlogin/admin/page-login.php y http://172.17.0.2/accountlogin/user/page-login.php los enlaces respectivamente
+En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de adminstradores y de usuarios "normales", cada uno por separado. Siendo http://172.17.0.2/accountlogin/admin/page-login.php y http://172.17.0.2/accountlogin/user/page-login.php los enlaces respectivamente.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/gobuster2.png" alt="gobuster2">
+
+Investigando más acerca de los posibles directorios dentro de estos dos enlaces, me encontré con varias carpetas de configuración, imágenes e iconos. Siendo sincero no encontré nada extraño, toda la configuración parecía estar bien aplicada porque no me dejaba acceder a según que recursos, contando con redirección a la página de inicio de sesión principal.
+
+Analizando toda esta información lo primero que pensé fue: esta web no ha sido hecha a mano, han tenido que contar con una instalación ya configurada. Así que decidí buscar por Internet a ver que encontraba.
+
+
 
 
 
