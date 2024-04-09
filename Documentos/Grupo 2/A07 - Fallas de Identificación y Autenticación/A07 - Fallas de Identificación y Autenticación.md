@@ -59,6 +59,7 @@ Después de investigar durante un buen rato descubrimos varias cosas:
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/vulnerabilities.png" alt="Búsqueda de vulnerabilidades del proyecto Travel Manager">
 
+Podemos encontrar varios CVE sobre SQL y ejecución de código en remoto en diferentes versiones de Travel Manager. Por el momento vamos a intentar interceptar una petición con burpsuite.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/burpsuite1.png" alt="Interceptar petición con burpsuite">
 
