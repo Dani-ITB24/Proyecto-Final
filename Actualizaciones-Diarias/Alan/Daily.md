@@ -156,7 +156,6 @@
 ## Miércoles 20 de Marzo 2024:
  
 - [X] Documentación de pentest y capturas.
-- [ ] 
 
 ## Jueves 21 de Marzo 2024:
 
@@ -165,7 +164,6 @@
 ## Viernes 22 de Marzo 2024:
 
 - [X] Comprobar documentación y acabar documento final.
-
 
 
 # Semana 6 - Probar y documentar:
@@ -194,6 +192,7 @@
 
 - [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
 - [X] Documentar CTF grupo 4 - A04:2021.
+
 
 # Semana 7 - Aplicar mejoras:
 
@@ -228,6 +227,7 @@
 - [ ] 
 - [ ] 
 
+
 # Semana 8 - Creación CTF:
 
 ## Lunes 15 de Abril 2024:
@@ -254,4 +254,3 @@
 
 - [ ] 
 - [ ] 
-
