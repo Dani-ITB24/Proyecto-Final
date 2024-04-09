@@ -75,7 +75,7 @@ Al dar a "**Save**" conseguiremos capturar la petición. En burpsuite haremos cl
 
 Una vez tengamos la petición guardada como archivo pasaremos a tratarla con **sqlmap**.
 
-<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sqlmap1.png" alt="sqlmap">
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sqlmap1.png" alt="sqlmap para ver las bases de datos">
 
 Utilizaremos la herramienta de **sqlmap** de la siguiente forma:
 
@@ -85,7 +85,15 @@ Utilizaremos la herramienta de **sqlmap** de la siguiente forma:
 
 --dbs: para mostrar las bases de datos.
 
+Como podemos ver nos da diferentes bases de datos. Todas son generadas de manera por defecto menos una: tour1. Vamos a ver que tablas tiene esta base de datos.
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sqlmap2.png" alt="sqlmap para ver las tablas de la base de datos tour1">
+
+Añadiremos los siguientes parámetros al comando:
+
+-D: indicamos la base de datos sobre la que queremos trabajar.
+
+--tables: para mostrar las tablas de la base de datos indicada.
 
 
 

@@ -185,7 +185,7 @@
 ## Jueves 4 de Abril 2024:
 
 - [X] Realización de la CTF A08:2021 - Software and Data Integrity Failures (grupo 4).
-- [X] Documentar CTF grupo 4 - A08:2021
+- [X] Documentar CTF grupo 4 - A08:2021.
 - [X] CTF A08:2021 documentación finalizada.
 - [X] Realización de la CTF A04:2021-Insecure Design (grupo 4).
 - [X] Documentar CTF grupo 4 - A04:2021.
@@ -204,13 +204,14 @@
 - [X] CTF A08:2021 y documentación finalizada.
 - [X] Crear feedback A04:2021 (grupo 4).
 - [X] Crear feedback A08:2021 (grupo 4).
-- [X] Descargar imagen A07:2021 - Fallas de Identificación y Autenticación (grupo 2)
-
+- [X] Descargar imagen A07:2021 - Fallas de Identificación y Autenticación (grupo 2).
+- [X] Realización de la CTF A07:2021 - Fallas de Identificación y Autenticación (grupo 2).
+- [X] Empezar la documentación sobre el ataque de la CTF grupo 2 - A07:2021.
 
 ## Martes 9 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Realización de la CTF A07:2021 - Fallas de Identificación y Autenticación (grupo 2).
+- [X] Documentar CTF grupo 2 - A07:2021.
 
 ## Miércoles 10 de Abril 2024:
 
