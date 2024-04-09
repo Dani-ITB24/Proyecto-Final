@@ -135,8 +135,15 @@ Falta
 
 ## Jueves 4 de abril 2024
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
-:white_large_square: Preparacion de la máquina de injection <br>
+:white_large_square: Preparación de la máquina de injection <br>
 
 ## Viernes 5 de abril 2024
 :white_large_square: Documentación del desarrollo de la vulnerabilidad de injection <br>
-:white_large_square: Preparacion de la máquina de injection <br>
+:white_large_square: Preparación de la máquina de injection <br>
+
+<h1 name="Semana6">Semana 7: Probar y documentar</h1>
+<h2>Lunes 8 de abril 2024</h2>
+✅ Preparación de la máquina de injection <br>
+:white_large_square: Documentación del desarrollo de la vulnerabilidad de injection <br>
+
+## Martes 9 de abril 2024
