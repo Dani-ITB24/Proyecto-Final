@@ -1,33 +1,35 @@
- Escanemos los puertos para ver que servicios estan activados.
+## Writeup
 
+Escanemos los puertos para ver qué puertos están abiertos.
 
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_1.png" />
 </p>
-Miramos la version de los servicios en el contenedor y hemos que el apache es antiguo miramos de buscar una manera de atacar el apache , encontramos un script para atacar el apache
+
+Miramos la versión de los servicios en el contenedor y vemos que el apache es antiguo. Miramos de buscar una manera de atacar el apache y encontramos un script para atacarlo:
+
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_2.png" />
 </p>
 
 
+Ejecutamos el script de la página web y nos sale el usuario y contraseña cifrado
 
-Ejecutamos el script de la pagina web y nos sale el usuario y contraseña cifrado
- <p align="center">
+<p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_3.png" />
 </p>
 
-Desencriptamos la contraseña.
+Desciframos la contraseña
 
  <p align="center">
 <img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_4.png" />
 </p>
 
-Entramos por ssh a la maquina.
+Entramos por ssh a la máquina.
 
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_7.png" />
 </p>
-
 
 Hacemos un ls y vemos la flag
 
@@ -35,12 +37,14 @@ Hacemos un ls y vemos la flag
 <img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_6.png" />
 </p>
 
-Usamos sudo para entrar como el usuario root se puede ver no tiene permisos pero si que tiene permisos es el vim
+Usamos sudo para entrar como el usuario root, se puede ver que no tiene permisos, sin embargo podemos ejecutar vim como sudo
+
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_14.png" />
 </p>
 
 Ejecutamos vim para entrar como root
+
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_15.png" />
 </p>
@@ -49,3 +53,5 @@ Buscamos la flag de root y la mostramos
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_16.png" />
 </p>
+
+## Feedback
