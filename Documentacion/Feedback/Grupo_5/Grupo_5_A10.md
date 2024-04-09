@@ -96,7 +96,8 @@ Buscamos la flag de root y la mostramos
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_28.png" />
-</p
+</p>
+
 
 ## Feedback
 
