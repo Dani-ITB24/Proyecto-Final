@@ -119,22 +119,18 @@ Encontramos varios usuarios con sus respectivas contraseñas cifradas. Estas con
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/users.png" alt="Creamos diccionario de usuarios">
 
-Pasaremos entonces a hacerlo de manera manual. Generaremos un diccionario de usuarios con los usuarios extraídos directamente de la base de datos. Aproovecharemos que nuestra máquina víctima cuenta con el servicio de SSH para intentar acceder por ahí en un futuro. 
+Pasaremos entonces a hacerlo de manera manual. Generaremos un diccionario de usuarios con los usuarios extraídos directamente de la base de datos. Aprovecharemos que nuestra máquina víctima cuenta con el servicio de SSH para intentar acceder por ahí en un futuro. 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/hydra.png" alt="Fuerza bruta con hydra con el diccionario de usuarios y rockyou">
 
-
-
-
-
-
-
-
+Hacemos fuerza bruta con hydra a partir del diccionario de usuarios y el rockyou. Obtenemos la password de pedro, vamos a entrar como pedro en SSH.
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/flag1.png" alt="Entrar como pedro y flag1 user.txt">
 
+Entramos como pedro con las credenciales y encontramos la flag del usuario.
 
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
