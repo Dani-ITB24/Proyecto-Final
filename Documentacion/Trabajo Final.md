@@ -686,11 +686,36 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 
 Implementación de la vulnerabilidad extra (CVE-2024-2168):
 
-Descargamos el software y lo descomprimimos:
+En Ubuntu 22.04.4 instalamos Apache2, MariaDB, Cron y SSH:
 
-<p align="center">
-<img  alt="drawing" width="600" height="100" src="./images/unzipCont2.png" />
-</p>
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b546be7b-c5f5-4e94-9435-9eb4d7911cb0)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/82d29733-0dba-435b-8184-8ecaf1266386)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4e8c7768-da65-4b2b-a58a-2226c5ca07aa)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4d34e8d2-038e-46f6-97f7-6b8663134eea)
+
+También instalamos el paquete PHP:
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/0a62c8d3-d348-4255-808f-50efbc0f0546)
+
+Creamos el fichero start_services.sh en /etc/init.d/ para ejecutar los comandos para iniciar los servicios en el inicio del contenedor
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/52ea618a-5178-4f54-9348-342047942605)
+
+Podemos ver los servicios que se inician automáticamente al iniciar el contenedor con el siguiente comando:
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/f8762567-bb5f-4057-aa63-916bb17823ff)
+
+El elemento principal de la CTF es el software utilizado para la vulnerabilidad "Broken Authentication".
+Lo descargamos de la siguiente web y lo configuramos en los directorios de apache.
+
+https://www.sourcecodester.com/php/14510/online-tours-travels-management-system-project-using-php-and-mysql.html#google_vignette
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9e815be7-094e-4e3a-b08d-40be2ceb5562)
+
+
+
+
+
 
 Creamos la base de datos e importamos el archivo .sql proporcionado:
 
