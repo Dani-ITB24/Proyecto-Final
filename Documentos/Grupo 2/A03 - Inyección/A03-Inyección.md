@@ -100,6 +100,10 @@ Accedemos al directorio y vemos un txt. Leemos que hay en el txt y vemos que son
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-24.png)
 
+Desciframos la contraseña e intamos hacer ssh con el usuario que hemos obtenido recientemente.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-25.png)
+
 Se ha encontrado el archivo flag.txt dentro de root.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-flag.png)
