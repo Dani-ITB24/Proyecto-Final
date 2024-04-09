@@ -88,11 +88,17 @@ Descargamos el zip y lo descomprimimos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-21.png)
 
-Una vez descrompimido, miramos que es lo que contiene el txt. Por lo que se puede leer ahi una direccion de un txt distinto.
+Una vez descomprimido, miramos que es lo que contiene el txt. Por lo que se puede leer ahí una dirección de un txt distinto.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-22.png)
 
-Realizaremos un a
+Usamos el programa de John the ripper para crackear la contraseña que contiene el archivo de credenciales. Y como vemos hemos podido sacar la contraseña. Ahora intentamos descomprimir el archivo y sacamos la carpeta "credencialesSeguras".
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-23.png)
+
+Accedemos al directorio y vemos un txt. Leemos que hay en el txt y vemos que son unas credenciales.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-24.png)
 
 Se ha encontrado el archivo flag.txt dentro de root.
 
