@@ -1,3 +1,5 @@
+## Writeup
+
 Hago un scaneo de puertos y listo los servicios corriendo en cada uno con sus respectivas versiones:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/834e71ad-5d37-4308-a528-d66a0948d06e)
@@ -76,3 +78,7 @@ Modifico el script para que me abra una shell, y lo ejecuto como root. Finalment
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/7565dc54-b59e-431e-9831-31145d656a98)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c3076365-e372-4d60-984b-62f45eaf4347)
+
+## Feedback
+
+Cumple con los problemas de seguridad asignados y además han implementado vulnerabilidades que hemos visto durante el curso. Bastante entretenida y además no es complicada.
