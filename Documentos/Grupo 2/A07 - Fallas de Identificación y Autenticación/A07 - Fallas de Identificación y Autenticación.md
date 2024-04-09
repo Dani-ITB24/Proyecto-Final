@@ -79,9 +79,11 @@ Una vez tengamos la petición guardada como archivo pasaremos a tratarla con **s
 
 Utilizaremos la herramienta de **sqlmap** de la siguiente forma:
 
--r: "read" el archivo con la petición capturada
--p: parámetro vulnerable encontrado en la petición (expense_name en este caso)
---dbs: para mostrar las bases de datos
+-r: "read" el archivo con la petición capturada.
+
+-p: parámetro vulnerable encontrado en la petición (expense_name en este caso).
+
+--dbs: para mostrar las bases de datos.
 
 
 
