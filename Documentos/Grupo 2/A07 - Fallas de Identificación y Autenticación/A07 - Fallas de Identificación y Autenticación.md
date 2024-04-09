@@ -105,6 +105,19 @@ Añadiremos los siguientes parámetros al comando:
 
 --columns: para mostrar las columnas de la tabla seleccionada.
 
+Tenemos varias columnas de información, lo único que nos interesa de momento puede ser uname y la password. Vamos a intentar sacar esta información.
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sqlmap4.png" alt="sqlmap para ver las columnas de la tabla admin de la base de datos tour1">
+
+Añadiremos los siguientes parámetros al comando:
+
+-C: indicamos todas las columnas que queremos printar.
+
+--dump: para volcar la info de la query
+
+
+
+
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
 
