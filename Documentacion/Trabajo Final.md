@@ -2,25 +2,25 @@
 
 1. [Introducción](#introducción)
 2. [Informacion Sobre los Riesgos Obtenidos](#informacion-sobre-los-riesgos-obtenidos)
-    - [Inyeccion](#inyeccion)
-    - [Fallas de Identificación y Autenticacion](#fallas-de-identificacion-y-autenticación)
+    - [Inyección](#inyección)
+    - [Fallas de Identificación y Autenticación](#fallas-de-identificacion-y-autenticación)
 3. [Información Sobre los Componentes Fundamentales](#información-sobre-los-componentes-fundamentales)
     - [MariaDB](#mariadb)
     - [Docker](#docker)
     - [Apache](#apache)
     - [PHP](#php)
 8. [Desarrollo Contenedor Número 1 - Inyección](#contenedor-número-1-inyección)
-    - [Contenedor 1 Vulnerabilidades CVE Extra](#Contenedor-1-vulnerabilidades-cve-extra)
-    - [Contenedor 1 Creación del CTF](#Contenedor-1-creación-del-ctf)
-    - [Contenedor 1 Análisis del Contenedor una vez explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
-    - [Contenedor 1 Walkthrough](#Contenedor-1-walkthrough)
+    - [Contenedor 1 - Vulnerabilidades CVE Extra](#Contenedor-1-vulnerabilidades-cve-extra)
+    - [Contenedor 1 - Creación del CTF](#Contenedor-1-creación-del-ctf)
+    - [Contenedor 1 - Análisis del Contenedor una vez explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
+    - [Contenedor 1 - Walkthrough](#Contenedor-1-walkthrough)
 
 
-9. [Desarrollo Contenedor Número 2 Fallas de Identificación y Autenticación](#contenedor-número-2-fallas-de-identificación-y-autenticación)
-    - [Contenedor 2 Vulnerabilidad CVE Extra](#Contenedor-2-vulnerabilidad-cve-extra)
-    - [Contenedor 2 Creación del CTF](#Contenedor-2-creación-del-ctf)
-    - [Contenedor 2 Análisis del Contenedor una vez explotado](#Contenedor-2-análisis-del-contenedor-una-vez-explotado)
-    - [Contenedor 2 Walkthrough](#Contenedor-2-walkthrough)
+9. [Desarrollo Contenedor Número 2 - Fallas de Identificación y Autenticación](#contenedor-número-2-fallas-de-identificación-y-autenticación)
+    - [Contenedor 2 - Vulnerabilidad CVE Extra](#Contenedor-2-vulnerabilidad-cve-extra)
+    - [Contenedor 2 - Creación del CTF](#Contenedor-2-creación-del-ctf)
+    - [Contenedor 2 - Análisis del Contenedor una vez explotado](#Contenedor-2-análisis-del-contenedor-una-vez-explotado)
+    - [Contenedor 2 - Walkthrough](#Contenedor-2-walkthrough)
 
 
 # [Introducción](#índice)
@@ -36,7 +36,7 @@ A continuación se explicarán en profundidad los riesgos mencionados, desde la 
 
 # [Informacion Sobre los Riesgos Obtenidos](#índice)
 
-## [Inyeccion](#índice)
+## [Inyección](#índice)
 
 Es un riesgo de inserción de código malicioso en una entrada de datos para obtener acceso no autorizado o realizar acciones no deseadas.
 <p align="center">
