@@ -1,4 +1,4 @@
-# VM 2 A06 - Vulnerable and Outdated Components
+# A06 - Vulnerable and Outdated Components
 
 
 ## Enumeración de puertos
