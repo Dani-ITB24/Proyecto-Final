@@ -804,4 +804,4 @@ Finalmente obtengo la flag root.txt:
 
 
 
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/d20bf1f6-6dd7-4605-a9a8-92f7f7640cea)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3903497d-216c-49c3-9120-481b14b7b0ef)
