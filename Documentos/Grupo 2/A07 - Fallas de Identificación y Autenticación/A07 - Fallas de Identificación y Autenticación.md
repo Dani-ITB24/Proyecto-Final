@@ -31,7 +31,7 @@ Si accedemos a la IP de la máquina con un navegador web nos encontramos con una
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/web2.png" alt="Web secundaria /accountlogin">
 
-En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de adminstradores y de usuarios "normales", cada uno por separado. Siendo http://172.17.0.2/accountlogin/user/page-login.php y http://172.17.0.2/accountlogin/admin/page-login.php
+En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de adminstradores y de usuarios "normales", cada uno por separado. Siendo http://172.17.0.2/accountlogin/admin/page-login.php y http://172.17.0.2/accountlogin/user/page-login.php los enlaces respectivamente
 
 
 
