@@ -799,3 +799,9 @@ Meto una reverse shell ya que encuentro una nota indicando que el script se ejec
 Finalmente obtengo la flag root.txt:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/e7ed8919-3a61-4065-9d6c-854bea1f52bd)
+
+
+
+
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/d20bf1f6-6dd7-4605-a9a8-92f7f7640cea)
