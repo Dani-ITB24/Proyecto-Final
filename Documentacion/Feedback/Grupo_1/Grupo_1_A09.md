@@ -126,3 +126,5 @@ Entramos en el usuario root y buscamos la flag.
 </p>
 
 ## Feedback
+
+La maquina esta bien hecha es un maquina muy rebuscada.
