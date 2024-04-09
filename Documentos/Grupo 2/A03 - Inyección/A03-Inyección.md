@@ -104,6 +104,8 @@ Desciframos la contraseña e intamos hacer ssh con el usuario que hemos obtenido
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-25.png)
 
+
+
 Se ha encontrado el archivo flag.txt dentro de root.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-flag.png)
