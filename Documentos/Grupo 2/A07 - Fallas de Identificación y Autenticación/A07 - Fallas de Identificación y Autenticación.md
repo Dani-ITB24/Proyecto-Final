@@ -69,6 +69,7 @@ Al dar a "**Save**" conseguiremos capturar la petición. En burpsuite haremos cl
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/sql1.png" alt="sql file">
 
+Una vez tengamos la petición guardada como archivo pasaremos a tratarla con **sqlmap** 
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
