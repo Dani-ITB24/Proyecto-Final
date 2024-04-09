@@ -1,3 +1,5 @@
+## Writeup
+
 En primer lugar realizamos un scaneo de puertos:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/3fbaa6df-a8c5-4211-8d67-16a10c971941)
@@ -115,3 +117,7 @@ Finalmente accedo y encuentro un SUID vulnerable (wget), así que lo exploto y c
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/c264ac7e-df6b-49f0-9273-801964cf1eec)
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/cfcf6901-1c00-4a91-b324-3d58da8779e8)
+
+## Feedback
+
+Cumple con los problemas de seguridad asignados y además han implementado vulnerabilidades que hemos visto durante el curso. A pesar de esto, considero que la parte final de enumeración un poco complicada con los conocimientos que tenemos.
