@@ -712,36 +712,76 @@ https://www.sourcecodester.com/php/14510/online-tours-travels-management-system-
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9e815be7-094e-4e3a-b08d-40be2ceb5562)
 
+Una vez dentro de /var/www/html/ nos encontramos una página inicial con un mensaje de "Out Of Service", para poder comenzar con la CTF de debera encontrar el directorio web "accountlogin" con fuzzing.
 
+Continuamos configurando mysql, asignando contraseña a root y creando la base de datos necesaria para el correcto funcionamiento del software:
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/97ebca18-2fc7-4091-bd89-c19723c752d7)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3241d669-c06d-499a-8ab9-04b749ae6dc4)
 
+La base de datos con la que vamos a trabajar es la "tour1".
+Esta base de datos viene disponible con el software y la hemos importado para que éste funcione como debe.
+La tabla "admin" contiene las credenciales de inicio de sesion en la página de administración.
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3c88929f-85e5-4640-b158-7cf0dd26656f)
 
-Creamos la base de datos e importamos el archivo .sql proporcionado:
+En esta tabla se van a añadir 2 usuarios adicionales, los cuales estaran creados en el sistema y se va a poder iniciar sesión con ellos una vez averiguada la contraseña.
 
-<p align="center">
-<img  alt="drawing" width="600" height="300" src="./images/dbCont2.png" />
-</p>
+El siguiente paso es configurar el software para que pueda hacer las consultas sql de forma correcta. Varios ficheros van a requerir de las credenciales de acceso.
 
-Modificamos la configuración de la conexión a la base de datos en los siguientes archivos:
+admin/config.php
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/af8615b3-43a4-4c07-a23f-89c0822c02e5)
 
-- /user/config.php
-- /admin/config.php de la carpeta admin
-- /admin/package_details.php de la carpeta admin
+admin/package_details.php
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/3b54a3eb-5062-443f-b8d2-fc35e108d8d7)
 
-Revisamos que funcione y que sea vulnerable:
+user/config.php
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/dcdffadf-649e-4849-a087-297d26b7b988)
 
-<p align="center">
-<img  alt="drawing" width="600" height="300" src="./images/working.png" />
-</p>
+Ahora mismo tenemos todo configurado para empezar a utilizar el software.
+Con las credenciales de "mayuir.infospace@gmail.com" podremos iniciar sesión como administrador.
+Esta es la principal vulnerabilidad, ¡¡mantener las CREDENCIALES POR DEFECTO!!
 
-Hacemos SQLi con sqlmap:
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/2df1e4d5-857a-4eec-aff8-e2d11398d104)
 
-<p align="center">
-<img  alt="drawing" width="600" height="300" src="./images/dumped.png" />
-</p>
+De primeras, no encontraremos con este dashboard, el cual nos va a permitir varias acciones que combinadas, podemos llegar a entrar a la máquina:
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/5484fcf8-964b-4fe6-a742-f309e355fae7)
 
+Ahora que ya tenemos el software configurado y listo para ser explotado, continuamos con la creación del CTF.
+Como se ha comentado anteriormente, el equipo va a tener dos usuarios extra creados, llamados "pedro" y "andrea". Pero nos vamos a centrar en "pedro" ya que es el que nos va a ayudar con la escalad de privilegios.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9026068e-15cd-4403-93b8-418bca467edc)
+
+En /home/pedro/, es decir, en la carpeta del usuario pedro, existirá un ejecutable "date.sh" que juntamente con CRON, va a ejecutar cada 2 minutos un comando el cual nos devuelte la fecha que es ahora mismo.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/127cdb3b-7efb-4afe-9fa1-03bb029ee024)
+
+El punto principal y más importante de este fichero es que va a poder ser editado por "pedro" pero se ejecuta cada 2 minutos como "root".
+Como ayuda, el fichero oculto ".secret_note" que se encuentra en el mismo directorio, nos lo va a indicar.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/c1c4e849-f385-4876-804e-694ff7ab51d3)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b1b999c9-cc46-4fff-af3f-618a17388a8e)
+
+En el mismo directorio también podremos dar por finalizada la primera parte de la CTF, dónde encontraremos la primera flag llamda "user.txt":
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/bac12b02-eb59-4e65-9a17-17623defb9c6)
+
+------------------------------
+
+Configuracion de crontab -e
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/23e559dd-9bad-45bf-8bf1-5952a63d097e)
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9d9d516b-5031-41db-9216-8d8635fcd473)
+
+ll /root/
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/8320da28-b9e3-425a-8ca9-a5ec8c0aecb4)
+
+cat root.txt
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/2068c4d1-7791-4596-9eee-c6cf86ae1726)
 
 
 
