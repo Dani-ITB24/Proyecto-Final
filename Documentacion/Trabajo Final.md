@@ -747,7 +747,7 @@ user/config.php
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/dcdffadf-649e-4849-a087-297d26b7b988)
 
 Ahora mismo tenemos todo configurado para empezar a utilizar el software.
-Con las credenciales de "mayuir.infospace@gmail.com" podremos iniciar sesión como administrador.
+Con las credenciales de "mayuri.infospace@gmail.com" podremos iniciar sesión como administrador.
 Esta es la principal vulnerabilidad, ¡¡mantener las CREDENCIALES POR DEFECTO!!
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/2df1e4d5-857a-4eec-aff8-e2d11398d104)
