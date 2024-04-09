@@ -9,17 +9,17 @@
     - [Docker](#docker)
     - [Apache](#apache)
     - [PHP](#php)
-8. [Desarrollo Contenedor Numero 1 - Inyección](#contenedor-numero-1-inyección)
+8. [Desarrollo Contenedor Número 1 - Inyección](#contenedor-número-1-inyección)
     - [Contenedor 1 Vulnerabilidades CVE Extra](#Contenedor-1-vulnerabilidades-cve-extra)
     - [Contenedor 1 Creación del CTF](#Contenedor-1-creación-del-ctf)
-    - [Contenedor 1 Análisis del Contenedor una vez Explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
+    - [Contenedor 1 Análisis del Contenedor una vez explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
     - [Contenedor 1 Walkthrough](#Contenedor-1-walkthrough)
 
 
-9. [Desarrollo Contenedor Numero 2 Fallas de Identificación y Autenticación](#contenedor-numero-2-fallas-de-identificación-y-autenticación)
+9. [Desarrollo Contenedor Número 2 Fallas de Identificación y Autenticación](#contenedor-número-2-fallas-de-identificación-y-autenticación)
     - [Contenedor 2 Vulnerabilidad CVE Extra](#Contenedor-2-vulnerabilidad-cve-extra)
     - [Contenedor 2 Creación del CTF](#Contenedor-2-creación-del-ctf)
-    - [Contenedor 2 Análisis del Contenedor](#Contenedor-2-análisis-del-contenedor)
+    - [Contenedor 2 Análisis del Contenedor una vez explotado](#Contenedor-2-análisis-del-contenedor-una-vez-explotado)
     - [Contenedor 2 Walkthrough](#Contenedor-2-walkthrough)
 
 
@@ -251,7 +251,7 @@ Apache es un servidor web de código abierto.
 
  **Instalacion de Apache:**
 
-Para instalar apache tienes que poner este comando:
+Comando para instalar Apache2:
 
 ```
 sudo apt install apache2
@@ -286,22 +286,22 @@ PHP es un lenguaje de programación de código abierto interpretado del lado del
 
  **Instalacion de PHP:**
 
-Para instalar PHP tienes que poner este comando:
+Comando para instalar php:
 
 ```
-sudo apt install libapache2-mod-php
+sudo apt install php php-mysql
 ```
 
-# [Contenedor Numero 1 Inyección](#índice)
+# [Contenedor Número 1 Inyección](#índice)
 
-El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server XX. La vulnerabilidad elegida ha sido SQL Injection. Es por ello que el desarrollo de esta estará basado en un formulario cuyos campos serán vulnerables a este tipo de ataque. 
+El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server 22.04. La vulnerabilidad elegida ha sido SQL Injection. Es por ello que el desarrollo de esta estará basado en un formulario cuyos campos serán vulnerables a este tipo de ataque. 
 
 <p align="center">
 <img  alt="drawing" width="350" height="200" src="https://blogs.zeiss.com/digital-innovation/de/wp-content/uploads/sites/2/2020/05/201909_Security_SQL-Injection_1.png" />
 </p>
 
 
-## [Contenedor 1 Vulnerabilidades CVE Extra](#índice)
+## [Contenedor 1 Vulnerabilidad CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -318,15 +318,11 @@ Esta vulnerablidad permite al usuario subir archivos maliciosos con el fin de ob
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es sanitizar la subida de archivos, permitiendo únicamente la subida de imágenes y nada más.
 
-- **CVE-2023-32784**
-
-Esta vulnerablidad permite al usuario dumpear la clave maestra de KeePass en texto claro, permitiendo así un posible escalado de privilegios.
-
 **Mitigación**
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la versión.
 
-## [Contenedor 1 Creación del CTF](#índice)
+## [Contenedor 1 - Creación del CTF](#índice)
 
 Para el desarrollo del formulario hemos empleado únicamente HTML, CSS y PHP.
 
@@ -487,7 +483,7 @@ Para poder realizar un análisis forense una vez explotada la máquina, hemos me
 <img  alt="drawing" src="./images/logs.png" />
 </p>
 
-## [Contenedor 1 Análisis del Contenedor una vez Explotado](#índice)
+## [Contenedor 1 - Análisis del Contenedor una vez explotado](#índice)
 Para analizar la maquina explotada primero hemos mirado los logs que tenemos en la maquina docker.
 
 Tenemos los siguientes logs en nuestro docker:
@@ -507,7 +503,7 @@ Tenemos los siguientes logs en nuestro docker:
   
 - Logs de mariadb para ver las querris.
 
-## [Contenedor 1 Walkthrough](#índice)
+## [Contenedor 1 - Walkthrough](#índice)
 
 En primer lugar hacemos un escaneo de puertos para ver qué puertos hay abiertos:
 
@@ -656,16 +652,15 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 </p>
 
 
-# [Contenedor Numero 2 Fallas de Identificación y Autenticación](#índice)
+# [Contenedor 2 - Fallas de Identificación y Autenticación](#índice)
 
-
-El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. 
+El sistema operativo utilizado para el desarrollo de este segundo contenedor es Ubuntu Server 22.04. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. Es por ello que el desarrollo de esta estará basado en una contraseña débil.
 
 <p align="center">
-<img  alt="drawing"  src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
+<img  alt="drawing" height="390" width="391" src="https://owasp.org/Top10/es/assets/TOP_10_Icons_Final_Identification_and_Authentication_Failures.png" />
 </p>
 
-## [Contenedor 2 Vulnerabilidad CVE Extra](#índice)
+## [Contenedor 2 - Vulnerabilidad CVE Extra](#índice)
 
 Para realizar la búsqueda de las CVEs añadidas como extra en la máquina, hay que tener en cuenta los siguientes puntos:
 - **La CVE debe ser del año 2023 o posterior**
@@ -687,7 +682,7 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 </p>
 
 
-## [Contenedor 2 Creación del CTF](#índice)
+## [Contenedor 2 - Creación del CTF](#índice)
 
 Implementación de la vulnerabilidad extra (CVE-2024-2168):
 
@@ -722,9 +717,9 @@ Hacemos SQLi con sqlmap:
 </p>
 
 
-## [Contenedor 2 Análisis del Contenedor](#índice)
+## [Contenedor 2 - Análisis del Contenedor](#índice)
 
-## [Contenedor 2 Walkthrough](#índice)
+## [Contenedor 2 - Walkthrough](#índice)
 
 En primer lugar realizo un scaneo de puertos:
 
