@@ -18,7 +18,8 @@ Realización de búsqueda de directorios con gobuster y no se encuentra nada rel
 
 Se busca vulnerabilidades de los servicios implicados ftp, ssh y tomcat y después de realizarlo con el searchsploit solo se encuentra varias vulnerabilidades del tomcat, con lo que se busca mas informacion y se encuentra un exploit para la versión del apache tomcat, que se usa el metasploit para ejecutarlo.
 
-![vm2-imagen3](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/9c73bee1-2e85-4b88-809d-20357641b3f3)
+![vm2-imagen4](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/c23701bf-8b77-466c-aa71-6b00f004e76c)
+
 
 Podemos ver que aparece un usuario un texto que parece que está codificado. Si buscamos en que está codificado en internet nos dice que está en base64, después lo decodificamos y nos sale un texto lógico.
 
