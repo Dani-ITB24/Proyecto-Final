@@ -719,8 +719,8 @@ Hacemos SQLi con sqlmap:
 
 
 
-## [Contenedor 2 Análisis del Contenedor una vez explotado] (#índice)
 
+## [Contenedor 2 Análisis del Contenedor una vez explotado](#índice)
 
 ## [Contenedor 2 Walkthrough](#índice)
 
