@@ -1,34 +1,36 @@
-Escanemos los puertos de la maquina para ver que servicios estan activados.
+## Writeup
+
+Escanemos los puertos de la maquina para ver qué puertos hay abiertos.
+
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_8.png" />
 </p>
 
+Usamos gobuster para encontrar directorios ocultos en la página web
 
-Usamos gobuster de la pagina web 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_11.png" />
 </p>
 
+Está abierto el puerto 5000, que tiene otra web.
 
-Esta abierto el puerto 5000 que tiene otra web.
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_10.png" />
 </p>
 
-Entramos en la pagina  l,p,k tiene este archivo de texto
+Entramos en la pagina l,p,k tiene este archivo de texto
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_13.png" />
 </p>
 
-
-Entramos en la pagina web de admin
+Entramos en la página web de admin
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_12.png" />
 </p>
 
-Entramos en la pagina web de url validor modificaremos la petición realizada a la web que valida URL para que en vez de validar Google realice una petición a localhost.
+Entramos en la página web de url validor y modificamos la petición realizada a la web que valida URL para que en vez de validar Google realice una petición a localhost.
 
   172.17.0.2/info.php?url=http%3A%2F%2Flocalhost%3A5000
   
@@ -36,7 +38,7 @@ Entramos en la pagina web de url validor modificaremos la petición realizada a 
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_17.png" />
 </p>
 
-Entramos herramientas de desarollador y nos saldra un usuario del sistema
+Entramos en herramientas de desarollador y nos sale un usuario del sistema
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_18.png" />
@@ -53,7 +55,6 @@ Hacemos un ls y vemos que hemos encontrado la flag de user
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_29.png" />
 </p>
-
 
 Buscamos la clave ssh de francisca para cambiar de usuario 
 
@@ -79,20 +80,22 @@ Hacemos un ssh al usuario francisca
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_24.png" />
 </p>
 
-Buscamos archvios del grupo dbadmin para escalar privilegios a root
+Buscamos archivos del grupo dbadmin para escalar privilegios a root
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_25.png" />
 </p>
 
-Creamos un archivo head y ejecutamos backupdb esto nos permite entrar como root
+Creamos un archivo head y ejecutamos backupdb. Esto nos permite entrar como root
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_27.png" />
 </p>
 
-Buscamos la flag de root y lo mostramos
+Buscamos la flag de root y la mostramos
 
 <p align="center">
 <img  alt="drawing" " src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/Screenshot_28.png" />
 </p
+
+## Feedback
