@@ -27,7 +27,7 @@
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/web1.png" alt="Web principal">
 
-
+Si accedemos a la IP de la máquina con un navegador web nos encontramos con una página web fuera de servicio. Si inspeccionamos tampoco se encuentra nada comentado. Vamos a acceder al directorio /accountlogin que hemos encontrado anteriormente.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/web2.png" alt="Web secundaria /accountlogin">
 
