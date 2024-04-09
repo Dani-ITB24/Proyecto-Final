@@ -55,3 +55,6 @@ Buscamos la flag de root y la mostramos
 </p>
 
 ## Feedback
+
+La maquina cumple con todos los requisitos pero se puede mejorar la difilcutad para hacerla mas dificil.
+
