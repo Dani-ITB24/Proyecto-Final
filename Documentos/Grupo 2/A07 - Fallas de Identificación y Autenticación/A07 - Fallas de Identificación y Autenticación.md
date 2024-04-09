@@ -117,6 +117,12 @@ Añadiremos los siguientes parámetros al comando:
 
 
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/users.png" alt="Creamos diccionario de usuarios">
+
+
+
+
+
 
 <br>
 <h1 name="Flag1">3. Flag user.txt</h1>
