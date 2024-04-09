@@ -159,3 +159,11 @@
   
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/85725acc-191a-49d6-a418-c455bbcb628e)
 
+## Martes 09/04/2024
+
+- Al final lo hago todo en un mismo power.
+- Power con mas de la mitad hecho.
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/398f69d1-dd80-4134-acd2-f7c4591bc3b5)
+
+
