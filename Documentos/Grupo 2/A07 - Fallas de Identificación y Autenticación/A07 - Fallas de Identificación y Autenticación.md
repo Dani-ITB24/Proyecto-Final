@@ -49,10 +49,7 @@ Credenciales: mayuri.infospace@gmail.com / admin
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/admin.png" alt="Panel de administración">
 
-
-
-
-
+Ahora tenemos acceso al panel de administración. Vamos a intentar descubrir si podemos subir una reverse shell o por donde podemos continuar.
 
 
 
