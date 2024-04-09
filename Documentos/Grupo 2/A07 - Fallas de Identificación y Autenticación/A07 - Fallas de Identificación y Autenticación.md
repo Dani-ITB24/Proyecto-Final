@@ -45,8 +45,11 @@ Después de estar horas buscando en decenas de webs y no encontrar nada, me top�
 
 En la descripción del mismo vídeo podemos encontrar una página web para descargar el proyecto: [Web de descarga del proyecto](https://www.mayurik.com/source-code/P5963/online-tours-and-travels-management-system-project-in-php-and-mysql). Vamos a intentar acceder con las credenciales por defecto.
 
-
 Credenciales: mayuri.infospace@gmail.com / admin
+
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/admin.png" alt="Panel de administración">
+
+
 
 
 <br>
