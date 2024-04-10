@@ -44,22 +44,26 @@ Hemos sacado 17 tablas, pero la que más nos interesa es la de admin, así que v
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-04.png)
 
-Sacamos 2 nuevos usuarios, pedro y andrea, con sus respectivos hashes, así vamos a ver si podemos sacar las contraseñas.
+Dumpeamos la tabla admin.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-05.png)
 
-Vemos que el hash de pedro es pedro007 y probamos de iniciar sesión por ssh, pero las credenciales no funcionan por ssh, así que vamos a hacer fuerza bruta. Gracia a la fuerza bruta, logramos encontrar la contraseña de pedro para iniciar sesión por ssh.
+Sacamos 2 nuevos usuarios, pedro y andrea, con sus respectivos hashes, así vamos a ver si podemos sacar las contraseñas.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-05_1.png)
 
-Dentro del usuario pedro encontramos la flag de user.
+Vemos que el hash de pedro es pedro007 y probamos de iniciar sesión por ssh, pero las credenciales no funcionan por ssh, así que vamos a hacer fuerza bruta. Gracia a la fuerza bruta, logramos encontrar la contraseña de pedro para iniciar sesión por ssh.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-14_1.png)
 
-Vemos que tambien hay un script en bash que ejecuta el comando data. Este script parece un script que se ejecuta automaticamente con cron, así que vamos a cambiar el script por una reverse shell.
+Dentro del usuario pedro encontramos la flag de user.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-12.png)
 
+Vemos que también hay un script en bash que ejecuta el comando data. Este script parece un script que se ejecuta automáticamente con cron, así que vamos a cambiar el script por una reverse shell.
+
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-17.png)
+
+Nos ponemos en escucha y recibimos la reverse shell como admin. Una vez ya somos root, ya podemos ver la flag de root.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-24.png)
