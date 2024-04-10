@@ -147,6 +147,7 @@ Podemos cambiar el contenido de este script por una reverse shell, y de esta for
 
 Ponemos nuestra máquina atacante a escuchar por el puerto que hemos indicado en la reverse shell y esperamos a que se ejecute el script date.sh automáticamente.
 
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/root_flag.png" alt="Flag root.txt">
 
 Una vez pasados 2 minutos aproximadamente conseguimos entrar al sistema como super usuario y encontramos la segunda y última flag de la CTF.
