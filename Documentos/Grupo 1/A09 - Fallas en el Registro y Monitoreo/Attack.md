@@ -1,16 +1,6 @@
-# **Índice**
+<h1>A09-Fallas en el Registro y Monitoreo</h1>
 
-<span style="color:black;">1. [ Búsqueda de servicios](#servicios)</span><br>
-<span style="color:black;">2. [ Búsqueda de vulnerabilidades](#vulnerabilidades)</span><br>
-<span style="color:black;">3. [ Otros recursos encontrados](#otros)</span><br>
----
-<br>
-
-<h1 name="servicios">1. Búsqueda de servicios</h1>
-
-> netstat -tuln
-
-<br>
+Miramos a ver que puertos estan abiertos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-2.png)
 
@@ -21,8 +11,6 @@ Se ha encontrado lo siguiente: <br>
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-4.png)
 
-
-<h2 name="vulnerabilidades">2. Búsqueda de vulnerabilidades</h1>
 Sabemos que la versión que hay instalada del Papercut es la versión 18.3. Así que hemos buscado su CVE
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-5.png)
@@ -68,3 +56,11 @@ Vemos que el puerto 139 esta escuchando, se ha visto que este puerto lo suele us
 
 Ahora vamos a probar si hay alguna cosa compartida.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-18.png)
+
+Y como vemos que hay una carpeta llamada "videos". Vamos a intentar buscar esa carpeta para saber donde esta ubicada.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-20.png)
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-22.png)
+
+
