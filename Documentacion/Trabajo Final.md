@@ -796,6 +796,10 @@ cat root.txt
 
 ## [Contenedor 2 Análisis del Contenedor una vez explotado](#índice)
 
+Podemos ver que hemos sufrido un ataque de fuerza bruta en los logs "logs.txt" del formulario de inicio de sesión en el panel de administración:
+
+![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/81736081-466e-4500-872b-9a47761f374a)
+
 ## [Contenedor 2 Walkthrough](#índice)
 
 En primer lugar realizo un scaneo de puertos:
