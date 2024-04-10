@@ -18,11 +18,11 @@ Una vez lo encontramos le hacemos un nmap para ver los puertos abiertos.
 
 Vamos a buscar si los servicios que tiene instalados son vulnerables.
 
-![](image-1.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-1.png)
 
 Vemos que el tomcat que tiene instalado si que es vulnerable, así que vamos a intentar explotarlo.
 
-![](image-2.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-2.png)
 
 Al hacerlo vemos unas credenciales cifradas y si las desciframos obtenemos las siguientes credenciales.
 
@@ -30,34 +30,34 @@ Al hacerlo vemos unas credenciales cifradas y si las desciframos obtenemos las s
 
 Vamos a intentar acceder por ftp.
 
-![](image-3.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-3.png)
 
 Con esto obtenemos la flag de usuario. También vemos que tenemos acceso a todo el sistema. Así que vamos a intentar subir un archivo para conseguir una reverse shell.
 
-![](image-4.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-4.png)
 
 He intentado subir una reverse shell, pero no tenemos privilegios, así que vamos a intentar iniciar session por ssh.
 
-![](image-5.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-5.png)
 
 Vamos a intentar acceder a root, para ello vamos a hacer los comandos básicos para la escala de privilegios.
 
-![](image-6.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-6.png)
 
 Vamos, que podemos ejecutar vim como root, así que vamos a buscar en GTFOBins para la escalada de privilegios.
 
 
-![](image-7.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-7.png)
 
 ¡Ya tenemos acceso a root!
 
 Ahora vamos a buscar la flag de root. Para ello vamos a buscar-la.
 
-![](image-8.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-8.png)
 
 ¡Ya la tenemos!
 
-![](image-9.png)
+![](/Documentacion/Feedback/Grupo5/img_A06/image-9.png)
 
 
 ## Conclusión
