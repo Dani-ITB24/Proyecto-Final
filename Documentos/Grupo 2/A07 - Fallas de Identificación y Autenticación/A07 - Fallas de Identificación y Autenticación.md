@@ -161,4 +161,6 @@ Continuando con la CTF nos encontramos en que es necesario el capturar una petic
 
 Siento que el acceso a la máquina y sobretodo el escalado de privilegios se quedan algo cortos si juzgamos toda la CTF con la misma vara. Siento que el escalar de privilegios es algo mucho más complejo de realizar.
 
+Creo que la vulnerabilidad está bien implementada en la CTF pero quizá hubiera preferido algo más "artesanal" en cuánto a desarrollar una vulnerabilidad frente a un tipo de ataque predeterminado.
+
 <br>
