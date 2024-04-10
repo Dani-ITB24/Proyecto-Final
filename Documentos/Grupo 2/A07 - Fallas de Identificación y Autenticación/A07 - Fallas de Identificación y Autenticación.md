@@ -130,22 +130,26 @@ Hacemos fuerza bruta con hydra a partir del diccionario de usuarios y el rockyou
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/flag_user.png" alt="Entrar como pedro y flag1 user.txt">
 
-Entramos como pedro con las credenciales y encontramos la flag del usuario.
+Entramos como pedro con las credenciales y encontramos la flag del usuario en la home de pedro (/home/pedro).
 
 <br>
 <h1 name="root">4. Escalada de privilegios a Root y flag de root</h1>
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/secret_note.png" alt="Secret Note">
 
+En la misma home de pedro encontramos varios archivos ocultos, pero hay uno que destaca sobre los demás. **secret_file** nos indica que el script /home/pedro/date.sh se ejecuta cada 2 minutos como usuario root.
 
+Si vamos a ver el contenido del script, nos encontramos con que únicamente printa la hora actual del sistema. 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/date.sh.png" alt="Script date.sh">
 
+Podemos cambiar el contenido de este script por una reverse shell, y de esta forma aprovechar que se ejecuta como root para acceder como root. Si vamos a [RevShells](https://www.revshells.com) podremos generar una reverse shell hacia nuestra IP por un puerto que indiquemos, en este caso he seleccionado un tipo de reverse shell sencilla (Bash -i).
 
+Ponemos nuestra máquina atacante a escuchar por el puerto que hemos indicado en la reverse shell y esperamos a que se ejecute el script date.sh automáticamente.
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/root_flag.png" alt="Flag root.txt">
 
-
+Una vez pasados 2 minutos aproximadamente conseguimos entrar al sistema como super usuario y encontramos la segunda y última flag de la CTF.
 
 <br>
 <h1 name="valoracion">5. Valoración</h1>
