@@ -44,37 +44,69 @@ Una vez iniciada la sesión vemos un dashboard del gestor de contenido de Travel
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/e603e46d-47cb-44a2-8a70-f481e21f4889)
 
+Mediante la herramienta de **Searchsploit** buscamos vulnerabilidades relacionadas con este CMS y encontramos una vulnerabilidad que nos permite realizar una inyección SQL.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/07e68ada-1a3c-4e25-83b3-d30b1159cbae)
+
+Abrimos la explicación para entender en que consiste y como realizar esta inyección SQL.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/a1634771-0124-4a27-a570-8ba3d7cbf05a)
 
+Para ello debemos dirigirnos al apartado de Bookings y editar cualquier booking.
+
+Antes de presionar sobre el boton de editar el booking deberemos tener habilitado el FoxyProxy para redirigir el trafico a Burpsuite y tener iniciado Burpsuite en modo interceptar.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/b60f32c0-b2e2-4d13-ac41-a5ff72fb6cf0)
+
+Mediante Burpsuite interceptamos la petición y la guardamos en un fichero de texto.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/52755385-f659-40d9-997f-40a79de339b6)
 
+Verificamos que la petición se ha guardado correctamente en el fichero.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/69a9be5f-27e1-47f8-8131-12e2e11e2700)
+
+Mediante la herramienta **sqlmap** le pasamos este fichero y mediante los parametros **--dbs** mostramos todas las bases de datos que dispone la maquina.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/e52f5eef-e6e5-49f3-8456-bd70bccc6f13)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/98250fc5-30fd-4399-be0f-3ce7eabb8c62)
 
+Vemos que nos interesa la base de datos de **tour1**, por lo cual ahora mostramos las tablas de la base de datos **tour1**.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/3e109a3f-293f-4bd1-b3ca-74e080f9384e)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/9a7ad3c2-8b58-4b23-bb4c-7cbc27a17d3d)
 
+De todas las tablas nos interesa la tabla con nombre **admin**, por lo cual hacemos un dump de esta tabla para poder visualizar su contenido.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/825768d5-26a7-43ea-90dd-4f6d97f108fa)
 
+Al visualizar el contenido de la tabla **admin** vemos que existen 2 usuarios potenciales los cuales son **pedro** y **andrea**.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/2fe24947-ae40-45bc-8cdc-41a75685d757)
+
+Se nos ocurre realizar fuerza bruta con el usuario de **pedro** y utilizando el diccionario de **rockyou.txt** atacando al servicio **SSH**, de esta forma descubrimos la contraseña del usuario **pedro** la cual es **gangsta**.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/59b94f42-84b4-477a-9930-98dcfdaa8908)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/796b0e1a-c9d5-481a-ad6a-0b642bc534de)
 
+Iniciamos sesión con el usuario **pedro** y su contraseña mediante SSH y conseguimos iniciar sesión en la maquina autenticados como **pedro**.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/3151862f-2204-4488-a1d0-ef3b2df7c385)
+
+Listamos el contenido del home de pedro y vemos los siguientes ficheros, incluyendo la flag del **user.txt**.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/c67959b5-23f3-4608-ba8e-4d6b28913ee2)
 
+Encontramos un script sospechoso, el cual modificamos para que el usuario que pueda ejecutar este script nos envie una reverse shell.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/2f7d88f3-f6c0-45c5-862f-1838acb73206)
+
+Nos ponemos en escucha desde una nueva terminal y obtenemos una reverse shell como el usuario root, por lo cual este script lo estaria ejecutando **root** mediante una tarea programada.
+
+Cuando estamos como **root** obtenemos control de toda la maquina y podemos visualizar la flag de **root.txt**.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/fbc42e92-c9f3-4ce1-a70e-bd89955205e4)
 
