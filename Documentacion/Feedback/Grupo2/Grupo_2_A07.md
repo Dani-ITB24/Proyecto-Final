@@ -67,3 +67,7 @@ Vemos que también hay un script en bash que ejecuta el comando data. Este scrip
 Nos ponemos en escucha y recibimos la reverse shell como admin. Una vez ya somos root, ya podemos ver la flag de root.
 
 ![](/Documentacion/Feedback/Grupo2/img_A07/2024-04-10_17-24.png)
+
+## Conclusión
+
+La máquina tiene muchas semejanzas con la otra máquina y su dificultad es baja, pero cumple con el objetivo de ser vulnerable a fallas de identificación y autenticación. Un punto a favor de esta máquina es que tiene diferentes CVEs recientes que podemos explotar, haciendo la máquina algo innovadora dentro de lo que cabe. Buen trabajo.
