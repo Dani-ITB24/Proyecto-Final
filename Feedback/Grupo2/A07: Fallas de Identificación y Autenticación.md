@@ -1,26 +1,46 @@
 # **Explotación**
 
-Realizamos el reconocimiento de puertos mediante la herramienta de nmap y detectamos los puertos **23, 9191, 9192, 9193 y 9195** levantados.
+Realizamos el reconocimiento de puertos mediante la herramienta de nmap y detectamos los puertos **22 y 80** levantados.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/dfad60a6-29ff-46de-8f58-36e63d6d0f89)
 
+Lanzamos un escaneo más especifico sobre los puertos para hacer un reconocimiento de sus versiones.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/d43fd5fe-73df-4c58-97d8-786b1c7b3ea9)
+
+Accedemos a la web y se nos muestra la landing page indicanos que actualmente la pagina web es fuera de servicio
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/6c23a9cb-d76b-48e4-9639-5b28591fbaa9)
 
+Mediante la herramienta de WFuzz buscamos rutas escondidas a través de un diccionario de rutas web conocidas, de esta forma encontramos que la ruta de **accountlogin** se puede acceder al recibir una respuesta con codigo de estado 200.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/f5686334-bdbe-454d-a43b-680ca102cec4)
+
+Al acceder a esta routa de **accountlogin** accedemos a otro landpage con un panel de user y admin login.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/db2f7491-6fe2-4fc2-bdc2-5c6a87caae41)
 
+En el panel de admin vemos que podemos logearnos introduciendo un email y contraseña.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/f617abdf-e587-4d5d-809f-5bbb69bcb782)
 
-https://www.google.com/search?q=online+tours+and+travels+management+system+project+in+php+credentials&client=firefox-b-e&sca_esv=ee5823111fbad417&ei=X2EVZo7XOuWhi-gPk_2E4AI&ved=0ahUKEwjOgsrou7WFAxXl0AIHHZM-ASwQ4dUDCBA&uact=5&oq=online+tours+and+travels+management+system+project+in+php+credentials&gs_lp=Egxnd3Mtd2l6LXNlcnAiRW9ubGluZSB0b3VycyBhbmQgdHJhdmVscyBtYW5hZ2VtZW50IHN5c3RlbSBwcm9qZWN0IGluIHBocCBjcmVkZW50aWFsc0jiKFDVDli7J3ABeAGQAQCYAZYBoAGbCKoBAzAuObgBA8gBAPgBAZgCBKACmgPCAgoQABhHGNYEGLADwgIGEAAYFhgewgIFECEYoAGYAwCIBgGQBgiSBwMxLjOgB_EP&sclient=gws-wiz-serp
+Realizando un par de busquedas en Google con palabras especificas como "default credentials" e  introduciendo el nombre de este CMS de **Online Tours and Travels Managament**, encontramos la siguiente web en donde nos muestra el correo por defecto del gestor CMS.
 
-https://www.sourcecodester.com/php/14510/online-tours-travels-management-system-project-using-php-and-mysql.html
+[Busqueda Google](https://www.google.com/search?q=online+tours+and+travels+management+system+project+in+php+credentials&client=firefox-b-e&sca_esv=ee5823111fbad417&ei=X2EVZo7XOuWhi-gPk_2E4AI&ved=0ahUKEwjOgsrou7WFAxXl0AIHHZM-ASwQ4dUDCBA&uact=5&oq=online+tours+and+travels+management+system+project+in+php+credentials&gs_lp=Egxnd3Mtd2l6LXNlcnAiRW9ubGluZSB0b3VycyBhbmQgdHJhdmVscyBtYW5hZ2VtZW50IHN5c3RlbSBwcm9qZWN0IGluIHBocCBjcmVkZW50aWFsc0jiKFDVDli7J3ABeAGQAQCYAZYBoAGbCKoBAzAuObgBA8gBAPgBAZgCBKACmgPCAgoQABhHGNYEGLADwgIGEAAYFhgewgIFECEYoAGYAwCIBgGQBgiSBwMxLjOgB_EP&sclient=gws-wiz-serp)
+
+[Web donde se encuentra el correo](https://www.sourcecodester.com/php/14510/online-tours-travels-management-system-project-using-php-and-mysql.html)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/b68c119b-906d-45cd-a3dc-4a12cf111237)
 
+Una vez tenemos el correo, vamos probando con contraseñas basicas como "password, 123456789, etc.", de esta forma encontramos que la contraseña es "admin" y conseguimos iniciar sesión.
+
+Email: mayuri.infospace@gmail.com
+
+Contraseña: admin
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/a0b5f9f0-23d1-427a-a162-d88ad58b6c78)
+
+Una vez iniciada la sesión vemos un dashboard del gestor de contenido de Travel Manager.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160504744/e603e46d-47cb-44a2-8a70-f481e21f4889)
 
