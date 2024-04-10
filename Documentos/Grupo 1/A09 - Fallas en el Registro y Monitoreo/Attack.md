@@ -67,7 +67,10 @@ Ahora ya sabemos donde esta ubicado el directorio "videos". Accedemos al directo
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-21.png)
 
-Ahora descargaremos chisel para crear una conexion entre la máquina atacante y máquina victima. Y crearemos un servidor http mediante python.
+Ahora descargaremos chisel para crear una conexion entre la máquina atacante y máquina victima.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-23.png)
  
+Y crearemos un servidor http mediante python.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-24.png)
