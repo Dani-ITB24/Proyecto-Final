@@ -128,7 +128,7 @@ Falta
 :white_large_square: Reconocimiento del contenido de la máquina <br>
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
 
-<h2>Miércoles 3 de abril 2024</h2>
+## Miércoles 3 de abril 2024
 ✅ Reconocimiento del contenido de la máquina <br>
 :white_large_square: Descubrimiento de la vulnerabilidad de A09<br>
 :white_large_square: Documentación de la vulnerabilidad de A09 <br>
@@ -149,3 +149,5 @@ Falta
 ## Martes 9 de abril 2024
 ✅ Documentación del desarrollo de la vulnerabilidad de injection <br>
 :white_large_square: Preparación de la máquina de fallas criptográficas <br>
+
+## Miércoles 10 de abril 2024 
