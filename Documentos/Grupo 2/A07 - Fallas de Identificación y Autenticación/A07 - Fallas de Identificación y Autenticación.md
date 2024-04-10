@@ -31,7 +31,7 @@ Si accedemos a la IP de la máquina con un navegador web nos encontramos con una
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/web2.png" alt="Web secundaria /accountlogin">
 
-En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de adminstradores y de usuarios "normales", cada uno por separado. 
+En esta nueva página encontramos dos botones que nos redirigen a un inicio de sesión de administradores y de usuarios "normales", cada uno por separado. 
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/login.png" alt="login de admin">
 
@@ -149,13 +149,16 @@ Ponemos nuestra máquina atacante a escuchar por el puerto que hemos indicado en
 
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/root_flag.txt.png" alt="Flag root.txt">
 
-Una vez pasados 2 minutos aproximadamente conseguimos entrar al sistema como super usuario y encontramos la segunda y última flag de la CTF.
+Una vez pasados 2 minutos aproximadamente conseguimos entrar al sistema como súper usuario y encontramos la segunda y última flag de la CTF.
 
 <br>
 <h1 name="valoracion">5. Valoración</h1>
 
-Comenzando desde un principio me gustaria valorar la implementación del proyecto de Travel Manager en la CTF. Sinceramente no entiendo como lo han encontrado, porque era prácticamente misión imposible encontrar algo de información acerca del software. Lo único que había en todo internet era un blog y un vídeo de la desarrolladora explicando sus funciones.
+Comenzando desde un principio me gustaría valorar la implementación del proyecto de Travel Manager en la CTF. Sinceramente no entiendo como lo han encontrado, porque era prácticamente misión imposible encontrar algo de información acerca del software. Lo único que había en todo internet era un blog y un vídeo de la desarrolladora explicando sus funciones.
+Así que acerca de ese tema, le doy una buena nota en cuanto a la dificultad por lo difícil que era recopilar información, en ese punto me quedé bastante estancado.
 
+Continuando con la CTF nos encontramos en que es necesario el capturar una petición web para añadir información en la base de datos de detrás del software de Travel Manager. Sinceramente no me esperaba nada que se desarrollase de esa manera. Y de las 3 máquinas que he tenido que atacar, esta ha sido la única en utilizar esta técnica, pues agradezco que no haya sido tan repetitiva como de costumbre.
 
+Siento que el acceso a la máquina y sobretodo el escalado de privilegios se quedan algo cortos si juzgamos toda la CTF con la misma vara. Siento que el escalar de privilegios es algo mucho más complejo de realizar.
 
 <br>
