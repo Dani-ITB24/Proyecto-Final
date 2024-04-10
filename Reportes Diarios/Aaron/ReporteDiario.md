@@ -167,3 +167,9 @@
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/398f69d1-dd80-4134-acd2-f7c4591bc3b5)
 
 
+## Miercoles 10/04/2024
+
+- Power finalizado
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/157145186/7d46b465-b35c-44b1-806c-430d69cd934e)
+
