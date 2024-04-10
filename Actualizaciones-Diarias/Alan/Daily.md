@@ -214,8 +214,9 @@
 
 ## Miércoles 10 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Realización de la CTF A07:2021 - Fallas de Identificación y Autenticación (grupo 2).
+- [X] Documentar CTF grupo 2 - A07:2021.
+- [ ] Crear feedback A07:2021 (grupo 2).
 
 ## Jueves 11 de Abril 2024:
 

@@ -154,6 +154,7 @@ Una vez pasados 2 minutos aproximadamente conseguimos entrar al sistema como sup
 <br>
 <h1 name="valoracion">5. Valoración</h1>
 
+Comenzando desde un principio me gustaria valorar la implementación del proyecto de Travel Manager en la CTF. Sinceramente no entiendo como lo han encontrado, porque era prácticamente misión imposible encontrar algo de información acerca del software. Lo único que había en todo internet era un blog y un vídeo de la desarrolladora explicando sus funciones.
 
 
 
