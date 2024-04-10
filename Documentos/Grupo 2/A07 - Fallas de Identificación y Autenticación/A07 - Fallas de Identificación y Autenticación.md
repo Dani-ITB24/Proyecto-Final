@@ -138,6 +138,7 @@ Entramos como pedro con las credenciales y encontramos la flag del usuario.
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/secret_note.png" alt="Secret Note">
 
 
+
 <img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/date.sh.png" alt="Script date.sh">
 
 
