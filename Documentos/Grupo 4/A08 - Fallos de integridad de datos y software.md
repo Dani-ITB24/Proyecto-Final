@@ -1,4 +1,4 @@
-# Grupo 4: A08:2021 - Fallas en el Software y en la Integridad de los Datos
+# Grupo 4: A08:2021 - Fallos en el Software y en la Integridad de los Datos
 
 ## **Índice**
 

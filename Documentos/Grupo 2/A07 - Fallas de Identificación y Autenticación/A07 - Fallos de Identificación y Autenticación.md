@@ -1,4 +1,4 @@
-# Grupo 2: A07:2021 - Fallas de Identificación y Autenticación
+# Grupo 2: A07:2021 - Fallos de Identificación y Autenticación
 
 ## **Índice**
 
