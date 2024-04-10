@@ -171,3 +171,8 @@
 - [x] Avance en la documentación principal
 - [x] Finalización del segundo contenedor 
 - [x] Redacción del Walkthrough del segundo contenedor
+
+# Martes 09 de abril de 2024:
+
+- [x] Avance en la documentación principal
+- [x] Preparación de la presentación
