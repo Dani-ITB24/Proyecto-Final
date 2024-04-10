@@ -230,3 +230,8 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 - Ayuda con las tareas de los compañeros.
 - He continuado resolviendo la maquina A08 - Fallas en el Software y en la Integridad de los Datos.
+
+# Reporte 10 de Abril de 2024
+
+- Terminar el writeup de la maquina A08 - Fallas en el Software y en la Integridad de los Datos.
+- Emepezar la presentacion.

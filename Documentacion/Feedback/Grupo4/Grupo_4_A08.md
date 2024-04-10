@@ -56,8 +56,19 @@ Ya somos daniel
 
 Ya tenemos la flag de usuario, ahora vamos a intentar ser root.
 
+## Escalada de privilegios
+
 ![](image-41.png)
 ![](image-42.png)
 
 
+![](image-44.png)
 
+Ya somos root ahora a por la flag.
+
+![](image-43.png)
+
+
+## Conclusión
+
+En términos generales, la máquina parece estar bien, ya que es bastante completa y aborda diferentes métodos de explotación. Es relevante destacar que todos los métodos empleados para explotar la máquina son aquellos que se han enseñado previamente en clase. Encontramos particularmente interesante el acceso a la máquina, que requiere la modificación de un archivo de un plugin. Sin embargo, notamos que la máquina carece un poco de movimiento lateral, lo que la hace sentir un poco limitada en ese aspecto. Como aspecto negativo, observamos que la máquina no inicia automáticamente los servicios, lo que requiere intervenir manualmente para iniciarlos.
