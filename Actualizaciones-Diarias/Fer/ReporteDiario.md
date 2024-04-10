@@ -147,3 +147,5 @@ Falta
 :white_large_square: Documentación del desarrollo de la vulnerabilidad de injection <br>
 
 ## Martes 9 de abril 2024
+✅ Documentación del desarrollo de la vulnerabilidad de injection <br>
+:white_large_square: Preparación de la máquina de fallas criptográficas <br>
