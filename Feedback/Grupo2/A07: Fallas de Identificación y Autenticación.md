@@ -117,5 +117,6 @@ Cuando estamos como **root** obtenemos control de toda la maquina y podemos visu
 
 # **Feedback**
 
-Realizamos el reconocimiento de puertos mediante la herramienta de nmap y detectamos los puertos **23, 9191, 9192, 9193 y 9195** levantados.
+La maquina esta bien pensada, pero para encontrar algunas cosas son rebuscadas.
+En la parte final de encontrar la nota, no encontraba la nota por ningun sitio hasta preguntar a alguien del grupo y confirmandone que la nota se ubicaba en root, por lo cual seria complicado acceder a la nota sin tener acceso como root primero.
 
