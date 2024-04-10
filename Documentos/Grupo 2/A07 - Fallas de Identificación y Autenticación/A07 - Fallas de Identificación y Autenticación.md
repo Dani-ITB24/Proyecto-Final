@@ -142,6 +142,10 @@ Entramos como pedro con las credenciales y encontramos la flag del usuario.
 
 
 
+<img src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202//A07%20-%20Fallas%20de%20Identificación%20y%20Autenticación/Assets/root_flag.png" alt="Flag root.txt">
+
+
+
 <br>
 <h1 name="valoracion">5. Valoración</h1>
 
