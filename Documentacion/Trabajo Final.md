@@ -484,24 +484,22 @@ Para poder realizar un análisis forense una vez explotada la máquina, hemos me
 </p>
 
 ## [Contenedor 1 Análisis del Contenedor una vez explotado](#índice)
-Para analizar la maquina explotada primero hemos mirado los logs que tenemos en la maquina docker.
 
-Tenemos los siguientes logs en nuestro docker:
+Para analizar la máquina explotada miramos los siguientes logs:
 
-- Logs de inicio de sesion de la pagina farm.
+- Logs de inicio de sesión de la página farm:
 
 <p align="center">
 <img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logs.png" />
 </p>
 
-- Logs de inicio de sesion de la pagina banco.
+- Logs de inicio de sesión de la página del banco de credenciales:
+
 <p align="center">
 <img  alt="drawing"  src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/logsBanco.png" />
 </p>
 
-- Logs de apache para ver los post y los get.
-  
-- Logs de mariadb para ver las querris.
+- Logs de apache para ver las peticiones
 
 ## [Contenedor 1 Walkthrough](#índice)
 
