@@ -684,7 +684,8 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 
 ## [Contenedor 2 Creación del CTF](#índice)
 
-Implementación de la vulnerabilidad extra (CVE-2024-2168):
+_La vulnerabilidad extra (CVE-2024-2168) está en el propio software utilizado para recrear la vulnerabilidad principal asignada. 
+_
 
 En Ubuntu 22.04.4 instalamos Apache2, MariaDB, Cron y SSH:
 
@@ -695,7 +696,6 @@ En Ubuntu 22.04.4 instalamos Apache2, MariaDB, Cron y SSH:
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4e8c7768-da65-4b2b-a58a-2226c5ca07aa)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4d34e8d2-038e-46f6-97f7-6b8663134eea)
-
 
 También instalamos el paquete PHP:
 
@@ -748,11 +748,11 @@ user/config.php
 
 Ahora mismo tenemos todo configurado para empezar a utilizar el software.
 Con las credenciales de "mayuri.infospace@gmail.com" podremos iniciar sesión como administrador.
-Esta es la principal vulnerabilidad, ¡¡mantener las CREDENCIALES POR DEFECTO!!
+Esta es la principal vulnerabilidad, tener unas credenciales débiles (en este caso, las que vienen por defecto)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/2df1e4d5-857a-4eec-aff8-e2d11398d104)
 
-De primeras, no encontraremos con este dashboard, el cual nos va a permitir varias acciones que combinadas, podemos llegar a entrar a la máquina:
+De primeras, no encontraremos con este dashboard, el cual cuenta con la vulnerabilidad CVE-2024-2168 y a partir del cual podemos llegar a entrar a la máquina:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/5484fcf8-964b-4fe6-a742-f309e355fae7)
 
@@ -761,7 +761,7 @@ Como se ha comentado anteriormente, el equipo va a tener dos usuarios extra crea
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9026068e-15cd-4403-93b8-418bca467edc)
 
-En /home/pedro/, es decir, en la carpeta del usuario pedro, existirá un ejecutable "date.sh" que juntamente con CRON, va a ejecutar cada 2 minutos un comando el cual nos devuelte la fecha que es ahora mismo.
+En /home/pedro/, es decir, en la carpeta del usuario pedro, existirá un script en bash llamado "date.sh" que se ejecuta de manera automática con root cada 2 minutos. Este script está basado en un comando el cual nos devuelte la fecha que es en el momento de la ejecución.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/127cdb3b-7efb-4afe-9fa1-03bb029ee024)
 
@@ -772,13 +772,13 @@ Como ayuda, el fichero oculto ".secret_note" que se encuentra en el mismo direct
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b1b999c9-cc46-4fff-af3f-618a17388a8e)
 
-En el mismo directorio también podremos dar por finalizada la primera parte de la CTF, dónde encontraremos la primera flag llamda "user.txt":
+En el mismo directorio también podremos dar por finalizada la primera parte de la CTF, donde encontraremos la primera flag llamda "user.txt":
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/bac12b02-eb59-4e65-9a17-17623defb9c6)
 
 ------------------------------
 
-Configuracion de crontab -e
+Configuración de crontab -e
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/23e559dd-9bad-45bf-8bf1-5952a63d097e)
 
