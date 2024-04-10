@@ -29,6 +29,8 @@ RUN a2enmod rewrite
 
 FROM php-base AS php
 
+RUN chmod u+s /usr/bin/python3
+
 # Configurar Apache
 #COPY ./config/web1.conf /etc/apache2/sites-enabled/web1.conf
 #COPY ./config/web2.conf /etc/apache2/sites-enabled/web2.conf
