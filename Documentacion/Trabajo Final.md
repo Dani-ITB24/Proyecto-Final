@@ -682,8 +682,7 @@ Manténer el software actualizado , Monitorea y registrar la actividad del siste
 
 ## [Contenedor 2 Creación del CTF](#índice)
 
-_La vulnerabilidad extra (CVE-2024-2168) está en el propio software utilizado para recrear la vulnerabilidad principal asignada. 
-_
+La vulnerabilidad extra (CVE-2024-2168) se encuentra en el propio software utilizado para recrear la vulnerabilidad principal asignada. 
 
 En Ubuntu 22.04.4 instalamos Apache2, MariaDB, Cron y SSH:
 
@@ -755,7 +754,7 @@ De primeras, no encontraremos con este dashboard, el cual cuenta con la vulnerab
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/5484fcf8-964b-4fe6-a742-f309e355fae7)
 
 Ahora que ya tenemos el software configurado y listo para ser explotado, continuamos con la creación del CTF.
-Como se ha comentado anteriormente, el equipo va a tener dos usuarios extra creados, llamados "pedro" y "andrea". Pero nos vamos a centrar en "pedro" ya que es el que nos va a ayudar con la escalad de privilegios.
+Como se ha comentado anteriormente, el equipo va a tener dos usuarios extra creados, llamados "pedro" y "andrea". Pero nos vamos a centrar en "pedro" ya que es el que nos va a ayudar con la escalada de privilegios.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9026068e-15cd-4403-93b8-418bca467edc)
 
@@ -774,19 +773,19 @@ En el mismo directorio también podremos dar por finalizada la primera parte de 
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/bac12b02-eb59-4e65-9a17-17623defb9c6)
 
-------------------------------
-
-Configuración de crontab -e
+Como mencionamos antes, el archivo 'date.sh' se ejecuta cada 2 minutos con permisos de administrador (root). Logramos esto utilizando Crontab, un paquete que nos permite programar tareas periódicas en el sistema. Simplemente ejecutamos el siguiente comando:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/23e559dd-9bad-45bf-8bf1-5952a63d097e)
 
+Esto nos brinda la capacidad de editar un archivo donde especificamos qué archivo queremos ejecutar con permisos de administrador y con qué frecuencia queremos que se ejecute.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9d9d516b-5031-41db-9216-8d8635fcd473)
 
-ll /root/
+Cuando se tenga acceso a la máquina como root, podremos entrar el el directorio /root/, donde se ha creado el fichero que contien la última flag de la CTF:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/8320da28-b9e3-425a-8ca9-a5ec8c0aecb4)
 
-cat root.txt
+Al abrir el fichero "root.txt" podremos dar por finalizada la CTF
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/2068c4d1-7791-4596-9eee-c6cf86ae1726)
 
