@@ -222,3 +222,11 @@
 # Martes 09/04/2024
 
 - He terminado de resolver y documentar la máquina A03 del grupo 2.
+
+# Miercoles 10/04/2024
+
+- He terminado de resolver y documentar la máquina A07 del grupo 2.
+
+# Jueves 11/04/2024
+
+- Creación presentación final.
