@@ -129,3 +129,11 @@
 - [X] Reparticion maquinas restantes
 - [X] Ayudar al grupo a realizar pentest
 
+## Lunes 8 de abril 2024
+- [X] Inicio presentacion grupal
+- [X] Intento de puesta en marcha de la maquina1 del grupo3
+ 
+## Martes 9 de abril 2024
+- [ ] Realizar pentest maquina1 del grupo3 (sin exito)
+
+
