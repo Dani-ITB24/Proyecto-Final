@@ -20,7 +20,7 @@
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/f49d3766-0f7f-4ce0-b64d-4d93b4c1a147)
 
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7abeb6ae-058a-41e1-a6d3-e3f988886bd8)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/0f84d1a9-6979-4921-a4e8-db6eb476293d)
 
 
 
