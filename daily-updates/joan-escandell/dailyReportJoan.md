@@ -158,8 +158,15 @@
 - [x] Simular ataque a la máquina 2
 - [x] Subir a DockerHub las 2 versiones (1 antes del ataque, 1 después del ataque)
 
-
 # 09/04/2024:
 - [x] Sacar capturas de pantalla de todos los pasos de creación de la máquina 2 para poder hacer la documentación.
 - [x] Volver a realizar algunos pasos de la máquina 2 para sacar capturas de pantalla.
 - [x] Documentar toda la creación de la máquina 2.
+
+# 10/04/2024:
+- [x] Terminar documentación de la máquina 2.
+- [x] Creación de la presentación
+
+# 11/04/2024:
+- [x] Terminar documentación de la máquina 2.
+- [x] Creación de la presentación 
