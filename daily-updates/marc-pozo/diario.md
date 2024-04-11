@@ -181,3 +181,8 @@
 
 - [x] Avance en la documentación principal
 - [x] Preparación de la presentación
+
+# Miércoles 10 de abril de 2024:
+
+- [x] Preparación de la presentación
+- [x] Revisión de la documentación principal
