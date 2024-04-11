@@ -32,4 +32,4 @@ El challenge 2 se ha ejecutado correctamente, solo que ha sido bastante facil re
 
 El challenge 4 se resuelve automaticamente y el propio script da la CTF nada mas ejecutar el dockerfile, pero igualmente en caso que funcionase correctamente, es igual de facil resolver ya que solo es decodificar la cadena de texto de base 64.
 
-El challenge 5 no esta bien construido el dockerfile y por lo tanto nos es imposible ejecutarlo, como anteriormente se ha comentado se deben revisar los docker files y testearlos de antes, podriamos haberlo corregido y ejecutado el challenge pero nuestro trabajo es explotarlo y no resolver problemas del entorno.+
+El challenge 5 no esta bien construido el dockerfile y por lo tanto nos es imposible ejecutarlo, como anteriormente se ha comentado se deben revisar los docker files y testearlos de antes, podriamos haberlo corregido y ejecutado el challenge pero nuestro trabajo es explotarlo, no resolver problemas del entorno.
