@@ -1,6 +1,7 @@
 ## Explotación
 CTF-1 el entorno que tengo no tiene la potencia suficiente para tirar la CTF 
 
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/a9b6c5b3-da05-417f-ace7-ecc467a40c6b)
 
 
