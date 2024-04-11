@@ -85,6 +85,10 @@ En la máquina de la víctima estableceremos la conexión con el chisel para red
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-27.png)
 
-Cuando esten conectados nos saltara de que habido una sesion.
+Cuando esten conectados veremos que nos dice que ya esta escuchando ese puerto.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-28.png)
+
+Ahora msf6 haremos un ataque de fuerza bruta, para el atque le ponemos la ip de la victima y la wordlist que usaremos para ello. 
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-29.png)
