@@ -148,3 +148,17 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 
 ## 05/03/24 Reporte Diario
 - [X] Finalización de explotación de la primera maquina del grupo2
+
+## 8/03/24 Reporte Diario
+- [ ] Intentar descargar la primera maquina del grupo3
+
+## 9/03/24 Reporte Diario
+- [X] Intentar descargar la primera maquina del grupo3
+
+## 10/03/24 Reporte Diario
+- [X] Inicio de explotación de la primera maquina del grupo3
+- [X] Finalización de explotación de la primera maquina del grupo3
+
+## 11/03/24 Reporte Diario
+- [ ] Documentación de explotación de la primera maquina del grupo3
+- [ ] Realizasción de los chanllege X de la segunda maquina del grupo3
