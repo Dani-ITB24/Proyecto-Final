@@ -220,7 +220,7 @@
 
 ## Jueves 11 de Abril 2024:
 
-- [ ] 
+- [X] Revisar documentación.
 - [ ] 
 
 ## Viernes 12 de Abril 2024:
