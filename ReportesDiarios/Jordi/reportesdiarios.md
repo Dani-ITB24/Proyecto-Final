@@ -235,3 +235,8 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 - Terminar el writeup de la maquina A08 - Fallas en el Software y en la Integridad de los Datos.
 - Emepezar la presentacion.
+
+# Reporte 11 de Abril de 2024
+
+- Contniuar con la presentación
+- Ayudar con el forense.
