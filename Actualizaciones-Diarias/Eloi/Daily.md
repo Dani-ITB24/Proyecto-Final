@@ -136,4 +136,8 @@
 ## Martes 9 de abril 2024
 - [ ] Realizar pentest maquina1 del grupo3 (sin exito)
 
+## Juveves 11 de abril 2024
+- [X] Terminar Pentest A09 grupo3
+- [ ] Documentar Pentest A09
+- [ ] Ayudar al grupo a realizar pentest 
 
