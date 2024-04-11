@@ -781,7 +781,7 @@ Esto nos brinda la capacidad de editar un archivo donde especificamos qué archi
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/9d9d516b-5031-41db-9216-8d8635fcd473)
 
-Cuando se tenga acceso a la máquina como root, podremos entrar el el directorio /root/, donde se ha creado el fichero que contien la última flag de la CTF:
+Cuando se tenga acceso a la máquina como root, podremos entrar el el directorio /root/, donde se ha creado el fichero que contiene la última flag de la CTF:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/8320da28-b9e3-425a-8ca9-a5ec8c0aecb4)
 
