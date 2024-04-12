@@ -3,10 +3,11 @@ Parar esta parte hemos buscado todo los rastros que se puedan enontrar de que la
 Papercut : 
 Podemos encontrar lo regisrtos de acceso todos como administrador  y su direccion ip 
 
-Telnet
+Telnet: de telnet no se ha podido encontrar ningun log ni nada
 
-samba
+Samba : en samba no hemos podidio encontar nu log relevante
 
-podemos ver que se ha instalado chisel
+podemos ver que se ha instalado chisel en un usuario
 
-bash_history
+bash_history de lolito se puede encontrar qu8e se han hecho una ejeecucion de comandos
+
