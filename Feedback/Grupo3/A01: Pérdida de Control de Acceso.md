@@ -29,6 +29,8 @@ CTF-1 el entorno que tengo no tiene la potencia suficiente para tirar la CTF
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/7d59b859-d950-4666-acaa-3296292f0fd2)
 
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/73751f42-9f24-4315-8b34-9e93049660e0)
+
 
 ## Feedback 
 
