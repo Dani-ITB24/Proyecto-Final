@@ -15,18 +15,23 @@ Sabiendo que hay una web, lo que haremos es intentar buscar directorios oculto d
 Como vemos en el escaneo, hay un directorio que se llama **farm** ahora comprobaremos que hay dentro.
 
 Y encontramos que es un login y vemos si es vulnerable.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/b0937ca7-b680-4dad-9f2a-0df35b2f0828)
 
-Primero entramos al buerpsuiet, lo enviamos al Intruder para realizar el ataque de fuerza bruta al login 
+Primero entramos al buerpsuiet, lo enviamos al Intruder para realizar el ataque de fuerza bruta al login
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/99014d59-1967-4a36-93dc-f2d3f1fe8516)
 
 ya dentro del intruder haremos el ataque de fuerza bruta para poder iniciar sesion y para esto ponemos en **attack type** cluster bomb que permite hacer fuerza bruta a diferente payload.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/9eb3b32c-306d-44af-ae18-f9c21e7f164a)
 
 En la siguiente imagen selecionamos el primer payload que pertenece al username y le damos a "load" para cargar el diccionario.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/74b33a34-9e17-4605-b0a5-534bf8f4daf9)
 
 Ahora vamos al segundo payload que pertence a la contraseña y hacemos los mismo que el anteior payload.
+
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/0d358d76-2a14-4eab-ab8a-4f10adfe9d9d)
 
 
