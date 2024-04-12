@@ -85,14 +85,16 @@ En la máquina de la víctima estableceremos la conexión con el chisel para red
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-27.png)
 
-Cuando esten conectados veremos que nos dice que ya esta escuchando ese puerto.
+Cuando estén conectados veremos que nos dice que ya está escuchando ese puerto.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-28.png)
 
-Ahora con msf6 haremos un ataque de fuerza bruta, para el atque le ponemos la ip de la victima y la wordlist que usaremos para ello. 
+Ahora con msf6 haremos un ataque de fuerza bruta, para el ataque le ponemos la ip de la víctima y la wordlist que usaremos para ello.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-30.png)
 
-Esperamos una par de minutos hasta que de con la contraseña.
+Esperamos una par de minutos hasta que de con la contraseña. Después de un rato vemos que ha encontrado la contraseña que es "lamborghini".
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-31.png)
+
+
