@@ -112,3 +112,6 @@ Miramos a ver en que grupos está este usuario y como vemos está con el usuario
 Una vez que estamos dentro vemos que encontramos y vemos que hay un txt. Vemos que contiene y vemos que hemos encontrado la flag.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%202/A03%20-%20Inyección/Assets/maqA03-27.png)
+
+
+## Valoración
