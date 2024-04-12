@@ -1,5 +1,8 @@
 <h1>A09-Fallas en el Registro y Monitoreo</h1>
 
+<span style="color:black;">[ Valoración](#valoracion)</span><br>
+
+
 Miramos a ver que puertos estan abiertos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-2.png)
@@ -126,4 +129,5 @@ Vemos que hay un archivo python y si lo ejecutamos nos pone un juego del ahorcad
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-38.png)
 
 
-## Valoración
+<h1 name="valoracion">Valoración</h1>
+De las máquinas que he realizado esta sin ninguna ha sido de las más elaboradas. Esta bastante bien diseñada ya que aplica con casi todo lo que hemos aprendido a lo largo de este curso y cumple perfectamente con la vulnerabilidad aplicada.
