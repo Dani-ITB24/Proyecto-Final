@@ -128,6 +128,28 @@ Vemos que hay un archivo python y si lo ejecutamos nos pone un juego del ahorcad
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-38.png)
 
+Sabiendo que podemos ejecutar archivos python, vamos a hacerle que ejecute un shell para la escala de privilegios. Asi que miramos que librerias esta agarrando el archivo.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-39.png)
+
+Cogemos el nombre de alguna de esas librerias y le ponemos el codigo para hacer un shell. Y ahora ejecutamos el archivo python pero con el usuario de ampeter para escalar a ese usuario. 
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-41.png)
+
+Una vez ejecutado el archivo estamos dentro del usuario ampeter. Miramos a ver que hay dentro de donde estamos y encontramos la flag user.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-42.png)
+
+Miramos que mas tiene el usuario ampeter.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-43.png)
+
+Buscando encontramos varios directorios ".d". En un de los directorios hay varios archivos pero hay uno que destaca, que seria el archivo "hello".
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-44.png)
+
+
+
 
 <h1 name="valoracion">Valoración</h1>
 De las máquinas que he realizado esta sin ninguna ha sido de las más elaboradas. Esta bastante bien diseñada ya que aplica con casi todo lo que hemos aprendido a lo largo de este curso y cumple perfectamente con la vulnerabilidad aplicada.
