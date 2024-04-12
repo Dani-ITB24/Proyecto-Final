@@ -82,7 +82,7 @@ Bueno, la máquina es muy regular, ya que es muy fácil porque implementa muy po
 
 Primeramente, no hay flag que encontrar, cuando accedes a la web traefik encontrar las demás webs y base de datos es muy fácil.
 
-Segundamente, cuando haces login, es muy fácil acceder a al command panel y hacer la reverse Shell es muy sencilla de hacer
+Segundamente, cuando haces login, es muy fácil acceder a al command panel y hacer la reverse Shell es muy sencillo de hacer.
 
 Y todos lo demás es muy fácil.
 
