@@ -78,6 +78,11 @@ Ahora nos vamos a la pagina web y vemos que podemos acceder con el usuario con l
 
 # Feedback 
 
-Bueno la maquina es muy regular, ya que es muy facil porque implementa muy poco la vulnerabilidad 
+Bueno, la máquina es muy regular, ya que es muy fácil porque implementa muy poco la vulnerabilidad.
 
+Primeramente, no hay flag que encontrar, cuando accedes a la web traefik encontrar las demás webs y base de datos es muy fácil.
+
+Segundamente, cuando haces login, es muy fácil acceder a al command panel y hacer la reverse Shell es muy sencilla de hacer
+
+Y todos lo demás es muy fácil.
 
