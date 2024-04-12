@@ -1,6 +1,6 @@
 ## Writeup
 
-Challenge 1
+**Challenge 1**
 
 Tenemos descifrar el mensaje cifrado.
 
@@ -12,7 +12,7 @@ Tenemos descifrar el mensaje cifrado.
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/ch1.png" />
 </p>
 
-Challenge 2
+**Challenge 2**
 
 El objetivo del challange es encuentrar una palabra que al ser hasheada con MD5, resuelve el hash de la contraseña.
 
@@ -24,7 +24,8 @@ El objetivo del challange es encuentrar una palabra que al ser hasheada con MD5,
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/ch4.png" />
 </p>
 
-Challenge 4
+**Challenge 4**
+
 Decodificar un mensaje que ha sido codificado en Base64. 
  <p align="center">
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/ch5.png" />
@@ -34,7 +35,8 @@ Decodificar un mensaje que ha sido codificado en Base64.
 <img  alt="drawing" src="https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo2/Documentacion/images/ch6.png" />
 </p>
 
-Challenge 5
+**Challenge 5**
+
 Descubrir el mensaje secreto ha traves de patrones.
 
  <p align="center">
