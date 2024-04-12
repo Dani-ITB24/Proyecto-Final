@@ -105,7 +105,16 @@ Una vez ahi miramos si está el archivo de videos y nos lo descargamos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-33.png)
 
-Una vez descargado miramos que es lo que contiene el archivo.
+Una vez descargado miramos que es lo que contiene el archivo. Tiene pinta de ser una wordlist.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-34.png)
+
+Con esta nueva worldlist vamos a intentar a sacar la contraseña con msf6. Pero antes tenemos que tener ese archivo en nuestra máquina atacante.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-35.png)
+
+Y ahora realizamos el ataque de fuerza brutal.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-36.png)
+
 
