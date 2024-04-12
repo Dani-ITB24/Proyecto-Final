@@ -10,7 +10,12 @@ Samba : en samba no hemos podidio encontar nu log relevante
 
 podemos ver que se ha instalado chisel en un usuario
 
+<<<<<<< HEAD
 ![alt text](image-1.png)
+=======
+bash_history de algunos usuarios se puede encontrar que se han hecho una ejeecucion de comandos
+
+>>>>>>> 63ca1cdb432ee00cde9ee9b65fac0445c2b8d2e9
 
 En el .bash_history de lolito se puede encontrar que se han hecho una ejeecucion de comandos
 
