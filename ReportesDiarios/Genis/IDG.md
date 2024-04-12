@@ -110,6 +110,9 @@
 ## Dijous 11-04-24-
 -  Avançar  en la part forense
 
+## Divendres 12-04-24-
+-  Avançar  en la part forense
+
 
 
 
