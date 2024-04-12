@@ -35,9 +35,6 @@ Ahora vamos al segundo payload que pertence a la contraseña y hacemos los mismo
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/0d358d76-2a14-4eab-ab8a-4f10adfe9d9d)
 
 
-![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/88be17f0-9465-48f7-a6c7-2fd4f284e458)
-
-
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/b7683a85-5d8b-46ca-945f-65e9bceb6eb7)
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/6d7a722e-e14c-45d0-91e9-e2d7a5f02fd9)
