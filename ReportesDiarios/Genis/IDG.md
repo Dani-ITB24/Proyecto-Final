@@ -107,6 +107,9 @@
 ## Dimecres 10-04-24-
 -  Avançar  en la part forense
 
+## Dijous 11-04-24-
+-  Avançar  en la part forense
+
 
 
 
