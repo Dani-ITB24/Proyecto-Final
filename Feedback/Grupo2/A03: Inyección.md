@@ -18,7 +18,7 @@ Y encontramos que es un login y vemos si es vulnerable.
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/b0937ca7-b680-4dad-9f2a-0df35b2f0828)
 
-Primero entramos al buerpsuiet, lo enviamos al Intruder para realizar el ataque de fuerza bruta al login
+Primero entramos al burpsuite, lo enviamos al Intruder para realizar el ataque de fuerza bruta al login
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/99014d59-1967-4a36-93dc-f2d3f1fe8516)
 
@@ -120,3 +120,5 @@ Una vez que somos root buscamos la flag de root en "/root".
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160489903/af86bf55-40c1-465f-9836-41c1259b82d7)
 
 # Feedback
+
+* En general, la primera máquina del grupo2 está muy bien implementada, ya que usas muy bien la vulnerabilidad implementada, porque usas una manera diferente de usar el burpsuite. Las webs están muy bien gráficamente. Después acceder a los usuarios es muy fácil para lo que yo me imaginaba, y acceder a root es muy fácil.
