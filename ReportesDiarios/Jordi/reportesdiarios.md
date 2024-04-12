@@ -240,3 +240,8 @@ He crado una imagen para tener mas claro el movimiento dentro de la maquina.
 
 - Contniuar con la presentación
 - Ayudar con el forense.
+
+
+# Reporte 12 de Abril de 2024
+
+- Acabar la presentación.
