@@ -187,3 +187,7 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 9 de Abril de 2024
 
 - Documentar la maquina 2 del grupo 2 explotada del dia anterior
+
+# Reporte Diario 10 de Abril de 2024
+
+- Explotar maquinas/challenges del grupo 3 y hacer su documentacion y feedback
