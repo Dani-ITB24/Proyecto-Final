@@ -38,4 +38,4 @@ No funciona.
 
 ## Conclusión
 
-Son 4 retos. El primer reto no funciona. El segundo reto es extremadamente senzillo, simplemente pasandoselo a crackstation ya lo soluciona solo. El cuarto reto se soluciona automáticamente al ejecutar el docker. El quinto reto no funciona. Este grupo ha hecho lo que ha querido, no tiene nada que ver con lo pedido en el proyecto final, que es realizar una CTF alrededor de la vulnerabilidad asignada. Incomprendible hacer esto en dos meses.
+Son 4 retos. El primer reto no funciona. El segundo reto es extremadamente sencillo, simplemente pasándoselo a crackstation ya lo soluciona solo. El cuarto reto se soluciona automáticamente al ejecutar el docker. El quinto reto no funciona. Este grupo ha hecho lo que ha querido, no tiene nada que ver con lo pedido en el proyecto final, que es realizar una CTF alrededor de la vulnerabilidad asignada. Incomprensible hacer esto en dos meses.
