@@ -115,3 +115,4 @@ Una vez que estamos dentro vemos que encontramos y vemos que hay un txt. Vemos q
 
 
 ## Valoración
+Es una máquina que cumple perfectamente con la vulnerabilidad de injection, cumple esta vulnerabilidad de varias maneras, desde subir un archivo malicioso hasta hacer un injection en un login. A pesar de cumplir correctamente la vulnerabilidad, ha habido una cosa que me ha parecido bastante "fácil" es que las contraseñas siempre estaban cifradas de la misma manera.
