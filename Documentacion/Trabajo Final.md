@@ -318,10 +318,6 @@ Esta vulnerablidad permite al usuario subir archivos maliciosos con el fin de ob
 
 Para mitigar esta vulnerabilidad lo único que debemos hacer es sanitizar la subida de archivos, permitiendo únicamente la subida de imágenes y nada más.
 
-**Mitigación**
-
-Para mitigar esta vulnerabilidad lo único que debemos hacer es actualizar la versión.
-
 ## [Contenedor 1 Creación del CTF](#índice)
 
 Para el desarrollo del formulario hemos empleado únicamente HTML, CSS y PHP.
