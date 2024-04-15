@@ -221,20 +221,16 @@
 ## Jueves 11 de Abril 2024:
 
 - [X] Revisar documentación.
-- [ ] 
 
 ## Viernes 12 de Abril 2024:
 
-- [ ] 
-- [ ] 
-
+- [X] PowerPoint 
 
 # Semana 8 - Creación CTF:
 
 ## Lunes 15 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] PowerPoint 
 
 ## Martes 16 de Abril 2024:
 
