@@ -47,3 +47,5 @@ Se ha montado la máquina del challenge, pero ha dado problemas.
 
 
 Valoración
+
+No tengo palabras para esta "máquina". Primero se hacen unos challenges en vez de una máquina, más de la mitad de los challenges tienen problemas como que no se montan correctamente o hasta uno que se desencripta solo nada más arrancar el challenge. De cuatro challenge solamente se ha podido hacer uno y ha sido demasiado fácil, ya que solamente ha sido desencriptar una palabra y ya tener la flag.
