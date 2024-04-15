@@ -4,6 +4,8 @@
 <span style="color:black;">[ Semana 4: Preparación máquina 2](#Semana4)</span><br>
 <span style="color:black;">[ Semana 5: Preparación máquina 2](#Semana5)</span><br>
 <span style="color:black;">[ Semana 6: Probar y documentar](#Semana6)</span><br>
+<span style="color:black;">[ Semana 7: Probar y documentar](#Semana7)</span><br>
+<span style="color:black;">[ Semana 8: Creación CTF](#CTF)</span><br>
 ---
 
 <h1 name="Semana1">Semana 1: Planificación</h1>
@@ -141,7 +143,7 @@ Falta
 :white_large_square: Documentación del desarrollo de la vulnerabilidad de injection <br>
 :white_large_square: Preparación de la máquina de injection <br>
 
-<h1 name="Semana6">Semana 7: Probar y documentar</h1>
+<h1 name="Semana7">Semana 7: Probar y documentar</h1>
 <h2>Lunes 8 de abril 2024</h2>
 ✅ Preparación de la máquina de injection <br>
 :white_large_square: Documentación del desarrollo de la vulnerabilidad de injection <br>
@@ -161,3 +163,10 @@ Falta
 ## Viernes 12 de abril 2024 
 ✅ Documentación de la vulnerabilidad de A09 <br>
 ✅ Continuar con la vulnerabilidad de A09 <br>
+
+<h1 name="Semana8">Semana 8: Creación CTF</h1>
+
+<h2>Lunes 15 de abril 2024</h2>
+✅ Documentación de la vulnerabilidad de A02-Fallas_criptograficas <br>
+✅ Challenges de la A02-Fallas_criptograficas <br>
+:white_large_square: Creación de la CTF <br>
