@@ -5,11 +5,11 @@
 <span style="color:black;">3. [ Challenge 3](#Challenge3)</span><br>
 <span style="color:black;">4. [ Challenge 4](#Challenge4)</span><br>
 <span style="color:black;">4. [ Challenge1 5](#Challenge5)</span><br>
-<span style="color:black;">4. [ Valoracion](#Valoracion)</span><br>
+<span style="color:black;">4. [ Valoración](#Valoracion)</span><br>
 
 <h1 name="Challenge1">Challenge 1</h1> 
 
-Se ha intentado montar el challenge y a dado problemas para montarla.
+Se ha intentado montar el challenge y ha dado problemas para montarla.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%203/A02-Fallas_criptograficas/Assets/maqu2Grupo3-1.png)
 
@@ -41,9 +41,9 @@ Arrancamos el docker y ya se hace solo el challenge.
 
 <h1 name="Challenge5">Challenge 5</h1> 
 
-Se ha montado la maquina del challenge pero ha dado problemas.
+Se ha montado la máquina del challenge, pero ha dado problemas.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%203/A02-Fallas_criptograficas/Assets/maqu2Grupo3-7.png)
 
 
-Valoracion
+Valoración
