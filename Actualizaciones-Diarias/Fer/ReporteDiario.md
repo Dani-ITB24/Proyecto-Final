@@ -151,3 +151,13 @@ Falta
 :white_large_square: Preparación de la máquina de fallas criptográficas <br>
 
 ## Miércoles 10 de abril 2024 
+:white_large_square: Documentación de la vulnerabilidad de A09 <br>
+:white_large_square: Continuar con la vulnerabilidad de A09 <br>
+
+## Jueves 11 de abril 2024 
+:white_large_square: Documentación de la vulnerabilidad de A09 <br>
+:white_large_square: Continuar con la vulnerabilidad de A09 <br>
+
+## Viernes 12 de abril 2024 
+✅ Documentación de la vulnerabilidad de A09 <br>
+✅ Continuar con la vulnerabilidad de A09 <br>

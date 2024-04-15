@@ -1,5 +1,8 @@
 <h1>A09-Fallas en el Registro y Monitoreo</h1>
 
+<span style="color:black;">[ Valoración](#valoracion)</span><br>
+
+
 Miramos a ver que puertos estan abiertos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-2.png)
@@ -85,10 +88,69 @@ En la máquina de la víctima estableceremos la conexión con el chisel para red
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-27.png)
 
-Cuando esten conectados veremos que nos dice que ya esta escuchando ese puerto.
+Cuando estén conectados veremos que nos dice que ya está escuchando ese puerto.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-28.png)
 
-Ahora con msf6 haremos un ataque de fuerza bruta, para el atque le ponemos la ip de la victima y la wordlist que usaremos para ello. 
+Ahora con msf6 haremos un ataque de fuerza bruta, para el ataque le ponemos la ip de la víctima y la wordlist que usaremos para ello.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-30.png)
+
+Esperamos una par de minutos hasta que de con la contraseña. Después de un rato vemos que ha encontrado la contraseña que es "lamborghini".
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-31.png)
+
+Ahora siendo usuario thegrefg vamos a intentar acceder con smb para ver los recursos del usuario lolito.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-32.png)
+
+Una vez ahi miramos si está el archivo de videos y nos lo descargamos.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-33.png)
+
+Una vez descargado miramos que es lo que contiene el archivo. Tiene pinta de ser una wordlist.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-34.png)
+
+Con esta nueva worldlist vamos a intentar a sacar la contraseña con msf6. Pero antes tenemos que tener ese archivo en nuestra máquina atacante.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-35.png)
+
+Y ahora realizamos el ataque de fuerza brutal. Y descubrimos su contraseña.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-36.png)
+
+Ahora nos conectaremos con esa contraseña.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-37.png)
+
+Vemos que hay un archivo python y si lo ejecutamos nos pone un juego del ahorcado.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-38.png)
+
+Sabiendo que podemos ejecutar archivos python, vamos a hacerle que ejecute un shell para la escala de privilegios. Asi que miramos que librerias esta agarrando el archivo.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-39.png)
+
+Cogemos el nombre de alguna de esas librerias y le ponemos el codigo para hacer un shell. Y ahora ejecutamos el archivo python pero con el usuario de ampeter para escalar a ese usuario. 
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-41.png)
+
+Una vez ejecutado el archivo estamos dentro del usuario ampeter. Miramos a ver que hay dentro de donde estamos y encontramos la flag user.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-42.png)
+
+Miramos que mas tiene el usuario ampeter.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-43.png)
+
+Buscando encontramos varios directorios ".d". En un de los directorios hay varios archivos pero hay uno que destaca, que seria el archivo "hello".
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-44.png)
+
+Ahora volvemos al home del usuario y una vez ahi vamos creamos un archivo malicioso que para usar la opcion checkpoint-action-exec para poder escalar como root.
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-45.png)
+
+<h1 name="valoracion">Valoración</h1>
+De las máquinas que he realizado esta sin ninguna ha sido de las más elaboradas. Esta bastante bien diseñada ya que aplica con casi todo lo que hemos aprendido a lo largo de este curso y cumple perfectamente con la vulnerabilidad aplicada.
