@@ -46,6 +46,6 @@ Se ha montado la máquina del challenge, pero ha dado problemas.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%203/A02-Fallas_criptograficas/Assets/maqu2Grupo3-7.png)
 
 
-<h1 name="Valoracion">Valoración</h1>  Valoración
+<h1 name="Valoracion">Valoración</h1>
 
 No tengo palabras para esta "máquina". Primero se hacen unos challenges en vez de una máquina, más de la mitad de los challenges tienen problemas como que no se montan correctamente o hasta uno que se desencripta solo nada más arrancar el challenge. De cuatro challenge solamente se ha podido hacer uno y ha sido demasiado fácil, ya que solamente ha sido desencriptar una palabra y ya tener la flag.
