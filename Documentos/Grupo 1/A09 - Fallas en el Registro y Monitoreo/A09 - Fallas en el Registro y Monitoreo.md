@@ -148,8 +148,9 @@ Buscando encontramos varios directorios ".d". En un de los directorios hay vario
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-44.png)
 
+Ahora volvemos al home del usuario y una vez ahi vamos creamos un archivo malicioso que para usar la opcion checkpoint-action-exec para poder escalar como root.
 
-
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-45.png)
 
 <h1 name="valoracion">Valoración</h1>
 De las máquinas que he realizado esta sin ninguna ha sido de las más elaboradas. Esta bastante bien diseñada ya que aplica con casi todo lo que hemos aprendido a lo largo de este curso y cumple perfectamente con la vulnerabilidad aplicada.
