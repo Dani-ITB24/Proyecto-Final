@@ -161,4 +161,9 @@ No se a podido solucionar los errores del rsyslog y no se a podido implementar e
 
 ## 11/03/24 Reporte Diario
 - [ ] Documentación de explotación de la primera maquina del grupo3
-- [ ] Realizasción de los chanllege X de la segunda maquina del grupo3
+- [ ] Realización de los challenge X de la segunda maquina del grupo3
+
+## 12/03/24 Reporte Diario
+- [X] Documentación de explotación de la primera maquina del grupo3
+- [X] Realización de los challenge X de la segunda maquina del grupo3
+- [X] Feeback de la la primera maquina del grupo3
