@@ -113,6 +113,8 @@
 ## Divendres 12-04-24-
 -  Avançar  en la part forense
 
+## Dimarts 16-04-24-
+-  Avançar  en la part forense de la maquina 1
 
 
 
