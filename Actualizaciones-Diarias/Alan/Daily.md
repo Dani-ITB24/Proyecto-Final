@@ -234,13 +234,12 @@
 
 ## Martes 16 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] PowerPoint 
 
 ## Miércoles 17 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] PowerPoint
+- [X] Ensayo de la presentación 
 
 ## Jueves 18 de Abril 2024:
 
