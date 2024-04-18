@@ -645,6 +645,9 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 <img  alt="drawing" src="./images/flagRoot.png" />
 </p>
 
+# [Contenedor 1 Mejoras Finales ](#índice)
+
+asdasd
 
 # [Contenedor 2 Fallas de Identificación y Autenticación](#índice)
 
@@ -868,3 +871,7 @@ Meto una reverse shell ya que encuentro una nota indicando que el script se ejec
 Finalmente obtengo la flag root.txt:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/e7ed8919-3a61-4065-9d6c-854bea1f52bd)
+
+# [Contenedor 2 Mejoras Finales ](#índice)
+
+asdasd
