@@ -653,22 +653,15 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 
 2. Modificación de escalada de privilegios
 
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/db1fa393-b2cc-48bd-a064-d5e3db9e8034)
-   
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/594d2de3-5187-4b47-82f9-aae575387b3e)
-   
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/17d3c905-fa4a-440b-b130-640e4bb90d01)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/cf4bd8e2-9fa6-42ed-af5a-dcc67e24f09c)
 
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/44d0fa1a-eac5-4671-9811-b449576f94d7)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/daa9a3e6-f5ce-423e-91e9-3062f294022e)
 
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/d111a0dc-c5bf-47af-b439-c27792e7e26c)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/26367c0c-84ad-4a0b-bac0-dd34f54b5afd)
 
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/110e8950-f98c-4f05-818f-83c85bcc3883)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/11bdf826-1081-434b-b300-7d23b849bd46)
 
-
-
-
-
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4e429893-d31a-4d1b-8d75-fec34ef23024)
 
  
 
