@@ -890,4 +890,15 @@ Finalmente obtengo la flag root.txt:
 
 # [Contenedor 2 Mejoras Finales ](#índice)
 
+1. Eliminar hashes de contraseñas de la base de datos:
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/8861ac10-051f-494e-bfc8-7ca48675875d)
+
+2. Redireccionamos el .bash_hisroty de todos los usuarios a /deev/null:
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/aae15089-4e3f-4d78-b90f-1cb6c86415fb)
+
+3. Eliminamos la pista .secret_note del usuario "pedro":
+
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/0809df98-3819-49cd-be63-917e23b6b289)
 
