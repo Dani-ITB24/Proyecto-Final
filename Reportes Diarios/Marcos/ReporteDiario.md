@@ -191,3 +191,11 @@ Durante el dia de hoy he realizado las siguientes tareas:
 # Reporte Diario 10 de Abril de 2024
 
 - Explotar maquinas/challenges del grupo 3 y hacer su documentacion y feedback
+
+# Reporte Diario 18 de Abril de 2024
+
+- Implementar maquina 2 en ingles
+
+- Crear dockerFile para maquina 2
+
+- Buscar alternativas a CTFD
