@@ -1,4 +1,7 @@
-FROM marcositb/grupo4_software_failures:version_Final as g4maquina2
+FROM marcositb/grupo4_software_failures:versionFinalIngles
 
 # Exponer puertos: 80 para Apache, 3306 para MariaDB
 EXPOSE 80 3306
+
+CMD service mariadb start && service apache2 start
+
