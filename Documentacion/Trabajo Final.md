@@ -647,7 +647,30 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 
 # [Contenedor 1 Mejoras Finales ](#índice)
 
-asdasd
+1. Redireccionamiento .bash_history a /dev/null en usuarios: pastorPaco, pastorJose, granjero, root
+
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b313b2e1-16d6-4195-addb-1c108de4f0e5)
+
+2. Modificación de escalada de privilegios
+
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/db1fa393-b2cc-48bd-a064-d5e3db9e8034)
+   
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/594d2de3-5187-4b47-82f9-aae575387b3e)
+   
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/17d3c905-fa4a-440b-b130-640e4bb90d01)
+
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/44d0fa1a-eac5-4671-9811-b449576f94d7)
+
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/d111a0dc-c5bf-47af-b439-c27792e7e26c)
+
+   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/110e8950-f98c-4f05-818f-83c85bcc3883)
+
+
+
+
+
+
+ 
 
 # [Contenedor 2 Fallas de Identificación y Autenticación](#índice)
 
@@ -874,4 +897,4 @@ Finalmente obtengo la flag root.txt:
 
 # [Contenedor 2 Mejoras Finales ](#índice)
 
-asdasd
+
