@@ -10,7 +10,7 @@ Telnet: de telnet no se ha podido encontrar ningun log ni nada
 
 Samba : en samba no hemos podidio encontar nu log relevante
 
-En el ususario thgrefg podemos ver que se ha instalado chisel en un usuario
+En el ususario thegrefg podemos ver que se ha instalado chisel en un usuario
 
 ![alt text](image-1.png)
 
