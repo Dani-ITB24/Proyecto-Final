@@ -1,0 +1,6 @@
+FROM marcositb/grupo4_insecure_design:versionFinalIngles
+
+# Exponer puertos: 80 para Apache, 3306 para MariaDB
+EXPOSE 80 20 21 22
+
+CMD service apache2 start && service vsftpd start && /usr/sbin/sshd -D
