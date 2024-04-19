@@ -10,20 +10,11 @@ Telnet: de telnet no se ha podido encontrar ningun log ni nada
 
 Samba : en samba no hemos podidio encontar nu log relevante
 
-podemos ver que se ha instalado chisel en un usuario
+En el ususario thgrefg podemos ver que se ha instalado chisel en un usuario
 
 ![alt text](image-1.png)
 
-bash_history de algunos usuarios se puede encontrar que se han hecho una ejeecucion de comandos
 
-En el .bash_history de lolito se puede encontrar que se han hecho una ejeecucion de comandos
-
-![alt text](image-3.png)
-
-En el .bash_history de ampeter se puede encontrar que se han hecho una ejeecucion de comandos
-
-![alt text](image-4.png)
-
- i con los documentos creados
+ En el ususario ampeter podemos ver los documentos creados y usados prar el esploit
 
  ![alt text](image-5.png)
