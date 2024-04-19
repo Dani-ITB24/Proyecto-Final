@@ -297,6 +297,8 @@ sudo apt install php php-mysql
 
 # [Contenedor Número 1 Inyección](#índice)
 
+Enlace Dockerhub: https://hub.docker.com/r/joanescitb/injection
+
 El sistema operativo utilizado para el desarrollo de este primer contenedor es Ubuntu Server 22.04. La vulnerabilidad elegida ha sido SQL Injection. Es por ello que el desarrollo de esta estará basado en un formulario cuyos campos serán vulnerables a este tipo de ataque. 
 
 <p align="center">
@@ -668,6 +670,8 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 
  
 # [Contenedor 2 Fallas de Identificación y Autenticación](#índice)
+
+Enlace Dockerhub: https://hub.docker.com/r/joanescitb/broken
 
 El sistema operativo utilizado para el desarrollo de este segundo contenedor es Ubuntu Server 22.04. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. Es por ello que el desarrollo de esta estará basado en una contraseña débil.
 
