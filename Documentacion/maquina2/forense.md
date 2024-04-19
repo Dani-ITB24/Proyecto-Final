@@ -14,6 +14,9 @@ En el ususario thegrefg podemos ver que se ha instalado chisel en un usuario
 
 ![alt text](image-1.png)
 
+En el ususario lolito  podemos ver los documentos .py
+
+![alt text](image-6.png)
 
  En el ususario ampeter podemos ver los documentos creados y usados prar el esploit
 
