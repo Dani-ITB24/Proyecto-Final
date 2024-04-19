@@ -199,3 +199,9 @@ Durante el dia de hoy he realizado las siguientes tareas:
 - Crear dockerFile para maquina 2
 
 - Buscar alternativas a CTFD
+
+# Reporte Diario 19 de Abril de 2024
+
+- Creación Google Forms como alternativa a CTFD
+
+- Correción estructura GitHub
