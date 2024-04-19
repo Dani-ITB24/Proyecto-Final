@@ -650,11 +650,11 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 
 # [Contenedor 1 Mejoras Finales](#índice)
 
-1. Redireccionamiento .bash_history a /dev/null en usuarios: pastorPaco, pastorJose, granjero, root
+1. Redireccionamos el archivo .bash_history a /dev/null en todos los usuarios: pastorPaco, pastorJose, granjero, root:
 
-   ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b313b2e1-16d6-4195-addb-1c108de4f0e5)
+![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/b313b2e1-16d6-4195-addb-1c108de4f0e5)
 
-2. Modificación de escalada de privilegios
+2. Modificamos el método de escalado de privilegios para aumentar la dificultad:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/cf4bd8e2-9fa6-42ed-af5a-dcc67e24f09c)
 
@@ -667,7 +667,6 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/4e429893-d31a-4d1b-8d75-fec34ef23024)
 
  
-
 # [Contenedor 2 Fallas de Identificación y Autenticación](#índice)
 
 El sistema operativo utilizado para el desarrollo de este segundo contenedor es Ubuntu Server 22.04. La vulnerabilidad elegida ha sido Fallas de Identificación y Autenticación. Es por ello que el desarrollo de esta estará basado en una contraseña débil.
@@ -893,15 +892,15 @@ Finalmente obtengo la flag root.txt:
 
 # [Contenedor 2 Mejoras Finales](#índice)
 
-1. Eliminar hashes de contraseñas de la base de datos:
+1. Eliminamos hashes de contraseñas de la base de datos:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/8861ac10-051f-494e-bfc8-7ca48675875d)
 
-2. Redireccionamos el .bash_hisroty de todos los usuarios a /deev/null:
+2. Redireccionamos el .bash_history de todos los usuarios a /dev/null:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/aae15089-4e3f-4d78-b90f-1cb6c86415fb)
 
-3. Eliminamos la pista .secret_note del usuario "pedro":
+3. Eliminamos la pista .secret_note de la home del usuario "pedro" para aumentar la dificultad:
 
 ![image](https://github.com/Dani-ITB24/Proyecto-Final/assets/160496051/0809df98-3819-49cd-be63-917e23b6b289)
 
