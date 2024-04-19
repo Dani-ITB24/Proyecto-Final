@@ -14,6 +14,7 @@
     - [Contenedor 1 Creación del CTF](#Contenedor-1-creación-del-ctf)
     - [Contenedor 1 Análisis del Contenedor una vez explotado](#Contenedor-1-análisis-del-contenedor-una-vez-explotado)
     - [Contenedor 1 Walkthrough](#Contenedor-1-walkthrough)
+    - [Contenedor 1 Mejoras Finales](#Contenedor-1-mejoras-finales)
 
 
 9. [Desarrollo Contenedor Número 2 - Fallas de Identificación y Autenticación](#contenedor-número-2-fallas-de-identificación-y-autenticación)
@@ -21,6 +22,8 @@
     - [Contenedor 2 Creación del CTF](#Contenedor-2-creación-del-ctf)
     - [Contenedor 2 Análisis del Contenedor una vez explotado](#Contenedor-2-análisis-del-contenedor-una-vez-explotado)
     - [Contenedor 2 Walkthrough](#Contenedor-2-walkthrough)
+    - [Contenedor 2 Mejoras Finales](#Contenedor-2-mejoras-finales)
+
 
 
 # [Introducción](#índice)
@@ -645,7 +648,7 @@ Y finalmente encontramos la flag root.txt en el directorio  /root:
 <img  alt="drawing" src="./images/flagRoot.png" />
 </p>
 
-# [Contenedor 1 Mejoras Finales ](#índice)
+# [Contenedor 1 Mejoras Finales](#índice)
 
 1. Redireccionamiento .bash_history a /dev/null en usuarios: pastorPaco, pastorJose, granjero, root
 
@@ -888,7 +891,7 @@ Finalmente obtengo la flag root.txt:
 
 ![imagen](https://github.com/Dani-ITB24/Proyecto-Final/assets/99719204/e7ed8919-3a61-4065-9d6c-854bea1f52bd)
 
-# [Contenedor 2 Mejoras Finales ](#índice)
+# [Contenedor 2 Mejoras Finales](#índice)
 
 1. Eliminar hashes de contraseñas de la base de datos:
 
