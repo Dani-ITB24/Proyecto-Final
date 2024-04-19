@@ -1,5 +1,7 @@
 # Walkthrough
 
+https://forms.gle/HVEMKHVRdZmjABqh9
+
 ## Recognition
 
 Empezamos haciendo un nmap para descubrir los puertos abiertos. Vemos que tiene 5 puertos abiertos, uno es telnet por el puerto 23 y los otros no sabemos lo que son, así que vamos a investigar.

@@ -31,3 +31,9 @@ Hemos redirigido el bash_history de los dos usuarios para que no quede registro 
 ## CVE implementado
 
 Hemos implementado el CVE-2024-1086. De esta forma hay dos caminos para poder escalar privilegios.
+
+## Verificador de flags
+
+Máquina A05: https://forms.gle/v2TMhwGxMoh9f8KTA
+
+Máquina A09: https://forms.gle/HVEMKHVRdZmjABqh9

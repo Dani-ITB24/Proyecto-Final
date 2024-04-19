@@ -1,5 +1,7 @@
 # Walkthrough
 
+https://forms.gle/v2TMhwGxMoh9f8KTA
+
 ## Recognition 
 
 ``We start doing an nmap to discover the ports that are open. We see that it has 3 ports, ftp, ssh, http. And we see that the versions of the services are up to date and are not vulnerable.``
