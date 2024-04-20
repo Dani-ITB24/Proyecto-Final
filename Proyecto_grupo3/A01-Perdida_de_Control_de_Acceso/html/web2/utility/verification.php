@@ -20,11 +20,12 @@
     $PASS_FORM = $_POST["sPassword"];
     $PASS_VULN = $_POST["sPassword2"];
 
-    if (isset($PASS_VULN)) { 
+    if (isset($PASS_VULN) AND $USER_FORM == "voldemort-master") { 
         echo "user valid -- recuperado";
         echo "<br />";
         session_start();
         $_SESSION["Ussr"] = $_POST["sUser"];
+        $_SESSION["Alert"] = "Insecure";
         echo "Session var is: " . $_SESSION["Ussr"];
         echo "<br />";
         //
@@ -37,6 +38,11 @@
 
     if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
+        if (isset($PASS_VULN)) { 
+            echo "Invalid Recuperation";
+            header("Location:../pagines/login.php?err=4");
+            exit();
+        }
         if ($PASS_FORM == $row['passwd']) {
         //if (password_verify($PASS_FORM,$row['Pass'])) {
             echo "user valid";
@@ -47,17 +53,7 @@
             echo "<br />";
             //
             header("Location:../pagines/home.php");
-        } elseif (isset($PASS_VULN)) { 
-            echo "user valid -- recuperado";
-            echo "<br />";
-            session_start();
-            $_SESSION["Ussr"] = $_POST["sUser"];
-            echo "Session var is: " . $_SESSION["Ussr"];
-            echo "<br />";
-            //
-            header("Location:../pagines/home.php");
         } else {
-
             echo "Invalid Password";
             header("Location:../pagines/login.php?err=1");
             exit();

@@ -19,31 +19,31 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
-   <body class="w3-gray">
-   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-         <a class="w3-bar-item w3-button w3-padding-large">
+<body class="w3-cyan">
+   <nav class="w3-bar w3-blue">
+         <a class="w3-bar-item w3-button">
             <i class="fa fa-home w3-xxlarge"></i>
         </a>
-        <a href="home.php" class="w3-bar-item w3-button w3-padding-large">
+        <a href="home.php" class="w3-bar-item w3-button">
             <i class="fa fa-home w3-xxlarge"></i>
             <p>Home</p>
         </a>
-        <a class="w3-bar-item w3-button w3-padding-large">
+        <a class="w3-bar-item w3-button">
             <i class="fa fa-home w3-xxlarge"></i>
         </a>
         <?php
         session_start();
         if (isset($_SESSION['Ussr'])){
-                echo "<a href='admin.php' class='w3-bar-item w3-button w3-padding-large w3-black'>";
+                echo "<a href='admin.php' class='w3-bar-item w3-button w3-black'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
-                echo "<p>shrek-master</p>";
+                echo "<p>voldemort-master</p>";
                 echo "</a>";
-                echo "<a href='logout.php' class='w3-bar-item w3-button w3-padding-large'>";
+                echo "<a href='logout.php' class='w3-bar-item w3-button'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
                 echo "<p>LOGOUT</p>";
                 echo "</a>";
             } else { 
-                echo "<a href='login.php' class='w3-bar-item w3-button w3-padding-large'>";
+                echo "<a href='login.php' class='w3-bar-item w3-button'>";
                 echo "<i class='fa fa-home w3-xxlarge'></i>";
                 echo "<p>LOGIN</p>";
                 echo "</a>";
@@ -52,7 +52,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </nav>
 
     <div class="w3-padding-large" id="main">
-        <div class="w3-container w3-dark-grey">
+        <div class="w3-container w3-teal">
         <?php
             // Check for our Session
             if (isset($_SESSION['Ussr'])){

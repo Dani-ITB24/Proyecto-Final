@@ -1,0 +1,6 @@
+User-agent: voldemort-master
+Allow: /
+
+User-agent: *
+Crawl-delay: 20
+Disallow: /secret/
