@@ -7,6 +7,8 @@
 <span style="color:black;">5. [ Desarrollo de la web Tomcat](#webtomcat)</span><br>
 <span style="color:black;">6. [ Escalado de privilegios](#Escalado)</span><br>
 <span style="color:black;">7. [ Problemas encontrados en el desarrollo](#Problemas)</span><br>
+<span style="color:black;">8. [ Actualizaciones](#Actualizaciones)</span><br>
+
 ---
 
 <br>
@@ -157,3 +159,6 @@ Así que optamos por descargarnos el código fuente y luego instalarlo. Así que
 Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin éxito alguno. Así que decidimos comprobar que versión estaba instalada y al comprobarlo vimos la versión correcta. Pero tras realizar varias pruebas no se pudo explotar esta vulnerabilidad con exito.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/problema-sudo2.png)
+
+<h1 name="Actualizaciones">8. Actualizaciones</h1>
+
