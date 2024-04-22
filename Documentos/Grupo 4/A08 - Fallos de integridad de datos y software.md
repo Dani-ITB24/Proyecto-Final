@@ -146,8 +146,3 @@ Tras subir la reverse shell y conseguir acceder al sistema después de tanto tra
 Y por segunda vez, para escalar de privilegios se opta por GTFOBins y escalamos directamente de www-data a root.
 
 Hubiera preferido un movimiento lateral para alargar más la fase media y final de la CTF. Buen trabajo.
-
-
-
-
-<br>

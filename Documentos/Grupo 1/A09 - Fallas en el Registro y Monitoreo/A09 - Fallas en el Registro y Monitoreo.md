@@ -3,7 +3,7 @@
 <span style="color:black;">[ Valoración](#valoracion)</span><br>
 
 
-Miramos a ver que puertos estan abiertos.
+Miramos a ver que puertos están abiertos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-2.png)
 
@@ -32,11 +32,11 @@ En el archivo python se ha mirado que hacia exactamente. Se ha visto que si se a
 Se ha añadido ese texto a la url y hemos podido vulnerar la aplicación.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-10.png)
 
-Se ha dado al botón iniciado sesión y se ha podido entrar al inicio de la aplicación sin necesidad de credenciales. Dentro de la aplicacion se han encontrado los usuarios registrados y la impresora que usan.
+Se ha dado al botón iniciado sesión y se ha podido entrar al inicio de la aplicación sin necesidad de credenciales. Dentro de la aplicación se han encontrado los usuarios registrados y la impresora que usan.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-11.png)
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-12.png)
 
-Se estuvo mirando los datos de los usuarios creados y ninguno tiene informacion que nos valga la pena. Asi que nos quedaba la impresora, pero nos lo bloquea un aviso. Se pulso el boton de "más inforamación" y nos lleva a una pagina sin salida. Asi que se ha optado por eliminar el div que nos bloqueba.
+Se estuvo mirando los datos de los usuarios creados y ninguno tiene información que nos valga la pena. Asi que nos quedaba la impresora, pero nos lo bloquea un aviso. Se pulso el botón de "más información" y nos lleva a una pagina sin salida. Asi que se ha optado por eliminar el div que nos bloqueaba.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-13.png)
 
@@ -50,7 +50,7 @@ Al ver que puertos estaban escuchando, se vio que estaba el puerto 23 que suele 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-16.png)
 
-Ahora que estamos dentro, vamos a ver que servicios estan corriendo.
+Ahora que estamos dentro, vamos a ver que servicios están corriendo.
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-17.png)
 
 Vemos que el puerto 139 esta escuchando, se ha visto que este puerto lo suele usar smbClient. Se ha mirado si estaba instalado y de ser asi ver la version del samba que esta instalada. No se ha encontrado ninguna vulnerabilidad para la version que tiene en ubuntu.
@@ -70,7 +70,7 @@ Ahora ya sabemos donde esta ubicado el directorio "videos". Accedemos al directo
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-21.png)
 
-Ahora descargaremos chisel para crear una conexion entre la máquina atacante y máquina victima.
+Ahora descargaremos chisel para crear una conexión entre la máquina atacante y máquina victima.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-25.png)
  
@@ -128,11 +128,11 @@ Vemos que hay un archivo python y si lo ejecutamos nos pone un juego del ahorcad
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-38.png)
 
-Sabiendo que podemos ejecutar archivos python, vamos a hacerle que ejecute un shell para la escala de privilegios. Asi que miramos que librerias esta agarrando el archivo.
+Sabiendo que podemos ejecutar archivos python, vamos a hacerle que ejecute un shell para la escala de privilegios. Asi que miramos que librerías esta agarrando el archivo.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-39.png)
 
-Cogemos el nombre de alguna de esas librerias y le ponemos el codigo para hacer un shell. Y ahora ejecutamos el archivo python pero con el usuario de ampeter para escalar a ese usuario. 
+Cogemos el nombre de alguna de esas librerías y le ponemos el código para hacer un shell. Y ahora ejecutamos el archivo python pero con el usuario de ampeter para escalar a ese usuario. 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Documentos/Grupo%201/A09%20-%20Fallas%20en%20el%20Registro%20y%20Monitoreo/Assets/maq2A09-41.png)
 
