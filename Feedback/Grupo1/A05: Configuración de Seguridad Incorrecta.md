@@ -195,4 +195,4 @@ Ahora buscamos la flag de root, que se encuentra /root con el nombre de root.txt
 
 # Feedback
 
-* En general la primera maquina del grupo1 está muy bien implementada ya que usas muchos conceptos que hemos usado a lo largo del curso. Tanto como la maquina web y la estructura del servidor bien implementada. La maquina no están facil pero tampoco es dificil. Ya que todo es un poco rebuscado, haciendolo más entretenido a la hora de realizarlo.
+* En general, la primera máquina del grupo1 está muy bien implementada, ya que usas muchos conceptos que hemos usado a lo largo del curso. Tanto como la máquina web y la estructura del servidor bien implementada. La máquina no está fácil, pero tampoco es difícil. Puesto que todo es un poco rebuscado, haciéndolo más entretenido a la hora de realizarlo.
