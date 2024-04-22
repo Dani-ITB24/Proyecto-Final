@@ -183,7 +183,7 @@ Necesitaremos tener instalado el **.NET** para Windows, ya que utilizaremos el c
 
 [Descargar .NET Para Windows](https://dotnet.microsoft.com/es-es/download)
 
-También clonaremos el siguiente repositorio de github [keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper)
+También clonaremos el siguiente repositorio de github [keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper), el cual es necesario para extraer la contraseña maestra de KeePass.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
