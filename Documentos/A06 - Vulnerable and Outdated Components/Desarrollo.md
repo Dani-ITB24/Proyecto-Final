@@ -162,7 +162,7 @@ Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin
 
 <h1 name="Actualizaciones">8. Actualizaciones</h1>
 
-Hemos aplicado la CVE 2023-32784, la cual se aprovecha del programa gestor de contraseñas **KeePass**, para poder descubrir la contraseña maestra y asi poder ver las contraseñas almacenadas en el archivo.
+Hemos aplicado la CVE 2023-32784, la cual se aprovecha del programa gestor de contraseñas **KeePass**, para poder descubrir la contraseña maestra y asi poder ver las contraseñas almacenadas en el archivo. Dentro de nuestro archivo se encontrara la contraseña para el nuevo usuario **jose**, el cual tendra la capacidad de escalar a **root**.
 <br>
 
 https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-32784
