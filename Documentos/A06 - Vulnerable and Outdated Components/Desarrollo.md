@@ -173,7 +173,8 @@ https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-3278
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/sudoers.png) <br>
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockerc.png) <br>
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/home-pepe.png) <br>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/password_keepass.png) <br>
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ls-database.png) <br>
 
 
 
