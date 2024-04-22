@@ -224,29 +224,44 @@
 
 ## Viernes 12 de Abril 2024:
 
-- [X] PowerPoint 
+- [X] PowerPoint. 
 
 # Semana 8 - Creación CTF:
 
 ## Lunes 15 de Abril 2024:
 
-- [X] PowerPoint 
+- [X] PowerPoint. 
 
 ## Martes 16 de Abril 2024:
 
-- [X] PowerPoint 
+- [X] PowerPoint.
 
 ## Miércoles 17 de Abril 2024:
 
-- [X] PowerPoint
-- [X] Ensayo de la presentación 
+- [X] PowerPoint.
+- [X] Ensayo de la presentación.
 
 ## Jueves 18 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Ensayo de la presentación.
 
 ## Viernes 19 de Abril 2024:
 
-- [ ] 
-- [ ] 
+- [X] Presentación en Grail.
+
+
+
+# Semana 9 - :
+
+## Lunes 15 de Abril 2024:
+
+- [X] PowerPoint. 
+
+## Martes 16 de Abril 2024:
+
+- [X] PowerPoint.
+
+## Miércoles 17 de Abril 2024:
+
+- [X] PowerPoint.
+- [X] Ensayo de la presentación.
