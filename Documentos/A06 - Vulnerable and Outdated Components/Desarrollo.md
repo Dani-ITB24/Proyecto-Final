@@ -179,6 +179,12 @@ Configuración de las credenciales del usuario **jose**.
 
 Para aprovecharnos de esta vulnerabilidad primero tendremos que conseguir el volcado de memoria de KeePass. Para esto será necesario tener el programa en ejecución. Una vez lo tengamos abierto, abriremos el administrador de tareas, y en la ventana de proceso haremos clic derecho sobre **KeePass** > **Crear archivo de volcado de memoria**.
 
+Necesitaremos tener instalado el **.NET** para Windows, ya que utilizaremos el comando **dotnet** para dumpear la contraseña maestra de KeePass.
+
+[Descargar .NET Para Windows](https://dotnet.microsoft.com/es-es/download)
+
+También clonaremos el siguiente repositorio de github [keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper)
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
 
