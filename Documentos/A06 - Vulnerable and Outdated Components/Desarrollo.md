@@ -194,6 +194,7 @@ Tendremos que mover este archivo del volcado de memoria al directorio del reposi
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/cmd.png) <br>
 
 Abrimos la terminal y nos movemos hasta el directorio del repositorio descargado de github con el volcado de memoria de KeePass.
+Ejecutamos el comando: **dotnet run KeePass.DMP**
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
