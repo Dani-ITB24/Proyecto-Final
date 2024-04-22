@@ -162,7 +162,9 @@ Una vez instalado esa versión de sudo, intentamos aplicar la vulnerabilidad sin
 
 <h1 name="Actualizaciones">8. Actualizaciones</h1>
 
-CVE-2023-32784
+Hemos aplicado la CVE 2023-32784, la cual se aprovecha del programa gestor de contraseñas **KeePass**, para poder descubrir la contraseña maestra y asi poder ver las contraseñas almacenadas en el archivo.
+<br>
+
 https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-32784
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/password_keepass.png) <br>
