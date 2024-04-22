@@ -168,13 +168,32 @@ Hemos aplicado la CVE 2023-32784, la cual se aprovecha del programa gestor de co
 [Información sobre CVE 2023-32784](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-32784)
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/password_keepass.png) <br>
+
+Contraseña maestra del KeePass.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/jose.png) <br>
+
+Configuración de las credenciales del usuario **jose**.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/volcado.png) <br>
+
+Para aprovecharnos de esta vulnerabilidad primero tendremos que conseguir el volcado de memoria de KeePass. Para esto será necesario tener el programa en ejecución. Una vez lo tengamos abierto, abriremos el administrador de tareas, y en la ventana de proceso haremos clic derecho sobre **KeePass** > **Crear archivo de volcado de memoria**.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
+
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/sudoers.png) <br>
+
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockerc.png) <br>
+
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockercp.png) <br>
+
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ls-database.png) <br>
+
+
 
 
 
