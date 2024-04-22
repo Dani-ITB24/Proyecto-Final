@@ -187,7 +187,7 @@ También clonaremos el siguiente repositorio de github [keepass-password-dumper]
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/repositorio.png) <br>
 
-El archivo que conseguiremos del volcado de memoria será **
+El archivo que conseguiremos del volcado de memoria será **KeePass.DMP**. Tendremos que mover este archivo del volcado de memoria al directorio del repositorio de github que acabamos de descargar.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
