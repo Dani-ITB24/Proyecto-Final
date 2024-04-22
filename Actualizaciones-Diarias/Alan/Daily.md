@@ -253,7 +253,7 @@
 
 # Semana 9 - Mejorar el proyecto:
 
-## Lunes 15 de Abril 2024:
+## Lunes 22 de Abril 2024:
 
 - [X] Investigación sobre CVE's de 2023.
 - [X] Investigar sobre CVE-2023-32784 (KeyPass).
@@ -261,11 +261,11 @@
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/volcado.png) <br>
 
-## Martes 16 de Abril 2024:
+## Martes 23 de Abril 2024:
 
-- [X] PowerPoint.
 
-## Miércoles 17 de Abril 2024:
 
-- [X] PowerPoint.
-- [X] Ensayo de la presentación.
+## Miércoles 24 de Abril 2024:
+
+
+
