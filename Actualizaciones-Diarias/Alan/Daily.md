@@ -101,6 +101,7 @@
 
 - [X] Corrección de errores Docker. 
 
+
 # Semana 4 - Preparación máquina 2:
 
 ## Lunes 11 de Marzo 2024:
