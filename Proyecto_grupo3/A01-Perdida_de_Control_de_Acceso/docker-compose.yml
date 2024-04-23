@@ -3,15 +3,13 @@ version: '3.8'
 services:
   pino-php:
     container_name: web1
-    build: ./
-    volumes:
-      - ./config/web1.conf:/etc/apache2/sites-enabled/000-default.conf
-      - ./html/web1:/var/www/html/web1
+    build:
+      context: ./wordpress/
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.pino-wordpress.rule=Host(`pino-php.local`)"
-      - "traefik.http.routers.pino-wordpress.entrypoints=websecure"
-      - "traefik.http.routers.pino-wordpress.tls=true"
+      - "traefik.http.routers.pino-wordpress.entrypoints=web"
+#      - "traefik.http.routers.pino-wordpress.tls=true"
     depends_on:
       - traefik
 
@@ -24,8 +22,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.arbusto-php.rule=Host(`arbusto-php.local`)"
-      - "traefik.http.routers.arbusto-php.entrypoints=websecure"
-      - "traefik.http.routers.arbusto-php.tls=true"
+      - "traefik.http.routers.arbusto-php.entrypoints=web"
+#      - "traefik.http.routers.arbusto-php.tls=true"
     depends_on:
       - db
       - traefik
@@ -47,7 +45,7 @@ services:
     image: traefik:v2.0
     command:
       - --entrypoints.web.address=:80
-      - --entrypoints.websecure.address=:443
+#      - --entrypoints.websecure.address=:443
       - --providers.docker=true
       #- --providers.file.directory=/etc/traefik/dynamic_conf
       - --api.insecure=true
