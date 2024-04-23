@@ -198,6 +198,8 @@ Ejecutamos el comando: **dotnet run KeePass.DMP**
 
 Obtendremos los posibles caracteres de la contraseña y sus diferentes posibilidades. Si observamos con precisión nos daremos cuenta que la contraseña maestra es **123456**.
 
+En el contenedor/CTF dejaremos los archivos **KeePass.DMP** y **Database.kdbx** para poder acceder a todas las cuentas y credenciales de KeePass.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
 
