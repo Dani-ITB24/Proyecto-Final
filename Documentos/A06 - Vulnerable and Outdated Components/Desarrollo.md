@@ -196,6 +196,8 @@ Tendremos que mover este archivo del volcado de memoria al directorio del reposi
 Abrimos la terminal y nos movemos hasta el directorio del repositorio descargado de github con el volcado de memoria de KeePass.
 Ejecutamos el comando: **dotnet run KeePass.DMP**
 
+Obtendremos los posibles caracteres de la contraseña y sus diferentes posibilidades. Si observamos con precisión nos daremos cuenta que la contraseña maestra es **123456**.
+
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
 
