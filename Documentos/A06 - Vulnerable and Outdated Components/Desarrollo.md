@@ -206,11 +206,9 @@ Configuramos el contenedor para que exista el usuario **jose** y le cambiamos la
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/sudoers.png) <br>
 
-
+Hemos cambiado el usuario que había configurado previamente para usar **vim** sin contraseña por el usuario nuevo (**jose**).
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockerc.png) <br>
-
-
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockercp.png) <br>
 
