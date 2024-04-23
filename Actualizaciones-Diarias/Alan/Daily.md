@@ -250,7 +250,6 @@
 - [X] Presentación en Grail.
 
 
-
 # Semana 9 - Mejorar el proyecto:
 
 ## Lunes 22 de Abril 2024:
@@ -263,7 +262,7 @@
 
 ## Martes 23 de Abril 2024:
 
-
+- [X] Documentación sobre todas las tareas realizas durante el día anterior.
 
 ## Miércoles 24 de Abril 2024:
 
