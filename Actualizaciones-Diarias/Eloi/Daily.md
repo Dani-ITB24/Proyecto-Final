@@ -136,7 +136,7 @@
 ## Martes 9 de abril 2024
 - [ ] Realizar pentest maquina1 del grupo3 (sin exito)
 
-## Jueves 11 de abril 2024
+## Miercoles 10 de abril 2024
 - [X] Terminar Pentest A09 grupo3
 - [ ] Documentar Pentest A09
 - [ ] Ayudar al grupo a realizar pentest
@@ -144,3 +144,34 @@
 ## Jueves 11 de abril 2024
 - [X] Terminar documentación Pentest A09
 - [ ] Continuar presentación
+
+## Viernes 12 de Abril 2024:
+
+- [X] PowerPoint. 
+
+## Lunes 15 de Abril 2024:
+
+- [X] PowerPoint. 
+
+## Martes 16 de Abril 2024:
+
+- [X] PowerPoint.
+
+## Miércoles 17 de Abril 2024:
+
+- [X] PowerPoint.
+- [X] Ensayo de la presentación.
+
+## Jueves 18 de Abril 2024:
+
+- [X] Ensayo de la presentación.
+
+## Viernes 19 de Abril 2024:
+
+- [X] Presentación en Grail.
+
+## Lunes 22 de Abril 2024:
+
+- [X] Investigación sobre CVE's de 2023.
+- [X] Implementación CVE-2023-32784 (KeyPass).
+- [X] Push CTF con actualizaciones.
