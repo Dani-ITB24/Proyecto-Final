@@ -198,11 +198,11 @@ Ejecutamos el comando: **dotnet run KeePass.DMP**
 
 Obtendremos los posibles caracteres de la contraseña y sus diferentes posibilidades. Si observamos con precisión nos daremos cuenta que la contraseña maestra es **123456**.
 
-En el contenedor/CTF dejaremos los archivos **KeePass.DMP** y **Database.kdbx** para poder acceder a todas las cuentas y credenciales de KeePass.
+Una vez hayamos extraído la contraseña maestra y hayamos accedido a KeePass con al archivo **Database.kdbx** podremos ver las credenciales del usuario **jose**
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/user-jose.png) <br>
 
-
+Configuramos el contenedor para que exista el usuario **jose** y le cambiamos la contraseña a la que hemos configurado en el KeePass.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/sudoers.png) <br>
 
@@ -215,6 +215,7 @@ En el contenedor/CTF dejaremos los archivos **KeePass.DMP** y **Database.kdbx** 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/dockercp.png) <br>
 
 
+En el contenedor/CTF dejaremos los archivos **KeePass.DMP** y **Database.kdbx** para poder acceder a todas las cuentas y credenciales de KeePass.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ls-database.png) <br>
 
