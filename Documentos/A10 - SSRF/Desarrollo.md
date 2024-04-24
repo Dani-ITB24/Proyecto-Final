@@ -195,15 +195,19 @@ Luego debido a ese problema se buscó otras CVEs pero de algunas aplicaciones, s
 <h1 name="Actualizaciones">9. Actualizaciones</h1>
 
 Se han cambiado el contenido de las flags.
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-FlagUser.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-FlagRoot.png)
 
 <br>
 
-![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-FlagRoot.png)
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-FlagUser.png)
 
 Eliminación del back_history y la vinculacion del bash history con el dev/null.
 
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-BashHistory.png)
 
+<br>
+
+![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-BashHistory2.png)
 
 <h1 name="flags">10. Verificador de flags</h1>
 Máquina A10: https://forms.gle/gFs1hNnB1tuHCd289
