@@ -184,6 +184,6 @@ Tras varios intentos sin éxito, decidimos enfocarlo de otra manera. Y hacer una
 Otro problema que se ha tenido ha sido la de poner una CVE actual. Se investigó que había varias CVEs de kernel, se intentó instalar kernel, pero no se pudo debido a problemas de instalación.
 
 
-Luego debido a ese problema se buscó otras CVEs pero de algunas aplicaciones, se encontró la CVE-2024-31570. Esta vulnerabilidad se trata del software FreeImage library y la versión vulnerable era 3.19.0. Costo un poco encontrar la versión, pero se pudo encontrar. Una vez encontrada y descargada se intentó instalar, pero nos dio un problema diciendo que no era compatible con la arquitectura que tenemos.
+Luego debido a ese problema se buscó otras CVEs pero de algunas aplicaciones, se encontró la [CVE-2024-31570](https://vulners.com/ubuntucve/UB:CVE-2024-31570). Esta vulnerabilidad se trata del software FreeImage library y la versión vulnerable era 3.19.0. Costo un poco encontrar la versión, pero se pudo encontrar. Una vez encontrada y descargada se intentó instalar, pero nos dio un problema diciendo que no era compatible con la arquitectura que tenemos.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/errorFreeImage.png)
