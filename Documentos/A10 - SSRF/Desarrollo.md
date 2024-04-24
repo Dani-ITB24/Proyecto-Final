@@ -202,7 +202,7 @@ Se han cambiado el contenido de las flags.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-FlagUser.png)
 
-Eliminación del back_history y la vinculación del bash_history con el dev/null.
+Eliminación del back_history y la vinculación del bash_history con el dev/null. Así que cualquier cosa escrita en el bash_history pasa al dev/null y este lo descarta.
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/Actu-BashHistory.png)
 
