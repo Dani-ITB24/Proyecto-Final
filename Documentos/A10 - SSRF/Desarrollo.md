@@ -181,7 +181,7 @@ Pero como vemos en el Burpsuite no detecta la API <br>
 
 Tras varios intentos sin éxito, decidimos enfocarlo de otra manera. Y hacer una página parecida a "VirusTotal". En esta página habrá un campo que es donde se insertará la URL de cualquier web. 
 
-Otro problema que se ha tenido ha sido la de poner una CVE actual. Se investigó que había varias CVEs de kernel, se intentó instalar kernel, pero no se pudo debido a problemas de instalación.
+Otro problema que se ha tenido ha sido la de poner una CVE actual. Se investigó que había varias CVEs de kernel, se intentó instalar kernel, pero no se pudo instalar debido a problemas contantes en el proceso de instalación. 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/Img/kernelError1.png)
 
