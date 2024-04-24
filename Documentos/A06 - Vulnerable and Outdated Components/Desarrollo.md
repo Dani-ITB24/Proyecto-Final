@@ -219,5 +219,5 @@ En el contenedor/CTF dejaremos los archivos **KeePass.DMP** y **Database.kdbx** 
 
 ![](https://github.com/Dani-ITB24/Proyecto-Final/blob/Grupo5(Eloi-Alan-Fernando-Jose-Zomeño)/Assets/A06%20-%20Componentes%20desactualizados/Img/ls-database.png) <br>
 
-<h1 name="flags">8. Verificador de flags</h1>
+<h1 name="flags">9. Verificador de flags</h1>
 Máquina A06: https://forms.gle/vhQK1mAG2Ud7JJps8vvvvvv
