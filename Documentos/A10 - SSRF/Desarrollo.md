@@ -196,4 +196,3 @@ Luego debido a ese problema se buscó otras CVEs pero de algunas aplicaciones, s
 
 <h1 name="flags">10. Verificador de flags</h1>
 Máquina A10: https://forms.gle/gFs1hNnB1tuHCd289
-
