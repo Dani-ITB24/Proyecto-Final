@@ -2,7 +2,7 @@
 ### Exploracion web
 con el gobuster realizamos un escaner de los directirores porque vemos que al acceder via web no hay nada solo el fichero por defecto del apache2
 
-![img1](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/ebacfcde-217e-4edf-b973-005742b65fe5)
+![img1](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/e1dc60c5-3dc4-41b1-82c8-d2593c0e99a6)
 
 al acceder via web vemos que hay ficheros, con lo que descargamos y los analizamos, 
 
