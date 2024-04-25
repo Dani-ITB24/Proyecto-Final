@@ -5,7 +5,9 @@ con el gobuster realizamos un escaner de los directirores porque vemos que al ac
 ![img1](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/e1dc60c5-3dc4-41b1-82c8-d2593c0e99a6)
 
 al acceder via web vemos que hay ficheros, con lo que descargamos y los analizamos
-![img2](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/929e0369-23eb-469c-b24e-2788a7014b25)
+
+![img2](https://github.com/Dani-ITB24/Proyecto-Final/assets/160484965/d47bf997-4de9-4cb9-9cb7-d57dc3897a60)
+
 
 ### desencriptacion de ficheros
 
